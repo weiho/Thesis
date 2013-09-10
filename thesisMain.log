@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  10 SEP 2013 15:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  10 SEP 2013 20:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,7 +280,7 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 43.
+less on input line 44.
 
 (./thesisMain.aux
 
@@ -289,49 +289,46 @@ LaTeX Warning: Label `tab:CIyeilds' multiply defined.
 )
 \openout1 = `thesisMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 77.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 77
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 78
 .
  (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box28
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
 
  []
 
 [1] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
  (./chapters/Abstract.tex) [1] (./chapters/Preface.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 6.
- [1
-
-]
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 20
 .
 
@@ -354,7 +351,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+ [1
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -364,7 +363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
@@ -384,7 +383,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
@@ -420,12 +419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 \tf@toc=\write3
 \openout3 = `thesisMain.toc'.
 
- [5]
-
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 176.
-
-(./chapters/1_Theory.tex
+ [5] (./chapters/1_Theory.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -445,14 +439,7 @@ LaTeX Warning: Citation `D0' on page 1 undefined on input line 30.
 
 LaTeX Warning: Citation `ADD' on page 2 undefined on input line 50.
 
-) (./chapters/2_Experiment.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]
+) (./chapters/2_Experiment.tex [2]
 Chapter 2.
 ) (./chapters/3_Trigger.tex [3
 
@@ -468,13 +455,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+
+LaTeX Warning: Citation `poster' on page 4 undefined on input line 36.
+
 [4
 
-]
-
-LaTeX Warning: Citation `poster' on page 5 undefined on input line 36.
-
-) (./chapters/4_Reconstruction.tex [5]
+]) (./chapters/4_Reconstruction.tex [5]
 Chapter 4.
 ) (./chapters/5_Event_Selection.tex [6
 
@@ -482,48 +468,86 @@ Chapter 4.
 Chapter 5.
 [7
 
-]) (./chapters/6_Background_Estimate.tex [8]
+]
+File: images/C5_leadIso_vs_leadpT.eps Graphic file (type eps)
+ <images/C5_leadIso_vs_leadpT.eps>
+Overfull \hbox (6.12822pt too wide) in paragraph at lines 20--21
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/C5_leadIso_vs_leadpT_proposal.eps Graphic file (type eps)
+<images/C5_leadIso_vs_leadpT_proposal.eps>
+Overfull \hbox (6.12822pt too wide) in paragraph at lines 32--33
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/C5_subIso_vs_subpT_proposal.eps Graphic file (type eps)
+<images/C5_subIso_vs_subpT_proposal.eps>
+Overfull \hbox (6.12822pt too wide) in paragraph at lines 41--42
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/C5_lead_iso_efficiency.eps Graphic file (type eps)
+<images/C5_lead_iso_efficiency.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/C5_sub_iso_efficiency.eps Graphic file (type eps)
+<images/C5_sub_iso_efficiency.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8] [9]) (./chapters/6_Background_Estimate.tex [10] [11]
 Chapter 6.
-) (./chapters/7_Signal_Search.tex [9
+) (./chapters/7_Signal_Search.tex [12
 
 ]
 Chapter 7.
-) (./chapters/8_Statistical_Analysis_and_Conclusion.tex [10
+) (./chapters/8_Statistical_Analysis_and_Conclusion.tex [13
 
 ]
 Chapter 8.
-) [11
+) [14
 
-] [12
+] [15
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 13 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 16 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 13 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 16 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 13 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 16 undefined on input line 20.
 
-[13
+[16
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[14]
+[17]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15]
+[18]
 
-LaTeX Warning: Citation `QCD' on page 16 undefined on input line 134.
+LaTeX Warning: Citation `QCD' on page 19 undefined on input line 134.
 
-[16]
+
 Overfull \hbox (35.49033pt too wide) in paragraph at lines 166--182
  [][] 
  []
@@ -531,15 +555,21 @@ Overfull \hbox (35.49033pt too wide) in paragraph at lines 166--182
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17] [18]
 
-LaTeX Warning: Citation `BAT' on page 19 undefined on input line 335.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [19] (./thesisMain.bbl [20]
+[19] [20]
+
+LaTeX Warning: Citation `BAT' on page 21 undefined on input line 335.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21]) [22] (./thesisMain.bbl [23]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [21
+) [24
 
 ] (./thesisMain.aux)
 
@@ -550,12 +580,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3959 strings out of 493611
- 58445 string characters out of 3142449
- 111409 words of memory out of 3000000
- 7162 multiletter control sequences out of 15000+200000
+ 3976 strings out of 493611
+ 58918 string characters out of 3142449
+ 113409 words of memory out of 3000000
+ 7172 multiletter control sequences out of 15000+200000
  26292 words of font info for 73 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,12n,43p,1050b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,11n,43p,1050b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (30 pages, 59684 bytes).
+Output written on thesisMain.dvi (33 pages, 62052 bytes).

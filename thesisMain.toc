@@ -14,27 +14,26 @@
 \contentsline {chapter}{\numberline {4}Reconstruction }{6}
 \contentsline {chapter}{\numberline {5}Event Selection }{7}
 \contentsline {section}{\numberline {5.1}Cut-Flow}{7}
-\contentsline {section}{\numberline {5.2}Isolation Requirment}{7}
-\contentsline {section}{\numberline {5.3}Corrections}{8}
-\contentsline {chapter}{\numberline {6}Background Estimate }{9}
-\contentsline {section}{\numberline {6.1}Monte Carlo }{9}
-\contentsline {section}{\numberline {6.2}Fake Factor Multi-jet estimate }{9}
-\contentsline {chapter}{\numberline {7}Signal Search }{10}
-\contentsline {section}{\numberline {7.1}Signal Monte Carlo }{10}
-\contentsline {section}{\numberline {7.2}Search }{10}
-\contentsline {chapter}{\numberline {8}Statistical Analysis \& Conclusion}{11}
-\contentsline {section}{\numberline {8.1}Systematics }{11}
-\contentsline {section}{\numberline {8.2}Limit Setting }{11}
-\contentsline {section}{\numberline {8.3}Interpretation }{11}
-\contentsline {chapter}{Appendices}{12}
-\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{13}
-\contentsline {section}{\numberline {A.1}Data and Background Processes}{13}
-\contentsline {subsection}{\numberline {A.1.1}Data}{13}
-\contentsline {subsection}{\numberline {A.1.2}Background}{13}
-\contentsline {subsection}{\numberline {A.1.3}Background Production}{14}
-\contentsline {subsection}{\numberline {A.1.4}Signal}{14}
-\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{15}
-\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{16}
-\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{17}
-\contentsline {section}{\numberline {A.3}Statistical Analysis}{18}
-\contentsline {section}{\numberline {A.4}Results}{19}
+\contentsline {section}{\numberline {5.2}Isolation Requirment}{8}
+\contentsline {chapter}{\numberline {6}Background Estimate }{12}
+\contentsline {section}{\numberline {6.1}Monte Carlo }{12}
+\contentsline {section}{\numberline {6.2}Fake Factor Multi-jet estimate }{12}
+\contentsline {chapter}{\numberline {7}Signal Search }{13}
+\contentsline {section}{\numberline {7.1}Signal Monte Carlo }{13}
+\contentsline {section}{\numberline {7.2}Search }{13}
+\contentsline {chapter}{\numberline {8}Statistical Analysis \& Conclusion}{14}
+\contentsline {section}{\numberline {8.1}Systematics }{14}
+\contentsline {section}{\numberline {8.2}Limit Setting }{14}
+\contentsline {section}{\numberline {8.3}Interpretation }{14}
+\contentsline {chapter}{Appendices}{15}
+\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{16}
+\contentsline {section}{\numberline {A.1}Data and Background Processes}{16}
+\contentsline {subsection}{\numberline {A.1.1}Data}{16}
+\contentsline {subsection}{\numberline {A.1.2}Background}{16}
+\contentsline {subsection}{\numberline {A.1.3}Background Production}{16}
+\contentsline {subsection}{\numberline {A.1.4}Signal}{17}
+\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{17}
+\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{19}
+\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{20}
+\contentsline {section}{\numberline {A.3}Statistical Analysis}{21}
+\contentsline {section}{\numberline {A.4}Results}{21}
