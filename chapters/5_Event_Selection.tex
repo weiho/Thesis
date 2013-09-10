@@ -1,0 +1,31 @@
+\chapter{Event Selection }
+{\normalsize - Cut Flow and corrections.}
+
+\section{Cut-Flow}
+
+\section{Isolation Requirment}
+
+It was decided a re-investigation of the isolation requirement was needed, updating the cut from its previous iteration in the di-electron analysis on 2011 ATLAS data. The previous threshold was a flat, less than 7 GeV, cut on the pT corrected (define pT corrected) electro-magnetic calorimeter cluster isolation (definition probably required) of the highest pT electron in the selected pair. The first investigation was to see how this cut performed in the selection of MC signal at 8 TeV centre of mass energy. Due to the better statistics found in the $DY{\rightarrow}ee$ MC sample and this being an irreducible background and therefore indistinguishable from the signal this was used in the following investigation.
+
+It can be seen in fig. \# that this flat cut of 7 GeV causes an increasing efficiency loss at high energy and was deemed unsuitably high for this iteration of the analysis due to the higher reach in energy expected from the higher centre of mass energy. Two methods that could be used in conjunction were proposed to solve this issue as well as the possibility of introducing a requirement on the second highest energy electron in our selected pair.
+
+The first alternative was a different algorithm of calculating the isolation variable, topo isolation (definition required). This was deemed unsuitable after a short investigation due the similarity of distribution of final result and problems with the implementation of this algorithm in ATLAS reconstruction code. (remember and find out the exact reason)
+
+The second possibility was an isolation requirement varying with energy. Fig. \# shows the distribution of DY MC events in pT and cluster isolation. It can be seen that electrons become less isolated under this definition of isolation as energy of the electron increases. This is to be expected as higher energy electrons produce larger showers in the EM calorimeter and so are less well restrained to only a few colorimeter cells in the electron shower. 
+
+In order to define a requirement varying in pT the 99\% acceptance point for each pT column was looked at and a 1st order polynomial fit to these points by eye was done. The 99\% acceptance points can be seen in fig. \# as well as the estimated fit which would form the cut. The same thing was looked at for the second highest pT electron and can be seen in fig. \#.
+
+The two first order polynomials shown here correspond to requirements of;
+
+-
+-
+
+for the highest and second highest energy electrons respectively. 
+
+An analysis of the efficiency of these cuts on signal can be seen in fig. \# and fig. \# where it can be seen they maintain a flat behaviour as pT increases.
+
+The main source of background the isolation cut is imposed to reduce is jets that fake an electron signal in the detector. It is therefore important to measure the effect of this new requirement. Jets background is estimated via a reverse ID method on data (see Section \#) and so lacks statistics at high energy. For this reason it is impossible to optimise the isolation requirement against rejection of high energy fakes as seen in fig. \#. Fig. \# shows the efficiency of acceptance of jet fakes against pT and shows a sizeable increase in efficacy over the flat cut (fig. \#) used previously. 
+
+
+
+\section{Corrections}
