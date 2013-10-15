@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  24 SEP 2013 23:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  15 OCT 2013 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,7 +280,7 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 44.
+less on input line 45.
 
 (./thesisMain.aux
 
@@ -289,41 +289,41 @@ LaTeX Warning: Label `tab:CIyeilds' multiply defined.
 )
 \openout1 = `thesisMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 78.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 78
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 79
 .
  (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box28
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
 
  []
 
 [1] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 155.
  (./chapters/Abstract.tex) [1] (./chapters/Preface.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -383,12 +383,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
@@ -466,34 +466,38 @@ Chapter 4.
 
 ]
 Chapter 5.
+
+Overfull \hbox (20.4891pt too wide) in paragraph at lines 29--30
+[]\OT1/ptm/m/n/10.95 Lead Iso-la-tion (A cone around the can-di-date in the cal
+orime-ter is re-quired to have $\OML/ptmcm/m/it/10.95 < \OT1/ptmcm/m/n/10.95 0\
+OML/ptmcm/m/it/10.95 :\OT1/ptmcm/m/n/10.95 007 \OMS/pzccm/m/n/10.95 ^^B  []\OML
+/ptmcm/m/it/10.95 E[] [] \OT1/ptmcm/m/n/10.95 +  []5\OML/ptmcm/m/it/10.95 :\OT1
+/ptmcm/m/n/10.95 0 []\OML/ptmcm/m/it/10.95 GeV$
+ []
+
 [7
 
 ]
-File: images/C5_leadIso_vs_leadpT.eps Graphic file (type eps)
- <images/C5_leadIso_vs_leadpT.eps>
-Overfull \hbox (6.12822pt too wide) in paragraph at lines 50--51
- [] 
+Overfull \hbox (25.9641pt too wide) in paragraph at lines 30--31
+[]\OT1/ptm/m/n/10.95 Lead Iso-la-tion (A cone around the can-di-date in the cal
+orime-ter is re-quired to have $\OML/ptmcm/m/it/10.95 < \OT1/ptmcm/m/n/10.95 0\
+OML/ptmcm/m/it/10.95 :\OT1/ptmcm/m/n/10.95 0022 \OMS/pzccm/m/n/10.95 ^^B  []\OM
+L/ptmcm/m/it/10.95 E[] [] \OT1/ptmcm/m/n/10.95 +  []6\OML/ptmcm/m/it/10.95 :\OT
+1/ptmcm/m/n/10.95 0 []\OML/ptmcm/m/it/10.95 GeV$
  []
 
+File: images/C5_leadIso_vs_leadpT.eps Graphic file (type eps)
+<images/C5_leadIso_vs_leadpT.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8]
 File: images/C5_leadIso_vs_leadpT_proposal.eps Graphic file (type eps)
- <images/C5_leadIso_vs_leadpT_proposal.eps>
-Overfull \hbox (6.12822pt too wide) in paragraph at lines 62--63
- [] 
- []
-
+<images/C5_leadIso_vs_leadpT_proposal.eps> [8]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/C5_subIso_vs_subpT_proposal.eps Graphic file (type eps)
 <images/C5_subIso_vs_subpT_proposal.eps>
-Overfull \hbox (6.12822pt too wide) in paragraph at lines 71--72
- [] 
- []
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -509,68 +513,96 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9] [10]) (./chapters/6_Background_Estimate.tex [11] [12]
 Chapter 6.
-) (./chapters/7_Signal_Search.tex [13
+[13
 
 ]
+
+LaTeX Warning: Command \l invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 83.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+) (./chapters/7_Signal_Search.tex [15]
 Chapter 7.
-) (./chapters/8_Statistical_Analysis_and_Conclusion.tex [14
+) (./chapters/8_Statistical_Analysis_and_Conclusion.tex [16
 
 ]
 Chapter 8.
-) [15
+) [17
 
-] [16
+] [18
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 17 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 19 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 17 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 19 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 17 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 19 undefined on input line 20.
 
-[17
+[19
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[18]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19]
-
-LaTeX Warning: Citation `QCD' on page 20 undefined on input line 134.
-
-
-Overfull \hbox (35.49033pt too wide) in paragraph at lines 166--182
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [20] [21]
 
-LaTeX Warning: Citation `BAT' on page 22 undefined on input line 335.
+LaTeX Warning: Citation `QCD' on page 22 undefined on input line 134.
 
+[22] [23]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation `BAT' on page 24 undefined on input line 335.
 
-[22]) [23] (./thesisMain.bbl [24]
+[24]) [25] (./thesisMain.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [25
+) [26
 
 ] (./thesisMain.aux)
 
@@ -581,12 +613,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3976 strings out of 493611
- 58918 string characters out of 3142449
- 113409 words of memory out of 3000000
- 7172 multiletter control sequences out of 15000+200000
+ 3980 strings out of 493611
+ 58982 string characters out of 3142449
+ 114409 words of memory out of 3000000
+ 7176 multiletter control sequences out of 15000+200000
  26292 words of font info for 73 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  36i,12n,43p,1050b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (34 pages, 66320 bytes).
+Output written on thesisMain.dvi (35 pages, 78556 bytes).

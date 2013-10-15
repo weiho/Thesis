@@ -17,25 +17,30 @@
 \contentsline {section}{\numberline {5.2}Isolation Requirement}{8}
 \contentsline {section}{\numberline {5.3}Same Sign requirement}{10}
 \contentsline {section}{\numberline {5.4}Corrections}{10}
+\contentsline {subsection}{\numberline {5.4.1}Energy Resolution correction}{10}
 \contentsline {chapter}{\numberline {6}Background Estimate }{13}
 \contentsline {section}{\numberline {6.1}Monte Carlo }{13}
 \contentsline {section}{\numberline {6.2}Fake Factor Multi-jet estimate }{13}
-\contentsline {chapter}{\numberline {7}Signal Search }{14}
-\contentsline {section}{\numberline {7.1}Signal Monte Carlo }{14}
-\contentsline {section}{\numberline {7.2}Search }{14}
-\contentsline {chapter}{\numberline {8}Statistical Analysis \& Conclusion}{15}
-\contentsline {section}{\numberline {8.1}Systematics }{15}
-\contentsline {section}{\numberline {8.2}Limit Setting }{15}
-\contentsline {section}{\numberline {8.3}Interpretation }{15}
-\contentsline {chapter}{Appendices}{16}
-\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{17}
-\contentsline {section}{\numberline {A.1}Data and Background Processes}{17}
-\contentsline {subsection}{\numberline {A.1.1}Data}{17}
-\contentsline {subsection}{\numberline {A.1.2}Background}{17}
-\contentsline {subsection}{\numberline {A.1.3}Background Production}{17}
-\contentsline {subsection}{\numberline {A.1.4}Signal}{18}
-\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{18}
-\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{20}
-\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{21}
-\contentsline {section}{\numberline {A.3}Statistical Analysis}{22}
-\contentsline {section}{\numberline {A.4}Results}{22}
+\contentsline {subsection}{\numberline {6.2.1}Real electron efficiency estimation}{15}
+\contentsline {subsection}{\numberline {6.2.2}Fake electron rate estimation}{15}
+\contentsline {subsection}{\numberline {6.2.3}Properties of Multi-jet background}{15}
+\contentsline {subsection}{\numberline {6.2.4}Other methods and estimation of Error}{15}
+\contentsline {chapter}{\numberline {7}Signal Search }{16}
+\contentsline {section}{\numberline {7.1}Signal Monte Carlo }{16}
+\contentsline {section}{\numberline {7.2}Search }{16}
+\contentsline {chapter}{\numberline {8}Statistical Analysis \& Conclusion}{17}
+\contentsline {section}{\numberline {8.1}Systematics }{17}
+\contentsline {section}{\numberline {8.2}Limit Setting }{17}
+\contentsline {section}{\numberline {8.3}Interpretation }{17}
+\contentsline {chapter}{Appendices}{18}
+\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{19}
+\contentsline {section}{\numberline {A.1}Data and Background Processes}{19}
+\contentsline {subsection}{\numberline {A.1.1}Data}{19}
+\contentsline {subsection}{\numberline {A.1.2}Background}{19}
+\contentsline {subsection}{\numberline {A.1.3}Background Production}{19}
+\contentsline {subsection}{\numberline {A.1.4}Signal}{20}
+\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{20}
+\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{22}
+\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{22}
+\contentsline {section}{\numberline {A.3}Statistical Analysis}{23}
+\contentsline {section}{\numberline {A.4}Results}{24}

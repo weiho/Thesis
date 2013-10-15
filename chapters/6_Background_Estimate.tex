@@ -4,3 +4,133 @@
 {\normalsize - MC's used, PDF's, k-factors}
 
 \section{Fake Factor Multi-jet estimate }
+
+One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a "fake factor" or "matrix-method". This is a data driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden values are also assigned $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
+
+\begin{equation} \label{eq:fakeRate}
+   f~=~\frac{N^{fake}_{tight}}{N^{fake}_{loose}} \qquad \qquad r~=~\frac{N^{real}_{tight}}{N^{real}_{loose}}
+\end{equation}
+
+The fake rate $f$ denotes the probability that a $fake$ electron which passes the loose requirement also passes tight while $r$ refers to the probability that a $real$ electron which passes the loose requirement also passes the tight.
+We also now split reconstructed events in to two distinct groups, tight($T$) and loose while failing tight($L$) where $Tight$ is now no longer a subset of $Loose$. This allows us to relate our reconstructed events to the underling truth events via a matrix of fake rates Eq.~\ref{eq:mainFakeMatrix}.
+
+\begin{equation} \label{eq:mainFakeMatrix}
+   \begin{pmatrix}
+      N_{TT} \\
+      N_{TL} \\
+      N_{LT} \\
+      N_{LL} \\
+   \end{pmatrix}
+   =
+   \begin{pmatrix}
+      r_{1}r_{2} & r_{1}f_{2} & f_{1}r_{2} & f_{1}f_{2} \\
+      r_{1}(1-r_{2}) & r_{1}(1-f_{2}) & f_{1}(1-r_{2}) & f_{1}(1-f_{2}) \\
+      (1-r_{1})r_{2} & (1-r_{1})f_{2} & (1-f_{1})r_{2} & (1-f_{1})f_{2} \\
+      (1-r_{1})(1-r_{2}) & (1-r_{1})(1-f_{2}) & (1-f_{1})(1-r_{2}) & (1-f_{1})(1-f_{2}) \\
+   \end{pmatrix}
+   \begin{pmatrix}
+      N_{RR} \\
+      N_{RF} \\
+      N_{FR} \\
+      N_{FF} \\
+   \end{pmatrix}
+\end{equation}
+
+The first index refers to the highest $p_{T}$ electron while the second index refers to the second highest $p_{T}$ electron. So $N_{LT}$ indicates the reconstructed events with highest $p_{T}$ electron only passing the $Loose$ selection while the second highest $p_{T}$ electron passes $Tight$ selection. The indexes 1 and 2 refer to fake rates ($f$) and efficiencies ($r$) on leading and sub-leading electrons respectively.
+
+The part we are interested in for this study are contribution to $N_{TT}$ coming from sources other $N_{RR}$, these can be seen in Eq.~\ref{eq:multijet}.
+
+\begin{align} \label{eq:multijet}
+   N^{\l+jets}_{TT}~&=~r_{1}f_{2}N_{RF}~+~f_{1}r_{2}N_{FR} \nonumber \\
+   N^{di-jets}_{TT}~&=~f_{1}f_{2}N_{FF} \nonumber \\
+   N^{\l+jets~\&~di-jets}_{TT}~&=~r_{1}f_{2}N_{RF}~+~f_{1}r_{2}N_{FR}~+~f_{1}f_{2}N_{FF} 
+\end{align}
+
+This function however contains hidden variables and so we invert Eq.~\ref{eq:mainFakeMatrix} to derive a better formalism.
+
+\begin{equation}
+   \begin{pmatrix}
+      N_{RR} \\
+      N_{RF} \\
+      N_{FR} \\
+      N_{FF} \\
+   \end{pmatrix}
+   = \alpha
+   \begin{pmatrix}
+      (f_{1}-1)(f_{2}-1) & (f_{1}-1)f_{2} & f_{1}(f_{2}-1) & f_{1}f_{2} \\
+      (f_{1}-1)(1-r_{2}) & (1-f_{1})r_{2} & f_{1}(1-r_{2}) & -f_{1}r_{2} \\
+      (r_{1}-1)(1-f_{2}) & (1-r_{1})f_{2} & r_{1}(1-f_{2}) & -r_{1}f_{2} \\
+      (1-r_{1})(1-r_{2}) & (r_{1}-1)r_{2} & r_{1}(r_{2}-1) & r_{1}r_{2} \\
+   \end{pmatrix}
+   \begin{pmatrix}
+      N_{TT} \\
+      N_{TL} \\
+      N_{LT} \\
+      N_{LL} \\
+   \end{pmatrix}
+\end{equation}
+
+where,
+
+\begin{equation}
+   \alpha~=~\frac{1}{(r_{1}-f_{1})(r_{2}-f_{2})}
+\end{equation}
+
+The fraction of selected events with at least one fake is then given by,
+
+\begin{equation}
+\begin{aligned}
+   N^{\l+jets~\&~di-jets}_{TT}~&=&~\alpha r_{1}f_{2}[(f_{1}-1)(1-r_{2})N_{TT}~+~(1-f_{1})r_{2}N_{TL}~&+~f_{1}(1-r_{2})N_{LT}~-~f_{1}r_{2}N_{LL}] \\
+      &~+&~\alpha f_{1}r_{2}[(r_{1}-1)(1-f_{2})N_{TT}~+~(1-r_{1})f_{2}N_{TL}~&+~r_{1}(1-f_{2})N_{LT}~-~r_{1}f_{2}N_{LL}] \\
+      &~+&~\alpha f_{1}f_{2}[(1-r_{1})(1-r_{2})N_{TT}~+~(r_{1}-1)r_{2}N_{TL}~&+~r_{1}(r_{2}-1)N_{LT}~+~r_{1}r_{2}N_{LL}] 
+\end{aligned}
+\end{equation}
+
+\begin{equation} \label{eq:mainFakeResult}
+\begin{aligned}
+   =\alpha[r_{1}f_{2}(f_{1}-1)(1-r_{2})~+~f_{1}r_{2}(r_{1}-1)(1-f_{2})~+~f_{1}f_{2}(1-r_{1})(1-r_{2})]N_{TT} \\
+   +~\alpha f_{2}r_{2}[r_{1}(1-f_{1})~+~f_{1}(1-r_{1})~+~f_{1}(r_{1}-1)]N_{TL} \\
+   +~\alpha f_{1}r_{1}[f_{2}(1-r_{2})~+~r_{2}(1-f_{2})~+~f_{2}(r_{2}-1)]N_{LT} \\
+   -~\alpha f_{1}f_{2}r_{1}r_{2}N_{LL}
+\end{aligned}
+\end{equation}
+
+Equation ~\ref{eq:mainFakeResult} shows the derived formula relating the multi-jet background to fake rates, efficiencies and four independent samples selected from data. Detailed here is this method used on the full $20~fb^{-1}$ of integrated luminosity from ATLAS's 2012 run.
+
+
+\subsection{Real electron efficiency estimation}
+
+The real electron efficiency is defined as Eq. ~\ref{eq:fakeRate} $r~=~N^{real}_{tight}/N^{real}_{loose}$. This is determined from MC using a mass binned Drell-Yan sample. The efficiencies are found for both the leading and sub-leading electrons and binned in 8 $p_{T}$ and three eta bins of $|\eta|<1.37$ (barrel), $1.52<|\eta|<2.01$ and $2.01<|\eta|<2.47$ (endcap). The efficiency is distributed between $90$ - $96\%$.\\
+
+--plots of Real electron efficiencies.
+
+
+\subsection{Fake electron rate estimation}
+
+
+
+--plots of fake rates.
+
+\subsection{Properties of Multi-jet background}
+
+-- plots of background\\
+
+-- fit around Z peak due to unreliable modelling.\\
+
+\subsection{Other methods and estimation of Error}
+
+-- tag and probe on jet stream\\
+
+-- single object selection on jet stream\\
+
+-- Flat $20\%$ Systematic is used.\\
+
+
+
+
+
+
+
+
+
+
