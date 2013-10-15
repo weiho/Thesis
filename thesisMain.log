@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  15 OCT 2013 01:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  15 OCT 2013 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,94 +515,93 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Chapter 6.
 [13
 
-]
-
-LaTeX Warning: Command \l invalid in math mode on input line 47.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 47.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 47.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 47.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 83.
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
 
  []
 
-) (./chapters/7_Signal_Search.tex [15]
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+
+ []
+
+) (./chapters/7_Signal_Search.tex [16]
 Chapter 7.
-) (./chapters/8_Statistical_Analysis_and_Conclusion.tex [16
+) (./chapters/8_Statistical_Analysis_and_Conclusion.tex [17
 
 ]
 Chapter 8.
-) [17
+) [18
 
-] [18
+] [19
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 19 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 20 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 19 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 20 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 19 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 20 undefined on input line 20.
 
-[19
+[20
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[20] [21]
+[21] [22]
 
-LaTeX Warning: Citation `QCD' on page 22 undefined on input line 134.
+LaTeX Warning: Citation `QCD' on page 23 undefined on input line 134.
 
-[22] [23]
+[23] [24]
 
-LaTeX Warning: Citation `BAT' on page 24 undefined on input line 335.
+LaTeX Warning: Citation `BAT' on page 25 undefined on input line 335.
 
-[24]) [25] (./thesisMain.bbl
+[25]) [26] (./thesisMain.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [26
+) [27
 
 ] (./thesisMain.aux)
 
@@ -621,4 +620,4 @@ Here is how much of TeX's memory you used:
  831 hyphenation exceptions out of 8191
  36i,12n,43p,1050b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (35 pages, 78556 bytes).
+Output written on thesisMain.dvi (36 pages, 81144 bytes).
