@@ -3,44 +3,44 @@
 \contentsline {chapter}{\numberline {1}Theory}{1}
 \contentsline {section}{\numberline {1.1}Standard Model}{1}
 \contentsline {section}{\numberline {1.2}Non-resonant new Physics}{1}
-\contentsline {subsection}{\numberline {1.2.1}Contact Interaction Theory}{1}
-\contentsline {subsection}{\numberline {1.2.2}ADD Theory}{2}
-\contentsline {chapter}{\numberline {2}Experiment }{3}
-\contentsline {section}{\numberline {2.1}Overview }{3}
-\contentsline {section}{\numberline {2.2}Tracking Detector }{3}
-\contentsline {section}{\numberline {2.3}Calorimeter }{3}
-\contentsline {chapter}{\numberline {3}Trigger}{4}
-\contentsline {section}{\numberline {3.1}Trigger Rates in High Luminosity Regime}{4}
-\contentsline {chapter}{\numberline {4}Reconstruction }{6}
-\contentsline {chapter}{\numberline {5}Event Selection }{7}
-\contentsline {section}{\numberline {5.1}Cut-Flow}{7}
-\contentsline {section}{\numberline {5.2}Isolation Requirement}{8}
-\contentsline {section}{\numberline {5.3}Same Sign requirement}{10}
-\contentsline {section}{\numberline {5.4}Corrections}{10}
-\contentsline {subsection}{\numberline {5.4.1}Energy Resolution correction}{10}
-\contentsline {chapter}{\numberline {6}Background Estimate }{13}
-\contentsline {section}{\numberline {6.1}Monte Carlo }{13}
-\contentsline {section}{\numberline {6.2}Fake Factor Multi-Jet Estimate }{13}
-\contentsline {subsection}{\numberline {6.2.1}Real electron efficiency estimation}{15}
-\contentsline {subsection}{\numberline {6.2.2}Fake electron rate estimation}{16}
-\contentsline {subsection}{\numberline {6.2.3}Properties of Multi-Jet Background}{17}
-\contentsline {subsection}{\numberline {6.2.4}Other methods and estimation of Error}{17}
-\contentsline {chapter}{\numberline {7}Signal Search }{19}
-\contentsline {section}{\numberline {7.1}Signal Monte Carlo }{19}
-\contentsline {section}{\numberline {7.2}Search }{19}
-\contentsline {chapter}{\numberline {8}Statistical Analysis \& Conclusion}{20}
-\contentsline {section}{\numberline {8.1}Systematics }{20}
-\contentsline {section}{\numberline {8.2}Limit Setting }{20}
-\contentsline {section}{\numberline {8.3}Interpretation }{20}
-\contentsline {chapter}{Appendices}{21}
-\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{22}
-\contentsline {section}{\numberline {A.1}Data and Background Processes}{22}
-\contentsline {subsection}{\numberline {A.1.1}Data}{22}
-\contentsline {subsection}{\numberline {A.1.2}Background}{22}
-\contentsline {subsection}{\numberline {A.1.3}Background Production}{22}
-\contentsline {subsection}{\numberline {A.1.4}Signal}{23}
-\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{23}
-\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{25}
-\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{26}
-\contentsline {section}{\numberline {A.3}Statistical Analysis}{27}
-\contentsline {section}{\numberline {A.4}Results}{27}
+\contentsline {subsection}{\numberline {1.2.1}Contact Interaction Theory}{2}
+\contentsline {subsection}{\numberline {1.2.2}ADD Theory}{3}
+\contentsline {chapter}{\numberline {2}Experiment }{4}
+\contentsline {section}{\numberline {2.1}Overview }{4}
+\contentsline {section}{\numberline {2.2}Tracking Detector }{4}
+\contentsline {section}{\numberline {2.3}Calorimeter }{4}
+\contentsline {chapter}{\numberline {3}Trigger}{5}
+\contentsline {section}{\numberline {3.1}Trigger Rates in High Luminosity Regime}{5}
+\contentsline {chapter}{\numberline {4}Reconstruction }{7}
+\contentsline {chapter}{\numberline {5}Event Selection }{8}
+\contentsline {section}{\numberline {5.1}Cut-Flow}{8}
+\contentsline {section}{\numberline {5.2}Isolation Requirement}{9}
+\contentsline {section}{\numberline {5.3}Same Sign requirement}{11}
+\contentsline {section}{\numberline {5.4}Corrections}{11}
+\contentsline {subsection}{\numberline {5.4.1}Energy Resolution correction}{11}
+\contentsline {chapter}{\numberline {6}Background Estimate }{14}
+\contentsline {section}{\numberline {6.1}Monte Carlo }{14}
+\contentsline {section}{\numberline {6.2}Fake Factor Multi-Jet Estimate }{15}
+\contentsline {subsection}{\numberline {6.2.1}Real electron efficiency estimation}{17}
+\contentsline {subsection}{\numberline {6.2.2}Fake electron rate estimation}{17}
+\contentsline {subsection}{\numberline {6.2.3}Properties of Multi-Jet Background}{18}
+\contentsline {subsection}{\numberline {6.2.4}Other methods and estimation of Error}{19}
+\contentsline {chapter}{\numberline {7}Signal Search }{21}
+\contentsline {section}{\numberline {7.1}Signal Monte Carlo }{21}
+\contentsline {section}{\numberline {7.2}Search }{21}
+\contentsline {chapter}{\numberline {8}Statistical Analysis \& Conclusion}{22}
+\contentsline {section}{\numberline {8.1}Systematics }{22}
+\contentsline {section}{\numberline {8.2}Limit Setting }{22}
+\contentsline {section}{\numberline {8.3}Interpretation }{22}
+\contentsline {chapter}{Appendices}{23}
+\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{24}
+\contentsline {section}{\numberline {A.1}Data and Background Processes}{24}
+\contentsline {subsection}{\numberline {A.1.1}Data}{24}
+\contentsline {subsection}{\numberline {A.1.2}Background}{24}
+\contentsline {subsection}{\numberline {A.1.3}Background Production}{24}
+\contentsline {subsection}{\numberline {A.1.4}Signal}{25}
+\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{25}
+\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{27}
+\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{28}
+\contentsline {section}{\numberline {A.3}Statistical Analysis}{29}
+\contentsline {section}{\numberline {A.4}Results}{29}

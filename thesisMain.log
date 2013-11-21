@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  8 NOV 2013 18:08
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  18 NOV 2013 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,48 +425,57 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-
-LaTeX Warning: Citation `CDF' on page 1 undefined on input line 30.
-
-
-LaTeX Warning: Citation `D0' on page 1 undefined on input line 30.
-
 [1
 
 ]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 
-LaTeX Warning: Citation `ADD' on page 2 undefined on input line 50.
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
-) (./chapters/2_Experiment.tex [2]
+ []
+
+
+LaTeX Warning: Citation `CDF' on page 2 undefined on input line 36.
+
+
+LaTeX Warning: Citation `D0' on page 2 undefined on input line 36.
+
+
+LaTeX Warning: Citation `ATLAS' on page 2 undefined on input line 36.
+
+[2]
+
+LaTeX Warning: Citation `ADD' on page 3 undefined on input line 56.
+
+) (./chapters/2_Experiment.tex [3]
 Chapter 2.
-) (./chapters/3_Trigger.tex [3
+) (./chapters/3_Trigger.tex [4
 
 ]
 Chapter 3.
 
-LaTeX Warning: Citation `trig1' on page 4 undefined on input line 19.
+LaTeX Warning: Citation `trig1' on page 5 undefined on input line 19.
 
 
-LaTeX Warning: Citation `trig2' on page 4 undefined on input line 19.
+LaTeX Warning: Citation `trig2' on page 5 undefined on input line 19.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 
-LaTeX Warning: Citation `poster' on page 4 undefined on input line 36.
+LaTeX Warning: Citation `poster' on page 5 undefined on input line 36.
 
-[4
+[5
 
-]) (./chapters/4_Reconstruction.tex [5]
+]) (./chapters/4_Reconstruction.tex [6]
 Chapter 4.
-) (./chapters/5_Event_Selection.tex [6
+) (./chapters/5_Event_Selection.tex [7
 
 ]
 Chapter 5.
-[7
+[8
 
 ]
 Overfull \hbox (20.4891pt too wide) in paragraph at lines 29--30
@@ -491,7 +500,7 @@ File: images/C5_leadIso_vs_leadpT.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8]
+[9]
 File: images/C5_leadIso_vs_leadpT_proposal.eps Graphic file (type eps)
  <images/C5_leadIso_vs_leadpT_proposal.eps>
 
@@ -512,91 +521,82 @@ File: images/C5_sub_iso_efficiency.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] [10]) (./chapters/6_Background_Estimate.tex [11] [12]
+[10] [11]) (./chapters/6_Background_Estimate.tex [12] [13]
 Chapter 6.
-[13
+[14
 
-] [14]
+] [15] [16]
 File: images/r1.eps Graphic file (type eps)
  <images/r1.eps>
 File: images/r2.eps Graphic file (type eps)
- <images/r2.eps> [15]
+ <images/r2.eps> [17]
 File: images/f1.eps Graphic file (type eps)
  <images/f1.eps>
 File: images/f2.eps Graphic file (type eps)
- <images/f2.eps>
-[16]
+
+<images/f2.eps>
 File: images/N_distributions.eps Graphic file (type eps)
- <images/N_distributions.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 159--164
+ <images/N_distributions.eps> [18]
+File: images/ff_bkg_variation.ps Graphic file (type eps)
+ <images/ff_bkg_variation.ps>
 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--164
-
- []
-
-[17]) (./chapters/7_Signal_Search.tex [18]
+[19]) (./chapters/7_Signal_Search.tex [20]
 Chapter 7.
-) (./chapters/8_Statistical_Analysis_and_Conclusion.tex [19
+) (./chapters/8_Statistical_Analysis_and_Conclusion.tex [21
 
 ]
 Chapter 8.
-) [20
+) [22
 
-] [21
+] [23
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 22 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 24 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 22 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 24 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 22 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 24 undefined on input line 20.
 
-[22
+[24
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[23]
+[25]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24]
+[26]
 
-LaTeX Warning: Citation `QCD' on page 25 undefined on input line 134.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation `QCD' on page 27 undefined on input line 134.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25] [26]
 
-LaTeX Warning: Citation `BAT' on page 27 undefined on input line 335.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27] [28]
+
+LaTeX Warning: Citation `BAT' on page 29 undefined on input line 335.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27]) [28] (./thesisMain.bbl [29]
+[29]) [30] (./thesisMain.bbl [31]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [30
+) [32
 
 ] (./thesisMain.aux)
 
@@ -607,12 +607,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3993 strings out of 493611
- 59143 string characters out of 3142449
- 114409 words of memory out of 3000000
- 7184 multiletter control sequences out of 15000+200000
+ 3998 strings out of 493611
+ 59221 string characters out of 3142449
+ 113409 words of memory out of 3000000
+ 7187 multiletter control sequences out of 15000+200000
  26292 words of font info for 73 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  36i,12n,43p,1050b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (39 pages, 84184 bytes).
+Output written on thesisMain.dvi (41 pages, 86532 bytes).
