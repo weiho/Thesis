@@ -1,11 +1,24 @@
-\chapter{Background Estimate }
+\chapter{Background Estimate}
 
-\section{Monte Carlo }
+\section{Monte Carlo samples}
 {\normalsize - MC's used, PDF's, k-factors}
-\newpage
-\section{Fake Factor Multi-Jet Estimate }
 
-One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a "fake factor" or "matrix-method". This is a data-driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition (see Chapter 4) with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden values are also assigned $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
+
+\subsection{Detector Simulation and Object Reconstruction}
+   -GEANT 4 and ATHENA
+
+\subsection{PDF Choice and NNLO Corrections}
+
+\subsection{MC Corrections}
+
+
+
+
+
+\newpage
+\section{Fake Factor Multi-Jet Estimate}
+
+One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a ``fake factor'' or ``matrix-method''. This is a data-driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition (see Chapter 4) with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden values are also assigned $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
 
 \begin{equation} \label{eq:fakeRate}
    f~=~\frac{N^{fake}_{tight}}{N^{fake}_{loose}} \qquad \qquad r~=~\frac{N^{real}_{tight}}{N^{real}_{loose}}
@@ -154,7 +167,7 @@ Fig. \ref{fig:N_dist} shows these distributions before the efficiencies and fake
 \subsection{Other methods and estimation of Error}
 
 
-Two other methods and variations upon them were used to test the validity of this method as well as estimate the systematic error of this background estimates procedure. These two methods are both tag and probe measurements on either the jet stream of data, or the egamma stream where the method is more an "inverse" tag and probe with the selection of a tag with high probability of being a jet. Variations are also made on the method by assuming $r_{1}$ and $r_{2} = 1.0$ in all cases as well as changing the definition of loose but fail tight. These variations simplify the equations slightly but the method remains the same. Fig.~\ref{fig:ff_bkg_variation} shows all of these variations compared to the default method used to obtain the estimation. This figure then gives us a good estimate to the systematic uncertainty of the multi-jet estimate which has been chosen to be $20\%$. (ref zprime support note)
+Two other methods and variations upon them were used to test the validity of this method as well as estimate the systematic error of this background estimates procedure. These two methods are both tag and probe measurements on either the jet stream of data, or the egamma stream where the method is more an ``inverse'' tag and probe with the selection of a tag with high probability of being a jet. Variations are also made on the method by assuming $r_{1}$ and $r_{2} = 1.0$ in all cases as well as changing the definition of loose but fail tight. These variations simplify the equations slightly but the method remains the same. Fig.~\ref{fig:ff_bkg_variation} shows all of these variations compared to the default method used to obtain the estimation. This figure then gives us a good estimate to the systematic uncertainty of the multi-jet estimate which has been chosen to be $20\%$. (ref zprime support note)
 
    \begin{figure}[h]
       \begin{center}
