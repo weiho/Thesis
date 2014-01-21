@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  21 JAN 2014 00:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  21 JAN 2014 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,21 +450,31 @@ LaTeX Warning: Citation `ADD' on page 2 undefined on input line 59.
 
 ) (./chapters/2_Experiment.tex [2] [3]
 Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
 [4
 
-]) (./chapters/3_Trigger.tex [5]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+[5]) (./chapters/3_Trigger.tex [6]
 Chapter 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 
-LaTeX Warning: Citation `trig1' on page 6 undefined on input line 41.
+LaTeX Warning: Citation `trig1' on page 7 undefined on input line 41.
 
 
-LaTeX Warning: Citation `trig2' on page 6 undefined on input line 41.
+LaTeX Warning: Citation `trig2' on page 7 undefined on input line 41.
 
-[6
+[7
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -473,15 +483,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
 
 
-LaTeX Warning: Citation `poster' on page 7 undefined on input line 58.
+LaTeX Warning: Citation `poster' on page 8 undefined on input line 58.
 
-) (./chapters/4_Reconstruction.tex [7]
+) (./chapters/4_Reconstruction.tex [8]
 Chapter 4.
-) (./chapters/5_Event_Selection.tex [8
+) (./chapters/5_Event_Selection.tex [9
 
 ]
 Chapter 5.
-[9
+[10
 
 ]
 Overfull \hbox (20.4891pt too wide) in paragraph at lines 34--35
@@ -506,7 +516,7 @@ File: images/C5_leadIso_vs_leadpT.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]
+[11]
 File: images/C5_leadIso_vs_leadpT_proposal.eps Graphic file (type eps)
  <images/C5_leadIso_vs_leadpT_proposal.eps>
 
@@ -527,67 +537,67 @@ File: images/C5_sub_iso_efficiency.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11] [12]) (./chapters/6_Background_Estimate.tex [13] [14]
+[12] [13]) (./chapters/6_Background_Estimate.tex [14] [15]
 Chapter 6.
-[15
+[16
 
-] [16] [17]
+] [17] [18]
 File: images/r1.eps Graphic file (type eps)
  <images/r1.eps>
 File: images/r2.eps Graphic file (type eps)
- <images/r2.eps> [18]
+ <images/r2.eps> [19]
 File: images/f1.eps Graphic file (type eps)
  <images/f1.eps>
 File: images/f2.eps Graphic file (type eps)
 
 <images/f2.eps>
 File: images/N_distributions.eps Graphic file (type eps)
- <images/N_distributions.eps> [19]
+ <images/N_distributions.eps> [20]
 File: images/ff_bkg_variation.ps Graphic file (type eps)
  <images/ff_bkg_variation.ps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20]) (./chapters/7_Signal_Search.tex [21]
+[21]) (./chapters/7_Signal_Search.tex [22]
 Chapter 7.
-) (./chapters/8_Statistical_Analysis.tex [22
+) (./chapters/8_Statistical_Analysis.tex [23
 
 ]
 Chapter 8.
-) (./chapters/9_Conclusion.tex [23
+) (./chapters/9_Conclusion.tex [24
 
 ]
 Chapter 9.
-) [24
+) [25
 
-] [25
+] [26
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 26 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 27 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 26 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 27 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 26 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 27 undefined on input line 20.
 
-[26
+[27
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[27]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [28]
 
-LaTeX Warning: Citation `QCD' on page 29 undefined on input line 134.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29]
+
+LaTeX Warning: Citation `QCD' on page 30 undefined on input line 134.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -595,18 +605,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29] [30]
+[30] [31]
 
-LaTeX Warning: Citation `BAT' on page 31 undefined on input line 335.
+LaTeX Warning: Citation `BAT' on page 32 undefined on input line 335.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31]) [32] (./thesisMain.bbl [33]
+[32]) [33] (./thesisMain.bbl [34]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [34
+) [35
 
 ] (./thesisMain.aux)
 
@@ -625,4 +635,4 @@ Here is how much of TeX's memory you used:
  831 hyphenation exceptions out of 8191
  36i,11n,43p,1050b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (44 pages, 101076 bytes).
+Output written on thesisMain.dvi (45 pages, 105428 bytes).
