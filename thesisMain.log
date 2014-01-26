@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  24 JAN 2014 23:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  26 JAN 2014 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,38 +922,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+File: images/ATLAS_SE_Corrected7.eps Graphic file (type eps)
+ <images/ATLAS_SE_Corrected7.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 [6]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 68.
+File: images/ID_newTRT_d3.eps Graphic file (type eps)
+ <images/ID_newTRT_d3.eps> [7]
+File: images/FigID26-mod-011107.eps Graphic file (type eps)
+ <images/FigID26-mod-011107.eps>
+Overfull \hbox (19.27698pt too wide) in paragraph at lines 69--70
+ [] 
+ []
+
+[8]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 95.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Info: Redefining \bond on input line 68.
-LaTeX Info: Redefining \dbond on input line 68.
-LaTeX Info: Redefining \tbond on input line 68.
-LaTeX Info: Redefining \bond on input line 68.
-LaTeX Info: Redefining \dbond on input line 68.
-LaTeX Info: Redefining \tbond on input line 68.
-LaTeX Info: Redefining \bond on input line 68.
-LaTeX Info: Redefining \dbond on input line 68.
-LaTeX Info: Redefining \tbond on input line 68.
- [7])
-(./chapters/3_Trigger.tex [8]
+LaTeX Info: Redefining \bond on input line 95.
+LaTeX Info: Redefining \dbond on input line 95.
+LaTeX Info: Redefining \tbond on input line 95.
+LaTeX Info: Redefining \bond on input line 95.
+LaTeX Info: Redefining \dbond on input line 95.
+LaTeX Info: Redefining \tbond on input line 95.
+LaTeX Info: Redefining \bond on input line 95.
+LaTeX Info: Redefining \dbond on input line 95.
+LaTeX Info: Redefining \tbond on input line 95.
+File: images/Calorimeter_d3.eps Graphic file (type eps)
+
+<images/Calorimeter_d3.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/ITCconcept_new.eps Graphic file (type eps)
+<images/ITCconcept_new.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+[9]
+File: images/ATLcoilGeom.eps Graphic file (type eps)
+ <images/ATLcoilGeom.eps>
+File: images/desc5.eps Graphic file (type eps)
+ <images/desc5.eps>
+File: images/desc6.eps Graphic file (type eps)
+ <images/desc6.eps> [10]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \bond on input line 161.
+LaTeX Info: Redefining \dbond on input line 161.
+LaTeX Info: Redefining \tbond on input line 161.
+File: images/MuonSystem_d3.eps Graphic file (type eps)
+<images/MuonSystem_d3.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11]) (./chapters/3_Trigger.tex [12] [13]
 Chapter 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 
-LaTeX Warning: Citation `trig1' on page 9 undefined on input line 41.
+LaTeX Warning: Citation `trig1' on page 14 undefined on input line 41.
 
 
-LaTeX Warning: Citation `trig2' on page 9 undefined on input line 41.
+LaTeX Warning: Citation `trig2' on page 14 undefined on input line 41.
 
-[9
+[14
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -962,15 +1006,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
 
 
-LaTeX Warning: Citation `poster' on page 10 undefined on input line 58.
+LaTeX Warning: Citation `poster' on page 15 undefined on input line 58.
 
-) (./chapters/4_Reconstruction.tex [10]
+) (./chapters/4_Reconstruction.tex [15]
 Chapter 4.
-) (./chapters/5_Event_Selection.tex [11
+) (./chapters/5_Event_Selection.tex [16
 
 ]
 Chapter 5.
-[12
+[17
 
 ]
 Overfull \hbox (20.4891pt too wide) in paragraph at lines 34--35
@@ -995,7 +1039,7 @@ File: images/C5_leadIso_vs_leadpT.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13]
+[18]
 File: images/C5_leadIso_vs_leadpT_proposal.eps Graphic file (type eps)
  <images/C5_leadIso_vs_leadpT_proposal.eps>
 
@@ -1016,86 +1060,86 @@ File: images/C5_sub_iso_efficiency.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15]) (./chapters/6_Background_Estimate.tex [16] [17]
+[19] [20]) (./chapters/6_Background_Estimate.tex [21] [22]
 Chapter 6.
-[18
+[23
 
-] [19] [20]
+] [24] [25]
 File: images/r1.eps Graphic file (type eps)
  <images/r1.eps>
 File: images/r2.eps Graphic file (type eps)
- <images/r2.eps> [21]
+ <images/r2.eps> [26]
 File: images/f1.eps Graphic file (type eps)
  <images/f1.eps>
 File: images/f2.eps Graphic file (type eps)
 
 <images/f2.eps>
 File: images/N_distributions.eps Graphic file (type eps)
- <images/N_distributions.eps> [22]
+ <images/N_distributions.eps> [27]
 File: images/ff_bkg_variation.ps Graphic file (type eps)
  <images/ff_bkg_variation.ps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23]) (./chapters/7_Signal_Search.tex [24]
+[28]) (./chapters/7_Signal_Search.tex [29]
 Chapter 7.
-) (./chapters/8_Statistical_Analysis.tex [25
+) (./chapters/8_Statistical_Analysis.tex [30
 
 ]
 Chapter 8.
-) (./chapters/9_Conclusion.tex [26
+) (./chapters/9_Conclusion.tex [31
 
 ]
 Chapter 9.
-) [27
+) [32
 
-] [28
+] [33
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 29 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 34 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 29 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 34 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 29 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 34 undefined on input line 20.
 
-[29
+[34
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[30]
+[35]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31]
+[36]
 
-LaTeX Warning: Citation `QCD' on page 32 undefined on input line 134.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation `QCD' on page 37 undefined on input line 134.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32] [33]
 
-LaTeX Warning: Citation `BAT' on page 34 undefined on input line 335.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37] [38]
+
+LaTeX Warning: Citation `BAT' on page 39 undefined on input line 335.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34]) [35] (./thesisMain.bbl [36]
+[39]) [40] (./thesisMain.bbl [41]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [37
+) [42
 
 ] (./thesisMain.aux)
 
@@ -1106,12 +1150,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12279 strings out of 493611
- 251286 string characters out of 3142449
- 252807 words of memory out of 3000000
- 15334 multiletter control sequences out of 15000+200000
+ 12304 strings out of 493611
+ 251775 string characters out of 3142449
+ 252881 words of memory out of 3000000
+ 15350 multiletter control sequences out of 15000+200000
  40454 words of font info for 118 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,13n,43p,1473b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,13n,43p,1448b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (47 pages, 111244 bytes).
+Output written on thesisMain.dvi (52 pages, 119552 bytes).
