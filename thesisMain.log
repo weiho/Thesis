@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  26 JAN 2014 20:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  27 JAN 2014 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -933,59 +933,62 @@ File: images/ID_newTRT_d3.eps Graphic file (type eps)
  <images/ID_newTRT_d3.eps> [7]
 File: images/FigID26-mod-011107.eps Graphic file (type eps)
  <images/FigID26-mod-011107.eps>
-Overfull \hbox (19.27698pt too wide) in paragraph at lines 69--70
+Overfull \hbox (19.27698pt too wide) in paragraph at lines 89--90
  [] 
  []
 
 [8]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 95.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 115.
+
  (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Info: Redefining \bond on input line 95.
-LaTeX Info: Redefining \dbond on input line 95.
-LaTeX Info: Redefining \tbond on input line 95.
-LaTeX Info: Redefining \bond on input line 95.
-LaTeX Info: Redefining \dbond on input line 95.
-LaTeX Info: Redefining \tbond on input line 95.
-LaTeX Info: Redefining \bond on input line 95.
-LaTeX Info: Redefining \dbond on input line 95.
-LaTeX Info: Redefining \tbond on input line 95.
+LaTeX Info: Redefining \bond on input line 115.
+LaTeX Info: Redefining \dbond on input line 115.
+LaTeX Info: Redefining \tbond on input line 115.
+LaTeX Info: Redefining \bond on input line 115.
+LaTeX Info: Redefining \dbond on input line 115.
+LaTeX Info: Redefining \tbond on input line 115.
+LaTeX Info: Redefining \bond on input line 115.
+LaTeX Info: Redefining \dbond on input line 115.
+LaTeX Info: Redefining \tbond on input line 115.
 File: images/Calorimeter_d3.eps Graphic file (type eps)
 
 <images/Calorimeter_d3.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[9]
 File: images/ITCconcept_new.eps Graphic file (type eps)
-<images/ITCconcept_new.eps>
+ <images/ITCconcept_new.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-[9]
+[10]
 File: images/ATLcoilGeom.eps Graphic file (type eps)
  <images/ATLcoilGeom.eps>
 File: images/desc5.eps Graphic file (type eps)
  <images/desc5.eps>
 File: images/desc6.eps Graphic file (type eps)
- <images/desc6.eps> [10]
+ <images/desc6.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \bond on input line 161.
-LaTeX Info: Redefining \dbond on input line 161.
-LaTeX Info: Redefining \tbond on input line 161.
+LaTeX Info: Redefining \bond on input line 181.
+LaTeX Info: Redefining \dbond on input line 181.
+LaTeX Info: Redefining \tbond on input line 181.
+[11]
 File: images/MuonSystem_d3.eps Graphic file (type eps)
-<images/MuonSystem_d3.eps>
+ <images/MuonSystem_d3.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11]) (./chapters/3_Trigger.tex [12] [13]
+[12]) (./chapters/3_Trigger.tex [13]
 Chapter 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
@@ -1158,4 +1161,4 @@ Here is how much of TeX's memory you used:
  831 hyphenation exceptions out of 8191
  36i,13n,43p,1448b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (52 pages, 119552 bytes).
+Output written on thesisMain.dvi (52 pages, 121332 bytes).
