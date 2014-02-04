@@ -21,47 +21,47 @@
 \contentsline {section}{\numberline {3.5}Trigger Menu and Rates}{13}
 \contentsline {subsection}{\numberline {3.5.1}The ``$e/\gamma $'' Trigger Menu}{13}
 \contentsline {subsection}{\numberline {3.5.2}Trigger Rates in High Luminosity Regime}{13}
-\contentsline {chapter}{\numberline {4}Reconstruction}{15}
-\contentsline {section}{\numberline {4.1}Data Formats and Software}{15}
-\contentsline {section}{\numberline {4.2}Electron Reconstruction}{15}
-\contentsline {chapter}{\numberline {5}Event Selection}{16}
-\contentsline {section}{\numberline {5.1}Analysis Selection}{16}
-\contentsline {subsection}{\numberline {5.1.1}Isolation Requirement}{17}
-\contentsline {subsection}{\numberline {5.1.2}Same Sign requirement}{19}
-\contentsline {section}{\numberline {5.2}Corrections}{19}
-\contentsline {subsection}{\numberline {5.2.1}Energy Resolution Correction}{19}
-\contentsline {chapter}{\numberline {6}Background Estimate}{22}
-\contentsline {section}{\numberline {6.1}Monte Carlo samples}{22}
-\contentsline {subsection}{\numberline {6.1.1}Detector Simulation and Object Reconstruction}{22}
-\contentsline {subsection}{\numberline {6.1.2}PDF Choice and NNLO Corrections}{22}
-\contentsline {subsection}{\numberline {6.1.3}MC Corrections}{22}
-\contentsline {section}{\numberline {6.2}Fake Factor Multi-Jet Estimate}{23}
-\contentsline {subsection}{\numberline {6.2.1}Real electron efficiency estimation}{25}
-\contentsline {subsection}{\numberline {6.2.2}Fake electron rate estimation}{25}
-\contentsline {subsection}{\numberline {6.2.3}Properties of Multi-Jet Background}{26}
-\contentsline {subsection}{\numberline {6.2.4}Other methods and estimation of Error}{27}
-\contentsline {chapter}{\numberline {7}Signal and Results}{29}
-\contentsline {section}{\numberline {7.1}Signal Monte Carlo}{29}
-\contentsline {subsection}{\numberline {7.1.1}PDF and Corrections}{29}
-\contentsline {section}{\numberline {7.2}Results}{29}
-\contentsline {chapter}{\numberline {8}Statistical Analysis}{30}
-\contentsline {section}{\numberline {8.1}Systematics}{30}
-\contentsline {section}{\numberline {8.2}Signal Search \& P-Values}{30}
-\contentsline {section}{\numberline {8.3}Setting Limits}{30}
-\contentsline {subsection}{\numberline {8.3.1}Contact Interation Limits}{30}
-\contentsline {subsection}{\numberline {8.3.2}ADD Limits}{30}
-\contentsline {chapter}{\numberline {9}Conclusion}{31}
-\contentsline {section}{\numberline {9.1}Interpretation}{31}
-\contentsline {section}{\numberline {9.2}Looking Forward}{31}
-\contentsline {chapter}{Appendices}{32}
-\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{33}
-\contentsline {section}{\numberline {A.1}Data and Background Processes}{33}
-\contentsline {subsection}{\numberline {A.1.1}Data}{33}
-\contentsline {subsection}{\numberline {A.1.2}Background}{33}
-\contentsline {subsection}{\numberline {A.1.3}Background Production}{33}
-\contentsline {subsection}{\numberline {A.1.4}Signal}{34}
-\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{34}
-\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{36}
-\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{37}
-\contentsline {section}{\numberline {A.3}Statistical Analysis}{38}
-\contentsline {section}{\numberline {A.4}Results}{38}
+\contentsline {chapter}{\numberline {4}Reconstruction}{16}
+\contentsline {section}{\numberline {4.1}Data Formats and Software}{16}
+\contentsline {section}{\numberline {4.2}Electron Reconstruction}{16}
+\contentsline {chapter}{\numberline {5}Event Selection}{17}
+\contentsline {section}{\numberline {5.1}Analysis Selection}{17}
+\contentsline {subsection}{\numberline {5.1.1}Isolation Requirement}{18}
+\contentsline {subsection}{\numberline {5.1.2}Same Sign requirement}{20}
+\contentsline {section}{\numberline {5.2}Corrections}{20}
+\contentsline {subsection}{\numberline {5.2.1}Energy Resolution Correction}{20}
+\contentsline {chapter}{\numberline {6}Background Estimate}{23}
+\contentsline {section}{\numberline {6.1}Monte Carlo samples}{23}
+\contentsline {subsection}{\numberline {6.1.1}Detector Simulation and Object Reconstruction}{23}
+\contentsline {subsection}{\numberline {6.1.2}PDF Choice and NNLO Corrections}{23}
+\contentsline {subsection}{\numberline {6.1.3}MC Corrections}{23}
+\contentsline {section}{\numberline {6.2}Fake Factor Multi-Jet Estimate}{24}
+\contentsline {subsection}{\numberline {6.2.1}Real electron efficiency estimation}{26}
+\contentsline {subsection}{\numberline {6.2.2}Fake electron rate estimation}{26}
+\contentsline {subsection}{\numberline {6.2.3}Properties of Multi-Jet Background}{27}
+\contentsline {subsection}{\numberline {6.2.4}Other methods and estimation of Error}{28}
+\contentsline {chapter}{\numberline {7}Signal and Results}{30}
+\contentsline {section}{\numberline {7.1}Signal Monte Carlo}{30}
+\contentsline {subsection}{\numberline {7.1.1}PDF and Corrections}{30}
+\contentsline {section}{\numberline {7.2}Results}{30}
+\contentsline {chapter}{\numberline {8}Statistical Analysis}{31}
+\contentsline {section}{\numberline {8.1}Systematics}{31}
+\contentsline {section}{\numberline {8.2}Signal Search \& P-Values}{31}
+\contentsline {section}{\numberline {8.3}Setting Limits}{31}
+\contentsline {subsection}{\numberline {8.3.1}Contact Interation Limits}{31}
+\contentsline {subsection}{\numberline {8.3.2}ADD Limits}{31}
+\contentsline {chapter}{\numberline {9}Conclusion}{32}
+\contentsline {section}{\numberline {9.1}Interpretation}{32}
+\contentsline {section}{\numberline {9.2}Looking Forward}{32}
+\contentsline {chapter}{Appendices}{33}
+\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{34}
+\contentsline {section}{\numberline {A.1}Data and Background Processes}{34}
+\contentsline {subsection}{\numberline {A.1.1}Data}{34}
+\contentsline {subsection}{\numberline {A.1.2}Background}{34}
+\contentsline {subsection}{\numberline {A.1.3}Background Production}{34}
+\contentsline {subsection}{\numberline {A.1.4}Signal}{35}
+\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{35}
+\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{37}
+\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{38}
+\contentsline {section}{\numberline {A.3}Statistical Analysis}{39}
+\contentsline {section}{\numberline {A.4}Results}{39}

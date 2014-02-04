@@ -43,12 +43,14 @@
 
 \section{Level-2 Trigger}
 
+	The Level-2 (L2) trigger is seeded by and only makes decisions based on the RoI's supplied by the L1 trigger. It however does this with full detector information and so the first stage of this trigger is a RoI builder. The RoI builder requests detector information for all relevant detectors for the observed RoI, including at this stage the Inner Detector. In the case of electrons this includes the Inner tracking detector, the electromagnetic calorimeter and the hadronic calorimeter. It is at this stage a distinction between electrons and photons can be made due to existence of an associated track in the ID to the RoI in the ECAL. The RoI builder identifies calorimeter clusters and nearby tracks in order for the L2 trigger to make its decision based on algorithms reconstructing shower shapes, track-cluster matching and $E_{T}$ thresholds with isolation. The list of these requirements are held within trigger chains each designed to accept specific physics signatures. The general idea is simply to check if RoI's still exist under closer inspection in order to reduce the rate of events before full event building takes place in the Event Filter.
+
 
 
 
 \section{Event Filter}
 
-
+	
 
 
 
