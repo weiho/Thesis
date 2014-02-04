@@ -15,12 +15,11 @@
 \contentsline {subsection}{\numberline {2.2.4}Muon Spectrometer}{10}
 \contentsline {chapter}{\numberline {3}The Trigger \& Data Acquisition}{11}
 \contentsline {section}{\numberline {3.1}Level-1 Trigger}{11}
-\contentsline {section}{\numberline {3.2}Level-2 Trigger}{13}
-\contentsline {section}{\numberline {3.3}Event Filter}{13}
-\contentsline {section}{\numberline {3.4}Data Acquisition}{13}
-\contentsline {section}{\numberline {3.5}Trigger Menu and Rates}{13}
-\contentsline {subsection}{\numberline {3.5.1}The ``$e/\gamma $'' Trigger Menu}{13}
-\contentsline {subsection}{\numberline {3.5.2}Trigger Rates in High Luminosity Regime}{13}
+\contentsline {section}{\numberline {3.2}Higher Level Trigger}{13}
+\contentsline {section}{\numberline {3.3}Data Acquisition}{13}
+\contentsline {section}{\numberline {3.4}Trigger Menu and Rates}{14}
+\contentsline {subsection}{\numberline {3.4.1}The ``$e/\gamma $'' Trigger Menu}{14}
+\contentsline {subsection}{\numberline {3.4.2}Trigger Rates in High Luminosity Regime}{14}
 \contentsline {chapter}{\numberline {4}Reconstruction}{16}
 \contentsline {section}{\numberline {4.1}Data Formats and Software}{16}
 \contentsline {section}{\numberline {4.2}Electron Reconstruction}{16}

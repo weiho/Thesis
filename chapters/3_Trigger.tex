@@ -35,28 +35,40 @@
 
 	Figure \ref{fig:Trig_algo} shows how the electron/photon trigger clustering algorithm works by identifying $2 \times 2$ clusters of trigger towers within which two adjacent towers sum to greater than the triggering threshold defined in the trigger menu (seen in section \ref{sec:trig_menu}). Also shown is how three forms of isolation can be applied at this stage; the 12-tower surrounding ring, the $2 \times 2$ hadronic core behind the RoI and the 12-tower surrounding ring in the hadronic calorimeter. Only the hadronic core isolation has so far been used in electron/photon trigger's within ATLAS so far. 
 	As all possible $2 \times 2$ clusters are observed in this way it is possible to have double counting of RoIs and so sum of each $2 \times 2$ RoI must be greater than each of its eight nearest overlapping neighbours. Figure \ref{fig:Trig_algo} also shows how this local-maxima is tested while avoiding identical sums through use of `greater than' and `greater than or equal to' in differing $\eta$ and $\phi$ directions. 
-	After these clusters have passed the thresholds set it is these RoI's which are passed on the next level of the trigger as a seed to its calculations.
+	The final L1 trigger decision is made by the Central Trigger Processor (CTP) which takes information from both the CP algorithm and jet algorithm as well as the L1 muon trigger. If an accept decision is made then RoI's are send to the RoI builder which seed the L2 trigger system and all L1 sub-systems are read out via Readout Drives (ROD's)(discussed in section \ref{sec:trig_DAQ}) to the DAQ system for monitoring of the L1 trigger system.
 
 
 
+\section{Higher Level Trigger}
+
+	\subsection*{Level-2 Trigger}
+
+		The Level-2 (L2) trigger is seeded by and only makes decisions based on the RoI's supplied by the L1 trigger. It however does this with full detector information and so the first stage of this trigger is a RoI builder. The RoI builder requests detector information for all relevant detectors for the observed RoI, including at this stage the Inner Detector. In the case of electrons this includes the Inner tracking detector, the electromagnetic calorimeter and the hadronic calorimeter. It is at this stage a distinction between electrons and photons can be made due to existence of an associated track in the ID to the RoI in the ECAL. The RoI builder identifies calorimeter clusters and nearby tracks in order for the L2 trigger to make its decision based on algorithms reconstructing shower shapes, track-cluster matching and $E_{T}$ thresholds with isolation. The list of these requirements are held within trigger chains each designed to accept specific physics signatures. The general idea is simply to check if RoI's still exist under closer inspection in order to reduce the rate of events before full event building takes place in the Event Filter.
 
 
-\section{Level-2 Trigger}
-
-	The Level-2 (L2) trigger is seeded by and only makes decisions based on the RoI's supplied by the L1 trigger. It however does this with full detector information and so the first stage of this trigger is a RoI builder. The RoI builder requests detector information for all relevant detectors for the observed RoI, including at this stage the Inner Detector. In the case of electrons this includes the Inner tracking detector, the electromagnetic calorimeter and the hadronic calorimeter. It is at this stage a distinction between electrons and photons can be made due to existence of an associated track in the ID to the RoI in the ECAL. The RoI builder identifies calorimeter clusters and nearby tracks in order for the L2 trigger to make its decision based on algorithms reconstructing shower shapes, track-cluster matching and $E_{T}$ thresholds with isolation. The list of these requirements are held within trigger chains each designed to accept specific physics signatures. The general idea is simply to check if RoI's still exist under closer inspection in order to reduce the rate of events before full event building takes place in the Event Filter.
+		(-L2SV supervisor?, L2PU's processing unit)
 
 
 
-
-\section{Event Filter}
+	\subsection*{Event Filter}
 
 	
 
 
 
 \section{Data Acquisition}
+\label{sec:trig_DAQ}
 
+	The Data Acquisition (DAQ) is the set of systems that control the flow of data from detectors, through the trigger and in to permanent storage. The first stage of this process is the Readout System (ROS) a set of 145 PC's or nodes which manages the collection of all detector sub-system data and and L1 trigger output from ATLAS. This system is helped by Readout Drives (ROD's) which interface directly with detector components and Readout Links (ROL's), direct point-to-point readout connecting the ROD's with the ROS's. Table \ref{tab:DAQ_readouts} shows the number of readouts for each component of the Detector and L1 system.
 
+	\begin{tabular}{ | l | c | c | c | }
+		\hline
+
+    	\hline
+    	\label{tab:DAQ_readouts}
+  	\end{tabular}
+
+  	Each ROS PC contains Readout Buffer Module's (ROBIN's), custom PCI-X cards, each containing three Readout Buffers (ROB's), the other end of each ROL. This is where event data is stored while the L2 trigger makes its decision and data is sent to the 
 
 
 \section{Trigger Menu and Rates}
