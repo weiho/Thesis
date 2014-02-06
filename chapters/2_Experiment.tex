@@ -48,25 +48,28 @@
 
 	(- structured to hold it up?)
 
-	\begin{tabular}{ | l | c | c | c | }
+	\begin {table}[h]
+	\begin{center}
+	\begin{tabular}{ | l | c | c | c | } 
 		\hline
 		Detector component & Required resolution & \multicolumn{2}{|c|}{$\eta$ coverage} \\
 		 & & Measurement & Trigger \\
-    	\hline
-    	\hline
+    	\hline\hline
     	Inner Detector & $\sigma_{p_{T}}/p_{T}~~=~0.05\%~p_{T}~\oplus~1\%$ & $|\eta|<2.5$ & N.A \\
     	\hline
     	EM calorimetry & $\sigma_{E}/E~=~10\%/\sqrt{E}~\oplus~0.7\%$ & $|\eta|<3.2$ & $|\eta|<2.5$ \\
     	\hline
     	Hadronic calorimetry (jets) &  &  &  \\
-    	  barrel and end-cap & $\sigma_{E}/E~=~50\%/\sqrt{E}~\oplus~3\%$ & $|\eta|<3.2$ & $|\eta|<3.2$ \\
-    	  forward  & $\sigma_{E}/E~=~100\%/\sqrt{E}~\oplus~10\%$ & $3.1<|\eta|<4.9$ & $3.1<|\eta|<4.9$ \\
+    	~~~barrel and end-cap & $\sigma_{E}/E~=~50\%/\sqrt{E}~\oplus~3\%$ & $|\eta|<3.2$ & $|\eta|<3.2$ \\
+    	~~~forward  & $\sigma_{E}/E~=~100\%/\sqrt{E}~\oplus~10\%$ & $3.1<|\eta|<4.9$ & $3.1<|\eta|<4.9$ \\
     	\hline
     	Muon spectrometer & $\sigma_{p_{T}}/p_{T} =10\%$ at $p_{T} = 1$ TeV & $|\eta|<2.7$ & $|\eta|<2.4$ \\
     	\hline
-    	%\caption{Table showing detector components resolution requirements and $\eta$ ranges when triggering and full measurement.}
-    	\label{tab:det_res}
   	\end{tabular}
+  	\label{tab:det_res}
+  	\caption{Table showing detector components resolution requirements and $\eta$ ranges when triggering and full measurement.}
+  	\end{center}
+	\end {table}
 
   	(- table of eta range, no. layers, output channels of every part of ID and CAL's)
 

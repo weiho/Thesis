@@ -68,7 +68,33 @@
     	\label{tab:DAQ_readouts}
   	\end{tabular}
 
-  	Each ROS PC contains Readout Buffer Module's (ROBIN's), custom PCI-X cards, each containing three Readout Buffers (ROB's), the other end of each ROL. This is where event data is stored while the L2 trigger makes its decision and data is sent to the 
+  	Each ROS PC contains Readout Buffer Module's (ROBIN's), custom PCI-X cards, each containing three Readout Buffers (ROB's), the other end of each ROL. The ROB's is where event data is stored while the L2 trigger makes its decision which comes from the set of 10 L2 Supervisor (L2SV) nodes. This decision is then made by the DataFlow Manager (DFM) on input from all the L2SV nodes and sends a command to the ROS's to either expunge data or forward it on to the event building nodes (or Sub farm Input, SFI). Once a event fully built it is sent forward to the HLT farm which makes the EF decision, then and only then is a message sent back down via the DFM for the ROS's to fully delete all data from the event. The HLT farm is the largest computing resource in the DAQ system with 1116 nodes each containing 8 CPU's. These nodes can either be configured to run as the EF or L2 Processing Units (L2PU's) for the L2SV and are reconfigured as need dictates. As the final step if an event is accepted by the EF all data is passed to the Sub Farm Output (SFO) where it is stored before transfer to CERN's central data-recording facility. In the case that this connection to CERN is offline for some reason ATLAS is able to store about 24 hours worth of data in the SFO's so no data is lost.
+  	Table \ref{tab:DAQ_comp} shows the number of each of these components used within ATLAS all of which are found in the USA15 service cavern next to the ATLAS cavern.
+
+
+	\begin {table}[H]
+	\begin{center}
+  	\begin{tabular}{ | l | c | c | c | }%c | c | }
+		\hline
+		Component & Number of & Number of & Number of \\%& Memory (Gbyte) & Type of CPU \\
+		& nodes & racks & CPU’s/node \\
+		\hline \hline
+		ROS & 145 & 16 & 1 \\%& 0.512 & 3.4 GHz Irwindale \\
+		\hline
+		DFM & 12 & 1 & 2 \\%& 2 & 2.6 GHz Opteron 252 \\
+		L2SV & 10 & 1 & 2 \\%& 2 & 2.6 GHz Opteron 252 \\
+		SFI & 48 & 3 & 2 \\%& 2 & 2.6 GHz Opteron 252 \\
+		HLT & 1116 & 36 & 8 \\%& 8 & Xeon E5320 1.86 GHz \\
+		SFO & 6 & 2 & 2 \\%& 4 & Xeon E5130 2.0 GHz \\
+		\hline
+		Monitoring & 32 & 4 & 4 \\%& 8 & Xeon E5160 3.0 GHz \\
+		Operations & 20 & 4 & 2 \\%& 4 & Xeon E5130 2.0 GHz \\
+    	\hline
+  	\end{tabular}
+  	\label{tab:DAQ_comp}
+  	\caption{The main data-acquisition system components to be deployed for initial operation: the readout system (ROS), the event-building node (SFI), the dataflow manager (DFM), the L2 super-visor (L2SV), the high-level trigger (HLT) and the event filter output nodes (SFO).}
+  	\end{center}
+	\end {table}
 
 
 \section{Trigger Menu and Rates}
