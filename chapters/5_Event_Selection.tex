@@ -1,6 +1,7 @@
 \chapter{Event Selection}
 
-The main event selection for this analysis is based on a standard cut-flow selection used within ATLAS to select high energy di-electron events. Following will be the basic outline of each requirement an event must satisfy followed by a small discussion of optimisations done to some cuts for this analysis. We then discuss corrections implemented at this stage in addition to the reconstruction mentioned in the previous chapter.
+The main event selection for this analysis is based on a standard cut-flow selection used within ATLAS to select high energy di-electron events. Following will be the basic outline of each requirement an event must satisfy followed by a small discussion of optimisations done to some cuts for this analysis. Finally a discussion of corrections is included spanning minor variable corrections to data obtained by performance groups after reconstruction and more substantial corrections to MC samples to correctly estimate run conditions.
+The following analysis selection is applied equally the data and MC background samples unless were noted.
 
 
 
@@ -9,22 +10,20 @@ The main event selection for this analysis is based on a standard cut-flow selec
 
 \section{Analysis Selection}
 
-The following selection is made data after being reconstructed by the ATLAS software.
+The following selection is made to all data and MC events for this analysis. Before selection several data flags are checked to insure full operation of the detector at time of data taking. 
 
 {\bf Event Selection}
 \begin{itemize}
-\item Each event is required to contain at least one reconstructed primary vertex with more than 2 charged tracks traceable to it.
-\item Event is required have passed the chosen unprescaled electron trigger (EF\_g20\_loose).
+\item Event is required have passed the chosen unprescaled electron trigger (EF\_g35\_loose\_g25\_loose).
+\item Each event is required to contain at least one reconstructed primary vertex with at least 2 traceable charged tracks.
 \end{itemize}
 
 
 {\bf Electron Selection}
 \begin{itemize}
-\item Each electron is required to have a transverse momentum ($p_{T}$) greater than 30 GeV.
 \item Electron $|\eta| < 2.47$ and not lie within the detector crack region $1.37 \leq |\eta| \leq 1.52$ due to a decreased energy resolution.
-%\item Electron must not be 
-\item Electrons are required to pass identification criteria on the transverse shower shape, the longitudinal leakage into the hadronic calorimeter, and the association to an inner detector track, defined together as a medium electron identification.
-\item If expected electron is required to have signal in the inter most level of the tracking detector (B-layer). Used to suppress background from photon conversions.
+\item Each electron is required to have a transverse momentum ($p_{T}$) greater than 30 GeV with the highest $p_{T}$ electron lying above 40 GeV.
+\item Electrons are required to pass identification criteria on the transverse shower shape, the longitudinal leakage into the hadronic calorimeter, and the association to an inner detector track, defined together as a medium++ electron identification. % Might need more
 \end{itemize}
 
 
@@ -34,14 +33,12 @@ The following selection is made data after being reconstructed by the ATLAS soft
 \item Lead Isolation (A cone around the candidate in the calorimeter is required to have $< 0.007\times~E_{T}~+~5.0~GeV$ deposited in it) of the highest $p_{T}$ electron in the event is used to suppress jet's background. 
 \item Lead Isolation (A cone around the candidate in the calorimeter is required to have $< 0.0022\times~E_{T}~+~6.0~GeV$ deposited in it) of the highest $p_{T}$ electron in the event is used to suppress more jet's background. 
 \item Dielectron invariant mass (m$_{ee}$) is required to be greater than or equal 80 GeV.
-\item Same sign requirement. Require both electrons to be identified with the same sign.
+\item Opposite sign requirement. Require both electrons to have opposite charge.
 \end{itemize}
 
 
 
 
-
-%\newpage
 \subsection{Isolation Requirement}
 
 It was decided a re-investigation of the isolation requirement was needed, updating the cut from its previous iteration in the di-electron analysis on 2011 ATLAS data. The previous threshold was a flat, less than 7 GeV, cut on the $p_{T}$ corrected (define pT corrected) electro-magnetic calorimeter cluster isolation (definition probably required) of the highest $p_{T}$ electron in the selected pair. The first investigation was to see how this cut performed in the selection of MC signal at 8 TeV centre of mass energy. Due to the better statistics found in the $DY{\rightarrow}ee$ MC sample and this being an irreducible background and therefore indistinguishable from the signal this was used in the following investigation.
@@ -115,7 +112,6 @@ The main source of background the isolation cut is imposed to reduce is jets tha
 
 
 \subsection{Same Sign requirement}
-
 
 
 

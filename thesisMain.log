@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  6 FEB 2014 02:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  17 MAY 2014 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,18 +896,19 @@ LaTeX Warning: Citation `new_tests' on page 1 undefined on input line 19.
 
 ]
 
-LaTeX Warning: Citation `CDF' on page 2 undefined on input line 44.
+LaTeX Warning: Citation `CDF' on page 2 undefined on input line 51.
 
 
-LaTeX Warning: Citation `D0' on page 2 undefined on input line 44.
+LaTeX Warning: Citation `D0' on page 2 undefined on input line 51.
 
 
-LaTeX Warning: Citation `ATLAS' on page 2 undefined on input line 44.
+LaTeX Warning: Citation `ATLAS' on page 2 undefined on input line 51.
 
+[2]
 
-LaTeX Warning: Citation `ADD' on page 2 undefined on input line 65.
+LaTeX Warning: Citation `ADD' on page 3 undefined on input line 90.
 
-) (./chapters/2_Experiment.tex [2] [3]
+) (./chapters/2_Experiment.tex [3]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
@@ -922,15 +923,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
  []
 
 [5]
+File: images/ATLAS_SE_Corrected7.eps Graphic file (type eps)
+ <images/ATLAS_SE_Corrected7.eps>
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
+[6]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
-[6] [7]
+File: images/ID_newTRT_d3.eps Graphic file (type eps)
+ <images/ID_newTRT_d3.eps> [7]
+File: images/FigID26-mod-011107.eps Graphic file (type eps)
+ <images/FigID26-mod-011107.eps>
+Overfull \hbox (19.27698pt too wide) in paragraph at lines 93--94
+ [] 
+ []
+
+[8]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 119.
 
  (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -945,64 +957,93 @@ LaTeX Info: Redefining \tbond on input line 119.
 LaTeX Info: Redefining \bond on input line 119.
 LaTeX Info: Redefining \dbond on input line 119.
 LaTeX Info: Redefining \tbond on input line 119.
+File: images/Calorimeter_d3.eps Graphic file (type eps)
+
+<images/Calorimeter_d3.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+File: images/ITCconcept_new.eps Graphic file (type eps)
+ <images/ITCconcept_new.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-[8] [9]
+[10]
+File: images/ATLcoilGeom.eps Graphic file (type eps)
+ <images/ATLcoilGeom.eps>
+File: images/desc5.eps Graphic file (type eps)
+ <images/desc5.eps>
+File: images/desc6.eps Graphic file (type eps)
+ <images/desc6.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 LaTeX Info: Redefining \bond on input line 185.
 LaTeX Info: Redefining \dbond on input line 185.
 LaTeX Info: Redefining \tbond on input line 185.
-) (./chapters/3_Trigger.tex [10]
+[11]
+File: images/MuonSystem_d3.eps Graphic file (type eps)
+ <images/MuonSystem_d3.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12]) (./chapters/3_Trigger.tex [13]
 Chapter 3.
-[11
+[14
 
 ]
 File: images/EGammaTauAlgo.eps Graphic file (type eps)
  <images/EGammaTauAlgo.eps>
 File: images/LocalMax.eps Graphic file (type eps)
- <images/LocalMax.eps> [12] [13]
+ <images/LocalMax.eps> [15] [16]
 
 Package caption Warning: \label without proper \caption on input line 94.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:DAQ_comp' on page 14 undefined on input line 72.
+LaTeX Warning: Reference `tab:DAQ_comp' on page 17 undefined on input line 72.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
 
-LaTeX Warning: Citation `trig1' on page 14 undefined on input line 132.
+LaTeX Warning: Citation `trig1' on page 17 undefined on input line 139.
 
 
-LaTeX Warning: Citation `trig2' on page 14 undefined on input line 132.
+LaTeX Warning: Citation `trig2' on page 17 undefined on input line 139.
 
+[17]
 File: images/L1_EM16VH_TandP_eff_vs_eta.eps Graphic file (type eps)
-<images/L1_EM16VH_TandP_eff_vs_eta.eps>
+ <images/L1_EM16VH_TandP_eff_vs_eta.eps>
 File: images/L1_EM16VH_TandP_eff_vs_Et.eps Graphic file (type eps)
- <images/L1_EM16VH_TandP_eff_vs_Et.eps>
+
+<images/L1_EM16VH_TandP_eff_vs_Et.eps>
 File: images/L1_EM16VH_TandP_eff_vs_pvx.eps Graphic file (type eps)
+ <images/L1_EM16VH_TandP_eff_vs_pvx.eps>
+[18]
 
-<images/L1_EM16VH_TandP_eff_vs_pvx.eps> [14]
+LaTeX Warning: Citation `poster' on page 19 undefined on input line 156.
 
-LaTeX Warning: Citation `poster' on page 15 undefined on input line 149.
-
-) (./chapters/4_Reconstruction.tex [15] [16]
+) (./chapters/4_Reconstruction.tex [19] [20]
 Chapter 4.
-) (./chapters/5_Event_Selection.tex [17
+) (./chapters/5_Event_Selection.tex [21
 
 ]
 Chapter 5.
-[18
+[22
 
 ]
-Overfull \hbox (20.4891pt too wide) in paragraph at lines 34--35
+Overfull \hbox (20.4891pt too wide) in paragraph at lines 33--34
 []\OT1/ptm/m/n/10.95 Lead Iso-la-tion (A cone around the can-di-date in the cal
 orime-ter is re-quired to have $\OML/ptmcm/m/it/10.95 < \OT1/ptmcm/m/n/10.95 0\
 OML/ptmcm/m/it/10.95 :\OT1/ptmcm/m/n/10.95 007 \OMS/pzccm/m/n/10.95 ^^B  []\OML
@@ -1011,7 +1052,7 @@ OML/ptmcm/m/it/10.95 :\OT1/ptmcm/m/n/10.95 007 \OMS/pzccm/m/n/10.95 ^^B  []\OML
  []
 
 
-Overfull \hbox (25.9641pt too wide) in paragraph at lines 35--36
+Overfull \hbox (25.9641pt too wide) in paragraph at lines 34--35
 []\OT1/ptm/m/n/10.95 Lead Iso-la-tion (A cone around the can-di-date in the cal
 orime-ter is re-quired to have $\OML/ptmcm/m/it/10.95 < \OT1/ptmcm/m/n/10.95 0\
 OML/ptmcm/m/it/10.95 :\OT1/ptmcm/m/n/10.95 0022 \OMS/pzccm/m/n/10.95 ^^B  []\OM
@@ -1019,14 +1060,12 @@ L/ptmcm/m/it/10.95 E[] [] \OT1/ptmcm/m/n/10.95 +  []6\OML/ptmcm/m/it/10.95 :\OT
 1/ptmcm/m/n/10.95 0 []\OML/ptmcm/m/it/10.95 GeV$
  []
 
+[23]
 File: images/C5_leadIso_vs_leadpT.eps Graphic file (type eps)
-<images/C5_leadIso_vs_leadpT.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19]
+ <images/C5_leadIso_vs_leadpT.eps>
 File: images/C5_leadIso_vs_leadpT_proposal.eps Graphic file (type eps)
- <images/C5_leadIso_vs_leadpT_proposal.eps>
+
+<images/C5_leadIso_vs_leadpT_proposal.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1045,86 +1084,82 @@ File: images/C5_sub_iso_efficiency.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20] [21]) (./chapters/6_Background_Estimate.tex [22] [23]
+[24] [25]) (./chapters/6_Background_Estimate.tex [26] [27]
 Chapter 6.
-[24
+[28
 
-] [25] [26]
+] [29] [30]
 File: images/r1.eps Graphic file (type eps)
  <images/r1.eps>
 File: images/r2.eps Graphic file (type eps)
- <images/r2.eps> [27]
+ <images/r2.eps> [31]
 File: images/f1.eps Graphic file (type eps)
  <images/f1.eps>
 File: images/f2.eps Graphic file (type eps)
 
 <images/f2.eps>
 File: images/N_distributions.eps Graphic file (type eps)
- <images/N_distributions.eps> [28]
+ <images/N_distributions.eps> [32]
 File: images/ff_bkg_variation.ps Graphic file (type eps)
  <images/ff_bkg_variation.ps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29]) (./chapters/7_Signal_Search.tex [30]
+[33]) (./chapters/7_Signal_Search.tex [34]
 Chapter 7.
-) (./chapters/8_Statistical_Analysis.tex [31
+) (./chapters/8_Statistical_Analysis.tex [35
 
 ]
 Chapter 8.
-) (./chapters/9_Conclusion.tex [32
+) (./chapters/9_Conclusion.tex [36
 
 ]
 Chapter 9.
-) [33
+) [37
 
-] [34
+] [38
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 35 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 39 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 35 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 39 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 35 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 39 undefined on input line 20.
 
-[35
+[39
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[36]
+[40]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37]
+[41]
 
-LaTeX Warning: Citation `QCD' on page 38 undefined on input line 134.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation `QCD' on page 42 undefined on input line 134.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38] [39]
 
-LaTeX Warning: Citation `BAT' on page 40 undefined on input line 335.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42] [43]
+
+LaTeX Warning: Citation `BAT' on page 44 undefined on input line 335.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[40]) [41] (./thesisMain.bbl [42]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
-) [43
+[44]) [45] (./thesisMain.bbl [46]) [47
 
 ] (./thesisMain.aux)
 
@@ -1135,12 +1170,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12302 strings out of 493611
- 251778 string characters out of 3142449
- 253004 words of memory out of 3000000
- 15352 multiletter control sequences out of 15000+200000
+ 12325 strings out of 493611
+ 252211 string characters out of 3142449
+ 253043 words of memory out of 3000000
+ 15366 multiletter control sequences out of 15000+200000
  40454 words of font info for 118 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,13n,43p,1468b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,13n,43p,1678b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (53 pages, 132676 bytes).
+Output written on thesisMain.dvi (57 pages, 141268 bytes).

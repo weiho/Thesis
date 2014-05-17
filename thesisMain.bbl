@@ -1,8 +1,23 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Eichten:1983hw}
+E.~Eichten, K.~D. Lane, M.~E. Peskin, {New Tests for Quark and Lepton
+  Substructure}, Phys.Rev.Lett. 50 (1983) 811--814.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.50.811}
+  {\path{doi:10.1103/PhysRevLett.50.811}}.
+
+\bibitem{PhysRevD.16.2219}
+J.~C. Collins, D.~E. Soper,
+  \href{http://link.aps.org/doi/10.1103/PhysRevD.16.2219}{Angular distribution
+  of dileptons in high-energy hadron collisions}, Phys. Rev. D 16 (1977)
+  2219--2225.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.16.2219}
+  {\path{doi:10.1103/PhysRevD.16.2219}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.16.2219}
 
 \end{thebibliography}
