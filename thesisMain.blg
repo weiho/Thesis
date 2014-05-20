@@ -3,11 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesisMain.aux
 The style file: BibStyles/elsarticle-num.bst
 Database file #1: bib/myBib.bib
-Warning--I didn't find a database entry for "new_tests"
-Warning--I didn't find a database entry for "CDF"
-Warning--I didn't find a database entry for "D0"
-Warning--I didn't find a database entry for "ATLAS"
-Warning--I didn't find a database entry for "ADD"
 Warning--I didn't find a database entry for "trig1"
 Warning--I didn't find a database entry for "trig2"
 Warning--I didn't find a database entry for "poster"
@@ -15,45 +10,45 @@ Warning--I didn't find a database entry for "pythia"
 Warning--I didn't find a database entry for "geant"
 Warning--I didn't find a database entry for "QCD"
 Warning--I didn't find a database entry for "BAT"
-You've used 2 entries,
+You've used 25 entries,
             2937 wiz_defined-function locations,
-            719 strings with 5754 characters,
-and the built_in function-call counts, 732 in all, are:
-= -- 75
-> -- 17
+            909 strings with 11132 characters,
+and the built_in function-call counts, 8321 in all, are:
+= -- 881
+> -- 196
 < -- 0
-+ -- 7
-- -- 5
-* -- 63
-:= -- 118
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 2
++ -- 82
+- -- 57
+* -- 770
+:= -- 1168
+add.period$ -- 47
+call.type$ -- 25
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 18
-empty$ -- 73
-format.name$ -- 7
-if$ -- 175
+cite$ -- 25
+duplicate$ -- 237
+empty$ -- 907
+format.name$ -- 80
+if$ -- 2130
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 17
-num.names$ -- 2
-pop$ -- 9
+int.to.str$ -- 25
+missing$ -- 26
+newline$ -- 124
+num.names$ -- 25
+pop$ -- 107
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 36
+skip$ -- 436
 stack$ -- 0
-substring$ -- 52
-swap$ -- 7
+substring$ -- 501
+swap$ -- 93
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 3
-write$ -- 28
-(There were 12 warnings)
+while$ -- 53
+width$ -- 27
+write$ -- 273
+(There were 7 warnings)

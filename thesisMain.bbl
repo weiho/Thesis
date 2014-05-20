@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -11,6 +11,34 @@ E.~Eichten, K.~D. Lane, M.~E. Peskin, {New Tests for Quark and Lepton
 \newblock \href {http://dx.doi.org/10.1103/PhysRevLett.50.811}
   {\path{doi:10.1103/PhysRevLett.50.811}}.
 
+\bibitem{PhysRevLett.103.191803}
+V.~M. Abazov, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.103.191803}{Measurement of
+  dijet angular distributions at s=1.96{TeV} and searches for quark
+  compositeness and extra spatial dimensions}, Phys. Rev. Lett. 103 (2009)
+  191803.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.103.191803}
+  {\path{doi:10.1103/PhysRevLett.103.191803}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.103.191803}
+
+\bibitem{PhysRevLett.96.211801}
+A.~Abulencia, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.96.211801}{Search for
+  {Z$'$}$\rightarrow$e+e- using dielectron mass and angular distribution},
+  Phys. Rev. Lett. 96 (2006) 211801.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.96.211801}
+  {\path{doi:10.1103/PhysRevLett.96.211801}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.96.211801}
+
+\bibitem{PhysRevD.87.015010}
+G.~Aad, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevD.87.015010}{Search for contact
+  interactions and large extra dimensions in dilepton events from pp collisions
+  at s=7 {TeV} with the {ATLAS} detector}, Phys. Rev. D 87 (2013) 015010.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.87.015010}
+  {\path{doi:10.1103/PhysRevD.87.015010}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.87.015010}
+
 \bibitem{PhysRevD.16.2219}
 J.~C. Collins, D.~E. Soper,
   \href{http://link.aps.org/doi/10.1103/PhysRevD.16.2219}{Angular distribution
@@ -19,5 +47,170 @@ J.~C. Collins, D.~E. Soper,
 \newblock \href {http://dx.doi.org/10.1103/PhysRevD.16.2219}
   {\path{doi:10.1103/PhysRevD.16.2219}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.16.2219}
+
+\bibitem{ArkaniHamed:1998rs}
+N.~Arkani-Hamed, S.~Dimopoulos, G.~Dvali, {The Hierarchy problem and new
+  dimensions at a millimeter}, Phys.Lett. B429 (1998) 263--272.
+\newblock \href {http://arxiv.org/abs/hep-ph/9803315}
+  {\path{arXiv:hep-ph/9803315}}, \href
+  {http://dx.doi.org/10.1016/S0370-2693(98)00466-3}
+  {\path{doi:10.1016/S0370-2693(98)00466-3}}.
+
+\bibitem{Giudice:1998ck}
+G.~F. Giudice, R.~Rattazzi, J.~D. Wells, {Quantum gravity and extra dimensions
+  at high-energy colliders}, Nucl.Phys. B544 (1999) 3--38.
+\newblock \href {http://arxiv.org/abs/hep-ph/9811291}
+  {\path{arXiv:hep-ph/9811291}}, \href
+  {http://dx.doi.org/10.1016/S0550-3213(99)00044-9}
+  {\path{doi:10.1016/S0550-3213(99)00044-9}}.
+
+\bibitem{PhysRevD.59.105006}
+T.~Han, J.~D. Lykken, R.-J. Zhang,
+  \href{http://link.aps.org/doi/10.1103/PhysRevD.59.105006}{{Kaluza-Klein}
+  states from large extra dimensions}, Phys. Rev. D 59 (1999) 105006.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.59.105006}
+  {\path{doi:10.1103/PhysRevD.59.105006}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.59.105006}
+
+\bibitem{PhysRevLett.82.4765}
+J.~L. Hewett,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.82.4765}{Indirect collider
+  signals for extra dimensions}, Phys. Rev. Lett. 82 (1999) 4765--4768.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.82.4765}
+  {\path{doi:10.1103/PhysRevLett.82.4765}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.82.4765}
+
+\bibitem{ATLAS:2012pu}
+G.~Aad, et~al., {ATLAS search for new phenomena in dijet mass and angular
+  distributions using $pp$ collisions at $\sqrt{s}=7$ {TeV}}, JHEP 1301 (2013)
+  029.
+\newblock \href {http://arxiv.org/abs/1210.1718} {\path{arXiv:1210.1718}},
+  \href {http://dx.doi.org/10.1007/JHEP01(2013)029}
+  {\path{doi:10.1007/JHEP01(2013)029}}.
+
+\bibitem{PhysRevD.87.032001}
+S.~Chatrchyan, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevD.87.032001}{Search for contact
+  interactions in $\mu${}+$\mu${}- events in pp collisions at s=7 {TeV}}, Phys.
+  Rev. D 87 (2013) 032001.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.87.032001}
+  {\path{doi:10.1103/PhysRevD.87.032001}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.87.032001}
+
+\bibitem{PhysRevD.87.052017}
+S.~Chatrchyan, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevD.87.052017}{Search for contact
+  interactions using the inclusive jet {pT} spectrum in pp collisions at s=7
+  {TeV}}, Phys. Rev. D 87 (2013) 052017.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.87.052017}
+  {\path{doi:10.1103/PhysRevD.87.052017}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.87.052017}
+
+\bibitem{PhysRevLett.87.231803}
+T.~Affolder, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.87.231803}{Search for
+  quark-lepton compositeness and a heavy {W$'$} boson using the e$\nu$ channel
+  in p$\bar{p}$ collisions at s=1.8 {TeV}}, Phys. Rev. Lett. 87 (2001) 231803.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.87.231803}
+  {\path{doi:10.1103/PhysRevLett.87.231803}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.87.231803}
+
+\bibitem{PhysRevLett.82.4769}
+B.~Abbott, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.82.4769}{Measurement of the
+  high-mass drell-yan cross section and limits on quark-electron compositeness
+  scales}, Phys. Rev. Lett. 82 (1999) 4769--4774.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.82.4769}
+  {\path{doi:10.1103/PhysRevLett.82.4769}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.82.4769}
+
+\bibitem{PhysRevLett.79.2198}
+F.~Abe, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.79.2198}{Limits on
+  quark-lepton compositeness scales from dileptons produced in 1.8 {TeV}
+  p$\bar{p}$ collisions}, Phys. Rev. Lett. 79 (1997) 2198--2203.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.79.2198}
+  {\path{doi:10.1103/PhysRevLett.79.2198}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.79.2198}
+
+\bibitem{Chekanov200423}
+S.~Chekanov, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269304005660}{Search
+  for contact interactions, large extra dimensions and finite quark radius in
+  ep collisions at {HERA}}, Physics Letters B 591~(1–2) (2004) 23 -- 41.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2004.03.081}
+  {\path{doi:http://dx.doi.org/10.1016/j.physletb.2004.03.081}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269304005660}
+
+\bibitem{Adloff200335}
+C.~Adloff, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269303009316}{Search
+  for new physics in e$\pm$q contact interactions at {HERA}}, Physics Letters B
+  568~(1–2) (2003) 35 -- 47.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2003.06.034}
+  {\path{doi:http://dx.doi.org/10.1016/j.physletb.2003.06.034}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269303009316}
+
+\bibitem{Abdallah2009.60.1}
+J.~Abdallah, et~al., \href{http://dx.doi.org/10.1140/epjc/s10052-009-0917-2}{A
+  study of ${\mathrm{b}}\bar{\mathrm{b}}$ production in e+e- collisions at
+  $\sqrt{s}=130-207$ {GeV}}, The European Physical Journal C 60~(1) (2009)
+  1--15.
+\newblock \href {http://dx.doi.org/10.1140/epjc/s10052-009-0917-2}
+  {\path{doi:10.1140/epjc/s10052-009-0917-2}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1140/epjc/s10052-009-0917-2}
+
+\bibitem{Schael2007.49.411}
+S.~Schael, et~al.,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-006-0156-8}{Fermion pair
+  production in e+e- collisions at 189-209 {GeV} and constraints on physics
+  beyond the standard model}, The European Physical Journal C 49~(2) (2007)
+  411--437.
+\newblock \href {http://dx.doi.org/10.1140/epjc/s10052-006-0156-8}
+  {\path{doi:10.1140/epjc/s10052-006-0156-8}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1140/epjc/s10052-006-0156-8}
+
+\bibitem{Abdallah2006.45.589}
+J.~Abdallah, et~al.,
+  \href{http://dx.doi.org/10.1140/epjc/s2005-02461-0}{Measurement and
+  interpretation of fermion-pair production at {LEP} energies above the {Z}
+  resonance}, The European Physical Journal C 45~(3) (2006) 589--632.
+\newblock \href {http://dx.doi.org/10.1140/epjc/s2005-02461-0}
+  {\path{doi:10.1140/epjc/s2005-02461-0}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1140/epjc/s2005-02461-0}
+
+\bibitem{Abbiendi2004.33.173}
+G.~Abbiendi, et~al., \href{http://dx.doi.org/10.1140/epjc/s2004-01595-9}{Tests
+  of the standard model and constraints on new physics from measurements of
+  fermion-pair production at 189-209 {GeV} at {LEP}}, The European Physical
+  Journal C 33~(2) (2004) 173--212.
+\newblock \href {http://dx.doi.org/10.1140/epjc/s2004-01595-9}
+  {\path{doi:10.1140/epjc/s2004-01595-9}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1140/epjc/s2004-01595-9}
+
+\bibitem{Acciarri200081}
+M.~Acciarri, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S037026930000887X}{Search
+  for manifestations of new physics in fermion-pair production at {LEP}},
+  Physics Letters B 489~(1–2) (2000) 81 -- 92.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0370-2693(00)00887-X}
+  {\path{doi:http://dx.doi.org/10.1016/S0370-2693(00)00887-X}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026930000887X}
+
+\bibitem{Brüning:782076}
+O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole,
+  P.~Proudlock, {LHC Design Report}, CERN, Geneva, 2004.
+
+\bibitem{1367-2630-9-9-335}
+L.~Evans, \href{http://stacks.iop.org/1367-2630/9/i=9/a=335}{The large hadron
+  collider}, New Journal of Physics 9~(9) (2007) 335.
+\newline\urlprefix\url{http://stacks.iop.org/1367-2630/9/i=9/a=335}
+
+\bibitem{Aad:1129811}
+G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider}, J.
+  Instrum. 3 (2008) S08003. 437 p, also published by CERN Geneva in 2010.
 
 \end{thebibliography}

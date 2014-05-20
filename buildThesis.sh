@@ -1,4 +1,5 @@
 rm thesisMain.aux 
+rm thesisMain.bbl
 
 latex thesisMain.tex
 bibtex thesisMain
