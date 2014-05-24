@@ -200,14 +200,14 @@ M.~Acciarri, et~al.,
   {\path{doi:http://dx.doi.org/10.1016/S0370-2693(00)00887-X}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026930000887X}
 
-\bibitem{Brüning:782076}
-O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole,
-  P.~Proudlock, {LHC Design Report}, CERN, Geneva, 2004.
-
 \bibitem{1367-2630-9-9-335}
 L.~Evans, \href{http://stacks.iop.org/1367-2630/9/i=9/a=335}{The large hadron
   collider}, New Journal of Physics 9~(9) (2007) 335.
 \newline\urlprefix\url{http://stacks.iop.org/1367-2630/9/i=9/a=335}
+
+\bibitem{Brüning:782076}
+O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole,
+  P.~Proudlock, {LHC Design Report}, CERN, Geneva, 2004.
 
 \bibitem{Aad:1129811}
 G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider},
