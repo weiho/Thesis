@@ -1,5 +1,31 @@
 \chapter{Statistical Analysis}
 
+	The statistical analysis of results is done via a Bayesian approach where first first a search for signs of new physics is done with a calculation of the significance of any excesses. Then in the absence of a signal exclusion limits on the scale of new physics (either $\Lambda$ or M$_{s}$) are then set. A slightly different search approach is made between CI and ADD. In CI the shape of new physics is informative and therefore a series of invariant mass search bins are used with bin edges of 400, 550, 800, 1200, 1800, 3000 and 45000 GeV. With the addition of information from the $\cos{\theta^{*}}$ variable in this an analysis bins are also then split up in $\cos{\theta^{*}}$ as well as invariant mass. Its was found (see Appendix \ref{}) that most of the new information was obtained via using two bins in $\cos{\theta^{*}}$ making a total of 12 search bins distributed in invariant mass and $\cos{\theta^{*}}$. ADD on the other hand doesn't gain from the many search bin approach due to a sharper turn-on and undefined nature of the signal after the cut off point. Therefore only one search bin is used to search for ADD with a minimum invariant mass cut of 1900 GeV and upper cut of 4500 GeV. The ADD model gains no additional discriminating power from the $\cos{\theta^{*}}$ variable. The statistical analysis then starts off with the definition of the number of expected events $\mu$ found in the signal region as seen in Eq. \ref{eq:bay_events}.
+
+	\begin{equation}
+		\mu = n_{s}(\Theta,\overline{\Omega}) + n_{b}(\overline{\Omega})
+    	\label{eq:bay_events}
+    \end{equation}
+
+    Here $n_{s}$ is the number of signal events predicted by the model with a particular model parameter $\Theta$ and $n_{b}$ is the total number of predicted background events. $\overline{\Omega}$ is then a set of Gaussian nuisance parameters or systematic uncertainties on the number of expected events for signal and background. A product of Poisson probabilities for each search bin $k$ gives the Bayesian likelihood, seen in Eq. \ref{eq:likelihood}, of observing $n$ events given the signal parameter $\Theta$ and nuisance parameters $\overline{\Omega}$.
+
+	\begin{equation}
+		\mathcal{L}(n~|~\Theta,\overline{\Omega}) = \prod\limits^{N}_{k=1}{\frac{\mu^{n_{k}}_{k} e^{-\mu_{k}}}{n_{k}!}}
+    	\label{eq:likelihood}
+    \end{equation}
+
+    where $\mu^{n_{k}}_{k}$ and $n_{k}$ are the total number of expected events and observed number of events in search bin $k$ respectively. 
+
+
+	\begin{equation}
+		\mathcal{P}(\Theta~|~n) = \frac{1}{\mathcal{Z}}\mathcal{L}_{\mathcal{M}}(n~|~\Theta)P(\Theta)
+    	\label{eq:postProb}
+    \end{equation}
+
+    Equation \ref{eq:postProb} then shows the posterior probability using Bayes' theorem 
+
+
+
 
 \section{Systematics}
 
@@ -10,7 +36,7 @@
 
 \section{Setting Limits}
 
-\subsection{Contact Interation Limits}
+\subsection{Contact Interaction Limits}
 
 \subsection{ADD Limits}
 

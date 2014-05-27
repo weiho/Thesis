@@ -1,21 +1,53 @@
 \chapter{Background Estimate}
 
+This chapter discuses methods used to estimate background processes the the signal. These background processes can be split up in to two categories; Reducible and irreducible. Irreducible backgrounds consist of those background almost indistinguishable from our signal process namely clean high energy dielectron decays such as decays of the Z boson and the Drell-Yan (DY) spectrum. DY ($q\bar{q}~\rightarrow~Z/\gamma^{*}~\rightarrow~\ell^{-}\ell^{+}$) is largest background process and also interferes with the signal processes. Another irreducible background also estimated is the Photon Induced processes ($\gamma\gamma~\rightarrow~\ell^{-}\ell^{+}$) coming from the collision of two photons. Reducible backgrounds are those that can be reduced through event selection and three are included in this analysis. These reducible backgrounds consist of Top precessed, collisions creating single top quarks and $t\bar{t}$ events which decay to include two electrons, Diboson events, the creation of WW, WZ and ZZ events that decay in to two electron events, and finally Multi-jet \& W+jets events where one or more electron signature is faked by jet objects. All of these backgrounds are estimated via Monte Carlo generators except for the Multi-jet \& W+jets background which is estimated via a data-driven fake factor method. Once completed all background samples are summed together to create the full background estimate. Within the Z boson peak region (80 - 120 GeV) were it is know no new physics is found MC samples are scaled to data with multijet sample subtracted in order to rule out luminosity errors. Detailed bellow is the full derision of the background estimates ready for comparison to data.
+
 \section{Monte Carlo samples}
-{\normalsize - MC's used, PDF's, k-factors}
+
+% -Detector Simulation and Object Reconstruction
+%    -GEANT 4 and ATHENA
+
+% -PDF Choice and NNLO Corrections
+%    - which generators a
+%    - powheg k factor
 
 
-\subsection{Detector Simulation and Object Reconstruction}
-   -GEANT 4 and ATHENA
+   {\bf Drell-Yan}
 
-\subsection{PDF Choice and NNLO Corrections}
+
+   {\bf Photon-Induced}
+
+
+   {\bf Diboson}
+
+
+   {\bf Top}
+
+
+   % -Top High Energy Fit
+
+
 
 \subsection{MC Corrections}
 
+   {\bf Pile-up Correction}
+
+   {\bf Vertex Position Reweighing}
+
+   {\bf Energy Smearing Correction}
+
+   {\bf Electron efficiency Scale Factor}
+
+   {\bf Trigger Scale Factor}
+
+   {\bf Isolation Scale Factor}
+
+   
 
 
 
 
-\newpage
+
 \section{Fake Factor Multi-Jet Estimate}
 
 One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a ``fake factor'' or ``matrix-method''. This is a data-driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition (see Chapter 4) with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden values are also assigned $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
@@ -149,7 +181,7 @@ Due to the different prescales of each trigger a separate set of fake rates are 
 \subsection{Properties of Multi-Jet Background}
 
 In order to compose the final sample events are organised by the distributions $N_{TT}$, $N_{TL}$, $N_{LT}$ or $N_{LL}$ and weights are applied according to each electrons $p_{T}$, $\eta$ with respect to Eq.~\ref{eq:mainFakeResult} and the corresponding efficiencies and fake rates. 
-Fig. \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. In addition to these steps an extra fit is then applied at low invariant mass due to contamination due to the Z boson peak. This method is not suited to predicting the Multi-Jet background in the Z boson peak region and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and bellow. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region.
+Fig. \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. In addition to these steps an extra fit is then applied at low invariant mass due to contamination due to the Z boson peak. This method is not suited to predicting the Multi-Jet background in the Z boson peak region and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and bellow. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region. At high-mass statistics of the sample decline and so an additional fit is made a high mass with the lower edge of the fit varied between 425 and 600 GeV and the upper edge from 700 to 1200 GeV, with the stitching point at 500 GeV.
 
    \begin{figure}[h]
       \begin{center}
@@ -179,7 +211,10 @@ Two other methods and variations upon them were used to test the validity of thi
 
 
 
-\newpage
+
+
+
+
 
 
 
