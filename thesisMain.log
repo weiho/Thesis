@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  27 MAY 2014 22:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  29 MAY 2014 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,24 +731,6 @@ less on input line 47.
 
 (./thesisMain.aux
 
-LaTeX Warning: Label `fig:C5_sub_iso_efficiency' multiply defined.
-
-
-LaTeX Warning: Label `fig:C5_sub_iso_efficiency' multiply defined.
-
-
-LaTeX Warning: Label `fig:C5_sub_iso_efficiency' multiply defined.
-
-
-LaTeX Warning: Label `fig:C5_sub_iso_efficiency' multiply defined.
-
-
-LaTeX Warning: Label `tab:det_res' multiply defined.
-
-
-LaTeX Warning: Label `tab:det_res' multiply defined.
-
-
 LaTeX Warning: Label `tab:CIyeilds' multiply defined.
 
 )
@@ -909,16 +891,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 [1
 
-] [2] [3]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+]
+File: images/compositeness.eps Graphic file (type eps)
+ <images/compositeness.eps> [2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-[4]) [5] (./chapters/2_Experiment.tex
+) [5] (./chapters/2_Experiment.tex
 Chapter 2.
 File: images/LHCUnder.eps Graphic file (type eps)
 <images/LHCUnder.eps>
@@ -1168,77 +1148,263 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30] [31]) (./chapters/6_Background_Estimate.tex [32] [33]
 Chapter 6.
+
+LaTeX Warning: Citation `w' on page 34 undefined on input line 8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
 [34
 
-] [35] [36]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+[36] [37]
 File: images/r1.eps Graphic file (type eps)
  <images/r1.eps>
 File: images/r2.eps Graphic file (type eps)
- <images/r2.eps> [37]
+ <images/r2.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38]
 File: images/f1.eps Graphic file (type eps)
  <images/f1.eps>
 File: images/f2.eps Graphic file (type eps)
+ <images/f2.eps>
 
-<images/f2.eps> [38]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39]
 File: images/N_distributions.eps Graphic file (type eps)
  <images/N_distributions.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40]
 File: images/ff_bkg_variation.ps Graphic file (type eps)
  <images/ff_bkg_variation.ps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [39] (./chapters/7_Signal_Search.tex [40]
+) [41] (./chapters/7_Signal_Search.tex [42]
 Chapter 7.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [41
-
-] (./chapters/8_Statistical_Analysis.tex [42]
-Chapter 8.
-
-LaTeX Warning: Reference `' on page 43 undefined on input line 3.
+ []
 
 [43
 
-]) [44] (./chapters/9_Conclusion.tex
-Chapter 9.
-) [45
+]
 
-] [46
+LaTeX Warning: Reference `' on page 44 undefined on input line 59.
+
+
+Package caption Warning: \label without proper \caption on input line 145.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:CI_results1' on page 44 undefined on input line 5
+9.
+
+
+Package caption Warning: \label without proper \caption on input line 186.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:CI_results2' on page 44 undefined on input line 5
+9.
+
+
+Package caption Warning: \label without proper \caption on input line 230.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:CI_results3' on page 44 undefined on input line 5
+9.
+
+
+Package caption Warning: \label without proper \caption on input line 247.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:ADD_results' on page 44 undefined on input line 5
+9.
+
+[44]
+File: images/invMass_main.eps Graphic file (type eps)
+ <images/invMass_main.eps>
+File: images/AFB_main.eps Graphic file (type eps)
+ <images/AFB_main.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/CosThetaStar_Control_main.eps Graphic file (type eps)
+<images/CosThetaStar_Control_main.eps>
+File: images/CosThetaStar_Signal_main.eps Graphic file (type eps)
+ <images/CosThetaStar_Signal_main.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (34.08311pt too wide) in paragraph at lines 196--231
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [45] (./chapters/8_Statistical_Analysis.tex [46] [47] [48]
+Chapter 8.
+
+LaTeX Warning: Reference `' on page 49 undefined on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+[49
+
+]
+File: images/ee__LL_minus_L2/post.ps Graphic file (type eps)
+ <images/ee__LL_minus_L2/post.ps>
+File: images/ee__LR_minus_L2/post.ps Graphic file (type eps)
+ <images/ee__LR_minus_L2/post.ps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50]
+File: images/ee__LL_minus_L2/LLR.eps Graphic file (type eps)
+ <images/ee__LL_minus_L2/LLR.eps>
+File: images/ee__LR_minus_L2/LLR.eps Graphic file (type eps)
+ <images/ee__LR_minus_L2/LLR.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51]
+File: images/ee__LL_minus_L2/Theta.eps Graphic file (type eps)
+ <images/ee__LL_minus_L2/Theta.eps>
+File: images/ee__LR_minus_L2/Theta.eps Graphic file (type eps)
+ <images/ee__LR_minus_L2/Theta.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[52]) [53] (./chapters/9_Conclusion.tex [54] [55]
+Chapter 9.
+) [56
+
+] [57
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 47 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 58 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 47 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 58 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 47 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 58 undefined on input line 20.
 
-[47
+[58
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[48]
+[59]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49]
+[60]
 
-LaTeX Warning: Citation `QCD' on page 50 undefined on input line 134.
+LaTeX Warning: Citation `QCD' on page 61 undefined on input line 134.
 
 File: images/lead_pT.eps Graphic file (type eps)
 <images/lead_pT.eps>
@@ -1271,11 +1437,11 @@ File: images/ADD_inv_mass.eps Graphic file (type eps)
  <images/ADD_inv_mass.eps>
 File: images/ADD_int_inv_mass.eps Graphic file (type eps)
 
-<images/ADD_int_inv_mass.eps> [50] [51] [52] [53] [54]
+<images/ADD_int_inv_mass.eps> [61] [62] [63] [64] [65]
 
-LaTeX Warning: Citation `BAT' on page 55 undefined on input line 335.
+LaTeX Warning: Citation `BAT' on page 66 undefined on input line 335.
 
-) [55] (./thesisMain.bbl
+) [66] (./thesisMain.bbl
 Underfull \hbox (badness 1348) in paragraph at lines 15--23
 \OT1/ptm/m/n/10.95 for quark com-pos-ite-ness and ex-tra spa-tial di-men-sions,
  Phys. Rev. Lett. 103 (2009) 191803.
@@ -1287,7 +1453,7 @@ Underfull \hbox (badness 1163) in paragraph at lines 34--41
 Phys. Rev. D 87 (2013) 015010.
  []
 
-[56
+[67
 
 ]
 Missing character: There is no â in font ptmr7t!
@@ -1310,13 +1476,13 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
-[57]
+[68]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-) [58] (./thesisMain.aux)
+) [69] (./thesisMain.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1325,12 +1491,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12373 strings out of 493611
- 253101 string characters out of 3142449
- 261252 words of memory out of 3000000
- 15405 multiletter control sequences out of 15000+200000
- 40454 words of font info for 118 fonts, out of 3000000 for 9000
+ 12447 strings out of 493611
+ 254392 string characters out of 3142449
+ 276708 words of memory out of 3000000
+ 15469 multiletter control sequences out of 15000+200000
+ 47772 words of font info for 140 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,15n,43p,1762b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,15n,43p,1899b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (68 pages, 187932 bytes).
+Output written on thesisMain.dvi (79 pages, 234756 bytes).

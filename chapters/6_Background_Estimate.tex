@@ -1,49 +1,57 @@
 \chapter{Background Estimate}
 
-This chapter discuses methods used to estimate background processes the the signal. These background processes can be split up in to two categories; Reducible and irreducible. Irreducible backgrounds consist of those background almost indistinguishable from our signal process namely clean high energy dielectron decays such as decays of the Z boson and the Drell-Yan (DY) spectrum. DY ($q\bar{q}~\rightarrow~Z/\gamma^{*}~\rightarrow~\ell^{-}\ell^{+}$) is largest background process and also interferes with the signal processes. Another irreducible background also estimated is the Photon Induced processes ($\gamma\gamma~\rightarrow~\ell^{-}\ell^{+}$) coming from the collision of two photons. Reducible backgrounds are those that can be reduced through event selection and three are included in this analysis. These reducible backgrounds consist of Top precessed, collisions creating single top quarks and $t\bar{t}$ events which decay to include two electrons, Diboson events, the creation of WW, WZ and ZZ events that decay in to two electron events, and finally Multi-jet \& W+jets events where one or more electron signature is faked by jet objects. All of these backgrounds are estimated via Monte Carlo generators except for the Multi-jet \& W+jets background which is estimated via a data-driven fake factor method. Once completed all background samples are summed together to create the full background estimate. Within the Z boson peak region (80 - 120 GeV) were it is know no new physics is found MC samples are scaled to data with multijet sample subtracted in order to rule out luminosity errors. Detailed bellow is the full derision of the background estimates ready for comparison to data.
+This chapter discuses methods used to estimate background processes the the signal. These background processes can be split up in to two categories; Reducible and irreducible. Irreducible backgrounds consist of those background almost indistinguishable from our signal process namely clean high energy dielectron decays such as decays of the Z boson and the Drell-Yan (DY) spectrum. DY ($q\bar{q}~\rightarrow~Z/\gamma^{*}~\rightarrow~\ell^{-}\ell^{+}$) is largest background process and also interferes with the signal processes. Another irreducible background also estimated is the Photon Induced processes ($\gamma\gamma~\rightarrow~\ell^{-}\ell^{+}$) coming from the collision of two photons. Reducible backgrounds are those that can be reduced through event selection and three are included in this analysis. These reducible backgrounds consist of Top precessed, collisions creating single top quarks and $t\bar{t}$ events which decay to include two electrons, Diboson events, the creation of WW, WZ and ZZ events that decay in to two electron events, and finally Multi-jet \& W+jets events where one or more electron signature is faked by jet objects. All of these backgrounds are estimated via Monte Carlo generators except for the Multi-jet \& W+jets background which is estimated via a data-driven fake factor method. Once completed all background samples are summed together to create the full background estimate. MC samples are then scaled to the integrated luminosity of data collected in 2012 which is 20.3 fb$^{-1}$. Within the Z boson peak region (80 - 120 GeV) were it is know no new physics is found MC samples are scaled to data minus multijet sample in order to rule out luminosity errors. This scale factor is found to be 1.048. Detailed bellow is the full derision of the background estimates ready for comparison to data.
 
 \section{Monte Carlo samples}
+   \label{sec:MC}
 
-% -Detector Simulation and Object Reconstruction
-%    -GEANT 4 and ATHENA
-
-% -PDF Choice and NNLO Corrections
-%    - which generators a
-%    - powheg k factor
+   Monte Carlo (MC) samples are produced centrally within ATLAS with each corresponding generator of choice. The generated events then undergo detector simulation using GEANT 4 \cite which produces a data format identical to a readout from the ATLAS detector plus additional ``truth'' parameters from the original MC generation. The samples then undergo the same reconstruction as data events within ATHENA producing a MC sample ready to be analysed the same as data.\\
 
 
-   {\bf Drell-Yan}
+   {\bf\raggedright Drell-Yan}
+
+   {\raggedright The Drell-Yan (DY) background is produced using the POWHEG + PYTHIA generator which is a next to leading order (NLO) generation with POWHEG \cite{} with event showering handled by PYTHIA 8 \cite{}. The parton density function (PDF) used is CT10 \cite{}. A K-factor is then used in order to weigh the cross-section from NLO up to next to next to leading order (NNLO). This NNLO K-factor is derived using FEWZ \cite{} which uses the MSTW2008 NNLO PDF \cite{} from which a QCD+EW mass-dependent K-factor is obtained. The DY sample is split in to 16 MC truth dilepton mass bins. The first bin from 60 - 120 GeV is a very high statistics sample providing a low statistical uncertainty for the region used for scaling MC in the Z boson peak.} \\
 
 
-   {\bf Photon-Induced}
+   {\bf\raggedright Photon-Induced}
+
+   {\raggedright The Photon-Induced (PI) fraction is estimated via PYTHIA 8 \cite{} generator with the LO PDF MRST2004QED \cite{}. This sample is split in to 4 dilepton mass bins covering the region of this analysis.}\\
 
 
-   {\bf Diboson}
+   {\bf\raggedright Diboson}
 
+   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{} with the LO PDF CTEQ6L1 \cite{}. The sample with split in to the three processed, WW, WZ and ZZ, with each process split in to 4 mass-binned samples. The sample is then scaled to NLO in a mass-independent way seen here \cite{}.}\\
 
-   {\bf Top}
+   {\bf\raggedright Top}
 
-
-   % -Top High Energy Fit
-
+   {\raggedright The top sample is estimated using MC@NLO 3.41 \cite{} with NLO PDF CT10 \cite{} to generate matrix elements with JIMMY 4.31 \cite{} describing parton interactions and HERWIG \cite{} deriving the underlying event and parton showers. Both $t\bar{t}$ and single Top processes are generated in two inclusive samples. A NNLO QCD K-factor is also derived using Top++ 2.0 \cite{}. The top sample also undergoes a fit at high mass where statistics grow too low. A dijet function is used to fig between 200 - 700 GeV and then stitched above 500 GeV. }
 
 
 \subsection{MC Corrections}
 
-   {\bf Pile-up Correction}
+   Corrections are applied to MC sample due to many factors including unknown run conditions within the ATLAS detector due to MC samples being created earlier than data collection as well as known inefficiencies in the reconstruction of MC events. Bellow are listed all of the corrections which are applied on an event by even basis during the analysis of MC samples.\\
 
-   {\bf Vertex Position Reweighing}
 
-   {\bf Energy Smearing Correction}
+   {\bf\raggedright Pile-up Correction}
 
-   {\bf Electron efficiency Scale Factor}
+   {\raggedright Pile-up (PU) or number of simultaneous proton-proton interactions within an event is hard to predict prior to running and it is therefore intentional that MC is produced with a broad range of PU values which then get weighted according to run conditions within the detector. PU conditions can also change throughout data taking and so the PU correction is specified for a particular set of ATLAS data.}\\
 
-   {\bf Trigger Scale Factor}
+   {\bf\raggedright Vertex Position Reweighing}
 
-   {\bf Isolation Scale Factor}
+   {\raggedright Vertex position is again another variable hard to predict pre-run and can therefore be weighted later once run conditions are known. This correction is not widely used within ATLUS due to its minimal effect however it was found to add better data background agreement to the $\cos{\theta^{*}}$ distribution within the scaling and control region. Its effects on the analysis are minimal.}\\
 
-   
+   {\bf\raggedright Energy Smearing Correction}
 
+   {\raggedright The energy smearing correction is used to better estimate the energy of electron signatures. It comes about due to the detector simulation not fully estimating the smearing of energy values. This correction is derived from a Z peak calibration study \cite{} done within the ATLAS electron photon performance group and matches MC to data. These corrections provide a $\eta$ and E dependent smearing value applied to electron energy before electron selection.}\\
+
+   {\bf\raggedright Electron efficiency Scale Factor}
+
+   {\raggedright The electron photon performance group also noticed some inefficiencies in electron reconstruction and identification. These form a set of scale factors applied in bins of E$_{T}$ and $\eta$ after event selection.}\\
+
+
+   {\bf\raggedright Isolation and Trigger Scale Factor}
+
+   {\raggedright A study was done of the data/MC comparison for the isolation selections and the trigger requirements. The differences were found to be bellow 1\% and are applied as a uniform scale factor after event selection.}
 
 
 

@@ -1,0 +1,466 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%BoundingBox: 21 229 376 356
+%%HiResBoundingBox: 355.500000 127.500000 0.000000 0.000000
+%%Creator: FeynDiagram $Revision: 2.6 $  by Bill Dimm
+%%LanguageLevel: 1
+%%EndComments
+% EPSF created by ps2eps 1.64
+%%BeginProlog
+save
+countdictstack
+mark
+newpath
+/showpage {} def
+/setpagedevice {pop} def
+%%EndProlog
+%%Page 1 1
+%%BeginProlog
+% $Id: abbrev.ps,v 1.11 2000/04/18 19:16:07 billd Exp $
+/CP /charpath load def
+/CF /currentflat load def
+/CPT /currentpoint load def
+/C2 /curveto load def
+/RC2 /rcurveto load def
+/FP /flattenpath load def
+/L2 /lineto load def
+/M2 /moveto load def
+/NP /newpath load def
+/PBX /pathbbox load def
+/RM2 /rmoveto load def
+/SD /setdash load def
+/SLC /setlinecap load def
+/SLW /setlinewidth load def
+/S /show load def
+/ST /stroke load def
+% $Id: max.ps,v 1.10 2000/04/18 19:16:07 billd Exp $
+/max { 2 copy lt {exch} if pop } bind def
+% $Id: vertex.ps,v 1.11 2000/04/18 19:16:07 billd Exp $
+/vtx_dict 20 dict def
+vtx_dict /vtx_mtrxstor matrix put
+/vtx_create
+  {
+  vtx_dict begin
+  /ang exch def
+  /rad exch def
+  /y exch def
+  /x exch def
+  /vtx_proc exch def
+  /vtx_oldmatrix vtx_mtrxstor currentmatrix def
+  x y translate
+  ang rotate
+  vtx_proc
+  vtx_oldmatrix setmatrix
+  end
+  } bind def
+/vtx_dot
+  {
+  NP
+  rad 0 M2
+  0 0 rad 0 360 arc
+  0 setgray
+  fill
+  } bind def
+/vtx_box
+  {
+  NP
+  rad rad M2
+  rad rad neg L2
+  rad neg rad neg L2
+  rad neg rad L2
+  closepath
+  0 setgray
+  fill
+  } def
+/vtx_open_box
+  {
+  NP
+  rad rad M2
+  rad rad neg L2
+  rad neg rad neg L2
+  rad neg rad L2
+  closepath
+  1 setgray
+  gsave fill grestore
+	0 setgray
+	ST
+  } def
+/vtx_cross
+  {
+  NP
+  -1 2 sqrt div rad mul
+  -1 2 sqrt div rad mul
+  M2
+  1 2 sqrt div rad mul
+  1 2 sqrt div rad mul
+  L2
+  -1 2 sqrt div rad mul
+  1 2 sqrt div rad mul
+  M2
+  1 2 sqrt div rad mul
+  -1 2 sqrt div rad mul
+  L2
+  ST
+  } def
+/vtx_circlecross
+  {
+  /xshrfct .63 def
+    % blank out whatever is underneath
+  NP
+  rad 0 M2
+  0 0 rad 0 360 arc
+  1 setgray
+  fill
+  NP
+  -1 2 sqrt div rad mul xshrfct mul
+  -1 2 sqrt div rad mul xshrfct mul
+  M2
+  1 2 sqrt div rad mul xshrfct mul
+  1 2 sqrt div rad mul xshrfct mul
+  L2
+  -1 2 sqrt div rad mul xshrfct mul
+  1 2 sqrt div rad mul xshrfct mul
+  M2
+  1 2 sqrt div rad mul xshrfct mul
+  -1 2 sqrt div rad mul xshrfct mul
+  L2
+  rad 0 M2
+  0 0 rad 0 360 arc
+  0 setgray
+  ST
+  } def
+% $Id: arrow.ps,v 1.11 2003/08/09 22:37:33 billd Exp $
+/tan
+  {
+  dup
+  sin exch cos div
+  } bind def
+/arrow_dict 12 dict def
+arrow_dict /arrow_mtrxstor matrix put
+/arrow
+  {
+  arrow_dict 
+    begin
+    /alpha exch def
+    /y2 exch def
+    /x2 exch def
+    /y1 exch def
+    /x1 exch def
+  
+    /arrow_oldmtrx arrow_mtrxstor currentmatrix def
+  
+    /dx x2 x1 sub def
+    /dy y2 y1 sub def
+  
+    /len dx dx mul dy dy mul add sqrt def
+    
+	 % complicated way to say theta = 90 - alpha?
+    /theta 1 alpha tan atan def
+	 % complicated way to say rad = len * sin(alpha) / (1 - sin(alpha))?
+    /rad len alpha tan mul 
+      theta sin alpha tan theta cos -1 add mul add div def
+  
+    x1 y1 translate
+    dy dx atan rotate
+  
+    len 0 M2
+    rad neg 0 rad theta 360 theta sub arcn
+    closepath
+  
+    arrow_oldmtrx setmatrix
+    end
+  } bind def
+% $Id: text.ps,v 1.10 2000/04/18 19:16:07 billd Exp $
+/text_dict 20 dict def
+text_dict /text_mtrxstor matrix put
+/SF* {  exch findfont exch scalefont setfont } bind def
+systemdict /selectfont known
+  { /SF /selectfont load def }
+  { /SF /SF* load def }
+  ifelse
+/txtsta
+  {
+  text_dict begin
+  /angle exch def
+  /y exch def
+  /x exch def
+  /text_oldmtrx text_mtrxstor currentmatrix def
+  x y translate
+  angle rotate
+  } bind def
+/txtend
+  {
+  text_oldmtrx setmatrix
+  end
+  } bind def
+%%EndProlog
+%%Page: 1 1
+%%PageBoundingBox: 21.1772 229.977 375.386 355.486
+%%PageOrientation: Portrait
+save
+NP
+0.504 SLW
+1 SLC
+36 324 M2
+72 288 L2
+ST
+1 SLW
+0 SLC
+52.8239 307.176 55.1761 304.824 22 arrow
+fill
+NP
+0.504 SLW
+1 SLC
+72 288 M2
+36 252 L2
+ST
+1 SLW
+0 SLC
+55.1761 271.176 52.8239 268.824 22 arrow
+fill
+NP
+0.504 SLW
+1 SLC
+72 288 M2
+73.3333 284.573 74.6667 284.573 76 288 C2
+77.3333 291.427 78.6667 291.427 80 288 C2
+81.3333 284.573 82.6667 284.573 84 288 C2
+85.3333 291.427 86.6667 291.427 88 288 C2
+89.3333 284.573 90.6667 284.573 92 288 C2
+93.3333 291.427 94.6667 291.427 96 288 C2
+97.3333 284.573 98.6667 284.573 100 288 C2
+101.333 291.427 102.667 291.427 104 288 C2
+105.333 284.573 106.667 284.573 108 288 C2
+109.333 291.427 110.667 291.427 112 288 C2
+113.333 284.573 114.667 284.573 116 288 C2
+117.333 291.427 118.667 291.427 120 288 C2
+121.333 284.573 122.667 284.573 124 288 C2
+125.333 291.427 126.667 291.427 128 288 C2
+129.333 284.573 130.667 284.573 132 288 C2
+133.333 291.427 134.667 291.427 136 288 C2
+137.333 284.573 138.667 284.573 140 288 C2
+141.333 291.427 142.667 291.427 144 288 C2
+ST
+NP
+0.504 SLW
+1 SLC
+144 288 M2
+180 324 L2
+ST
+1 SLW
+0 SLC
+160.824 304.824 163.176 307.176 22 arrow
+fill
+NP
+0.504 SLW
+1 SLC
+180 252 M2
+144 288 L2
+ST
+1 SLW
+0 SLC
+163.176 268.824 160.824 271.176 22 arrow
+fill
+0.756 SLW
+{vtx_dot} 72 288 1.806 0 vtx_create
+0.756 SLW
+{vtx_dot} 144 288 1.806 0 vtx_create
+43.2 302.4 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+(q) S
+txtend
+43.2 273.6 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+() S
+CF dup 5 mul setflat
+CPT
+/Times-Roman 11.232 SF
+(q) true CP
+FP PBX
+7 -1 roll setflat
+1.6848 add
+3 -1 roll pop dup 3 1 roll
+NP M2 0.78624 SLW
+L2 ST
+M2
+/Times-Roman 11.232 SF
+(q) S
+txtend
+104.4 295.2 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+() S
+/Symbol 11.232 SF
+(\147) S
+/Times-Roman 11.232 SF
+(/Z) S
+txtend
+169.2 302.4 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+() S
+/Symbol 11.232 SF
+(\155) S
+/Times-Roman 11.232 SF
+() S
+CPT
+0 5.616 RM2
+/Times-Roman 7.8624 SF
+(-) S
+exch pop CPT pop exch M2
+/Times-Roman 11.232 SF
+() S
+txtend
+169.2 273.6 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+() S
+/Symbol 11.232 SF
+(\155) S
+/Times-Roman 11.232 SF
+() S
+CPT
+0 5.616 RM2
+/Times-Roman 7.8624 SF
+(+) S
+exch pop CPT pop exch M2
+/Times-Roman 11.232 SF
+() S
+txtend
+NP
+0.504 SLW
+1 SLC
+230.4 324 M2
+280.8 288 L2
+ST
+1 SLW
+0 SLC
+254.247 306.967 256.953 305.033 22 arrow
+fill
+NP
+0.504 SLW
+1 SLC
+280.8 288 M2
+230.4 252 L2
+ST
+1 SLW
+0 SLC
+256.953 270.967 254.247 269.033 22 arrow
+fill
+NP
+0.504 SLW
+1 SLC
+280.8 288 M2
+331.2 324 L2
+ST
+1 SLW
+0 SLC
+304.647 305.033 307.353 306.967 22 arrow
+fill
+NP
+0.504 SLW
+1 SLC
+331.2 252 M2
+280.8 288 L2
+ST
+1 SLW
+0 SLC
+307.353 269.033 304.647 270.967 22 arrow
+fill
+0.756 SLW
+{vtx_dot} 280.8 288 1.806 0 vtx_create
+237.6 302.4 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+(q) S
+txtend
+237.6 273.6 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+() S
+CF dup 5 mul setflat
+CPT
+/Times-Roman 11.232 SF
+(q) true CP
+FP PBX
+7 -1 roll setflat
+1.6848 add
+3 -1 roll pop dup 3 1 roll
+NP M2 0.78624 SLW
+L2 ST
+M2
+/Times-Roman 11.232 SF
+(q) S
+txtend
+277.2 295.2 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+() S
+/Symbol 11.232 SF
+(\114) S
+/Times-Roman 11.232 SF
+() S
+txtend
+316.8 302.4 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+() S
+/Symbol 11.232 SF
+(\155) S
+/Times-Roman 11.232 SF
+() S
+CPT
+0 5.616 RM2
+/Times-Roman 7.8624 SF
+(-) S
+exch pop CPT pop exch M2
+/Times-Roman 11.232 SF
+() S
+txtend
+316.8 273.6 0 txtsta
+0 0 M2
+/Times-Roman 11.232 SF
+() S
+/Symbol 11.232 SF
+(\155) S
+/Times-Roman 11.232 SF
+() S
+CPT
+0 5.616 RM2
+/Times-Roman 7.8624 SF
+(+) S
+exch pop CPT pop exch M2
+/Times-Roman 11.232 SF
+() S
+txtend
+NP
+0.5 SLW
+1 SLC
+21.6 230.4 M2
+21.6 345.6 L2
+ST
+NP
+0.5 SLW
+1 SLC
+352.8 230.4 M2
+352.8 345.6 L2
+ST
+202.5 285.3 0 txtsta
+0 0 M2
+/Times-Roman 17 SF
+(+) S
+txtend
+360 338.4 0 txtsta
+0 0 M2
+/Times-Roman 17 SF
+(2) S
+txtend
+restore
+showpage
+%%Trailer
+cleartomark
+countdictstack
+exch sub { end } repeat
+restore
+%%EOF
