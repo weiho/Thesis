@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  29 MAY 2014 22:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  30 MAY 2014 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,7 +894,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 ]
 File: images/compositeness.eps Graphic file (type eps)
  <images/compositeness.eps> [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
@@ -1146,7 +1146,11 @@ File: images/C5_sub_iso_efficiency.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30] [31]) (./chapters/6_Background_Estimate.tex [32] [33]
+[30] [31]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [32] (./chapters/6_Background_Estimate.tex [33]
 Chapter 6.
 
 LaTeX Warning: Citation `w' on page 34 undefined on input line 8.
@@ -1174,27 +1178,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
@@ -1245,30 +1249,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 LaTeX Warning: Reference `' on page 44 undefined on input line 59.
 
 
-Package caption Warning: \label without proper \caption on input line 145.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:CI_results1' on page 44 undefined on input line 5
-9.
-
-
-Package caption Warning: \label without proper \caption on input line 186.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:CI_results2' on page 44 undefined on input line 5
-9.
-
-
-Package caption Warning: \label without proper \caption on input line 230.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:CI_results3' on page 44 undefined on input line 5
-9.
-
-
 Package caption Warning: \label without proper \caption on input line 247.
 See the caption package documentation for explanation.
 
@@ -1303,7 +1283,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (34.08311pt too wide) in paragraph at lines 196--231
+Overfull \hbox (34.08311pt too wide) in paragraph at lines 196--230
  [] 
  []
 
@@ -1339,24 +1319,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50]
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--114
+
+ []
+
+[50] [51] [52]
 File: images/ee__LL_minus_L2/LLR.eps Graphic file (type eps)
  <images/ee__LL_minus_L2/LLR.eps>
 File: images/ee__LR_minus_L2/LLR.eps Graphic file (type eps)
- <images/ee__LR_minus_L2/LLR.eps>
+
+<images/ee__LR_minus_L2/LLR.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[51]
+[53]
 File: images/ee__LL_minus_L2/Theta.eps Graphic file (type eps)
  <images/ee__LL_minus_L2/Theta.eps>
 File: images/ee__LR_minus_L2/Theta.eps Graphic file (type eps)
@@ -1370,41 +1350,38 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[52]) [53] (./chapters/9_Conclusion.tex [54] [55]
+[54]) [55] (./chapters/9_Conclusion.tex [56]
 Chapter 9.
-) [56
+) [57
 
-] [57
+] [58
 
 
 ] (./chapters/ApendixA_2011_Analysis.tex
 Appendix A.
 
-LaTeX Warning: Citation `pythia' on page 58 undefined on input line 20.
+LaTeX Warning: Citation `pythia' on page 59 undefined on input line 20.
 
 
-LaTeX Warning: Citation `geant' on page 58 undefined on input line 20.
+LaTeX Warning: Citation `geant' on page 59 undefined on input line 20.
 
 
-LaTeX Warning: Citation `QCD' on page 58 undefined on input line 20.
+LaTeX Warning: Citation `QCD' on page 59 undefined on input line 20.
 
-[58
+[59
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[59]
+[60]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60]
+[61]
 
-LaTeX Warning: Citation `QCD' on page 61 undefined on input line 134.
+LaTeX Warning: Citation `QCD' on page 62 undefined on input line 134.
 
 File: images/lead_pT.eps Graphic file (type eps)
 <images/lead_pT.eps>
@@ -1437,11 +1414,11 @@ File: images/ADD_inv_mass.eps Graphic file (type eps)
  <images/ADD_inv_mass.eps>
 File: images/ADD_int_inv_mass.eps Graphic file (type eps)
 
-<images/ADD_int_inv_mass.eps> [61] [62] [63] [64] [65]
+<images/ADD_int_inv_mass.eps> [62] [63] [64] [65] [66]
 
-LaTeX Warning: Citation `BAT' on page 66 undefined on input line 335.
+LaTeX Warning: Citation `BAT' on page 67 undefined on input line 335.
 
-) [66] (./thesisMain.bbl
+) [67] (./thesisMain.bbl
 Underfull \hbox (badness 1348) in paragraph at lines 15--23
 \OT1/ptm/m/n/10.95 for quark com-pos-ite-ness and ex-tra spa-tial di-men-sions,
  Phys. Rev. Lett. 103 (2009) 191803.
@@ -1453,7 +1430,7 @@ Underfull \hbox (badness 1163) in paragraph at lines 34--41
 Phys. Rev. D 87 (2013) 015010.
  []
 
-[67
+[68
 
 ]
 Missing character: There is no â in font ptmr7t!
@@ -1476,13 +1453,19 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
-[68]
+[69]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-) [69] (./thesisMain.aux)
+
+Underfull \hbox (badness 1152) in paragraph at lines 223--228
+[]\OT1/ptm/m/n/10.95 S. G. Bon-darenko, A. A. Sapronov, NLO EW and QCD proton-p
+roton cross sec-tion cal-cu-
+ []
+
+) [70] (./thesisMain.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1491,12 +1474,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12447 strings out of 493611
- 254392 string characters out of 3142449
- 276708 words of memory out of 3000000
- 15469 multiletter control sequences out of 15000+200000
- 47772 words of font info for 140 fonts, out of 3000000 for 9000
+ 12458 strings out of 493611
+ 254537 string characters out of 3142449
+ 275671 words of memory out of 3000000
+ 15479 multiletter control sequences out of 15000+200000
+ 48090 words of font info for 143 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,15n,43p,1899b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,15n,43p,1899b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (79 pages, 234756 bytes).
+Output written on thesisMain.dvi (80 pages, 241264 bytes).

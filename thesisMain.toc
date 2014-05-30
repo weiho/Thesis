@@ -26,8 +26,8 @@
 \contentsline {section}{\numberline {5.1}Analysis Selection}{28}
 \contentsline {subsection}{\numberline {5.1.1}Isolation Requirement}{29}
 \contentsline {section}{\numberline {5.2}Opposite Sign requirement}{31}
-\contentsline {section}{\numberline {5.3}Energy Resolution Correction}{31}
-\contentsline {section}{\numberline {5.4}Selection Acceptance $\times $ Efficiency}{31}
+\contentsline {section}{\numberline {5.3}Energy Scale Correction}{32}
+\contentsline {section}{\numberline {5.4}Selection Acceptance $\times $ Efficiency}{32}
 \contentsline {chapter}{\numberline {6}Background Estimate}{34}
 \contentsline {section}{\numberline {6.1}Monte Carlo samples}{34}
 \contentsline {subsection}{\numberline {6.1.1}MC Corrections}{35}
@@ -42,22 +42,22 @@
 \contentsline {section}{\numberline {7.3}Results}{44}
 \contentsline {chapter}{\numberline {8}Statistical Analysis}{49}
 \contentsline {section}{\numberline {8.1}Systematics}{50}
-\contentsline {section}{\numberline {8.2}Signal Search \& P-Values}{51}
-\contentsline {section}{\numberline {8.3}Setting Limits}{51}
-\contentsline {section}{\numberline {8.4}Combination with the Muon Search}{52}
-\contentsline {chapter}{\numberline {9}Conclusion}{56}
-\contentsline {section}{\numberline {9.1}Interpretation}{56}
-\contentsline {section}{\numberline {9.2}Looking Forward}{56}
-\contentsline {chapter}{Appendices}{57}
-\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{58}
-\contentsline {section}{\numberline {A.1}Data and Background Processes}{58}
-\contentsline {subsection}{\numberline {A.1.1}Data}{58}
-\contentsline {subsection}{\numberline {A.1.2}Background}{58}
-\contentsline {subsection}{\numberline {A.1.3}Background Production}{58}
-\contentsline {subsection}{\numberline {A.1.4}Signal}{59}
-\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{59}
-\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{61}
-\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{61}
-\contentsline {section}{\numberline {A.3}Statistical Analysis}{65}
-\contentsline {section}{\numberline {A.4}Results}{66}
-\contentsline {chapter}{Bibliography}{67}
+\contentsline {section}{\numberline {8.2}Signal Search \& P-Values}{53}
+\contentsline {section}{\numberline {8.3}Setting Limits}{54}
+\contentsline {section}{\numberline {8.4}Combination with the Muon Search}{54}
+\contentsline {chapter}{\numberline {9}Conclusion}{57}
+\contentsline {section}{\numberline {9.1}Interpretation}{57}
+\contentsline {section}{\numberline {9.2}Looking Forward}{57}
+\contentsline {chapter}{Appendices}{58}
+\contentsline {chapter}{\numberline {A}Non-Resonance Analysis 2011}{59}
+\contentsline {section}{\numberline {A.1}Data and Background Processes}{59}
+\contentsline {subsection}{\numberline {A.1.1}Data}{59}
+\contentsline {subsection}{\numberline {A.1.2}Background}{59}
+\contentsline {subsection}{\numberline {A.1.3}Background Production}{59}
+\contentsline {subsection}{\numberline {A.1.4}Signal}{60}
+\contentsline {section}{\numberline {A.2}Electron Identification and Selection}{60}
+\contentsline {subsection}{\numberline {A.2.1}Data and Background Comparison}{62}
+\contentsline {subsection}{\numberline {A.2.2}New Physics Signal Expectation}{62}
+\contentsline {section}{\numberline {A.3}Statistical Analysis}{66}
+\contentsline {section}{\numberline {A.4}Results}{67}
+\contentsline {chapter}{Bibliography}{68}

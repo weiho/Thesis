@@ -109,14 +109,43 @@ The main source of background the isolation cut is imposed to reduce is jets tha
 \section{Opposite Sign requirement}
    %\ref{Appendix}
 
+   The opposite sign requirement was introduced to the analysis specifically due to the use of $\cos{\theta^{*}}$ in the search. As specified in section \ref{sec:CItheory} selection of the electron and not the positron is important for the definition of $\cos{\theta^{*}}$ and if reversed would dilute the asymmetry seen in the SM and CI LR signal \ref{fig:theoryAFB}. The effect of swapping charge at reconstruction level comes about due to two main effects, very high energy electrons with very straight tracks getting miss identified and hard bremsstrahlung from an electron undergoing decay to an electron pair which the wrong electron getting identified. These are not a small effect at high dielectron mass ($~ 15\%$) and so the requirement is introduced to solve the issue of miss identification. The effect of both electrons being miss identified was studied and found to be negligible. As this requirement has some errors associated with it a systematic is introduced to accommodate it (see section \ref{sec:sys}).
 
 
-\section{Energy Resolution Correction}
+\section{Energy Scale Correction}
+
+   During the selection process an additional correction to the energy of electrons is applied that is no included in the reconstruction. This addition results for a study done by the ATLAS electron and photon performance group at the end of the data run calibrating energies within the Z boson peak. This results in a array of energy scale corrections distributed in E$_{T}$ and $\eta$ and applied before electron selection.
+
+
 
 
 \section{Selection Acceptance $\times$ Efficiency}
 
+   Figure \ref{fig:AxE} shows the acceptance $\times$ efficiency of of the event selection at selecting DY MC events while table \ref{tab:eventEff} shows the efficiency of each part of the event selection. 
 
 
 
-\newpage
+   \begin{figure}[h]
+      \begin{center}
+      %\includegraphics[scale=0.6]{images/}
+      \end{center}
+   \caption{Plot showing Acceptance $\times$ Efficiency as a function of invariant mass for DY MC events.}
+   \label{fig:AxE}
+   \end{figure}
+
+
+   \begin {table}[h]
+      \begin{center}
+      \begin{tabular}{ | l | c | c | c | } 
+         \hline
+         
+         \hline
+      \end{tabular}
+      \caption{Table showing the efficiency each event selection on DY MC.}
+      \label{tab:eventEff}
+      \end{center}
+   \end {table}
+
+
+
+

@@ -66,7 +66,7 @@
             Photon-Induced      & NA                                & NA                              \\
             Efficiency          & 1.0\% ~(2.0\%) ~[3.0\%]           & 1.0\% ~(2.0\%) ~[3.0\%]         \\
             Scale/Resolution    & 1.2\% ~(2.4\%) ~[5.0\%]           & 1.2\% ~(2.4\%) ~[5.0\%]         \\
-            Multi-jet/$W$+jets  & NA                                & NA                              \\
+            Multijet/$W$+jets  & NA                                & NA                              \\
             Beam Energy         & 1.0\% ~(3.0\%) ~[5.0\%]           & 1.0\% ~(3.0\%) ~[5.0\%]         \\
             Charge MisID        & 1.2\% ~(2.0\%) ~[2.9\%]           &  1.2\% ~(2.0\%) ~[2.9\%]        \\
             Statistical         & 3.0\% ~(3.0\%) ~[3.0\%]           & 3.0\% ~(3.0\%) ~[3.0\%]         \\
@@ -85,7 +85,7 @@
             Photon-Induced      & 6.0\% ~(10.0\%) ~[17.0\%]         & 9.5\% ~(16.5\%) ~[29.0\%]    \\
             Efficiency          & 1.0\% ~(2.0\%) ~[3.0\%]           & 1.0\% ~(2.0\%) ~[3.0\%] \\
             Scale/Resolution    & 1.2\% ~(2.4\%) ~[5.0\%]           & 1.2\% ~(2.4\%) ~[5.0\%] \\
-            Multi-jet/$W$+jets  & 3.0\% ~(5.0\%) ~[21.0\%]          & 3.0\% ~(5.0\%) ~[21.0\%] \\
+            Multijet/$W$+jets  & 3.0\% ~(5.0\%) ~[21.0\%]          & 3.0\% ~(5.0\%) ~[21.0\%] \\
             Beam Energy         & 1.0\% ~(3.0\%) ~[5.0\%]           & 1.0\% ~(3.0\%) ~[5.0\%] \\
             Charge MisID        & 1.2\% ~(2.0\%) ~[2.9\%]           & 1.2\% ~(2.0\%) ~[2.9\%] \\
             Statistical         & 0.5\% ~(0.5\%) ~[0.5\%]           & 0.5\% ~(0.5\%) ~[0.5\%] \\
@@ -97,6 +97,23 @@
         \label{tab:sys}
         \end{center}
     \end {table}
+
+
+    {\bf\raggedright Normalization} - This systematic accommodates the error associated with scaling MC samples within the Z peak to avoid luminosity errors however it also protects against any other sources of mass independent error. This systematic was investigated by looking at the effect of background cross-section on the scale factor. \\
+    {\bf\raggedright PDF Variation} - PDF variation was investigated as another source of systematic error using the set of 20 eigenvector error sets provided with the MSTW2008NNLO PDF. These eigenvectors were organised in to 4 groups, A,B,C and D, of eigenvectors with effects in similar regions of the invariant mass spectrum. These 4 groups were then used as separate nuisance parameters and applied to events based on dielectron invariant mass and $\cos{\theta^{*}}$. \\ 
+    {\bf\raggedright PDF Choice} - PDF choice refers to a comparison between the effects of different PDF's on the expected events from MC. Several other NNLO PDF are looked at including CT10 but the only PDF with predictions outside of the PDF variation systematic (seen above) was ABM11 \cite{Alekhin:2013dmy} and so an additional systematic is introduced of the order of this difference. \\
+    {\bf\raggedright $\boldsymbol{\alpha_{S}}$} - A systematic is introduced to account for error in the value $\alpha_{S}$. It is varied between the values 0.11365 and 0.12044 according to the limits in MSTW. Recalculated cross-sections give a variation in the expected background and taken as the systematic. \\
+    {\bf\raggedright EW Corrections} - The EW correction is derived via the use of a different generator (MCSANC \cite{Bondarenko:2013nu}) when calculating the EW K-factor and differences between the method give the systematic. \\
+    {\bf\raggedright Photon-Induced} - The MC estimate for the PI fraction is predicted to be an upper estimate and so the effect of not including this background is studied and this effect on the event yield is taken as the systematic. \\
+    {\bf\raggedright Efficiency} - Systematic provided by the ATLAS electron photon performance group to accommodate the trigger and reconstruction efficiency corrections (see section \ref{sec:correc}). \\
+    {\bf\raggedright Scale/Resolution} - Systematic provided by the ATLAS electron photon performance group to accommodate the energy scale and energy resolution corrections (see section \ref{sec:correc}). \\
+    {\bf\raggedright Multijet/$W$+jets} - Systematic associated with the data driven multijet \& $W$+jets estimate and seen in section \ref{sec:MJerror}. \\
+    {\bf\raggedright Beam Energy} - The beam energy uncertainty of the LHC 4 TeV beams is given as 0.65\% giving this uncertainty which is again analysed to see its effect on event yield. \\
+    {\bf\raggedright Charge MisID} - Systematic associated with opposite sign requirement in the analysis. This error is estimated by injecting a higher fraction of charge miss identification in to the DY MC sample and looking at the effect on background prediction. This is found to have an at most 3\% effect at high mass. \\
+    {\bf\raggedright Statistical} - Systematic error of the statistical error of each of the MC samples used to estimate background and signal. \\
+
+
+
 
     % more information about some systematics
     % add pull's ????

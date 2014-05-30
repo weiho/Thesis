@@ -214,4 +214,16 @@ G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider},
   Journal of Instrumentation 3 (2008) S08003. 437 p, also published by CERN
   Geneva in 2010.
 
+\bibitem{Alekhin:2013dmy}
+S.~Alekhin, J.~Bluemlein, S.~O. Moch, {ABM11 PDFs and the cross section
+  benchmarks in NNLO}, PoS LL2012 (2012) 016.
+\newblock \href {http://arxiv.org/abs/1302.1516} {\path{arXiv:1302.1516}}.
+
+\bibitem{Bondarenko:2013nu}
+S.~G. Bondarenko, A.~A. Sapronov, {NLO EW and QCD proton-proton cross section
+  calculations with mcsanc-v1.01}, Comput.Phys.Commun. 184 (2013) 2343--2350.
+\newblock \href {http://arxiv.org/abs/1301.3687} {\path{arXiv:1301.3687}},
+  \href {http://dx.doi.org/10.1016/j.cpc.2013.05.010}
+  {\path{doi:10.1016/j.cpc.2013.05.010}}.
+
 \end{thebibliography}
