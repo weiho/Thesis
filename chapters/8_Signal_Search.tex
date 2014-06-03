@@ -39,19 +39,24 @@ This chapter discuses the generators used to estimate the signal models and how 
 
 	\begin{figure}[h]
 	    \begin{center}
-	    	%\includegraphics[scale=0.6]{images/}
+	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_minus_elec_lowmass.eps}
+	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_plus_elec_lowmass.eps} \\
+	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_minus_elec_midmass.eps}
+	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_plus_elec_midmass.eps} \\
+	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_minus_elec_himass.eps}
+	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_plus_elec_himass.eps} \\
 	    \end{center}
 	   \caption{Parametrisations of the CI signal for number of expected events as a function of $\Lambda$ according to equation \ref{eq:CIparm} and for each CI search bin.}
 	   \label{fig:CIparm}
 	\end{figure}
 
-	\begin{figure}[h]
-	    \begin{center}
-	    	%\includegraphics[scale=0.6]{images/}
-	    \end{center}
-	   \caption{Parametrisations of the ADD signal for number of expected events as a function of M$_{s}$ according to equation \ref{eq:ADDparm} for the ADD search bin.}
-	   \label{fig:ADDparm}
-	\end{figure}
+	% \begin{figure}[h]
+	%     \begin{center}
+	%     	%\includegraphics[scale=0.6]{images/}
+	%     \end{center}
+	%    \caption{Parametrisations of the ADD signal for number of expected events as a function of M$_{s}$ according to equation \ref{eq:ADDparm} for the ADD search bin.}
+	%    \label{fig:ADDparm}
+	% \end{figure}
 
 
 \section{Results}
@@ -61,7 +66,7 @@ This chapter discuses the generators used to estimate the signal models and how 
 
 	\begin{figure}[h]
 	    \begin{center}
-	    	\includegraphics[scale=0.6]{images/invMass_main.eps}
+	    	\includegraphics[width=0.8\linewidth]{images/invmass_main.eps}
 	    \end{center}
 	   \caption{Invariant mass comparison between data and MC with possible signal overlays of CI and ADD.}
 	   \label{fig:invMass_main}
@@ -69,7 +74,7 @@ This chapter discuses the generators used to estimate the signal models and how 
 
 	\begin{figure}[h]
 	    \begin{center}
-	    	\includegraphics[scale=0.6]{images/AFB_main.eps}
+	    	\includegraphics[width=0.8\linewidth]{images/A_fb_main.eps}
 	    \end{center}
 	   \caption{A$_{FB}$ comparison between data and MC with possible signal overlay of CI.}
 	   \label{fig:AFB_main}
@@ -78,8 +83,8 @@ This chapter discuses the generators used to estimate the signal models and how 
 
 	\begin{figure}[h]
 	    \begin{center}
-	    	\includegraphics[width=0.49\linewidth]{images/CosThetaStar_Control_main.eps}
-	    	\includegraphics[width=0.49\linewidth]{images/CosThetaStar_Signal_main.eps}
+	    	\includegraphics[width=0.8\linewidth]{images/CosThetaStar_Control_main.eps} \\
+	    	\includegraphics[width=0.8\linewidth]{images/CosThetaStar_Signal_main.eps}
 	    \end{center}
 	   \caption{$\cos{\theta^{*}}$ comparison between data and MC in control and signal regions with possible signal overlay of CI.}
 	   \label{fig:cosTS_main}
@@ -88,7 +93,9 @@ This chapter discuses the generators used to estimate the signal models and how 
 
 	\begin{figure}[h]
 	    \begin{center}
-	    	%\includegraphics[scale=0.6]{images/}
+	    	\includegraphics[width=0.8\linewidth]{images/pT_main.eps} \\
+	    	\includegraphics[width=0.49\linewidth]{images/eta_main.eps}
+	    	\includegraphics[width=0.49\linewidth]{images/phi_main.eps}
 	    \end{center}
 	   \caption{Control plots of $p_{T}$, $\eta$ and $\phi$ distributions of selected electrons.}
 	   \label{fig:control_main}
@@ -99,6 +106,7 @@ This chapter discuses the generators used to estimate the signal models and how 
 		\footnotesize 
 		\begin{center}
 		\begin{tabular}{  l | c c c | c c c  } 
+			\hline
 			\hline
 			\multirow{3}{*}{Process} 	& \multicolumn{6}{c}{$m_{ee}$ [GeV]} \\
 										& \multicolumn{3}{c}{400 - 550} & \multicolumn{3}{c}{550 - 800} \\
@@ -141,8 +149,9 @@ This chapter discuses the generators used to estimate the signal models and how 
 			SM+CI($\Lambda^{+14}_{RR}$) & 1230 $\pm$ 110 & 730 $\pm$ 60 & 510 $\pm$ 50 & 380 $\pm$ 40 & 227 $\pm$ 21 & 155 $\pm$ 18 \\
 			SM+CI($\Lambda^{+20}_{RR}$) & 1230 $\pm$ 110 & 740 $\pm$ 60 & 490 $\pm$ 50 & 390 $\pm$ 40 & 234 $\pm$ 21 & 156 $\pm$ 18 \\
 			\hline
+			\hline
 		\end{tabular}
-	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Bining used is the same as used for statistical analysis of CI sample.}
+	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI sample. Both combined statistical and total systematic error is included on each value. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results1}
 	  	\end{center}
 	\end {table}
@@ -182,8 +191,9 @@ This chapter discuses the generators used to estimate the signal models and how 
 			SM+CI($\Lambda^{+14}_{RR}$) & 79 $\pm$ 9 & 47 $\pm$ 5 & 32 $\pm$ 4 & 12.1 $\pm$ 1.7 & 7.3 $\pm$ 0.8 & 4.6 $\pm$ 0.8 \\
 			SM+CI($\Lambda^{+20}_{RR}$) & 77 $\pm$ 9 & 48 $\pm$ 5 & 29 $\pm$ 4 & 10.2 $\pm$ 1.6 & 6.3 $\pm$ 0.8 & 3.8 $\pm$ 0.8 \\
 			\hline
+			\hline
 		\end{tabular}
-	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Bining used is the same as used for statistical analysis of CI sample.}
+	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI sample. Both combined statistical and total systematic error is included on each value. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results2}
 	  	\end{center}
 	\end {table}
@@ -227,7 +237,7 @@ This chapter discuses the generators used to estimate the signal models and how 
 			\hline
 	    	\hline
 	  	\end{tabular}
-	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Bining used is the same as used for statistical analysis of CI sample.}
+	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI sample. Both combined statistical and total systematic error is included on each value. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results3}
 	  	\end{center}
 	\end {table}
@@ -239,20 +249,32 @@ This chapter discuses the generators used to estimate the signal models and how 
 
 	\begin {table}[h]
 		\begin{center}
-		\begin{tabular}{ | l | c | c | c | } 
+		\begin{tabular}{  l | c } 
 			\hline
-			
+			\hline
+			Process & 1900 $\le$ $m_{ee}$ $\le$ 4500 GeV \\
+			\hline
+			Drell-Yan & 0.435 $\pm$ 0.002 \\
+			Top & 0.003$\pm$ 0.000 \\
+			Multi-Jet & 0.062 $\pm$ 0.012 \\
+			Diboson & 0.053 $\pm$ 0.004 \\
+			Photon-Induced & 0.058 $\pm$ 0.001 \\
+			\hline
+			Total SM & 0.611 $\pm$ 0.129 \\
+			\hline
+			Data & 0 \\ 
+			\hline
+			SM+ADD ($M_{S}$ = 3.50~TeV)& 21.637 $\pm$  2.144 \\
+			SM+ADD ($M_{S}$ = 3.75~TeV)& 13.171 $\pm$  1.295 \\
+			SM+ADD ($M_{S}$ = 4.00~TeV)& 8.436 $\pm$  0.821 \\
+			SM+ADD ($M_{S}$ = 4.75~TeV)& 2.952 $\pm$  0.282 \\
+	    	\hline
 	    	\hline
 	  	\end{tabular}
 	  	\label{tab:ADD_results}
-	  	\caption{Table comparing background prediction to data with prediction of several ADD signal models. One bin used the same in the statistical analysis of ADD}
+	  	\caption{Table comparing background prediction to data with prediction of several ADD signal models. One bin used the same in the statistical analysis of ADD. Both combined statistical and total systematic error is included on each value. See section \ref{sec:sys} for details of systematics.}
 	  	\end{center}
 	\end {table}
-
-
-
-
-
 
 
 

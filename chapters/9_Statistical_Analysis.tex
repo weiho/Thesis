@@ -29,20 +29,21 @@
 
     \begin{figure}[h]
         \begin{center}
-            \includegraphics[scale=0.35,natwidth=610,natheight=642,angle=-90]{images/ee__LL_minus_L2/post.ps}
-            \includegraphics[scale=0.35,natwidth=610,natheight=642,angle=-90]{images/ee__LR_minus_L2/post.ps}
+            \vspace{0.2em}\includegraphics[width=0.45\linewidth,natwidth=610,natheight=642,angle=-90]{images/ee__LL_minus_L2/post.ps}
+            \includegraphics[width=0.45\linewidth,natwidth=610,natheight=642,angle=-90]{images/ee__LR_minus_L2/post.ps}
         \end{center}
+        \vspace{-4.0em}
        \caption{Posterior pdf distributions for the CI model formalisms LL and LR with constructive interference and a uniform positive prior in $1/\Lambda^{2}$.}
        \label{fig:pdf_CI_main}
     \end{figure}
 
-    \begin{figure}[h]
-        \begin{center}
-            %\includegraphics[scale=0.6,natwidth=610,natheight=642,angle=-90]{images/}
-        \end{center}
-       \caption{Posterior pdf distributions for the ADD model with a uniform positive prior in $1/M_{s}^{8}$.}
-       \label{fig:pdf_ADD_main}
-    \end{figure}
+    % \begin{figure}[h]
+    %     \begin{center}
+    %         %\includegraphics[scale=0.6,natwidth=610,natheight=642,angle=-90]{images/}
+    %     \end{center}
+    %    \caption{Posterior pdf distributions for the ADD model with a uniform positive prior in $1/M_{s}^{8}$.}
+    %    \label{fig:pdf_ADD_main}
+    % \end{figure}
 
 
 
@@ -71,10 +72,10 @@
             Charge MisID        & 1.2\% ~(2.0\%) ~[2.9\%]           &  1.2\% ~(2.0\%) ~[2.9\%]        \\
             Statistical         & 3.0\% ~(3.0\%) ~[3.0\%]           & 3.0\% ~(3.0\%) ~[3.0\%]         \\
             \hline  
-            Total               & 5.5 ~(6.9\%) ~[9.6\%]             & 5.5\% ~(6.9\%) ~[9.6\%]        \\
+            Total               & 5.5\% ~(6.9\%) ~[9.6\%]             & 5.5\% ~(6.9\%) ~[9.6\%]        \\
             \hline
             \hline
-                                & \multicolumn{2}{c|}{Background}                                    \\
+            \multirow{2}{*}{Source} & \multicolumn{2}{c|}{Background}                                    \\
                                 & Forward                           & Backward                      \\
             \hline
             Normalization       & 4.0\% ~(4.0\%) ~[4.0\%]           & 4.0\% ~(4.0\%) ~[4.0\%] \\
@@ -119,6 +120,45 @@
     % add pull's ????
 
 
+\section{Angular Analysis Optimisation}
+
+This section looks at some of the issues revolving around the introduction of the angular search within $\cos{\theta^{*}}$ as well as invariant mass. First a look at the effect of the loss in selection efficiency coming from the opposite sign requirement on the sensitivity of the search. Next is then a discussion on the optimisation of the binning used to search in $\cos{\theta^{*}}$.
+
+\subsection{Effect of opposite sign requirement of analysis reach}
+    \label{sec:oppSign}
+
+    The opposite sign requirement is needed to ensure that calculations of the variable $\cos{\theta^{*}}$  correctly use the particle instead of anti-particle. However the selection comes with a 7\% drop in acceptance of signal in the signal search region (see table \ref{tab:eventEff}). The important question becomes what effect this has on the sensitivity of the analysis. This is important because angular dependence was introduced for a single CI formalism LR and not predicted to strongly impact the results for other formalisms. 
+    A study was done on the expected limits set by the Bayesian statistical analysis (see chapter \ref{ch:stat}) both with the opposite sign requirement introduced and without it for both a search in invariant mass only and search bins distributed in both invariant mass and $\cos{\theta^{*}}$ (called the 1D and 2D bellow search respectively). Table \ref{tab:limits_oppSign} show limits for all of these possibilities for both the LL and LR formalisms. It is important to bear in mind this study was done before the analysis was finalised and so the limits do not represent the final results of the analysis but are consistent enough to represent the effects we are looking at. It can be seen that the introduction of the opposite sign requirement leads to a reduction in the reach of the limits while the introduction of the the 2D search bin approach greatly increases the the limits for the LR formalism while regaining the lost sensitivity in the case of the LL formalism. Although no difference is seen between the angular dependence of background and the LL formalism (see figures \ref{fig:AFB_main} and \ref{}) the 2D search approach gains some extra shape information from the extra search bins used which offsets the loss of sensitivity from the opposite sign requirement. The same was found to be true for the ADD model as the LL formalism.  
+
+
+    \begin {table}[h]
+        \begin{center}
+        \begin{tabular}{ | c | c | c | } 
+            \hline
+            \hline
+            Formalism & LL & LR \\
+            \hline
+            1D approach no & \multirow{2}{*}{19.27} & \multirow{2}{*}{21.64} \\
+            opposite sign requirement & & \\
+            1D approach with & \multirow{2}{*}{18.86} & \multirow{2}{*}{21.17} \\
+            opposite sign requirement & & \\
+            2D approach with & \multirow{2}{*}{19.40} & \multirow{2}{*}{22.31} \\
+            opposite sign requirement & & \\
+            \hline
+            \hline
+        \end{tabular}
+        \caption{Table of expected Limits calculated with 600 PE's for the LL and LR constructive CI formalisms looking at the effect of the opposite sign requirement on limits and introduction of 2D limits.}
+        \label{tab:limits_oppSign}
+        \end{center}
+    \end {table}
+
+
+
+\subsection{Optimisation of search bins in $\cos{\theta^{*}}$}
+
+    The belief at the start of the analysis was that binning within the $\cos{\theta^{*}}$ would be optimised with either 2 to n evenly distributed bins, varying bins in $\cos{\theta^{*}}$ or even varying number of bins throughout invariant mass. A few possibilities were investigated early on but it was seen that most of the extra information that could be gained from the angular variable $\cos{\theta^{*}}$ was found in splitting between the forward ($\cos{\theta^{*}}$ $>$ 1) and the backwards ($\cos{\theta^{*}}$ $<$ 1) regions and therefore only using two search bins in $\cos{\theta^{*}}$. This study was carried out at two different points. The first was looking at expected limits for individual invariant mass bins while varying the number of $\cos{\theta^{*}}$ bins. These ``limits'' didn't give accurate results but were just used as a guide to see how sensitive each binning was. The results from this study showed almost random fluctuations in the limits of small values not giving an indication of the optimal binning structure. The study was postponed until systematics were finalised. The second study found very quickly that while changing from a 1D to a 2D search strategy using two evenly sized bins in $\cos{\theta^{*}}$ gave a moderate increase in limits any further increase in the number of $\cos{\theta^{*}}$ search bins gave no increase or a slight decrease in limits. This found that most of the extra information gained from searching in $\cos{\theta^{*}}$ was seen in a split between forward and backwards regions and any further increase in bins suffered from the impact of increasing statistical errors from MC samples. The two bin search structure was therefore chosen as optimal for searching in the $\cos{\theta^{*}}$ variable meaning with 6 invariant mass search bins 12 total search bins. 
+
+
 
 \section{Signal Search \& P-Values}
 
@@ -136,20 +176,20 @@
        \label{fig:LLR_CI_main}
     \end{figure}
 
-    \begin{figure}[h]
-        \begin{center}
-            %\includegraphics[scale=0.6]{images/}
-        \end{center}
-       \caption{Distribution of negative Log Likelihood Ratio's for the ADD formalism GRW given a uniform positive prior in $1/M_{s}^{8}$.}
-       \label{fig:LLR_ADD_main}
-    \end{figure}
+    % \begin{figure}[h]
+    %     \begin{center}
+    %         %\includegraphics[scale=0.6]{images/}
+    %     \end{center}
+    %    \caption{Distribution of negative Log Likelihood Ratio's for the ADD formalism GRW given a uniform positive prior in $1/M_{s}^{8}$.}
+    %    \label{fig:LLR_ADD_main}
+    % \end{figure}
 
 
     \begin {table}[h]
         \begin{center}
         \begin{tabular}{ | l | c | c | c | c | } 
             \hline
-            \multirow{2}{*}{$p$-value [\%]} & \multicolumn{2}{c|}{1/$\Lambda^2$} & \multicolumn{2}{c|}{1/$\Lambda^4$} \\
+            \multirow{2}{*}{$p$-value [\%]} & \multicolumn{2}{c|}{1/$\Lambda^2$} & \multicolumn{2}{c}{1/$\Lambda^4$} \\
             \cline{2-5}
             & Constructive & Destructive & Constructive & Destructive \\
             \hline
@@ -168,7 +208,9 @@
         \begin{center}
         \begin{tabular}{ | l | c | c | c | } 
             \hline
-            
+            $p$-value [\%] & 1/M$_S^4$ & 1/M$_S^8$ \\
+            \hline
+            GRW: ee & 51 & $>$ 58 \\
             \hline
         \end{tabular}
         \caption{Table of $p$-values for ADD with each prior.}
@@ -195,30 +237,34 @@
        \label{fig:Theta_CI_main}
     \end{figure}
 
-    \begin{figure}[h]
-        \begin{center}
-            %\includegraphics[scale=0.6]{images/}
-        \end{center}
-       \caption{Distribution of PE's with associated Limits for the ADD formalism GRW given a uniform positive prior in $1/M_{s}^{8}$.}
-       \label{fig:Theta_ADD_main}
-    \end{figure}
+    % \begin{figure}[h]
+    %     \begin{center}
+    %         %\includegraphics[scale=0.6]{images/}
+    %     \end{center}
+    %    \caption{Distribution of PE's with associated Limits for the ADD formalism GRW given a uniform positive prior in $1/M_{s}^{8}$.}
+    %    \label{fig:Theta_ADD_main}
+    % \end{figure}
 
 
 
     \begin {table}[h]
         \begin{center}
-        \begin{tabular}{ | l | c | c | c | c | } 
+        \begin{tabular}{  l | c | c | c | c  } 
             \hline
-            \multirow{2}{*}{Limits [TeV]} & \multicolumn{2}{c|}{1/$\Lambda^2$} & \multicolumn{2}{c|}{1/$\Lambda^4$} \\
-\cline{2-5}
- & Constructive & Destructive & Constructive & Destructive \\
-\hline
-Expected LL: ee       & 19.11 & 14.02 & 17.44 & 13.02 \\
-Observed LL: ee       & 20.71 & 16.35 & 18.58 & 14.72 \\
-Expected LR: ee       & 22.01 & 17.37 & 20.09 & 16.26 \\
-Observed LR: ee       & 25.16 & 19.19 & 22.19 & 17.68 \\
-Expected RR: ee       & 18.97 & 14.23 & 17.23 & 13.14 \\
-Observed RR: ee       & 20.22 & 16.57 & 18.34 & 14.89 \\
+            \hline
+            \multirow{2}{*}{Limits [TeV]} & \multicolumn{2}{c|}{1/$\Lambda^2$} & \multicolumn{2}{c}{1/$\Lambda^4$} \\
+            \cline{2-5}
+             & Constructive & Destructive & Constructive & Destructive \\
+            \hline
+            Expected LL: ee       & 19.11 & 14.02 & 17.44 & 13.02 \\
+            Observed LL: ee       & 20.71 & 16.35 & 18.58 & 14.72 \\
+            \hline
+            Expected LR: ee       & 22.01 & 17.37 & 20.09 & 16.26 \\
+            Observed LR: ee       & 25.16 & 19.19 & 22.19 & 17.68 \\
+            \hline
+            Expected RR: ee       & 18.97 & 14.23 & 17.23 & 13.14 \\
+            Observed RR: ee       & 20.22 & 16.57 & 18.34 & 14.89 \\
+            \hline
             \hline
         \end{tabular}
         \caption{Table of expected and observed Limits for all CI formalisms and prior's.}
@@ -229,9 +275,14 @@ Observed RR: ee       & 20.22 & 16.57 & 18.34 & 14.89 \\
 
     \begin {table}[h]
         \begin{center}
-        \begin{tabular}{ | l | c | c | c | } 
+        \begin{tabular}{ l | c | c } 
             \hline
-            
+            \hline
+            GRW ADD Limits [TeV] & 1/M$_S^4$ & 1/M$_S^8$ \\
+            \hline
+            Expected: ee & 4.79 & 4.50 \\
+            Observed: ee & 4.79 & 4.50 \\
+            \hline
             \hline
         \end{tabular}
         \caption{Table of expected and observed Limits for ADD with each prior.}
@@ -250,9 +301,10 @@ Observed RR: ee       & 20.22 & 16.57 & 18.34 & 14.89 \\
 
 \begin{table}[p]
 \centering
-\begin{tabular}{ |l|c|c|c|c| }
+\begin{tabular}{ l|c|c|c|c }
     \hline
-    \multirow{2}{*}{Limits [TeV]} & \multicolumn{2}{c|}{1/$\Lambda^2$} & \multicolumn{2}{c|}{1/$\Lambda^4$} \\
+    \hline
+    \multirow{2}{*}{Limits [TeV]} & \multicolumn{2}{c|}{1/$\Lambda^2$} & \multicolumn{2}{c}{1/$\Lambda^4$} \\
     \cline{2-5}
      & Constructive & Destructive & Constructive & Destructive \\
     \hline
@@ -265,6 +317,7 @@ Observed RR: ee       & 20.22 & 16.57 & 18.34 & 14.89 \\
     Expected RR: $\ell\ell$ & 20.98 & 19.11 & 14.99 & 14.21 \\
     Observed RR: $\ell\ell$ & 21.11 & 19.31 & 17.50 & 15.58 \\
     \hline
+    \hline
 \end{tabular}
 \caption{Combined expected and observed Limits for the 2D LL, LR, and RR Contact Interaction search using a uniform positive prior.}
 \label{tab:Comb_Limits_CI}
@@ -273,9 +326,14 @@ Observed RR: ee       & 20.22 & 16.57 & 18.34 & 14.89 \\
 
 \begin{table}[p]
 \centering
-\begin{tabular}{ |l|c|c|c|c| }
+\begin{tabular}{ l | c | c }
     \hline
-
+    \hline
+    GRW ADD Limits [TeV] & 1/M$_S^4$ & 1/M$_S^8$ \\
+    \hline
+    Expected: $\ell\ell$ & 4.83 & 4.60 \\
+    Observed: $\ell\ell$ & 5.12 & 4.79 \\
+    \hline
     \hline
 \end{tabular}
 \caption{Combined expected and observed Limits for the ADD search using a uniform positive prior.}
@@ -285,7 +343,37 @@ Observed RR: ee       & 20.22 & 16.57 & 18.34 & 14.89 \\
 
 
 
-
+\begin{table}[]
+  \begin{center}
+    \begin{tabular}{c|c|c|c|cccccc}
+        \hline
+        \hline
+        \multicolumn{10}{c}{Expected and Observed Limit on $M_{S}$ [TeV]} \\
+        \hline
+        \multirow{2}{*}{Channel} & \multirow{2}{*}{Prior} & \multirow{2}{*}{GRW} & \multirow{2}{*}{Hewett} & \multicolumn{6}{c}{HLZ} \\
+        \cline{5-10}
+                &       &     &        & n= 2 &  n=3 & n=4 & n=5 & n=6 & n=7 \\
+        \hline
+        \hline
+        Expected: $ee$      & \multirow{2}{*}{$1/M_{S}^{4}$} & 4.79 & 4.28 & 4.85 & 5.70 & 4.79 & 4.33 & 4.03 & 3.81 \\
+        Observed: $ee$      &  & 4.79 & 4.28 & 4.86 & 5.70 & 4.79 & 4.33 & 4.03 & 3.81 \\
+        \hline
+        Expected: $ee$      & \multirow{2}{*}{$1/M_{S}^{8}$} & 4.50 & 4.25 & 4.42 & 4.90 & 4.50 & 4.27 & 4.12 & 4.01 \\
+        Observed: $ee$      &  & 4.50 & 4.25 & 4.42 & 4.90 & 4.50 & 4.27 & 4.12 & 4.01 \\
+        \hline
+        \hline
+        Expected: $ll$      & \multirow{2}{*}{$1/M_{S}^{4}$} & 4.83 & 4.31 & 5.09 & 5.74 & 4.83 & 4.36 & 4.06 & 3.84 \\
+        Observed: $ll$      &  & 5.12 & 4.57 & 5.47 & 6.09 & 5.12 & 4.62 & 4.30 & 4.07 \\
+        \hline
+        Expected: $ll$      & \multirow{2}{*}{$1/M_{S}^{8}$} & 4.60 & 4.35 & 4.67 & 5.01 & 4.50 & 4.37 & 4.22 & 4.10 \\
+        Observed: $ll$      &  & 4.79 & 4.53 & 4.94 & 5.23 & 4.79 & 4.56 & 4.40 & 4.27 \\
+        \hline
+        \hline
+    \end{tabular}
+  \end{center}
+    \caption{Expected and observed 95\% C.L. lower limits on $M_{S}$ including systematic uncertainties, for ADD signal in the GRW, Hewett and HLZ formalisms.
+    \label{tab:ADD_results_formalisms}}
+\end{table}
 
 
 

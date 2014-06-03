@@ -29,6 +29,30 @@
 \usepackage{graphicx}
 \usepackage{type1cm}
 \usepackage[toc,page]{appendix}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=2mm,
+  belowskip=2mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=2
+}
+
 
 \oddsidemargin 0.0 in %0.5
 \evensidemargin 0.0 in %
@@ -186,32 +210,33 @@ Write thanks here
 \newpage
 \input{chapters/4_Reconstruction}
 \newpage
-\input{chapters/5_Event_Selection}
+\input{chapters/5_2011_Analysis}
 \newpage
-\input{chapters/6_Background_Estimate}
+\input{chapters/6_Event_Selection}
 \newpage
-\input{chapters/7_Signal_Search}
+\input{chapters/7_Background_Estimate}
 \newpage
-\input{chapters/8_Statistical_Analysis}
+\input{chapters/8_Signal_Search}
 \newpage
-\input{chapters/9_Conclusion}
+\input{chapters/9_Statistical_Analysis}
+\newpage
+\input{chapters/10_Conclusion}
 
 
 
 \newpage
 \begin{appendices}
 
-\input{chapters/ApendixA_2011_Analysis}
-% \input{chapters/EM_definitions_code}
-% \input{chapters/study_oppSign_effect_on_limits}
-% \input{chapters/study_cosTS_binning}
-% \input{chapters/study_optimal_ADD_cut}
-% \input{chapters/plots_other_paramaterisations}
-% \input{chapters/Stat_analysis_other_formalisms}
-% \input{chapters/}
-% \input{chapters/}
-% \input{chapters/}
-% \input{chapters/}
+
+\newpage
+%\input{chapters/ApendixC_Angular_analysis}
+\newpage
+\input{chapters/ApendixD_Control_plots}
+\newpage
+\input{chapters/ApendixE_Statistical_analysis_plots}
+\newpage
+%\input{chapters/ApendixB_EM_definitions}
+\newpage
 % \input{chapters/}
 \end{appendices}
 

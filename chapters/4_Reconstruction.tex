@@ -1,4 +1,4 @@
-\chapter{Reconstruction}
+\chapter{Event Reconstruction}
 
 Reconstruction is the process and algorithms that attempt to reform information about collision events and their decay products from detector signals. This process is done at several points in the ATLAS analysis procedure. First partial reconstruction of RoI's is done at the Level-2 trigger while a mostly full detector reconstruction is done at the EF. After the data has been permanently stored full reconstruction of all possible signatures in each event as well as whole event variables can be completed if it failed to finish live during the trigger decision.
 
@@ -13,7 +13,7 @@ Bellow will mainly be a discussion of the reconstruction of electron (and relate
 
 
 
-\section{Electron Reconstruction}
+\section{Electron Reconstruction and Identification}
 \label{sec:ReconElec}
 
 	During reconstruction each EM calorimeter energy signature with an associated track in the inner detector get listed as an electron object. These objects get selected via a clustering algorithm in the EM calorimeter which defines the energy and is then matched to a track. These objects then have a list of associated variables derived from detector readouts on which an analysis selection for `good' electrons can be made. These variables range from simple values of position and energy to more complex derived values such as isolation. A few variables will be listed bellow relevant to this analysis and how they are derived.
