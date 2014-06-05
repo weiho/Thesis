@@ -8,45 +8,45 @@ Warning--I didn't find a database entry for "geant"
 Warning--I didn't find a database entry for "QCD"
 Warning--I didn't find a database entry for "BAT"
 Warning--I didn't find a database entry for "w"
-You've used 27 entries,
+You've used 30 entries,
             2937 wiz_defined-function locations,
-            925 strings with 11505 characters,
-and the built_in function-call counts, 8952 in all, are:
-= -- 948
-> -- 213
+            948 strings with 12258 characters,
+and the built_in function-call counts, 9995 in all, are:
+= -- 1063
+> -- 234
 < -- 0
-+ -- 89
-- -- 62
-* -- 827
-:= -- 1253
-add.period$ -- 51
-call.type$ -- 27
-change.case$ -- 27
++ -- 98
+- -- 68
+* -- 928
+:= -- 1395
+add.period$ -- 57
+call.type$ -- 30
+change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 253
-empty$ -- 973
-format.name$ -- 87
-if$ -- 2292
+cite$ -- 30
+duplicate$ -- 283
+empty$ -- 1087
+format.name$ -- 96
+if$ -- 2560
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 28
-newline$ -- 132
-num.names$ -- 27
-pop$ -- 114
+int.to.str$ -- 30
+missing$ -- 31
+newline$ -- 147
+num.names$ -- 30
+pop$ -- 127
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 476
+skip$ -- 527
 stack$ -- 0
-substring$ -- 537
-swap$ -- 101
+substring$ -- 607
+swap$ -- 113
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 57
-width$ -- 29
-write$ -- 294
+while$ -- 64
+width$ -- 32
+write$ -- 327
 (There were 5 warnings)

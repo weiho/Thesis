@@ -5,6 +5,35 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{PhysRevD.87.015010}
+G.~Aad, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevD.87.015010}{Search for contact
+  interactions and large extra dimensions in dilepton events from pp collisions
+  at s=7 {TeV} with the {ATLAS} detector}, Phys. Rev. D 87 (2013) 015010.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.87.015010}
+  {\path{doi:10.1103/PhysRevD.87.015010}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.87.015010}
+
+\bibitem{Aad20121}
+G.~Aad, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S037026931200857X}{Observation
+  of a new particle in the search for the standard model higgs boson with the
+  \{ATLAS\} detector at the \{LHC\}}, Physics Letters B 716~(1) (2012) 1 -- 29.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.08.020}
+  {\path{doi:http://dx.doi.org/10.1016/j.physletb.2012.08.020}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026931200857X}
+
+\bibitem{Chatrchyan201230}
+S.~Chatrchyan, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269312008581}{Observation
+  of a new boson at a mass of 125 gev with the \{CMS\} experiment at the
+  \{LHC\}}, Physics Letters B 716~(1) (2012) 30 -- 61.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.08.021}
+  {\path{doi:http://dx.doi.org/10.1016/j.physletb.2012.08.021}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269312008581}
+
 \bibitem{Eichten:1983hw}
 E.~Eichten, K.~D. Lane, M.~E. Peskin, {New Tests for Quark and Lepton
   Substructure}, Phys.Rev.Lett. 50 (1983) 811--814.
@@ -29,15 +58,6 @@ A.~Abulencia, et~al.,
 \newblock \href {http://dx.doi.org/10.1103/PhysRevLett.96.211801}
   {\path{doi:10.1103/PhysRevLett.96.211801}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.96.211801}
-
-\bibitem{PhysRevD.87.015010}
-G.~Aad, et~al.,
-  \href{http://link.aps.org/doi/10.1103/PhysRevD.87.015010}{Search for contact
-  interactions and large extra dimensions in dilepton events from pp collisions
-  at s=7 {TeV} with the {ATLAS} detector}, Phys. Rev. D 87 (2013) 015010.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevD.87.015010}
-  {\path{doi:10.1103/PhysRevD.87.015010}}.
-\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.87.015010}
 
 \bibitem{PhysRevD.16.2219}
 J.~C. Collins, D.~E. Soper,
@@ -79,6 +99,15 @@ J.~L. Hewett,
 \newblock \href {http://dx.doi.org/10.1103/PhysRevLett.82.4765}
   {\path{doi:10.1103/PhysRevLett.82.4765}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.82.4765}
+
+\bibitem{PhysRevLett.83.3370}
+L.~Randall, R.~Sundrum,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.83.3370}{Large mass
+  hierarchy from a small extra dimension}, Phys. Rev. Lett. 83 (1999)
+  3370--3373.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.83.3370}
+  {\path{doi:10.1103/PhysRevLett.83.3370}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.83.3370}
 
 \bibitem{ATLAS:2012pu}
 G.~Aad, et~al., {ATLAS search for new phenomena in dijet mass and angular

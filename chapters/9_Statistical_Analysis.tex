@@ -1,7 +1,7 @@
 \chapter{Statistical Analysis}
     \label{ch:stat}
 
-	The statistical analysis of results is done via a Bayesian approach where first first a search for signs of new physics is done with a calculation of the significance of any excesses. Then in the absence of a signal exclusion limits on the scale of new physics (either $\Lambda$ or M$_{s}$) are then set. A slightly different search approach is made between CI and ADD. In CI the shape of new physics is informative and therefore a series of invariant mass search bins are used with bin edges of 400, 550, 800, 1200, 1800, 3000 and 45000 GeV. With the addition of information from the $\cos{\theta^{*}}$ variable in this an analysis bins are also then split up in $\cos{\theta^{*}}$ as well as invariant mass. Its was found (see Appendix \ref{}) that most of the new information was obtained via using two bins in $\cos{\theta^{*}}$ making a total of 12 search bins distributed in invariant mass and $\cos{\theta^{*}}$. ADD on the other hand doesn't gain from the many search bin approach due to a sharper turn-on and undefined nature of the signal after the cut off point. Therefore only one search bin is used to search for ADD with a minimum invariant mass cut of 1900 GeV and upper cut of 4500 GeV. The ADD model gains no additional discriminating power from the $\cos{\theta^{*}}$ variable. For each search bin a parametrisation of new physics is produced (discussed in section \ref{sec:parm}) as well as the background predicted and data observed. Also included is the background and signal parametrisation varied by each of the appropriate sources of systematic error (discussed in section \ref{sec:sys}) for signal and background. This all composes the input of the event selection in the statistical analysis. \\
+	The statistical analysis of results is done via a Bayesian approach where first first a search for signs of new physics is done with a calculation of the significance of any excesses. Then in the absence of a signal exclusion limits on the scale of new physics (either $\Lambda$ or M$_{s}$) are then set. A slightly different search approach is made between CI and ADD. In CI the shape of new physics is informative and therefore a series of invariant mass search bins are used with bin edges of 400, 550, 800, 1200, 1800, 3000 and 45000 GeV. With the addition of information from the $\cos{\theta^{*}}$ variable in this an analysis bins are also then split up in $\cos{\theta^{*}}$ as well as invariant mass. As seen in section \ref{sec:binOpp} most of the new information is obtained via using two bins in $\cos{\theta^{*}}$ making a total of 12 search bins distributed in invariant mass and $\cos{\theta^{*}}$. ADD on the other hand doesn't gain from the many search bin approach due to a sharper turn-on and undefined nature of the signal after the cut off point. Therefore only one search bin is used to search for ADD with a minimum invariant mass cut of 1900 GeV and upper cut of 4500 GeV. The ADD model gains no additional discriminating power from the $\cos{\theta^{*}}$ variable. For each search bin a parametrisation of new physics is produced (discussed in section \ref{sec:parm}) as well as the background predicted and data observed. Also included is the background and signal parametrisation varied by each of the appropriate sources of systematic error (discussed in section \ref{sec:sys}) for signal and background. This all composes the input of the event selection in the statistical analysis. \\
 
     The statistical analysis is carried out using the ROOT package BAT or Bayesian Analysis Tool-kit \cite{}, this package allows for the integration over nuisance parameters (discussed bellow) using the Markov Chain Monte Carlo method.  The statistical analysis starts off with the definition of the number of expected events $\mu$ found in the signal region as seen in Eq. \ref{eq:bay_events}.
 
@@ -25,7 +25,7 @@
     	\label{eq:postProb}
     \end{equation}
 
-    Equation \ref{eq:postProb} then shows the posterior probability using Bayes' theorem for the observation of $\Theta$ given $n$. Here $\mathcal{Z}$ is the normalisation factor and $\mathcal{L}_{\mathcal{M}}$ is the marginalised likelihood after all nuisance parameters have been integrated out. It is assumed all nuisance parameters are correlated across all search bins. All full description of nuisance parameters can be found in section \ref{sec:sys}. Finally $P(\Theta)$ is the prior probability of $\Theta$. For CI $P(\Theta)$ is chosen to be uniform and positive with respect to $1/\Lambda^{2}$ or $1/\Lambda^{4}$. This form of priors is chosen due to the form of differential cross-section (equation \ref{eq:DiffCross}) and its dependence on $\Lambda$. It is not obvious which prior is more correct as these forms refer to the interference and pure CI terms respectively which change in dominance throughout the search bins and model parameters, therefore the search is done using both parameters for completeness. A similar effect is seen in the form of the ADD differential cross-section (equation \ref{eq:ADDcs}) and so there a prior of $1/M_{s}^{4}$ or $1/M_{s}^{8}$ are used for the same reason. In order to check all signal formalisms 1000 background-like Pseudo-Experiments (PE) are run using BAT for each formalism. Each PE is then passed through the Bayesian statistical method above so they can be compared to data and signal predictions. Figures \ref{fig:pdf_CI_main} and \ref{fig:pdf_ADD_main} show posterior probability density functions (pdf's), for the CI search and the ADD search respectively, of these 1000 PE's. 
+    Equation \ref{eq:postProb} then shows the posterior probability using Bayes' theorem for the observation of $\Theta$ given $n$. Here $\mathcal{Z}$ is the normalisation factor and $\mathcal{L}_{\mathcal{M}}$ is the marginalised likelihood after all nuisance parameters have been integrated out. It is assumed all nuisance parameters are correlated across all search bins. All full description of nuisance parameters can be found in section \ref{sec:sys}. Finally $P(\Theta)$ is the prior probability of $\Theta$. For CI $P(\Theta)$ is chosen to be uniform and positive with respect to $1/\Lambda^{2}$ or $1/\Lambda^{4}$. This form of priors is chosen due to the form of differential cross-section (equation \ref{eq:DiffCross}) and its dependence on $\Lambda$. It is not obvious which prior is more correct as these forms refer to the interference and pure CI terms respectively which change in dominance throughout the search bins and model parameters, therefore the search is done using both parameters for completeness. A similar effect is seen in the form of the ADD differential cross-section (equation \ref{eq:ADDcs}) and so there a prior of $1/M_{s}^{4}$ or $1/M_{s}^{8}$ are used for the same reason. In order to check all signal formalisms 1000 background-like Pseudo-Experiments (PE) are run using BAT for each formalism. Each PE is then passed through the Bayesian statistical method above so they can be compared to data and signal predictions. Figure \ref{fig:pdf_CI_main} shows posterior probability density functions (pdf's), for the CI search and the ADD search respectively, of these 1000 PE's. 
 
     \begin{figure}[h]
         \begin{center}
@@ -122,6 +122,7 @@
 
 \section{Angular Analysis Optimisation}
 
+
 This section looks at some of the issues revolving around the introduction of the angular search within $\cos{\theta^{*}}$ as well as invariant mass. First a look at the effect of the loss in selection efficiency coming from the opposite sign requirement on the sensitivity of the search. Next is then a discussion on the optimisation of the binning used to search in $\cos{\theta^{*}}$.
 
 \subsection{Effect of opposite sign requirement of analysis reach}
@@ -155,14 +156,40 @@ This section looks at some of the issues revolving around the introduction of th
 
 
 \subsection{Optimisation of search bins in $\cos{\theta^{*}}$}
+    \label{sec:binOpp}
 
-    The belief at the start of the analysis was that binning within the $\cos{\theta^{*}}$ would be optimised with either 2 to n evenly distributed bins, varying bins in $\cos{\theta^{*}}$ or even varying number of bins throughout invariant mass. A few possibilities were investigated early on but it was seen that most of the extra information that could be gained from the angular variable $\cos{\theta^{*}}$ was found in splitting between the forward ($\cos{\theta^{*}}$ $>$ 1) and the backwards ($\cos{\theta^{*}}$ $<$ 1) regions and therefore only using two search bins in $\cos{\theta^{*}}$. This study was carried out at two different points. The first was looking at expected limits for individual invariant mass bins while varying the number of $\cos{\theta^{*}}$ bins. These ``limits'' didn't give accurate results but were just used as a guide to see how sensitive each binning was. The results from this study showed almost random fluctuations in the limits of small values not giving an indication of the optimal binning structure. The study was postponed until systematics were finalised. The second study found very quickly that while changing from a 1D to a 2D search strategy using two evenly sized bins in $\cos{\theta^{*}}$ gave a moderate increase in limits any further increase in the number of $\cos{\theta^{*}}$ search bins gave no increase or a slight decrease in limits. This found that most of the extra information gained from searching in $\cos{\theta^{*}}$ was seen in a split between forward and backwards regions and any further increase in bins suffered from the impact of increasing statistical errors from MC samples. The two bin search structure was therefore chosen as optimal for searching in the $\cos{\theta^{*}}$ variable meaning with 6 invariant mass search bins 12 total search bins. 
+    The belief at the start of the analysis was that binning within the $\cos{\theta^{*}}$ would be optimised with either 2 to n evenly distributed bins, varying bins in $\cos{\theta^{*}}$ or even varying number of bins throughout invariant mass. A few possibilities were investigated early on but it was seen that most of the extra information that could be gained from the angular variable $\cos{\theta^{*}}$ was found in splitting between the forward ($\cos{\theta^{*}}$ $>$ 1) and the backwards ($\cos{\theta^{*}}$ $<$ 1) regions and therefore only using two search bins in $\cos{\theta^{*}}$. This study was carried out at two different points. The first was looking at expected limits for individual invariant mass bins while varying the number of $\cos{\theta^{*}}$ bins. These ``limits'' do not give and accurate estimate of final limits  but are used as a guide to see the sensitivity of each binning. The results from this study can be seen in table \ref{tab:limits_binOpp} and show almost random fluctuations in the limits of small values not giving an indication of the optimal binning structure. The study was postponed until systematics were finalised. The second study seen in table \ref{tab:limits_fourbin} found very quickly that while changing from a 1D to a 2D search strategy using two evenly sized bins in $\cos{\theta^{*}}$ this gave a moderate increase in limits while any further increase in the number of $\cos{\theta^{*}}$ search bins gave no increase or a slight decrease in limits. This found that most of the extra information gained from searching in $\cos{\theta^{*}}$ was seen in a split between forward and backwards regions and any further increase in bins suffered from the impact of increasing statistical errors from MC samples. The two bin search structure was therefore chosen as optimal for searching in the $\cos{\theta^{*}}$ variable meaning with 6 invariant mass search bins 12 total search bins. 
 
+    %add table with full results of optimisation. and then simple check for 4 bins compared to 2 bins
+
+    \begin {table}[h]
+        \begin{center}
+        \begin{tabular}{ | c | c | c | } 
+            \hline
+
+            \hline
+        \end{tabular}
+        \caption{Table of expected Limits calculated with 600 PE's for individual mass bins varying $\cos{\theta^{*}}$ binning to select variable search bins. No systematics were included in this study.}
+        \label{tab:limits_binOpp}
+        \end{center}
+    \end {table}
+
+    \begin {table}[h]
+        \begin{center}
+        \begin{tabular}{ | c | c | c | } 
+            \hline
+
+            \hline
+        \end{tabular}
+        \caption{Table of expected Limits calculated with 600 PE's showing the effect of changing from 1 to 2 to 4 search bins in $\cos{\theta^{*}}$.}
+        \label{tab:limits_fourbin}
+        \end{center}
+    \end {table}
 
 
 \section{Signal Search \& P-Values}
 
-    Consistency between data and background prediction is estimated by taking the likelihood of signal given $n$ observed events (observed) and comparing this to the likelihood of signal given the outcome of a set of 1000 PE (expected given no signal) calculated above. A likelihood ratio is then calculated between the signal prediction and background only hypothesis where the signal predictions likelihood is maximised to the highest likelihood in $\Theta$. This is done for both the observed likelihood and set of 1000 PE likelihoods for the expected result given no signal. These are converted to the distribution of negative Log Likelihood Ratio's (LLR) given in figures \ref{fig:LLR_CI_main} and \ref{fig:LLR_ADD_main} comparing observed values to the expected values in the distribution of PE's. $p$-value's are also derived for each formalism quantifying the probability of observing a fluctuation in PE's at least as signal-like as is observed in data. A table of $p$-values for each formalism for CI and ADD can be found in Table \ref{tab:pvalue_CI} and \ref{tab:pvalue_ADD} respectively. 
+    Consistency between data and background prediction is estimated by taking the likelihood of signal given $n$ observed events (observed) and comparing this to the likelihood of signal given the outcome of a set of 1000 PE (expected given no signal) calculated above. A likelihood ratio is then calculated between the signal prediction and background only hypothesis where the signal predictions likelihood is maximised to the highest likelihood in $\Theta$. This is done for both the observed likelihood and set of 1000 PE likelihoods for the expected result given no signal. These are converted to the distribution of negative Log Likelihood Ratio's (LLR) given in figure \ref{fig:LLR_CI_main} comparing observed values to the expected values in the distribution of PE's. $p$-value's are also derived for each formalism quantifying the probability of observing a fluctuation in PE's at least as signal-like as is observed in data. A table of $p$-values for each formalism for CI can be found in table \ref{tab:pvalue_CI}. 
 
 
     % formula for conversion to negative LLR ??? and p-value ?????
@@ -189,7 +216,7 @@ This section looks at some of the issues revolving around the introduction of th
         \begin{center}
         \begin{tabular}{ | l | c | c | c | c | } 
             \hline
-            \multirow{2}{*}{$p$-value [\%]} & \multicolumn{2}{c|}{1/$\Lambda^2$} & \multicolumn{2}{c}{1/$\Lambda^4$} \\
+            \multirow{2}{*}{$p$-value [\%]} & \multicolumn{2}{c|}{1/$\Lambda^2$} & \multicolumn{2}{c|}{1/$\Lambda^4$} \\
             \cline{2-5}
             & Constructive & Destructive & Constructive & Destructive \\
             \hline
@@ -225,7 +252,7 @@ This section looks at some of the issues revolving around the introduction of th
 
 \section{Setting Limits}
     
-    With no sign of new physics found limits are set on the lower limit for the scale of new physics for each CI and ADD formalism. Limits in $\Theta$ are extracted from each of the 1000 PE's for each formalism and the mean of this distribution is taken as the expected limit and converted in to a limit on $\Lambda$ for CI and M$_{s}$ for ADD. Figures \ref{fig:Theta_CI_main} and \ref{fig:Theta_ADD_main} show the distribution of these PE's in $\Theta$ for both CI and ADD along with the mean value of the distribution taken as the expected limit. Tables \ref{tab:limits_CI} and \ref{tab:limits_ADD} then show these expected limits converted into $\Lambda$ and M$_{s}$ respectively. The final observed limits are also included in these figures and tables compared to the expected limits and extracted from the observed data. 
+    With no sign of new physics found limits are set on the lower limit for the scale of new physics for each CI and ADD formalism. Limits in $\Theta$ are extracted from each of the 1000 PE's for each formalism and the mean of this distribution is taken as the expected limit and converted in to a limit on $\Lambda$ for CI and M$_{s}$ for ADD. Figure \ref{fig:Theta_CI_main} shows the distribution of these PE's in $\Theta$ for both CI along with the mean value of the distribution taken as the expected limit. Tables \ref{tab:limits_CI} and \ref{tab:limits_ADD} then show the expected limits converted into $\Lambda$ and M$_{s}$ respectively where the same procedure had been done in the ADD channel. The final observed limits are also included in these figures and tables compared to the expected limits and extracted from the observed data. 
 
 
     \begin{figure}[h]
