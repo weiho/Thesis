@@ -1,36 +1,36 @@
 \chapter{Background Estimate}
 
-This chapter discuses methods used to estimate background processes the the signal. These background processes can be split up in to two categories; Reducible and irreducible. Irreducible backgrounds consist of those background almost indistinguishable from our signal process namely clean high energy dielectron decays such as decays of the Z boson and the Drell-Yan (DY) spectrum. DY ($q\bar{q}~\rightarrow~Z/\gamma^{*}~\rightarrow~\ell^{-}\ell^{+}$) is largest background process and also interferes with the signal processes. Another irreducible background also estimated is the Photon Induced processes ($\gamma\gamma~\rightarrow~\ell^{-}\ell^{+}$) coming from the collision of two photons. Reducible backgrounds are those that can be reduced through event selection and three are included in this analysis. These reducible backgrounds consist of Top precessed, collisions creating single top quarks and $t\bar{t}$ events which decay to include two electrons, Diboson events, the creation of WW, WZ and ZZ events that decay in to two electron events, and finally Multi-jet \& W+jets events where one or more electron signature is faked by jet objects. All of these backgrounds are estimated via Monte Carlo generators except for the Multi-jet \& W+jets background which is estimated via a data-driven fake factor method. Once completed all background samples are summed together to create the full background estimate. MC samples are then scaled to the integrated luminosity of data collected in 2012 which is 20.3 fb$^{-1}$. Within the Z boson peak region (80 - 120 GeV) were it is know no new physics is found MC samples are scaled to data minus multijet sample in order to rule out luminosity errors. This scale factor is found to be 1.048. Detailed bellow is the full derision of the background estimates ready for comparison to data.
+This chapter discusses methods used to estimate background processes the the signal. These background processes can be split up in to two categories; reducible and irreducible. Irreducible backgrounds consist of those background almost indistinguishable from our signal process namely clean high energy dielectron decays such as decays of the Z boson and the Drell-Yan (DY) spectrum. DY ($q\bar{q}~\rightarrow~Z/\gamma^{*}~\rightarrow~\ell^{-}\ell^{+}$) is the largest background process and also interferes with the signal processes. Another irreducible background also estimated is the Photon-Induced processes ($\gamma\gamma~\rightarrow~\ell^{-}\ell^{+}$) coming from the collision of two photons. Reducible backgrounds are those that can be reduced through event selection and three are included in this analysis. These reducible backgrounds consist of Top precesses, collisions creating single top quarks and $t\bar{t}$ events which decay to include two electrons; Diboson events, the creation of WW, WZ and ZZ events that decay in to two electron events; and finally Multi-jet \& W+jets events where one or more electron signature is faked by jet objects. All of these backgrounds are estimated via Monte Carlo generators except for the Multi-jet \& W+jets background which is estimated via a data-driven fake factor method. All background samples are summed together to create the full background estimate. MC samples are then scaled to the integrated luminosity of data collected in 2012 which is 20.3 fb$^{-1}$. Within the Z boson peak region (80 - 120 GeV) were it is known no new physics is found MC samples are scaled to data minus the multijet sample in order to rule out luminosity errors. This scale factor is found to be 1.048. Detailed below is the full derision of the background estimates ready for comparison to data.
 
 \section{Monte Carlo samples}
    \label{sec:MC}
 
-   Monte Carlo (MC) samples are produced centrally within ATLAS with each corresponding generator of choice. The generated events then undergo detector simulation using GEANT 4 \cite which produces a data format identical to a readout from the ATLAS detector plus additional ``truth'' parameters from the original MC generation. The samples then undergo the same reconstruction as data events within ATHENA producing a MC sample ready to be analysed the same as data.\\
+   Monte Carlo (MC)\footnote{Computer algorithm designed to simulate physical systems using random sampling to obtain results for a statistical physics theories such as quantum field field theories} samples are produced centrally within ATLAS using MC generators specific to  The generated events then undergo detector simulation using GEANT 4 \cite{} which produces a data format identical to a readout from the ATLAS detector plus additional ``truth'' parameters from the original MC generation. The samples then undergo the same reconstruction as data events within ATHENA producing a MC sample ready to be analysed the same as data.\\
 
 
    {\bf\raggedright Drell-Yan}
 
-   {\raggedright The Drell-Yan (DY) background is produced using the POWHEG + PYTHIA generator which is a next to leading order (NLO) generation with POWHEG \cite{} with event showering handled by PYTHIA 8 \cite{}. The parton density function (PDF) used is CT10 \cite{}. A K-factor is then used in order to weigh the cross-section from NLO up to next to next to leading order (NNLO). This NNLO K-factor is derived using FEWZ \cite{} which uses the MSTW2008 NNLO PDF \cite{} from which a QCD+EW mass-dependent K-factor is obtained. The DY sample is split in to 16 MC truth dilepton mass bins. The first bin from 60 - 120 GeV is a very high statistics sample providing a low statistical uncertainty for the region used for scaling MC in the Z boson peak.} \\
+   {\raggedright The Drell-Yan (DY) background is produced using the POWHEG + PYTHIA generator which is a next to leading order (NLO)\footnote{LO, NLO and NNLO refer to the complexity of feynman diagrams considered when calculating the cross section of an interaction} generation with POWHEG \cite{} with event showering handled by PYTHIA 8 \cite{}. The parton density function (PDF) used is CT10 \cite{}. A K-factor is then used in order to weight the cross-section from NLO to next to next to leading order (NNLO). This NNLO K-factor is derived using FEWZ \cite{} which uses the MSTW2008 NNLO PDF \cite{} from which a QCD+EW mass-dependent K-factor is obtained. The DY sample is split in to 16 MC truth dilepton mass bins with bin edges at (60,120,180,250,400,600,800,1000,1250,1500,1750,2000,2250,2500,2750,3000) GeV. The first bin from 60 - 120 GeV is a very high statistics sample providing a low statistical uncertainty for the region used for scaling MC in the Z boson peak.} \\
 
 
    {\bf\raggedright Photon-Induced}
 
-   {\raggedright The Photon-Induced (PI) fraction is estimated via PYTHIA 8 \cite{} generator with the LO PDF MRST2004QED \cite{}. This sample is split in to 4 dilepton mass bins covering the region of this analysis.}\\
+   {\raggedright The Photon-Induced (PI) fraction is estimated via PYTHIA 8 \cite{} generator with the LO PDF MRST2004QED \cite{}. This sample is split in to 5 dilepton mass bins with bin edges at (60,200,600,1500,2500) GeV.}\\
 
 
    {\bf\raggedright Diboson}
 
-   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{} with the LO PDF CTEQ6L1 \cite{}. The sample with split in to the three processed, WW, WZ and ZZ, with each process split in to 4 mass-binned samples. The sample is then scaled to NLO in a mass-independent way seen here \cite{}.}\\
+   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{} with the LO PDF CTEQ6L1 \cite{}. The sample with split in to the three process, WW, WZ and ZZ, with each process split in to 3 mass-binned samples with bin edges of (60,400,1000) GeV. The sample is then scaled to NLO in a mass-independent way seen here \cite{}.}\\
 
    {\bf\raggedright Top}
 
-   {\raggedright The top sample is estimated using MC@NLO 3.41 \cite{} with NLO PDF CT10 \cite{} to generate matrix elements with JIMMY 4.31 \cite{} describing parton interactions and HERWIG \cite{} deriving the underlying event and parton showers. Both $t\bar{t}$ and single Top processes are generated in two inclusive samples. A NNLO QCD K-factor is also derived using Top++ 2.0 \cite{}. The top sample also undergoes a fit at high mass where statistics grow too low. A dijet function is used to fig between 200 - 700 GeV and then stitched above 500 GeV. }
+   {\raggedright The top sample is estimated using MC@NLO 3.41 \cite{} with NLO PDF CT10 \cite{} to generate matrix elements with JIMMY 4.31 \cite{} describing parton interactions and HERWIG \cite{} deriving the underlying event and parton showers. Both $t\bar{t}$ and single Top processes are generated in two inclusive samples. A NNLO QCD K-factor is also derived using Top++ 2.0 \cite{}. The top sample also undergoes a fit at high mass where the MC has low statistics. A dijet function ($c_{0}x^{c_{1}} x^{c_{2}\log{x}}$) is used to fit between 200 - 700~GeV then the sample is cut at 500~GeV above which the dijet fit is used.}
 
 
 \subsection{MC Corrections}
    \label{sec:correc}
 
-   Corrections are applied to MC sample due to many factors including unknown run conditions within the ATLAS detector due to MC samples being created earlier than data collection as well as known inefficiencies in the reconstruction of MC events. Bellow are listed all of the corrections which are applied on an event by even basis during the analysis of MC samples.\\
+   Corrections are applied to MC sample due to several factors including unknown run conditions within the ATLAS detector due to MC samples being created earlier than data collection as well as known inefficiencies in the reconstruction of MC events. Below are listed all of the corrections which are applied on an event by even basis during the analysis of MC samples.\\
 
 
    {\bf\raggedright Pile-up Correction}
@@ -52,12 +52,13 @@ This chapter discuses methods used to estimate background processes the the sign
 
    {\bf\raggedright Isolation and Trigger Scale Factor}
 
-   {\raggedright A study was done of the data/MC comparison for the isolation selections and the trigger requirements. The differences were found to be bellow 1\% and are applied as a uniform scale factor after event selection.}
+   {\raggedright A study was done of the data/MC comparison for the isolation selections and the trigger requirements. The differences were found to be below 1\% and are applied as a uniform scale factor after event selection.}
 
 
 
 
 \section{Fake Factor Multi-Jet Estimate}
+   \label{sec:FFmethod}
 
 One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a ``fake factor'' or ``matrix-method''. This is a data-driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition (see Chapter 4) with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden values are also assigned $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
 
@@ -66,7 +67,7 @@ One of the major sources of background to di-electron signals are di-jets or ele
 \end{equation}
 
 The fake rate $f$ denotes the probability that a $fake$ electron which passes the loose requirement also passes tight while $r$ refers to the probability that a $real$ electron which passes the loose requirement also passes the tight.
-Reconstructed events are split in to two distinct groups, tight($T$), and loose while failing tight($L$), where $Tight$ is now no longer a subset of $Loose$. This allows us to relate our reconstructed events to the underling truth events via a matrix of fake rates shown in Eq.~\ref{eq:mainFakeMatrix}.
+Reconstructed events are split in to two distinct groups, tight($T$), and loose while failing tight($L$), where $Tight$ is now no longer a subset of $Loose$. This allows us to relate our reconstructed events to the underling truth events via a matrix of fake rates shown in equation~\ref{eq:mainFakeMatrix}.
 
 \begin{equation} \label{eq:mainFakeMatrix}
    \begin{pmatrix}
@@ -190,7 +191,7 @@ Due to the different prescales of each trigger a separate set of fake rates are 
 \subsection{Properties of Multi-Jet Background}
 
 In order to compose the final sample events are organised by the distributions $N_{TT}$, $N_{TL}$, $N_{LT}$ or $N_{LL}$ and weights are applied according to each electrons $p_{T}$, $\eta$ with respect to Eq.~\ref{eq:mainFakeResult} and the corresponding efficiencies and fake rates. 
-Fig. \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. In addition to these steps an extra fit is then applied at low invariant mass due to contamination due to the Z boson peak. This method is not suited to predicting the Multi-Jet background in the Z boson peak region and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and bellow. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region. At high-mass statistics of the sample decline and so an additional fit is made a high mass with the lower edge of the fit varied between 425 and 600 GeV and the upper edge from 700 to 1200 GeV, with the stitching point at 500 GeV.
+Fig. \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. In addition to these steps an extra fit is then applied at low invariant mass due to contamination due to the Z boson peak. This method is not suited to predicting the Multi-Jet background in the Z boson peak region and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and below. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region. At high-mass statistics of the sample decline and so an additional fit is made a high mass with the lower edge of the fit varied between 425 and 600 GeV and the upper edge from 700 to 1200 GeV, with the stitching point at 500 GeV.
 
    \begin{figure}[h]
       \begin{center}
@@ -209,15 +210,15 @@ Fig. \ref{fig:N_dist} shows these distributions before the efficiencies and fake
    \label{sec:MJerror}
 
 
-Two other methods and variations upon them were used to test the validity of this method as well as estimate the systematic error of this background estimates procedure. These two methods are both tag and probe measurements on either the jet stream of data, or the egamma stream where the method is more an ``inverse'' tag and probe with the selection of a tag with high probability of being a jet. Variations are also made on the method by assuming $r_{1}$ and $r_{2} = 1.0$ in all cases as well as changing the definition of loose but fail tight. These variations simplify the equations slightly but the method remains the same. Fig.~\ref{fig:ff_bkg_variation} shows all of these variations compared to the default method used to obtain the estimation. This figure then gives us a good estimate to the systematic uncertainty of the multi-jet estimate which has been chosen to be a flat $20\%$.
+Two other methods and variations upon them were used to test the validity of this method as well as estimate the systematic error of this background estimates procedure. These two methods are both tag and probe measurements on either the jet stream of data, or the egamma stream where the method is more an ``inverse'' tag and probe with the selection of a tag with high probability of being a jet. Variations are also made on the method by assuming $r_{1}$ and $r_{2} = 1.0$ in all cases as well as changing the definition of loose but fail tight. These variations simplify the equations slightly but the method remains the same. Figure \ref{fig:ff_bkg_variation} shows all of these variations compared to the default method used to obtain the estimation. This figure then gives us a good estimate to the systematic uncertainty of the multi-jet estimate which has been chosen to be a flat $20\%$.
 
-   \begin{figure}[h]
-      \begin{center}
-      \includegraphics[scale=1,trim={3cm 5.5cm 3cm 14cm},clip]{images/ff_bkg_variation.ps}
-      \end{center}
-   \caption{Ratio of the final background estimate of all method variations to the default method. The ratio starts at 116 GeV and ends at 1500 GeV. Source: resonant support note, will not be able to use this. (NOT MADE BY ME!!!)}
-   \label{fig:ff_bkg_variation}
-   \end{figure}
+   % \begin{figure}[h]
+   %    \begin{center}
+   %    \includegraphics[scale=1,trim={3cm 5.5cm 3cm 14cm},clip]{images/ff_bkg_variation.ps}
+   %    \end{center}
+   % \caption{Ratio of the final background estimate of all method variations to the default method. The ratio starts at 116 GeV and ends at 1500 GeV. Source: resonant support note, will not be able to use this. (NOT MADE BY ME!!!)}
+   % \label{fig:ff_bkg_variation}
+   % \end{figure}
 
 
 

@@ -1,7 +1,7 @@
 \chapter{Event Selection}
 
-The main event selection for this analysis is based on a standard cut-flow selection used within ATLAS to select high energy di-electron events. Following will be the basic outline of each requirement an event must satisfy followed by a small discussion of optimisations done to some cuts for this analysis. Finally a discussion of corrections is included spanning minor variable corrections to data obtained by performance groups after reconstruction and more substantial corrections to MC samples to correctly estimate run conditions.
-The following analysis selection is applied equally the data and MC background samples unless were noted.
+The main event selection for this analysis is based on a standard cut-flow selection used within ATLAS to select high energy di-electron events. Following will be the basic outline of each requirement an event must satisfy followed by a discussion of optimisations done to some cuts for this analysis. Finally a discussion of corrections is included; spanning minor variable corrections to data obtained by performance groups after reconstruction and more substantial corrections to MC samples to correctly estimate run conditions.
+The following analysis selection is applied equally to the data and MC background samples unless were noted.
 
 
 \section{Analysis Selection}
@@ -26,8 +26,8 @@ The following selection is made to all data and MC events for this analysis. Bef
 {\bf Dielectron Selection}
 \begin{itemize}
 \item Selection of two highest $p_{T}$ electrons left in event.
-\item Lead Isolation (A cone around the candidate in the calorimeter is required to have  $< 0.007~\times~E_{T}$\\$+~5.0~GeV$ deposited in it) of the highest $p_{T}$ electron in the event is used to suppress jet's background. 
-\item Sub-leading Isolation (A cone around the candidate in the calorimeter is required to have  $< 0.0022$\\$~\times~E_{T}~+~6.0~GeV$ deposited in it) of the highest $p_{T}$ electron in the event is used to suppress more jet's background. 
+\item Lead isolation (a cone around the candidate in the calorimeter is required to have  $< 0.007~\times~E_{T}$\\$+~5.0~GeV$ deposited in it) of the highest $p_{T}$ electron in the event is used to suppress jet background. 
+\item Sub-leading isolation (a cone around the candidate in the calorimeter is required to have  $< 0.0022$\\$~\times~E_{T}~+~6.0~GeV$ deposited in it) of the second highest $p_{T}$ electron in the event is used to suppress more jet background. 
 \item Dielectron invariant mass (m$_{ee}$) is required to be greater than or equal 80 GeV.
 \item Opposite sign requirement. Require both electrons to have opposite charge.
 \end{itemize}
@@ -37,31 +37,31 @@ The following selection is made to all data and MC events for this analysis. Bef
 
 \section{Isolation Requirement}
 
-It was decided a re-investigation of the isolation requirement was needed, updating the cut from its previous iteration in the di-electron analysis on 2011 ATLAS data. The previous threshold was a flat, less than 7 GeV, cut on the $p_{T}$ corrected (define pT corrected) electro-magnetic calorimeter cluster isolation (definition probably required) of the highest $p_{T}$ electron in the selected pair. The first investigation was to see how this cut performed in the selection of MC signal at 8 TeV centre of mass energy. Due to the better statistics found in the $DY{\rightarrow}ee$ MC sample and this being an irreducible background and therefore indistinguishable from the signal this was used in the following investigation.
+When optimising for the 8 TeV analysis a re-investigation of the isolation requirement was needed, updating the selection from its previous iteration in the di-electron analysis on $7~$TeV ATLAS data. The previous threshold was a flat, less than $7~$GeV, cut on the calorimeter cluster isolation ($E_{T}$cone20) of the highest $p_{T}$ electron in the selected pair. The first investigation was to see how this cut performed in the selection of MC signal at 8 TeV centre of mass energy. Due to the better statistics found in the $DY{\rightarrow}ee$ MC sample and this being an irreducible background and therefore indistinguishable from the signal this was used in the following investigation.
 
-It can be seen in fig. \# that this flat cut of 7 GeV causes an increasing efficiency loss at high energy and was deemed unsuitably high for this iteration of the analysis due to the higher reach in energy expected from the higher centre of mass energy. Two methods that could be used in conjunction were proposed to solve this issue as well as the possibility of introducing a requirement on the second highest energy electron in our selected pair.
+This flat cut of 7 GeV causes an increasing efficiency loss at high energy and was deemed unsuitably high for this iteration of the analysis due to the higher reach in energy expected from the higher centre of mass energy. The introduction of an isolation requirement on the second highest electron was also proposed which did not exist in the 7 TeV analysis.
 
-The first alternative was a different algorithm of calculating the isolation variable, topo isolation (definition required). This was deemed unsuitable after a short investigation due the similarity of distribution of final result and problems with the implementation of this algorithm in ATLAS reconstruction code. (remember and find out the exact reason)
+The possibility was an isolation requirement varying with energy. The main source of background the isolation cut is imposed to reduce is jets that fake an electron signal in the detector. Jet backgrounds are estimated via a reverse ID method on data seen in section \ref{sec:FFmethod} with low statistics at high energy. For this reason it is hard to optimise the isolation requirement against rejection of this background at high energy. This study was undertaken by the author to optimise the isolation requirement. 
 
-The second possibility was an isolation requirement varying with energy. Fig. \ref{fig:C5_leadIso_vs_leadpT} shows the distribution of DY MC events in $E_{T}$ and cluster isolation. It can be seen that electrons become less isolated under this definition of isolation as energy of the electron increases. This is to be expected as higher energy electrons produce larger showers in the EM calorimeter and so are less well restrained to only a few colorimeter cells in the electron shower. 
+Figure \ref{fig:C5_leadIso_vs_leadpT} shows the distribution of DY MC events in $E_{T}$ and cluster isolation. It can be seen that electrons become less isolated under this definition of isolation as energy of the electron increases. This is to be expected as higher energy electrons produce larger showers and spread out over many EM calorimeter cells. 
 
    \begin{figure}[h]
       \begin{center}
       \includegraphics[scale=0.7]{images/C5_leadIso_vs_leadpT.eps}
       \end{center}
-   \caption{Distribution of DY MC in $E_{T}$ and cluster isolation for the highest energy electon. Colour density shows the fraction of electons from that $E_{T}$ coulum found in cell. The red line shows the 99\% acceptance point of electrons in the $E_{T}$ coloum. While the Black vertical and horizontal lines show the $p_{T}$ and old isolation cut respectivly.}
+   \caption{Distribution of DY MC in $E_{T}$ and cluster isolation for the highest energy electron. Colour density shows the fraction of electons from that $E_{T}$ column found in the cell. The red line shows the 99\% acceptance point of electrons in the $E_{T}$ column. While the black vertical and horizontal lines show the $p_{T}$ and old isolation cut respectively.}
    \label{fig:C5_leadIso_vs_leadpT}
    \end{figure}
 
 
-In order to define a requirement varying in pT the 99\% acceptance point for each pT column was looked at and a 1st order polynomial fit to these points by eye was done. The 99\% acceptance points can be seen in fig. \ref{fig:C5_leadIso_vs_leadpT_proposal} as well as the estimated fit which would form the cut. The same thing was looked at for the second highest pT electron and can be seen in fig. \ref{fig:C5_subIso_vs_subpT_proposal}.
+In order to define a requirement varying in E$_{T}$, the 99\% acceptance point for each E$_{T}$ column was calculated and a first order polynomial fit to these points by eye was done. The 99\% acceptance points can be seen in figure \ref{fig:C5_leadIso_vs_leadpT} and this as well a the fit can be seen in figure \ref{fig:C5_leadIso_vs_leadpT_proposal}. The same thing was calculated for the second highest E$_{T}$ electron and can be seen in figure \ref{fig:C5_subIso_vs_subpT_proposal}.
 
 
    \begin{figure}[h]
       \begin{center}
       \includegraphics[scale=0.7]{images/C5_leadIso_vs_leadpT_proposal.eps}
       \end{center}
-   \caption{Similar plot to Fig. \ref{fig:C5_leadIso_vs_leadpT} but with a fit 99\% as a possible issolation requirment.}
+   \caption{Similar plot to figure \ref{fig:C5_leadIso_vs_leadpT} but with a fit to 99\% efficiency suggested as a possible isolation requirement.}
    \label{fig:C5_leadIso_vs_leadpT_proposal}
    \end{figure}
 
@@ -70,7 +70,7 @@ In order to define a requirement varying in pT the 99\% acceptance point for eac
       \begin{center}
       \includegraphics[scale=0.7]{images/C5_subIso_vs_subpT_proposal.eps}
       \end{center}
-   \caption{Similar plot to Fig. \ref{fig:C5_leadIso_vs_leadpT_proposal} but for second highest energy electrons after the requirment proposed in Fig. \ref{fig:C5_leadIso_vs_leadpT_proposal} is applied.}
+   \caption{Similar plot to figure \ref{fig:C5_leadIso_vs_leadpT_proposal} but for second highest energy electrons after the 99\% isolation efficiency selection is applied to the highest energy electron.}
    \label{fig:C5_subIso_vs_subpT_proposal}
    \end{figure}
 
@@ -83,14 +83,14 @@ The two first order polynomials shown here correspond to isolation requirements 
    \end{center}
 for the highest and second highest energy electrons respectively. 
 
-An analysis of the efficiency of these cuts on signal can be seen in fig. \ref{fig:C5_lead_iso_efficiency} and fig. \ref{fig:C5_sub_iso_efficiency} where it can be seen they maintain a flat behaviour as $E_{T}$ increases.
+An analysis of the efficiency of these cuts on signal can be seen in figures \ref{fig:C5_lead_iso_efficiency} and \ref{fig:C5_sub_iso_efficiency} where it can be seen they maintain a flat behaviour as $E_{T}$ increases.
 
 
    \begin{figure}[h]
       \begin{center}
       \includegraphics[scale=0.6]{images/C5_lead_iso_efficiency.eps}
       \end{center}
-   \caption{Efficency of new leading electon isolation cut on selection of signal MC. Red and orange lines indicate the 99\% and 98\% efficency levels respectivly.}
+   \caption{Efficiency of new leading electron isolation cut on selection of signal MC. Red and orange lines indicate the 99\% and 98\% efficiency levels respectively.}
    \label{fig:C5_lead_iso_efficiency}
    \end{figure}
 
@@ -98,11 +98,9 @@ An analysis of the efficiency of these cuts on signal can be seen in fig. \ref{f
       \begin{center}
       \includegraphics[scale=0.6]{images/C5_sub_iso_efficiency.eps}
       \end{center}
-   \caption{Efficency of new subleading electon isolation cut oxn selection of signal MC. Red and orange lines indicate the 99\% and 98\% efficency levels respectivly.}
+   \caption{Efficiency of new subleading electron isolation cut on selection of signal MC. Red and orange lines indicate the 99\% and 98\% efficiency levels respectively.}
    \label{fig:C5_sub_iso_efficiency}
    \end{figure}
-
-The main source of background the isolation cut is imposed to reduce is jets that fake an electron signal in the detector. It is therefore important to measure the effect of this new requirement. Jets background is estimated via a reverse ID method on data (see Section \#) and so lacks statistics at high energy. For this reason it is impossible to optimise the isolation requirement against rejection of high energy fakes as seen in fig. \#. Fig. \# shows the efficiency of acceptance of jet fakes against pT and shows a sizeable increase in efficacy over the flat cut (fig. \#) used previously. 
 
 
 
@@ -114,14 +112,14 @@ The main source of background the isolation cut is imposed to reduce is jets tha
 
 \section{Energy Scale Correction}
 
-   During the selection process an additional correction to the energy of electrons is applied that is no included in the reconstruction. This addition results for a study done by the ATLAS electron and photon performance group at the end of the data run calibrating energies within the Z boson peak. This results in a array of energy scale corrections distributed in E$_{T}$ and $\eta$ and applied before electron selection.
+   During the selection process an additional correction to the energy of electrons is applied that is not included in the reconstruction. This addition comes from a study done by the ATLAS electron and photon performance group at the end of the data run calibrating energies within the Z boson peak \cite{ATLAS-CONF-2014-032}. This results in a array of energy scale corrections distributed in E$_{T}$ and $\eta$ and applied before electron selection.
 
 
 
 
 \section{Selection Acceptance $\times$ Efficiency}
 
-   Figure \ref{fig:AxE} shows the acceptance $\times$ efficiency of of the event selection at selecting DY MC events while table \ref{tab:eventEff} shows the efficiency of each part of the event selection. 
+   Figure \ref{fig:AxE} shows the acceptance $\times$ efficiency of the event selection at selecting DY MC events while table \ref{tab:eventEff} shows the efficiency of each part of the event selection. It can be seen that the opposite charge requirement causes a 7\% drop in acceptance rate in the signal region. Although a lot it can be seen in section \ref{sec:oppSign} that the effect of this drop is accommodated for by the new angular search introduced in this analysis and the reason for the selection.
 
 
 
@@ -129,7 +127,7 @@ The main source of background the isolation cut is imposed to reduce is jets tha
       \begin{center}
       %\includegraphics[scale=0.6]{images/}
       \end{center}
-   \caption{Plot showing Acceptance $\times$ Efficiency as a function of invariant mass for DY MC events.}
+   \caption{Plot showing acceptance $\times$ efficiency as a function of invariant mass for DY MC events.}
    \label{fig:AxE}
    \end{figure}
 

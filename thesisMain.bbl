@@ -229,6 +229,14 @@ M.~Acciarri, et~al.,
   {\path{doi:http://dx.doi.org/10.1016/S0370-2693(00)00887-X}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026930000887X}
 
+\bibitem{Abazov:2008as}
+V.~Abazov, et~al., {Search for Large extra spatial dimensions in the dielectron
+  and diphoton channels in $p \bar{p}$ collisions at $\sqrt{s}$ = 1.96-TeV},
+  Phys.Rev.Lett. 102 (2009) 051601.
+\newblock \href {http://arxiv.org/abs/0809.2813} {\path{arXiv:0809.2813}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.102.051601}
+  {\path{doi:10.1103/PhysRevLett.102.051601}}.
+
 \bibitem{1367-2630-9-9-335}
 L.~Evans, \href{http://stacks.iop.org/1367-2630/9/i=9/a=335}{The large hadron
   collider}, New Journal of Physics 9~(9) (2007) 335.
@@ -238,10 +246,45 @@ L.~Evans, \href{http://stacks.iop.org/1367-2630/9/i=9/a=335}{The large hadron
 O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole,
   P.~Proudlock, {LHC Design Report}, CERN, Geneva, 2004.
 
+\bibitem{LuPublicResults}
+\href{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}{Total
+  integrated luminosity and data quality in 2011 and 2012}.
+\newline\urlprefix\url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}
+
 \bibitem{Aad:1129811}
 G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider},
   Journal of Instrumentation 3 (2008) S08003. 437 p, also published by CERN
   Geneva in 2010.
+
+\bibitem{ATLAS-CONF-2012-048}
+{Performance of the ATLAS Electron and Photon Trigger in p-p Collisions at
+  sqrt{s} = 7 TeV in 2011}, Tech. Rep. ATLAS-CONF-2012-048, CERN, Geneva (May
+  2012).
+
+\bibitem{mu_2011_2012_dec}
+\href{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}{Number
+  of interactions per crossing}.
+\newline\urlprefix\url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}
+
+\bibitem{Aad:2011dr}
+G.~Aad, et~al., {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$
+  TeV Using the ATLAS Detector at the LHC}, Eur.Phys.J. C71 (2011) 1630.
+\newblock \href {http://arxiv.org/abs/1101.2185} {\path{arXiv:1101.2185}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-011-1630-5}
+  {\path{doi:10.1140/epjc/s10052-011-1630-5}}.
+
+\bibitem{Aad:2011mk}
+G.~Aad, et~al., {Electron performance measurements with the ATLAS detector
+  using the 2010 LHC proton-proton collision data}, Eur.Phys.J. C72 (2012)
+  1909.
+\newblock \href {http://arxiv.org/abs/1110.3174} {\path{arXiv:1110.3174}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-012-1909-1}
+  {\path{doi:10.1140/epjc/s10052-012-1909-1}}.
+
+\bibitem{ATLAS-CONF-2014-032}
+{Electron efficiency measurements with the ATLAS detector using the 2012 LHC
+  proton-proton collision data}, Tech. Rep. ATLAS-CONF-2014-032, CERN, Geneva
+  (Jun 2014).
 
 \bibitem{Alekhin:2013dmy}
 S.~Alekhin, J.~Bluemlein, S.~O. Moch, {ABM11 PDFs and the cross section

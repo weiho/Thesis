@@ -7,26 +7,34 @@ The other main source of reconstruction is done in a process called reprocessing
 The Data format used in this analysis is an internal ATLAS format called a D3PD. This format is a type of ROOT \cite{} ntuple, or sequence of ordered lists, which stores ATLAS event data. The data used has past through ATLAS software reconstruction while the Monte-Carlo (MC) background estimate samples have gone through GEANT \cite{} detector simulation as well as ATLAS reconstruction. This means analysis of these D3PD's with root requires only minor corrections.
 
 
-Some of the many variables reconstructed are event specific and one of the more important of this is the Number of interactions per bunch crossing. As more than one proton collision takes place with each bunch collision a lot of physics background to a search can appear in an event. This makes the search harder but it is also needs to be predicted properly by background estimates. The problem is referred to as pile-up and is discussed in section 6.
+Some of the many variables reconstructed are event specific and one of the more important of this is the number of interactions per bunch crossing. As more than one proton collision takes place with each bunch collision a lot of physics background can appear in an event. This makes the search harder but it is also needs to be predicted properly by background estimates. The problem is referred to as pile-up and corrections needed to accommodate it are discussed in section \ref{sec:correc}. Figure \ref{} shows the distribution of number of interactions per bunch crossing seen in the 7 TeV and 8 TeV ATLAS data sets.
 
-Bellow will mainly be a discussion of the reconstruction of electron (and related photon) objects as these are the decay products searched for in this analysis.
+\begin{figure}[h!]
+	\centering
+		\includegraphics[width=0.8\linewidth]{images/mu_2011_2012-dec.eps}
+	\caption{Luminosity-weighted distribution of the mean number of interactions per crossing for the 2011 and 2012 data. \cite{mu_2011_2012_dec,Aad:2011dr}}
+	\label{fig:L1}
+\end{figure}
+
+
+Below will mainly be a discussion of the reconstruction of electron (and related photon) objects as these are the decay products searched for in this analysis.
 
 
 
 \section{Electron Reconstruction and Identification}
 \label{sec:ReconElec}
 
-	During reconstruction each EM calorimeter energy signature with an associated track in the inner detector get listed as an electron object. These objects get selected via a clustering algorithm in the EM calorimeter which defines the energy and is then matched to a track. These objects then have a list of associated variables derived from detector readouts on which an analysis selection for `good' electrons can be made. These variables range from simple values of position and energy to more complex derived values such as isolation. A few variables will be listed bellow relevant to this analysis and how they are derived.
+	During reconstruction each EM calorimeter energy signature with an associated track in the inner detector get listed as an electron object. These objects get selected via a clustering algorithm in the EM calorimeter which defines the energy and is then matched to a track. These objects then have a list of associated variables derived from detector readouts on which an analysis selection for `good' electrons can be made. These variables range from simple values of position and energy to more complex derived values such as isolation. A few variables will be listed below relevant to this analysis and how they are derived.
 
 	\begin{itemize}
 	\item $\eta$ \& $\phi$, a particle trajectory or position in detector. These are the main variables for measuring the direction the particle went in the detector and for electrons can be measured in two ways. Either via cluster location in the EM calorimeter or measurement in the inner detector.
 	\item $p_{T}$ or transverse momentum. $p_{T}$ is the main measure of energy used for particles where $p_{T}~=~|p|\cosh{\eta}$. Here $\eta$ comes from either the inner detector or calorimeter cluster hit location and the choice is dependent on a how many hits the track made travelling though the inner detector and therefore how accurate the measurement is.
-	\item $E_{T}$cone20. This is a variable measuring the sum of energy found around the region of interest minus the electron cluster for $R < 0.20$ where $R = \sqrt{\eta^{2} + \phi^{2}}$. $E_{T}$cone20 is used to check cone isolation in order to eliminate jet like signatures from the analysis which often create large showers in the calorimeters.
+	\item $E_{T}$cone20. This is a cluster isolation variable measuring the sum of energy found around the region of interest minus the electron cluster for $R < 0.20$ where $R = \sqrt{\eta^{2} + \phi^{2}}$. $E_{T}$cone20 is used to check cone isolation in order to eliminate jet like signatures from the analysis which often create large showers in the calorimeters.
 	\item Electron Charge. This is simple matter of measuring the direction the electron curves in the inner detector. However as discussed in chapter 5 this can be hard for very high energy electrons.
-	\item loose, medium, tight. This is a definition given to a set of selections defining how certain it is the object is an electron. The selections and variables associated with this are discussed bellow.
+	\item loose, medium, tight. This is a definition given to a set of selections defining how certain it is the object is an electron. The selections and variables associated with this are discussed below.
 	\end{itemize}
 
-	Loose, medium and tight define an increasing series of selections for identifying good electron signatures in the detector. The selections vary between shower shape variables to track quality and track cluster matching. The some of the important associated variables are discussed bellow in table \ref{tab:Rec_lmt} with the full selections found in appendix \ref{} as the full selections are two dimensional arrays of threshold for most selections. Also to note there are two different definitions of medium referred to as medium and medium++. The latter is a re-optimisation of the selection and slightly stricter than the original medium. medium++ is the definition used in this analysis and found in appendix \ref{}.
+	Loose, medium and tight define an increasing series of selections for identifying good electron signatures in the detector. The selections vary between shower shape variables to track quality and track cluster matching. Some of the important associated variables are discussed in table \ref{tab:Rec_lmt} with the full selections found in appendix \ref{} as the full selections are two dimensional arrays of threshold for most selections. Also to note there are two different definitions of medium referred to as medium and medium++. The latter is a re-optimisation of the selection and slightly stricter than the original medium. medium++ is used in this analysis and found in appendix \ref{}.
 
 	\begin {table}[h!]
 	\begin{center}
@@ -83,7 +91,7 @@ Bellow will mainly be a discussion of the reconstruction of electron (and relate
 							& Veto electron candidates matched to reconstructed photon conversions 		 	& 						\\
 		\hline
   		\end{tabular}
-  	\caption{Table showing the variables associated with definitions of loose, medium and tight. Full thresholds found in appendix \ref{}}
+  	\caption{Table showing the variables associated with definitions of loose, medium and tight \cite{Aad:2011mk}. Full thresholds found in appendix \ref{}}
   	\label{tab:Rec_lmt}
   	\end{center}
 	\end {table}
