@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  6 JUN 2014 20:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  7 JUN 2014 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -767,9 +767,6 @@ less on input line 71.
 
 LaTeX Warning: Label `fig:ATLAS_calo_crack' multiply defined.
 
-
-LaTeX Warning: Label `fig:L1' multiply defined.
-
 )
 \openout1 = `thesisMain.aux'.
 
@@ -1109,9 +1106,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [31] (./chapters/4_Reconstruction.tex [32]
 Chapter 4.
-
-LaTeX Warning: Reference `' on page 33 undefined on input line 10.
-
 File: images/mu_2011_2012-dec.eps Graphic file (type eps)
 <images/mu_2011_2012-dec.eps>
 
@@ -1247,34 +1241,29 @@ File: images/f1.eps Graphic file (type eps)
  <images/f1.eps>
 File: images/f2.eps Graphic file (type eps)
 
-<images/f2.eps> [50]
+<images/f2.eps>
+
+LaTeX Warning: Reference `eq:mainFakeResult' on page 50 undefined on input line
+ 193.
+
+[50]
 File: images/N_distributions.eps Graphic file (type eps)
- <images/N_distributions.eps>
-
-LaTeX Warning: Reference `fig:ff_bkg_variation' on page 51 undefined on input l
-ine 213.
-
-) [51] (./chapters/8_Signal_Search.tex
+ <images/N_distributions.eps> [51]
+File: images/invMass_bkgonly.eps Graphic file (type eps)
+ <images/invMass_bkgonly.eps>) [52]
+(./chapters/8_Signal_Search.tex
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
-
- []
-
-[52
+[53
 
 ]
-
-LaTeX Warning: Reference `fig:ADDparm' on page 53 undefined on input line 37.
-
 File: images/parametrisations/NexpFits_minus_elec_lowmass.eps Graphic file (typ
 e eps)
-<images/parametrisations/NexpFits_minus_elec_lowmass.eps>
+ <images/parametrisations/NexpFits_minus_elec_lowmass.eps>
 File: images/parametrisations/NexpFits_plus_elec_lowmass.eps Graphic file (type
  eps)
 
@@ -1296,33 +1285,21 @@ eps)
 
 <images/parametrisations/NexpFits_plus_elec_himass.eps>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `' on page 53 undefined on input line 64.
-
-
-Package caption Warning: \label without proper \caption on input line 274.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:ADD_results' on page 53 undefined on input line 6
-4.
-
+[54] [55]
 File: images/invmass_main.eps Graphic file (type eps)
-<images/invmass_main.eps>
+ <images/invmass_main.eps>
+File: images/CosThetaStar_Control_main.eps Graphic file (type eps)
+ <images/CosThetaStar_Control_main.eps>
+File: images/CosThetaStar_Signal_main.eps Graphic file (type eps)
+
+<images/CosThetaStar_Signal_main.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/A_fb_main.eps Graphic file (type eps)
 <images/A_fb_main.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/CosThetaStar_Control_main.eps Graphic file (type eps)
-<images/CosThetaStar_Control_main.eps>
-File: images/CosThetaStar_Signal_main.eps Graphic file (type eps)
- <images/CosThetaStar_Signal_main.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1342,7 +1319,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (34.08311pt too wide) in paragraph at lines 206--240
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (34.08311pt too wide) in paragraph at lines 226--260
  [] 
  []
 
@@ -1352,15 +1332,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [53] (./chapters/9_Statistical_Analysis.tex [54] [55] [56] [57] [58] [59]
-[60]
+) [56] (./chapters/9_Statistical_Analysis.tex [57] [58] [59] [60] [61] [62]
 Chapter 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[61
+[63
 
 ]
 File: images/ee__LL_minus_L2/post.ps Graphic file (type eps)
@@ -1378,38 +1357,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--115
 
  []
 
-[62] [63] [64]
+[64] [65] [66]
 
-LaTeX Warning: Reference `' on page 65 undefined on input line 132.
+LaTeX Warning: Reference `' on page 67 undefined on input line 132.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65] [66]
+[67] [68]
 File: images/ee__LL_minus_L2/LLR.eps Graphic file (type eps)
  <images/ee__LL_minus_L2/LLR.eps>
 File: images/ee__LR_minus_L2/LLR.eps Graphic file (type eps)
  <images/ee__LR_minus_L2/LLR.eps>
-[67]
+[69]
 File: images/ee__LL_minus_L2/Theta.eps Graphic file (type eps)
  <images/ee__LL_minus_L2/Theta.eps>
 File: images/ee__LR_minus_L2/Theta.eps Graphic file (type eps)
  <images/ee__LR_minus_L2/Theta.eps>
-[68]
+[70]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 373.
 
-) [69] [70] (./chapters/5_2011_Analysis.tex
+) [71] [72] (./chapters/5_2011_Analysis.tex
 Chapter 9.
-[71
+[73
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[72]
+[74]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1444,24 +1423,24 @@ File: images/ADD_inv_mass.eps Graphic file (type eps)
  <images/ADD_inv_mass.eps>
 File: images/ADD_int_inv_mass.eps Graphic file (type eps)
 
-<images/ADD_int_inv_mass.eps> [73] [74] [75] [76] [77]
+<images/ADD_int_inv_mass.eps> [75] [76] [77] [78] [79]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[78]) [79] (./chapters/10_Conclusion.tex
+[80]) [81] (./chapters/10_Conclusion.tex
 Chapter 10.
-[80
+[82
 
-]) [81] [82
+]) [83] [84
 
 
 ] (./chapters/ApendixD_Control_plots.tex
 Appendix A.
-) [83
+) [85
 
 ] (./chapters/ApendixE_Statistical_analysis_plots.tex
 Appendix B.
-) [84
+) [86
 
 ] (./thesisMain.bbl
 Underfull \hbox (badness 1163) in paragraph at lines 9--16
@@ -1497,7 +1476,7 @@ Underfull \hbox (badness 1348) in paragraph at lines 44--52
  Phys. Rev. Lett. 103 (2009) 191803.
  []
 
-[85
+[87
 
 ]
 Missing character: There is no â in font ptmr7t!
@@ -1515,7 +1494,7 @@ Underfull \hbox (badness 4378) in paragraph at lines 166--174
  591 (12) (2004) 23 -- 41.
  []
 
-[86]
+[88]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -1526,7 +1505,7 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
- [87]
+ [89]
 Underfull \hbox (badness 3302) in paragraph at lines 277--283
 []\OT1/ptm/m/n/10.95 G. Aad, et al., Elec-tron per-for-mance mea-sure-ments wit
 h the AT-LAS de-tec-tor us-ing the
@@ -1544,7 +1523,7 @@ Underfull \hbox (badness 1152) in paragraph at lines 295--300
 roton cross sec-tion cal-cu-
  []
 
-) [88] (./thesisMain.aux)
+) [90] (./thesisMain.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1553,12 +1532,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13779 strings out of 493611
- 275044 string characters out of 3142449
- 329707 words of memory out of 3000000
- 16758 multiletter control sequences out of 15000+200000
+ 13786 strings out of 493611
+ 275153 string characters out of 3142449
+ 327707 words of memory out of 3000000
+ 16764 multiletter control sequences out of 15000+200000
  55404 words of font info for 165 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  36i,15n,58p,2017b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (98 pages, 286260 bytes).
+Output written on thesisMain.dvi (100 pages, 291548 bytes).

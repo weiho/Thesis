@@ -1,28 +1,28 @@
 \chapter{Signal and Results}
 
-This chapter discuses the generators used to estimate the signal models and how this a parametrised for the statistical analysis. Then a look at the results of the data background comparison looking for any sign of new physics signal is shown.
+This chapter discusses the generators used to model signal distributions and how these are parametrised for input to the statistical analysis. This is followed by the results of the data background comparison looking for any sign of new physics signal.
 
 \section{Signal Monte Carlo}
 
-	All signal MC is produced in the same way as the background MC and then summed with the other background predictions to arrive at the full signal prediction. Since each sample already contains the DY prediction due to the interference nature of the new physics a method is used to remove this fraction and then use the SM DY background prediction instead is discussed for each signal. Each sample also gets scaled by the same factor as the background MC from the z peak scaling. \\
+	All signal MC is produced in the same way as the background MC and then summed with the other background predictions to arrive at the full signal prediction. Each sample also gets scaled by the same factor as the background MC from the Z peak scaling. \\
 
 
-	{\bf\raggedright Contact Interaction}
+	\subsection*{Contact Interaction}
 
-	{\raggedright Contact Interaction samples are generated using PYTHIA 8 \cite{} with the leading order PDF MSTW2008LO \cite{}. The CI MC samples also have a K-factor applied that is derived in the same way as the DY K-factor but scaling from LO to NNLO instead (see section \ref{sec:MC}). A selection of $\Lambda$ values was chosen to cover the reach in new physics for all the parametrisation of the model for the 2012 8 TeV data set. This constituents signals for $\Lambda$ = 7, 10, 14, 20 and 28 TeV. For each of these working points parametrisations of constructive and destructive interference and LL, LR and RR models are all generated. This makes 6 parametrisations with 5 $\Lambda$ values produced for each one. Each MC sample is composed of three dilepton mass binned samples above 300 GeV in order to maintain statistics. Bellow 300 GeV negligible new physics is predicted and so the SM DY prediction is used bellow this point. 
-	Because this MC is LO a PYTHIA 8 DY sample is subtracted from this sample so that the the background DY can be used instead.} \\
+	Contact Interaction samples are generated using PYTHIA 8 \cite{} with the leading order PDF MSTW2008LO \cite{}. The CI MC samples also have a K-factor applied that is derived in the same way as the DY K-factor but scaling from LO to NNLO (see section \ref{sec:MC}). A selection of $\Lambda$ values was chosen to cover the reach in new physics for all formalisms of the model (LL, LR and RR). This constituents signals for $\Lambda$ = 7, 10, 14, 20 and 28 TeV. For each of these working points parametrisations of constructive and destructive interference and LL, LR and RR models are all generated. This makes 6 parametrisations with 5 $\Lambda$ values produced for each one. Each MC sample is composed of three dilepton mass binned samples above 300 GeV in order to maintain statistics. Below 300 GeV negligible new physics is predicted and so the SM DY prediction is used below this point. 
+	Because this MC sample is LO a PYTHIA 8 LO DY sample is also produced. This sample models the DY in the same way as the signal samples allowing you to subtract it from the signal samples to leave a pure new physics signal sample. This signal sample can then be added to the other background samples including the background MC DY sample (seen in section \ref{sec:MC}) to give a full signal prediction with a more consistent and higher statistics DY sample.
 
 
-	{\bf\raggedright ADD}
+	\subsection*{ADD}
 
-	{\raggedright The ADD samples used are produced using the SHERPA \cite{} generator and NLO PDF CT10 \cite{}. Only two formalisms are produced as limits for other formalisms can be converted from the GRW one. The only formalism this is not possible for is HLZ ($n$ = 2). For these 2 formalisms 4 values of M$_{s}$ are generated of M$_{s}$ = 4.75, 4.0, 3.75 and 3.5 TeV. Again 3 dilepton mass bins are used above 300 GeV with the SM DY replacing the distribution bellow this. Also like the CI samples a specific DY only SHERPA sample is produced which is them subtracted from the samples so the background DY can be used.}
+	The ADD samples used are produced using the SHERPA \cite{} generator and NLO PDF CT10 \cite{}. Only two formalisms are produced as limits for other formalisms can be converted from the GRW one. The only formalism this is not possible for is HLZ ($n$ = 2). For these 2 formalisms 4 values of M$_{s}$ are generated of M$_{s}$ = 4.75, 4.0, 3.75 and 3.5 TeV. Again 3 dilepton mass bins are used above 300 GeV with the SM DY replacing the distribution below this. Also, like the CI samples, a specific DY only SHERPA sample is produced which is them subtracted from the signal samples so the background MC DY can be used.
 
 
 
 \section{Signal Parametrisation}
 	\label{sec:parm}
 
-	Each formalism of the CI and ADD model gets parametrised according to the form of their individual cross-sections (Eq's \ref{eq:DiffCross} and \ref{eq:ADDcs}) and as a function of their parameter of interest ($\Lambda$, M$_{s}$). The parametrisations are a prediction of number of expected events $N_{\text{exp}}$ where parameter of interest ($\Lambda$, M$_{s}$) set to $\inf$ equates to no signal and just the standard model background prediction, these can be seen in equations \ref{eq:CIparm} and \ref{eq:ADDparm}. 
+	Each formalism of the CI and ADD model is parametrised according to the form of their individual cross-sections (Eq's \ref{eq:DiffCross} and \ref{eq:ADDcs}) and as a function of their parameter of interest ($\Lambda$, M$_{s}$). The parametrisations are a prediction of number of expected events $N_{\text{exp}}$ where the parameter of interest ($\Lambda$, M$_{s}$) at $\infty$ equates to no signal and just the standard model background prediction, these can be seen in equations \ref{eq:CIparm} and \ref{eq:ADDparm}. 
 
 	\begin{equation}
         N_{\text{exp}}(\Lambda)~=~c_{0} + \frac{c_{1}}{\Lambda^{2}} + \frac{c_{2}}{\Lambda^{4}}
@@ -34,10 +34,10 @@ This chapter discuses the generators used to estimate the signal models and how 
         \label{eq:ADDparm}
     \end{equation}
 
-	Here $c_{0}$ refers to the SM background prediction while $c_{1}$ and $c_{2}$ show the dependence of the scale of new physics on number of expected events. Each formalism gets parametrised in every search bin described at the start of chapter \ref{ch:stat} and can be seen in figure \ref{fig:CIparm} for CI and \ref{fig:ADDparm} for ADD.
+	Here $c_{0}$ refers to the SM background prediction while $c_{1}$ and $c_{2}$ show the dependence of the scale of new physics on number of expected events. Each formalism gets parametrised in every search bin. These search bins are described at the start of chapter \ref{ch:stat} while the parametrisations can be seen in figure \ref{fig:CIparm} for every CI search bin.
 
 
-	\begin{figure}[h]
+	\begin{figure}[h!]
 	    \begin{center}
 	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_minus_elec_lowmass.eps}
 	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_plus_elec_lowmass.eps} \\
@@ -61,34 +61,38 @@ This chapter discuses the generators used to estimate the signal models and how 
 
 \section{Results}
 
-	Following are full results of the event selection for observed data, predicted background and some example signal models. Figures \ref{fig:invMass_main} and \ref{fig:cosTS_main} show the distributions of the two main search variables dielectron invariant mass and $\cos{\theta^{*}}$ with figure \ref{fig:AFB_main} showing a combination of these both in the forward backward asymmetry distribution as defined in equation \ref{eq:AFB}. Following in figure \ref{fig:control_main} are some control plots namely electron $p_{T}$, $\eta$ and $\phi$. More results and control plots can be found in appendix \ref{}. Lastly tables \ref{tab:CI_results1}, \ref{tab:CI_results2}, \ref{tab:CI_results3} and \ref{tab:ADD_results} show the full results of predicted and observed events within each of the search bins discussed in chapter \ref{ch:stat}.
+	Following are full results of the event selection for observed data, predicted background and some example signal models. Figures \ref{fig:invMass_main} and \ref{fig:cosTS_main} show the distributions of the two main search variables dielectron invariant mass and $\cos{\theta^{*}}$. A comparison between data and background is given with the expected shapes of some signal models shown for comparison. Ratio's are also shown between data and background along with a band showing the size of the total systematic uncertainty as described in section \ref{sec:sys}. Figure \ref{fig:AFB_main} then shows forward backward asymmetry ($A_{FB}$) defined in equation \ref{eq:AFB}. Statistical errors on the data points are calculated using the function $\Delta A_{FB} = \sqrt{(1-A_{FB}^{2})/N}$ where $N$ is the number of events in both the forward and backwards regions. The ratio shown in figure \ref{fig:AFB_main} is the difference between data and background $A_{FB}$ values, $\Delta$, divided by the total systematic uncertainty found in that bin, $\sigma$. It can be seen that data favours the angular dependence of the SM prediction or the CI LL formalism with no divergence similar to the CI LR formalism. 
+	In figure \ref{fig:control_main} control plots are seen showing electron $p_{T}$, $\eta$ and $\phi$. More results and control plots can be found in appendix \ref{ap:contol}. Lastly tables \ref{tab:CI_results0}, \ref{tab:CI_results1}, \ref{tab:CI_results2} and \ref{tab:CI_results3} show the full extracted results acceding through the search bins. Each invariant mass bin is shown as well as the forward and backwards regions within each bin where forward refers to events with $\cos{\theta^{*}}$ greater than 0 and backwards events with $\cos{\theta^{*}}$ less than 0. The expected number of events is given for each of the background as well as a selection of CI signal formalisms and the data observed. Table \ref{tab:ADD_results} shows the results for the single ADD search search bin the same as the CI tables.
+
+	It can be seen from these results that no significant difference is seen between data observed and the background predicted. A slight discrepancy is seen between data and background in the 1200 - 1800 GeV invariant mass bin. The background predicts 10.8 events with a total systematic error of 1.6 events while only 7 events are observed in data. As seen later this doesn't signify a significant difference but has an effect on the limits set in chapter \ref{ch:stat}. 
+
 
 
 	\begin{figure}[h]
 	    \begin{center}
 	    	\includegraphics[width=0.8\linewidth]{images/invmass_main.eps}
 	    \end{center}
-	   \caption{Invariant mass comparison between data and MC with possible signal overlays of CI and ADD.}
+	   \caption{Dielectron invariant mass comparison between data and MC with possible signal overlays of CI and ADD. Ratio between data and background included with band showing size of total background systematic. The distribution has bin width constant in $\log(M_{ee})$}
 	   \label{fig:invMass_main}
 	\end{figure}
-
-	\begin{figure}[h]
-	    \begin{center}
-	    	\includegraphics[width=0.8\linewidth]{images/A_fb_main.eps}
-	    \end{center}
-	   \caption{A$_{FB}$ comparison between data and MC with possible signal overlay of CI.}
-	   \label{fig:AFB_main}
-	\end{figure}
-
 
 	\begin{figure}[h]
 	    \begin{center}
 	    	\includegraphics[width=0.8\linewidth]{images/CosThetaStar_Control_main.eps} \\
 	    	\includegraphics[width=0.8\linewidth]{images/CosThetaStar_Signal_main.eps}
 	    \end{center}
-	   \caption{$\cos{\theta^{*}}$ comparison between data and MC in control and signal regions with possible signal overlay of CI.}
+	   \caption{$\cos{\theta^{*}}$ comparison between data and MC in control and signal regions with possible signal overlay of the CI LR formalism. Ratio between data and background included with band showing size of total background systematic.}
 	   \label{fig:cosTS_main}
 	\end{figure}
+
+	\begin{figure}[h]
+	    \begin{center}
+	    	\includegraphics[width=0.8\linewidth]{images/A_fb_main.eps}
+	    \end{center}
+	   \caption{A$_{FB}$ comparison between data and MC with possible signal overlay of CI. Ratio shows the difference between data and background prediction divided by total background systematic.}
+	   \label{fig:AFB_main}
+	\end{figure}
+
 
 
 	\begin{figure}[h]
@@ -109,7 +113,7 @@ This chapter discuses the generators used to estimate the signal models and how 
 			\hline
 			\hline
 			\multirow{3}{*}{Process} 	& \multicolumn{6}{c}{$m_{ee}$ [GeV]} \\
-										& \multicolumn{3}{c}{400 - 550} & \multicolumn{3}{c}{550 - 800} \\
+										& \multicolumn{3}{c}{120 - 200} & \multicolumn{3}{c}{200 - 400} \\
 										\cline{2-7}
 										& All & Forward & Backward & All & Forward & Backward \\
 			\hline
@@ -123,7 +127,23 @@ This chapter discuses the generators used to estimate the signal models and how 
 			\hline
 			Data & 83824 & 46910 & 36914 & 17525 & 10107 & 7418 \\
 			\hline
+			\hline
+		\end{tabular}
+	  	\caption{Table comparing background prediction to data. Binning covering the control region. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
+	  	\label{tab:CI_results0}
+	  	\end{center}
+	\end {table}
 
+	\begin {table}[h]
+		\footnotesize 
+		\begin{center}
+		\begin{tabular}{  l | c c c | c c c  } 
+			\hline
+			\hline
+			\multirow{3}{*}{Process} 	& \multicolumn{6}{c}{$m_{ee}$ [GeV]} \\
+										& \multicolumn{3}{c}{400 - 550} & \multicolumn{3}{c}{550 - 800} \\
+										\cline{2-7}
+										& All & Forward & Backward & All & Forward & Backward \\
 			\hline
 			Drell-Yan & 910 $\pm$ 70 & 580 $\pm$ 40 & 333 $\pm$ 32 & 302 $\pm$ 25 & 193 $\pm$ 13 & 109 $\pm$ 12 \\
 			Top & 153 $\pm$ 13 & 87 $\pm$ 8 & 72 $\pm$ 7 & 35.2 $\pm$ 2.7 & 18.2 $\pm$ 1.6 & 17.5 $\pm$ 1.6 \\
@@ -151,7 +171,7 @@ This chapter discuses the generators used to estimate the signal models and how 
 			\hline
 			\hline
 		\end{tabular}
-	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI sample. Both combined statistical and total systematic error is included on each value. See section \ref{sec:sys} for details of systematics.}
+	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI model with search bins 1 and 2 shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results1}
 	  	\end{center}
 	\end {table}
@@ -193,7 +213,7 @@ This chapter discuses the generators used to estimate the signal models and how 
 			\hline
 			\hline
 		\end{tabular}
-	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI sample. Both combined statistical and total systematic error is included on each value. See section \ref{sec:sys} for details of systematics.}
+	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI model with search bins 3 and 4 shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results2}
 	  	\end{center}
 	\end {table}
@@ -237,7 +257,7 @@ This chapter discuses the generators used to estimate the signal models and how 
 			\hline
 	    	\hline
 	  	\end{tabular}
-	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI sample. Both combined statistical and total systematic error is included on each value. See section \ref{sec:sys} for details of systematics.}
+	  	\caption{Table comparing background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI model with search bins 5 and 6 shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results3}
 	  	\end{center}
 	\end {table}
@@ -271,8 +291,8 @@ This chapter discuses the generators used to estimate the signal models and how 
 	    	\hline
 	    	\hline
 	  	\end{tabular}
+	  	\caption{Table comparing background prediction to data with prediction of several ADD signal models. One bin used the same in the statistical analysis of ADD. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:ADD_results}
-	  	\caption{Table comparing background prediction to data with prediction of several ADD signal models. One bin used the same in the statistical analysis of ADD. Both combined statistical and total systematic error is included on each value. See section \ref{sec:sys} for details of systematics.}
 	  	\end{center}
 	\end {table}
 

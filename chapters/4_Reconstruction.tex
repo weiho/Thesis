@@ -7,13 +7,13 @@ The other main source of reconstruction is done in a process called reprocessing
 The Data format used in this analysis is an internal ATLAS format called a D3PD. This format is a type of ROOT \cite{} ntuple, or sequence of ordered lists, which stores ATLAS event data. The data used has past through ATLAS software reconstruction while the Monte-Carlo (MC) background estimate samples have gone through GEANT \cite{} detector simulation as well as ATLAS reconstruction. This means analysis of these D3PD's with root requires only minor corrections.
 
 
-Some of the many variables reconstructed are event specific and one of the more important of this is the number of interactions per bunch crossing. As more than one proton collision takes place with each bunch collision a lot of physics background can appear in an event. This makes the search harder but it is also needs to be predicted properly by background estimates. The problem is referred to as pile-up and corrections needed to accommodate it are discussed in section \ref{sec:correc}. Figure \ref{} shows the distribution of number of interactions per bunch crossing seen in the 7 TeV and 8 TeV ATLAS data sets.
+Some of the many variables reconstructed are event specific and one of the more important of this is the number of interactions per bunch crossing. As more than one proton collision takes place with each bunch collision a lot of physics background can appear in an event. This makes the search harder but it is also needs to be predicted properly by background estimates. The problem is referred to as pile-up and corrections needed to accommodate it are discussed in section \ref{sec:correc}. Figure \ref{fig:pu} shows the distribution of number of interactions per bunch crossing seen in the 7 TeV and 8 TeV ATLAS data sets.
 
 \begin{figure}[h!]
 	\centering
 		\includegraphics[width=0.8\linewidth]{images/mu_2011_2012-dec.eps}
 	\caption{Luminosity-weighted distribution of the mean number of interactions per crossing for the 2011 and 2012 data. \cite{mu_2011_2012_dec,Aad:2011dr}}
-	\label{fig:L1}
+	\label{fig:pu}
 \end{figure}
 
 

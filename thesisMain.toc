@@ -37,28 +37,29 @@
 \contentsline {subsection}{\numberline {6.2.2}Fake electron rate estimation}{49}
 \contentsline {subsection}{\numberline {6.2.3}Properties of Multi-Jet Background}{50}
 \contentsline {subsection}{\numberline {6.2.4}Other methods and estimation of Error}{51}
-\contentsline {chapter}{\numberline {7}Signal and Results}{52}
-\contentsline {section}{\numberline {7.1}Signal Monte Carlo}{52}
-\contentsline {section}{\numberline {7.2}Signal Parametrisation}{53}
-\contentsline {section}{\numberline {7.3}Results}{53}
-\contentsline {chapter}{\numberline {8}Statistical Analysis}{61}
-\contentsline {section}{\numberline {8.1}Systematics}{62}
-\contentsline {section}{\numberline {8.2}Angular Analysis Optimisation}{65}
-\contentsline {subsection}{\numberline {8.2.1}Effect of opposite sign requirement of analysis reach}{65}
-\contentsline {subsection}{\numberline {8.2.2}Optimisation of search bins in $\qopname \relax o{cos}{\theta ^{*}}$}{65}
-\contentsline {section}{\numberline {8.3}Signal Search \& P-Values}{66}
-\contentsline {section}{\numberline {8.4}Setting Limits}{67}
-\contentsline {section}{\numberline {8.5}Combination with the Muon Search}{68}
-\contentsline {chapter}{\numberline {9}Non-Resonance 7 TeV Analysis}{71}
-\contentsline {section}{\numberline {9.1}Data and Background Processes}{71}
-\contentsline {section}{\numberline {9.2}Electron Identification and Selection}{72}
-\contentsline {subsection}{\numberline {9.2.1}Data and Background Comparison}{73}
-\contentsline {subsection}{\numberline {9.2.2}New Physics Signal Expectation}{73}
-\contentsline {section}{\numberline {9.3}Statistical Analysis}{75}
-\contentsline {section}{\numberline {9.4}Analysis Comparisons}{78}
-\contentsline {chapter}{\numberline {10}Conclusion}{80}
-\contentsline {section}{\numberline {10.1}Looking Forward}{81}
-\contentsline {chapter}{Appendices}{82}
-\contentsline {chapter}{\numberline {A}Control Plots}{83}
-\contentsline {chapter}{\numberline {B}Statistical Analysis Plots}{84}
-\contentsline {chapter}{Bibliography}{85}
+\contentsline {section}{\numberline {6.3}Total Background Estimate}{52}
+\contentsline {chapter}{\numberline {7}Signal and Results}{53}
+\contentsline {section}{\numberline {7.1}Signal Monte Carlo}{53}
+\contentsline {section}{\numberline {7.2}Signal Parametrisation}{54}
+\contentsline {section}{\numberline {7.3}Results}{54}
+\contentsline {chapter}{\numberline {8}Statistical Analysis}{63}
+\contentsline {section}{\numberline {8.1}Systematics}{64}
+\contentsline {section}{\numberline {8.2}Angular Analysis Optimisation}{67}
+\contentsline {subsection}{\numberline {8.2.1}Effect of opposite sign requirement of analysis reach}{67}
+\contentsline {subsection}{\numberline {8.2.2}Optimisation of search bins in $\qopname \relax o{cos}{\theta ^{*}}$}{67}
+\contentsline {section}{\numberline {8.3}Signal Search \& P-Values}{68}
+\contentsline {section}{\numberline {8.4}Setting Limits}{69}
+\contentsline {section}{\numberline {8.5}Combination with the Muon Search}{70}
+\contentsline {chapter}{\numberline {9}Non-Resonance 7 TeV Analysis}{73}
+\contentsline {section}{\numberline {9.1}Data and Background Processes}{73}
+\contentsline {section}{\numberline {9.2}Electron Identification and Selection}{74}
+\contentsline {subsection}{\numberline {9.2.1}Data and Background Comparison}{75}
+\contentsline {subsection}{\numberline {9.2.2}New Physics Signal Expectation}{75}
+\contentsline {section}{\numberline {9.3}Statistical Analysis}{77}
+\contentsline {section}{\numberline {9.4}Analysis Comparisons}{80}
+\contentsline {chapter}{\numberline {10}Conclusion}{82}
+\contentsline {section}{\numberline {10.1}Looking Forward}{83}
+\contentsline {chapter}{Appendices}{84}
+\contentsline {chapter}{\numberline {A}Control Plots}{85}
+\contentsline {chapter}{\numberline {B}Statistical Analysis Plots}{86}
+\contentsline {chapter}{Bibliography}{87}

@@ -30,29 +30,29 @@ This chapter discusses methods used to estimate background processes the the sig
 \subsection{MC Corrections}
    \label{sec:correc}
 
-   Corrections are applied to MC sample due to several factors including unknown run conditions within the ATLAS detector due to MC samples being created earlier than data collection as well as known inefficiencies in the reconstruction of MC events. Below are listed all of the corrections which are applied on an event by even basis during the analysis of MC samples.\\
+   Corrections are applied to MC sample due to several factors including unknown run conditions within the ATLAS detector due to MC samples being run before the LHC run as well as known inefficiencies in the reconstruction of MC events. Below are listed all of the corrections which are applied on an event by even basis during the analysis of MC samples.\\
 
 
    {\bf\raggedright Pile-up Correction}
 
-   {\raggedright Pile-up (PU) or number of simultaneous proton-proton interactions within an event is hard to predict prior to running and it is therefore intentional that MC is produced with a broad range of PU values which then get weighted according to run conditions within the detector. PU conditions can also change throughout data taking and so the PU correction is specified for a particular set of ATLAS data.}\\
+   {\raggedright Pile-up (PU) is the number of simultaneous proton-proton interactions within an event. MC samples are produced with a broad range of PU values which then get weighted according to run conditions within the detector. PU conditions can change throughout data taking and so the PU correction is specified for a particular set of ATLAS data. The distributions MC is weighted to can be seen in figure \ref{fig:pu}.}\\
 
-   {\bf\raggedright Vertex Position Reweighing}
+   {\bf\raggedright Vertex Position Reweighting}
 
-   {\raggedright Vertex position is again another variable hard to predict pre-run and can therefore be weighted later once run conditions are known. This correction is not widely used within ATLUS due to its minimal effect however it was found to add better data background agreement to the $\cos{\theta^{*}}$ distribution within the scaling and control region. Its effects on the analysis are minimal.}\\
+   {\raggedright Vertex position hard to predict pre-run and can therefore be weighted later once run conditions are known. This correction is not widely used within ATLAS due to its minimal effect however it was found to add better data background agreement to the $\cos{\theta^{*}}$ distribution within the scaling and control region. The vertex position reweighting was found to have a minimal effect on the invariant mass distribution.}\\
 
    {\bf\raggedright Energy Smearing Correction}
 
-   {\raggedright The energy smearing correction is used to better estimate the energy of electron signatures. It comes about due to the detector simulation not fully estimating the smearing of energy values. This correction is derived from a Z peak calibration study \cite{} done within the ATLAS electron photon performance group and matches MC to data. These corrections provide a $\eta$ and E dependent smearing value applied to electron energy before electron selection.}\\
+   {\raggedright The energy smearing correction is used to better estimate the energy of electron signatures. This correction is derived from a Z peak calibration study \cite{ATLAS-CONF-2014-032} done within the ATLAS electron photon performance group and matches MC to data. These corrections provide a $\eta$ and E$_{T}$ dependent smearing value applied to electron energy before electron selection.}\\
 
-   {\bf\raggedright Electron efficiency Scale Factor}
+   {\bf\raggedright Electron Efficiency Scale Factor}
 
-   {\raggedright The electron photon performance group also noticed some inefficiencies in electron reconstruction and identification. These form a set of scale factors applied in bins of E$_{T}$ and $\eta$ after event selection.}\\
+   {\raggedright The electron photon performance group also identified inefficiencies in electron reconstruction and identification. These form a set of scale factors applied in bins of E$_{T}$ and $\eta$ after event selection.}\\
 
 
    {\bf\raggedright Isolation and Trigger Scale Factor}
 
-   {\raggedright A study was done of the data/MC comparison for the isolation selections and the trigger requirements. The differences were found to be below 1\% and are applied as a uniform scale factor after event selection.}
+   {\raggedright Data/MC comparison for the isolation selections and the trigger requirements highlighted minor differences between data and MC. The differences were found to be below 1\% yet a uniform scale factor accommodating this were applied after event selection for completeness.}
 
 
 
@@ -60,14 +60,14 @@ This chapter discusses methods used to estimate background processes the the sig
 \section{Fake Factor Multi-Jet Estimate}
    \label{sec:FFmethod}
 
-One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a ``fake factor'' or ``matrix-method''. This is a data-driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition (see Chapter 4) with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden values are also assigned $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
+One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a ``fake factor'' or ``matrix-method''. This is a data-driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition (see section \ref{sec:ReconElec}) with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden values are also assigned $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
 
 \begin{equation} \label{eq:fakeRate}
    f~=~\frac{N^{fake}_{tight}}{N^{fake}_{loose}} \qquad \qquad r~=~\frac{N^{real}_{tight}}{N^{real}_{loose}}
 \end{equation}
 
 The fake rate $f$ denotes the probability that a $fake$ electron which passes the loose requirement also passes tight while $r$ refers to the probability that a $real$ electron which passes the loose requirement also passes the tight.
-Reconstructed events are split in to two distinct groups, tight($T$), and loose while failing tight($L$), where $Tight$ is now no longer a subset of $Loose$. This allows us to relate our reconstructed events to the underling truth events via a matrix of fake rates shown in equation~\ref{eq:mainFakeMatrix}.
+Reconstructed events are split in to two distinct groups, tight($T$), and loose while failing tight($L$), where $Tight$ is now no longer a subset of $Loose$. This allows the reconstructed events to be related to the underling truth events via a matrix of fake rates shown in equation~\ref{eq:mainFakeMatrix}.
 
 \begin{equation} \label{eq:mainFakeMatrix}
    \begin{pmatrix}
@@ -91,9 +91,9 @@ Reconstructed events are split in to two distinct groups, tight($T$), and loose 
    \end{pmatrix}
 \end{equation}
 
-The first index in Eq.~\ref{eq:mainFakeMatrix} refers to the highest $p_{T}$ electron while the second index refers to the second highest $p_{T}$ electron. So $N_{LT}$ indicates the reconstructed events with highest $p_{T}$ electron only passing the $Loose$ selection while the second highest $p_{T}$ electron passes $Tight$ selection. The indices 1 and 2 refer to fake rates ($f$) and efficiencies ($r$) on leading and sub-leading electrons respectively.
+The first index in equation~\ref{eq:mainFakeMatrix} refers to the highest $p_{T}$ electron while the second index refers to the second highest $p_{T}$ electron. So $N_{LT}$ indicates the reconstructed events with highest $p_{T}$ electron only passing the $Loose$ selection while the second highest $p_{T}$ electron passes $Tight$ selection. The indices 1 and 2 refer to fake rates ($f$) and efficiencies ($r$) on leading and sub-leading electrons respectively.
 
-The interesting part for this study is the contribution to $N_{TT}$ coming from sources other than $N_{RR}$, these can be seen in Eq.~\ref{eq:multijet}.
+The interesting part for this study is the contribution to $N_{TT}$ coming from sources other than $N_{RR}$, these can be seen in equation~\ref{eq:multijet}.
 
 \begin{align} \label{eq:multijet}
    N^{\ell+jets}_{TT}~&=~r_{1}f_{2}N_{RF}~+~f_{1}r_{2}N_{FR} \nonumber \\
@@ -101,7 +101,7 @@ The interesting part for this study is the contribution to $N_{TT}$ coming from 
    N^{\ell+jets~\&~di-jets}_{TT}~&=~r_{1}f_{2}N_{RF}~+~f_{1}r_{2}N_{FR}~+~f_{1}f_{2}N_{FF} 
 \end{align}
 
-This function however contains hidden variables and so Eq.~\ref{eq:mainFakeMatrix} is inverted to derive a better formalism.
+This function however contains hidden variables and so equation~\ref{eq:mainFakeMatrix} is inverted to derive a better formalism.
 
 \begin{equation}
    \begin{pmatrix}
@@ -124,16 +124,14 @@ This function however contains hidden variables and so Eq.~\ref{eq:mainFakeMatri
       N_{LL} \\
    \end{pmatrix}
 \end{equation}
-
 where,
-
 \begin{equation}
    \alpha~=~\frac{1}{(r_{1}-f_{1})(r_{2}-f_{2})}
 \end{equation}
 
-The fraction of selected events with at least one fake is then given by Eq.~\ref{eq:mainFakeMatrix}.
+The fraction of selected events with at least one fake is then given by equation \ref{eq:multijet} resulting in equation \ref{eq:mainFakeResult1}.
 
-\begin{equation}
+\begin{equation} \label{eq:mainFakeResult1}
 \begin{aligned}
    N^{\ell+jets~\&~di-jets}_{TT}~&=&~\alpha r_{1}f_{2}[(f_{1}-1)(1-r_{2})N_{TT}~+~(1-f_{1})r_{2}N_{TL}~&+~f_{1}(1-r_{2})N_{LT}~-~f_{1}r_{2}N_{LL}] \\
       &~+&~\alpha f_{1}r_{2}[(r_{1}-1)(1-f_{2})N_{TT}~+~(1-r_{1})f_{2}N_{TL}~&+~r_{1}(1-f_{2})N_{LT}~-~r_{1}f_{2}N_{LL}] \\
@@ -141,7 +139,7 @@ The fraction of selected events with at least one fake is then given by Eq.~\ref
 \end{aligned}
 \end{equation}
 
-\begin{equation} \label{eq:mainFakeResult}
+\begin{equation} \label{eq:mainFakeResult2}
 \begin{aligned}
    =\alpha[r_{1}f_{2}(f_{1}-1)(1-r_{2})~+~f_{1}r_{2}(r_{1}-1)(1-f_{2})~+~f_{1}f_{2}(1-r_{1})(1-r_{2})]N_{TT} \\
    +~\alpha f_{2}r_{2}[r_{1}(1-f_{1})~+~f_{1}(1-r_{1})~+~f_{1}(r_{1}-1)]N_{TL} \\
@@ -150,12 +148,12 @@ The fraction of selected events with at least one fake is then given by Eq.~\ref
 \end{aligned}
 \end{equation}
 
-Equation \ref{eq:mainFakeResult} shows the derived formula relating the multi-jet background to fake rates, efficiencies and four independent samples selected from data. Detailed here is this method used on the full $20~fb^{-1}$ of integrated luminosity from ATLAS's 2012 run.
+Equation \ref{eq:mainFakeResult2} shows the derived formula relating the multi-jet background to fake rates, efficiencies and four independent samples $N_{TT}$, $N_{TL}$, $N_{LT}$ and $N_{LL}$ which can be selected from data. Following are the details of this method used on the full $20~fb^{-1}$ of integrated luminosity from ATLAS's 2012 run. This method was developed centrally in the resonant analysis which the author then applied and tested for this non-resonant analysis.
 
 
 \subsection{Real electron efficiency estimation}
 
-The real electron efficiency is defined as Eq. ~\ref{eq:fakeRate} $r~=~N^{real}_{tight}/N^{real}_{loose}$. This is determined from MC using a mass binned Drell-Yan sample. The efficiencies are found for both the leading and sub-leading electrons and binned in 8 $p_{T}$ and three eta bins of $|\eta|<1.37$ (barrel), $1.52<|\eta|<2.01$ and $2.01<|\eta|<2.47$ (endcap). The efficiency is distributed between $90$ - $96\%$ as can be seen in Fig. \ref{fig:realEff}.
+The real electron efficiency is defined in equation~\ref{eq:fakeRate} as $r~=~N^{real}_{tight}/N^{real}_{loose}$. This is determined from MC using a mass binned Drell-Yan sample. The efficiencies are found for both the leading and sub-leading electrons and binned in 8 $p_{T}$ and three eta bins of $|\eta|<1.37$ (barrel), $1.52<|\eta|<2.01$ and $2.01<|\eta|<2.47$ (endcap). The efficiency is distributed between $90$ - $96\%$ as is shown in figure \ref{fig:realEff}.
 
    \begin{figure}[h]
       \begin{center}
@@ -170,11 +168,13 @@ The real electron efficiency is defined as Eq. ~\ref{eq:fakeRate} $r~=~N^{real}_
 
 \subsection{Fake electron rate estimation}
 
-The default method selected for analysing the fake rates is a single object method selection on the jet stream data. This gives the main advantage of more statistics and a higher energy reach compared to methods such as using tag and probe on the egamma stream data.
-An array of triggers are used for selecting suitable events based on the single jet trigger EF\_jX\_a4chad (where X = 25, 35, 45, 55, 80, 110, 145, 180, 220, 280, 360). Events are associated to groups with the lowest trigger threshold they pass as each trigger has a different prescale. Objects are selected with the AntiKt4TopoEMJets algorithm and then matched to objects in the egamma stream with a $\Delta R~<~0.1$. Objects also have to pass the medium jet-cleaning criteria (define this). Two further steps are taken to suppress real electrons from W decays and real Drell-Yan events. A veto of $E_{Tmiss}~>~25~GeV$ is introduced to combat the former while events with two medium++ or loose++ electrons with $|m_{tag~\&~probe}-91~GeV|~<~20~GeV$ are vetoed to counter the real Drell-Yan.
+The default method selected for analysing the fake rates is a single object method selection on the jet stream data. This has the advantage of more statistics and a higher energy reach compared to methods such as using tag and probe on the egamma stream data.
+An array of triggers are used for selecting suitable events with many different thresholds. 
+%EF\_jX\_a4chad (where X = 25, 35, 45, 55, 80, 110, 145, 180, 220, 280, 360). 
+Events are associated to groups with the lowest trigger threshold they pass as each trigger has a different prescale. Objects are selected with jet algorithms and then matched to objects in the egamma stream with a $\Delta R~<~0.1$. Two further steps are taken to suppress real electrons from W decays and real Drell-Yan events. A veto of $E_{Tmiss}~>~25~GeV$ is introduced to combat the former while events with two medium++ or loose++ electrons with $|m_{tag~\&~probe}-91~GeV|~<~20~GeV$ are vetoed to counter the real Drell-Yan.
 
-The fake rate is then defined as Eq.~\ref{eq:fakeRate} $f~=~N^{fake}_{tight}/N^{fake}_{loose}$ with distributions selected using the standard event selection on the matched egamma objects.
-Due to the different prescales of each trigger a separate set of fake rates are calculated for each trigger, these are then combined as a weighted average of all fake rates. Fig. \ref{fig:fakeRates} shows the distribution of fake rates for leading and subleading fakes which are distributed between 3 - $20\%$.
+The fake rate as defined in equation~\ref{eq:fakeRate} ($f~=~N^{fake}_{tight}/N^{fake}_{loose}$) with the $N^{fake}_{tight}$ and $N^{fake}_{loose}$ distributions selected using the standard event selection on the matched egamma objects.
+Due to the different prescales of each trigger a separate set of fake rates are calculated for each trigger, these are then combined as a weighted average of all fake rates. Figure \ref{fig:fakeRates} shows the distribution of fake rates for leading and subleading fakes. These are distributed between 3 - $20\%$. This calculation of fake rates was completed in the resonant analysis group and the results were carried over to this analysis. The differences in the event selection were found to not effect the results.
 
    \begin{figure}[h]
       \begin{center}
@@ -190,8 +190,8 @@ Due to the different prescales of each trigger a separate set of fake rates are 
 
 \subsection{Properties of Multi-Jet Background}
 
-In order to compose the final sample events are organised by the distributions $N_{TT}$, $N_{TL}$, $N_{LT}$ or $N_{LL}$ and weights are applied according to each electrons $p_{T}$, $\eta$ with respect to Eq.~\ref{eq:mainFakeResult} and the corresponding efficiencies and fake rates. 
-Fig. \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. In addition to these steps an extra fit is then applied at low invariant mass due to contamination due to the Z boson peak. This method is not suited to predicting the Multi-Jet background in the Z boson peak region and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and below. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region. At high-mass statistics of the sample decline and so an additional fit is made a high mass with the lower edge of the fit varied between 425 and 600 GeV and the upper edge from 700 to 1200 GeV, with the stitching point at 500 GeV.
+In order to compose the final sample events are organised by the distributions $N_{TT}$, $N_{TL}$, $N_{LT}$ or $N_{LL}$ and weights are applied according to each electrons $p_{T}$, $\eta$ with respect to equation~\ref{eq:mainFakeResult} and the corresponding efficiencies and fake rates. 
+Figure \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. In addition to these steps an extra fit is then applied at low invariant mass due to contamination due to the Z boson peak. This method is not suited to predicting the Multi-Jet background in the Z boson peak region and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and below. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region. At high-mass statistics of the sample decline and so an additional fit is made a high mass with the lower edge of the fit varied between 425 and 600 GeV and the upper edge from 700 to 1200 GeV, with the stitching point at 500 GeV.
 
    \begin{figure}[h]
       \begin{center}
@@ -210,20 +210,24 @@ Fig. \ref{fig:N_dist} shows these distributions before the efficiencies and fake
    \label{sec:MJerror}
 
 
-Two other methods and variations upon them were used to test the validity of this method as well as estimate the systematic error of this background estimates procedure. These two methods are both tag and probe measurements on either the jet stream of data, or the egamma stream where the method is more an ``inverse'' tag and probe with the selection of a tag with high probability of being a jet. Variations are also made on the method by assuming $r_{1}$ and $r_{2} = 1.0$ in all cases as well as changing the definition of loose but fail tight. These variations simplify the equations slightly but the method remains the same. Figure \ref{fig:ff_bkg_variation} shows all of these variations compared to the default method used to obtain the estimation. This figure then gives us a good estimate to the systematic uncertainty of the multi-jet estimate which has been chosen to be a flat $20\%$.
-
-   % \begin{figure}[h]
-   %    \begin{center}
-   %    \includegraphics[scale=1,trim={3cm 5.5cm 3cm 14cm},clip]{images/ff_bkg_variation.ps}
-   %    \end{center}
-   % \caption{Ratio of the final background estimate of all method variations to the default method. The ratio starts at 116 GeV and ends at 1500 GeV. Source: resonant support note, will not be able to use this. (NOT MADE BY ME!!!)}
-   % \label{fig:ff_bkg_variation}
-   % \end{figure}
+Two other methods and variations upon them were used to test the validity of this method as well as estimate the systematic error of this background estimation procedure. These two methods are both tag and probe measurements; one on the jet stream of data, and another on the egamma stream where the method is more an ``inverse'' tag and probe with the selection of a tag with high probability of being a jet. Variations are also made on the method by assuming $r_{1}$ and $r_{2} = 1.0$ in all cases as well as changing the definition of loose but fail tight. These variations simplify the equations slightly but the method remains the same. Variations compared to the default method used to obtain the estimation were found to vary between $\pm$ 20\% throughout the invariant mass distribution. The systematic uncertainty of the multi-jet estimate was therefore taken to be a flat $20\%$ throughout the distribution.
 
 
 
 
 
+\section{Total Background Estimate}
+
+The total stacked summation of all the backgrounds, after all corrections and scaling within the Z peak have been applied, can be seen in figure \ref{fig:totalBKG}.
+
+
+   \begin{figure}[h]
+      \begin{center}
+      \includegraphics[scale=0.8]{images/invMass_bkgonly.eps}
+      \end{center}
+   \caption{Combined background samples scaled to data in the Z peak.}
+   \label{fig:totalBKG}
+   \end{figure}
 
 
 
