@@ -6,48 +6,50 @@ Database file #1: bib/myBib.bib
 Warning--empty author in LuPublicResults
 Warning--empty journal in LuPublicResults
 Warning--empty author in ATLAS-CONF-2012-048
+Warning--empty author in Trigger_op_2011
+Warning--empty journal in Trigger_op_2011
 Warning--empty author in mu_2011_2012_dec
 Warning--empty journal in mu_2011_2012_dec
 Warning--empty author in ATLAS-CONF-2014-032
-You've used 37 entries,
+You've used 39 entries,
             2937 wiz_defined-function locations,
-            978 strings with 13319 characters,
-and the built_in function-call counts, 11619 in all, are:
-= -- 1228
-> -- 259
+            992 strings with 13742 characters,
+and the built_in function-call counts, 12167 in all, are:
+= -- 1280
+> -- 270
 < -- 2
-+ -- 111
-- -- 74
-* -- 1065
-:= -- 1598
-add.period$ -- 67
-call.type$ -- 37
-change.case$ -- 37
++ -- 116
+- -- 77
+* -- 1117
+:= -- 1667
+add.period$ -- 70
+call.type$ -- 39
+change.case$ -- 39
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 337
-empty$ -- 1279
-format.name$ -- 105
-if$ -- 2996
+cite$ -- 47
+duplicate$ -- 354
+empty$ -- 1343
+format.name$ -- 109
+if$ -- 3138
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 36
-newline$ -- 173
-num.names$ -- 33
-pop$ -- 161
+int.to.str$ -- 39
+missing$ -- 38
+newline$ -- 182
+num.names$ -- 34
+pop$ -- 175
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 650
+skip$ -- 679
 stack$ -- 0
-substring$ -- 649
-swap$ -- 134
+substring$ -- 682
+swap$ -- 139
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 70
-width$ -- 39
-write$ -- 390
-(There were 6 warnings)
+warning$ -- 8
+while$ -- 72
+width$ -- 41
+write$ -- 407
+(There were 8 warnings)

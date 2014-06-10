@@ -6,9 +6,9 @@
 
 	\begin{figure}[h]
         \begin{center}
-            %\includegraphics[scale=0.6]{images/}
+            \includegraphics[scale=0.7]{images/Trigger_system.eps}
         \end{center}
-        \caption{Diagram showing the different stages of the trigger and how they interact.}
+        \caption{Diagram showing the different stages of the trigger and how they interact. Red points indicate point of acceptance for each trigger and numbers show the approximate amount of events accepted per second at the end of the 7 TeV run in 2012.}
         \label{fig:triggerFlow}
     \end{figure}
 
@@ -122,7 +122,7 @@
 \multicolumn{3}{|r|}{Total}															& 932 		& 1574 		& 145 		\\% & 1311					\\
     	\hline
   		\end{tabular}
-  	\caption{Numbers of readout drivers (ROD’s), readout links (ROL’s) and readout systems (ROS’s) per detector partition \cite{Aad:1129811}.}%, as well as expected data size per L1A signal for a luminosity of 1034 cm$^{-2}$ s$^{−1}$.}
+  	\caption{Numbers of readout drivers (ROD’s), readout links (ROL’s) and readout systems (ROS’s) per detector partition at design \cite{Aad:1129811}.}%, as well as expected data size per L1A signal for a luminosity of 1034 cm$^{-2}$ s$^{−1}$.}
   	\label{tab:DAQ_readouts}
   	\end{center}
 	\end {table}
@@ -151,7 +151,7 @@
 		Operations & 20 & 4 & 2 \\%& 4 & Xeon E5130 2.0 GHz \\
     	\hline
   	\end{tabular}
-  	\caption{The main data-acquisition system components to be deployed for initial operation: the readout system (ROS), the event-building node (SFI), the data flow manager (DFM), the L2 supervisor (L2SV), the high-level trigger (HLT) and the event filter output nodes (SFO) \cite{Aad:1129811}.}
+  	\caption{The main data-acquisition system components deployed for initial operation: the readout system (ROS), the event-building node (SFI), the data flow manager (DFM), the L2 supervisor (L2SV), the high-level trigger (HLT) and the event filter output nodes (SFO) \cite{Aad:1129811}.}
   	\label{tab:DAQ_comp}
   	\end{center}
 	\end {table}
@@ -161,6 +161,9 @@
 \label{sec:trig_menu}
 
 	In its simplest form a single trigger is an energy threshold designed to select a high percentage of particles of a selected type. ATLAS contains many of these thresholds to select many interesting physics objects which are roughly grouped in to similar signatures called streams. The trigger streams are Egamma triggers to select electrons and photons, JetTauEtMiss triggers to select hadronic decays, tau decays and large missing transverse energy, Muon triggers to select muons, MinBias trigger to check no bias's exist in other triggers and cosmics triggers to selected signals of cosmic radiation. Each stream has a given bandwidth allocated for readout from the trigger so all triggers need to be optimised so total acceptance rates are within requirements. Each trigger at the HLT level is designed to select a specific type of signal while those a L1 are more general and seed many HLT triggers. A full run through all three stages of the trigger is called a trigger chain. Each trigger in a trigger chain needs to not only be optimised to fulfil acceptance rate but also optimised for high acceptance efficiency in the valid region. In terms of energy threshold this means an increasing threshold through the trigger chain so that each level is selecting within the range close to $100\%$ efficient from the previous requirement when taking in to account the different accuracy of energy measurement provided by each level. This section focuses on the Egamma trigger stream as all objects in this analysis where selected using it.
+
+	%Figure \ref{} shows the acceptance rates of each level of the trigger for two example LHC runs one in 2011 and one in 2012. It can be seen that the acceptance rate slowly drops throughout the run because of the decease in instantaneous luminosity 
+
 
 	%-jets stream used in the fake rates method?
 
@@ -180,6 +183,31 @@
 		Due to the bandwidth limitations of the trigger each level is restricted to a certain output rate. During 2011 the L1 output rate was kept below 60 kHz, L2 below 5 kHz and the EF output rate at $\sim$ 400 Hz averaged over the LHC fills. The bandwidth allocated to the $e/\gamma$ triggers was approximately 30\% of the total EF output rate however throughout 2011 the luminosity continued to increase putting pressure on the trigger's ability to control the output rate. Several methods were employed to reduce the trigger rate and in the $e/\gamma$ trigger a variable threshold and hadronic core isolation were investigated to reduce the rate of the Level-1 trigger. In order to keep within timing constraints only a low resolution of 0.4 $\eta$ is available at L1. Threshold requirements were therefore investigated varying every 0.4 $\eta$. The effect of a hadronic core isolation was also investigated on the selection of electrons which defines a region in the hadronic calorimeter behind the $e/\gamma$ candidate in which a minimum amount of energy is required to be deposited in order to distinguish between jets and $e/\gamma$ objects. 
 
 
+		A study in to introducing these new requirements \cite{ATLAS-CONF-2012-048} at L1 was carried out using data from the trigger stream with a ``tag \& probe'' study to calculate the efficiency of an array of new L1 requirements. Objects selected with ``tag \& probe'' were organised in to bins of 0.4 in $\eta$ and threshold of 16, 17, 18 and 19 GeV were applied as a L1 trigger. Within each 0.4 $\eta$ bin acceptance efficiency verses reconstruction variable transverse energy was studied. The highest threshold for which close to 100\% efficiency was reached by a transverse energy of 22 GeV (threshold at EF) was then selected as the threshold in that region. The results of this optimisation can be seen in table \ref{tab:L1_thresh} where the threshold for each eta region is given. 
+
+		\begin {table}[h!]
+		\begin{center}
+	  	\begin{tabular}{  l | c  }%c | c | }
+			\hline
+			$|\eta|$ region & Level-1 threshold [GeV] \\
+			\hline
+			$<$ 0.8 	& 18 \\
+			0.8 - 1.2 	& 17 \\
+			1.2 - 1.6 	& 16 \\
+			1.6 - 2.0 	& 17 \\
+			2.0 - 2.4 	& 18 \\
+			$>$ 2.4 	& 16 \\
+	    	\hline
+	  	\end{tabular}
+	  	\caption{Optimised L1 thresholds for the L1 EM16 trigger.}
+	  	\label{tab:L1_thresh}
+	  	\end{center}
+		\end {table}
+
+
+		Hadronic core isolations was investigated for isolation less than 1, 2 and 3 GeV. A hadronic core isolation of less than 1 GeV was chosen as this was seen to have a less that 1\% effect and acceptance. Both of these requirements then went in to the specification of the L1\_EM16VH trigger.
+
+
 		\begin{figure}[h!]
 			\centering
 				\includegraphics[width=0.49\linewidth]{images/L1_EM16VH_TandP_eff_vs_eta.eps}
@@ -190,6 +218,19 @@
 			\label{fig:L1}
 		\end{figure}
 
-		A study in to introducing these new requirements \cite{ATLAS-CONF-2012-048} at L1 was carried out using data from the trigger stream with a ``tag \& probe'' study to calculate the efficiency of an array of new L1 requirements. These attempts where successful with a selection of a threshold that varied slightly with $\eta$ and hadronic core isolation $< 1$ GeV. Rates were reduced and deemed low enough for the high luminosity environment for the rest of the year. Figure \ref{fig:L1} shows the performance of the trigger after these changes had been made. It can be seen that a minimal impact of these new requirements is felt in efficiency in both eta and number of primary vertices and most importantly the ``turn on'' curve for efficiency as a function of E$_{T}$ shows the point at which 100\% efficiency is reached is not that much higher than EM16. This then introduced the new lowest threshold electron trigger chain used in ATLAS. The final trigger being EF\_e20vh\_medium. For the 2012 run this trigger went through a revision raising the thresholds of each trigger in the chain to accommodate higher luminosity at 8 TeV, this chain can be seen discussed in section \ref{sec:egammaMenu}. This study was completed by the author as a part of the ATLAS service task and became part of a ATLAS conference note \cite{ATLAS-CONF-2012-048}.
+
+
+		Figure \ref{fig:L1} shows the performance of the trigger after these changes had been made. It can be seen that a minimal impact of these new requirements is felt in efficiency in both eta and number of primary vertices and most importantly the ``turn on'' curve for efficiency as a function of E$_{T}$ shows the point at which 100\% efficiency is reached is not that much higher than EM16. This then introduced the new lowest threshold electron trigger chain used in ATLAS. The Effect of this introduction can be seen during the middle of the year in figure \ref{fig:EF_rate} where a significant decrease in the event filter acceptance rate is seen with the introduction of this and several other trigger strategies. 
+
+
+		\begin{figure}[h!]
+			\centering
+				\includegraphics[width=0.6\linewidth]{images/2011_streams_quarter_day.eps}
+			\caption{Event Filter stream recording rates from 2011. \cite{Trigger_op_2011}}
+			\label{fig:EF_rate}
+		\end{figure}
+
+
+		For the 2012 run this trigger went through a revision raising the thresholds of each trigger in the chain to accommodate higher luminosity at 8 TeV, this chain is discussed in section \ref{sec:egammaMenu}. This study was completed by the author as a part of the ATLAS service task and became part of a ATLAS conference note \cite{ATLAS-CONF-2012-048}.
 
 		%expand...

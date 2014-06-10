@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  7 JUN 2014 23:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  10 JUN 2014 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,12 +832,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 156--160
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--160
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
@@ -845,17 +845,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--160
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 46.
- [1
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 49.
+ [5
 
-] [2]) [3]
-(./thesisMain.toc [4
+] [6]) [7]
+(./thesisMain.toc [8
 
-] [5])
+] [9])
 \tf@toc=\write3
 \openout3 = `thesisMain.toc'.
 
- [6] (./chapters/1_Theory.tex
+ [10] (./chapters/1_Theory.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -867,7 +867,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-[1
+[11
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
@@ -877,47 +877,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[2]
+[12]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+ [13]
+File: images/gamma_fermion.eps Graphic file (type eps)
+ <images/gamma_fermion.eps>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
+File: images/Z_fermion.eps Graphic file (type eps)
+ <images/Z_fermion.eps>
+File: images/W_lepton.eps Graphic file (type eps)
 
+<images/W_lepton.eps>
+File: images/W_quark.eps Graphic file (type eps)
+ <images/W_quark.eps>
+File: images/Z_WW.eps Graphic file (type eps)
+ <images/Z_WW.eps>
+File: images/ZZ_WW.eps Graphic file (type eps)
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 101.
+<images/ZZ_WW.eps>
+File: images/WW_WW.eps Graphic file (type eps)
+ <images/WW_WW.eps>
 
-[3]
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 114.
+[14] [15]
+File: images/g_quark.eps Graphic file (type eps)
+ <images/g_quark.eps>
+File: images/g_gg.eps Graphic file (type eps)
+ <images/g_gg.eps>
+File: images/gg_gg.eps Graphic file (type eps)
+ <images/gg_gg.eps> [16]
+File: images/DY_qq_ee.eps Graphic file (type eps)
 
-[4]
-
-LaTeX Warning: Reference `' on page 5 undefined on input line 144.
-
-[5]
-File: images/compositeness.eps Graphic file (type eps)
- <images/compositeness.eps> [6]
+<images/DY_qq_ee.eps>
+File: images/CI_qq_ee.eps Graphic file (type eps)
+ <images/CI_qq_ee.eps> [17]
 File: images/AFB_MC.eps Graphic file (type eps)
- <images/AFB_MC.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ <images/AFB_MC.eps> [18]
 File: images/truth_mass_LL.eps Graphic file (type eps)
-<images/truth_mass_LL.eps>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<images/truth_mass_LL.eps> [19]
+File: images/Gvirtual_gg_ee.eps Graphic file (type eps)
+ <images/Gvirtual_gg_ee.eps>
+File: images/Gvirtual_qq_ee.eps Graphic file (type eps)
 
-[7] [8]
-File: images/compositeness.eps Graphic file (type eps)
- <images/compositeness.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9]
+<images/Gvirtual_qq_ee.eps> [20]
 File: images/truth_mass_ADD.eps Graphic file (type eps)
- <images/truth_mass_ADD.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10] [11]) [12] (./chapters/2_Experiment.tex
+ <images/truth_mass_ADD.eps> [21]) [22]
+(./chapters/2_Experiment.tex
 Chapter 2.
 File: images/LHCUnder.eps Graphic file (type eps)
 <images/LHCUnder.eps>
@@ -938,21 +949,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
-[13
+[23
 
-] [14] [15]
+] [24] [25]
 File: images/ATLAS_SE_Corrected7.eps Graphic file (type eps)
- <images/ATLAS_SE_Corrected7.eps> [16]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+ <images/ATLAS_SE_Corrected7.eps> [26]
 File: images/ID_newTRT_d3.eps Graphic file (type eps)
  <images/ID_newTRT_d3.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
+[27]
 File: images/FigID26-mod-011107.eps Graphic file (type eps)
  <images/FigID26-mod-011107.eps>
 Overfull \hbox (19.27698pt too wide) in paragraph at lines 109--110
@@ -972,7 +979,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
-[18]
+[28]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 134.
 
  (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -992,7 +999,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
-[19]
+[29]
 File: images/Calorimeter_d3.eps Graphic file (type eps)
  <images/Calorimeter_d3.eps>
 File: images/ITCconcept_new.eps Graphic file (type eps)
@@ -1005,7 +1012,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-[20]
+[30]
 File: images/LARG3-fig02-module00.eps Graphic file (type eps)
  <images/LARG3-fig02-module00.eps>
 
@@ -1021,7 +1028,7 @@ File: images/ATLcoilGeom.eps Graphic file (type eps)
 File: images/desc5.eps Graphic file (type eps)
  <images/desc5.eps>
 File: images/desc6.eps Graphic file (type eps)
- <images/desc6.eps> [21]
+ <images/desc6.eps> [31]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1033,7 +1040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
-[22]
+[32]
 File: images/MuonSystem_d3.eps Graphic file (type eps)
  <images/MuonSystem_d3.eps>
 
@@ -1044,15 +1051,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-[23]) [24] (./chapters/3_Trigger.tex
+[33]) [34] (./chapters/3_Trigger.tex
 Chapter 3.
-[25
+File: images/Trigger_system.eps Graphic file (type eps)
+<images/Trigger_system.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35
 
 ]
 File: images/EGammaTauAlgo.eps Graphic file (type eps)
  <images/EGammaTauAlgo.eps>
 File: images/LocalMax.eps Graphic file (type eps)
- <images/LocalMax.eps> [26] [27]
+ <images/LocalMax.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36] [37]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1087,13 +1103,11 @@ Missing character: There is no ™ in font ptmr7t!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[38] [39]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28] [29] [30]
+ [40] [41]
 File: images/L1_EM16VH_TandP_eff_vs_eta.eps Graphic file (type eps)
  <images/L1_EM16VH_TandP_eff_vs_eta.eps>
 File: images/L1_EM16VH_TandP_eff_vs_Et.eps Graphic file (type eps)
@@ -1104,14 +1118,19 @@ File: images/L1_EM16VH_TandP_eff_vs_pvx.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [31] (./chapters/4_Reconstruction.tex [32]
+File: images/2011_streams_quarter_day.eps Graphic file (type eps)
+<images/2011_streams_quarter_day.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42]) [43] (./chapters/4_Reconstruction.tex
 Chapter 4.
 File: images/mu_2011_2012-dec.eps Graphic file (type eps)
 <images/mu_2011_2012-dec.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33
+[44
 
 ]
 Overfull \hbox (7.67659pt too wide) in paragraph at lines 31--32
@@ -1122,31 +1141,31 @@ d for par-ti-cles where $\OML/ptmcm/m/it/10.95 p[] [] \OT1/ptmcm/m/n/10.95 =  [
 mcm/m/it/10.95 ^^Q$\OT1/ptm/m/n/10.95 .
  []
 
-[34]
+[45]
 
-LaTeX Warning: Reference `' on page 35 undefined on input line 37.
-
-
-LaTeX Warning: Reference `' on page 35 undefined on input line 37.
+LaTeX Warning: Reference `ap:em' on page 46 undefined on input line 37.
 
 
-LaTeX Warning: Reference `' on page 35 undefined on input line 94.
+LaTeX Warning: Reference `ap:em' on page 46 undefined on input line 37.
 
 
-LaTeX Warning: Reference `' on page 35 undefined on input line 94.
+LaTeX Warning: Reference `ap:em' on page 46 undefined on input line 94.
+
+
+LaTeX Warning: Reference `ap:em' on page 46 undefined on input line 94.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [35]
+) [46]
 
-LaTeX Warning: Text page 36 contains only floats.
+LaTeX Warning: Text page 47 contains only floats.
 
-[36] (./chapters/6_Event_Selection.tex
+[47] (./chapters/6_Event_Selection.tex
 Chapter 5.
-[37
+[48
 
-] [38]
+] [49]
 File: images/C5_leadIso_vs_leadpT.eps Graphic file (type eps)
  <images/C5_leadIso_vs_leadpT.eps>
 File: images/C5_leadIso_vs_leadpT_proposal.eps Graphic file (type eps)
@@ -1170,29 +1189,20 @@ File: images/C5_sub_iso_efficiency.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39] [40]
+[50] [51]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [41] (./chapters/7_Background_Estimate.tex [42] [43]
+) [52] (./chapters/7_Background_Estimate.tex [53] [54]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[44
+[55
 
 ]
-Overfull \hbox (148.55386pt too wide) in paragraph at lines 13--14
-\OT1/ptm/m/n/10.95 is split in to 16 MC truth dilep-ton mass bins with bin edge
-s at (60,120,180,250,400,600,800,1000,1250,1500,1750,2000,2250,2500,2750,3000)
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
@@ -1212,7 +1222,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[45]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
@@ -1232,33 +1242,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-[46] [47] [48]
+[57] [58] [59]
 File: images/r1.eps Graphic file (type eps)
  <images/r1.eps>
 File: images/r2.eps Graphic file (type eps)
- <images/r2.eps> [49]
+ <images/r2.eps> [60]
 File: images/f1.eps Graphic file (type eps)
  <images/f1.eps>
 File: images/f2.eps Graphic file (type eps)
 
-<images/f2.eps>
-
-LaTeX Warning: Reference `eq:mainFakeResult' on page 50 undefined on input line
- 193.
-
-[50]
+<images/f2.eps> [61]
 File: images/N_distributions.eps Graphic file (type eps)
- <images/N_distributions.eps> [51]
+ <images/N_distributions.eps> [62]
 File: images/invMass_bkgonly.eps Graphic file (type eps)
- <images/invMass_bkgonly.eps>) [52]
-(./chapters/8_Signal_Search.tex
+
+<images/invMass_bkgonly.eps>) [63] (./chapters/8_Signal_Search.tex
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[53
+[64
 
 ]
 File: images/parametrisations/NexpFits_minus_elec_lowmass.eps Graphic file (typ
@@ -1287,7 +1292,7 @@ eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54] [55]
+[65] [66]
 File: images/invmass_main.eps Graphic file (type eps)
  <images/invmass_main.eps>
 File: images/CosThetaStar_Control_main.eps Graphic file (type eps)
@@ -1332,14 +1337,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [56] (./chapters/9_Statistical_Analysis.tex [57] [58] [59] [60] [61] [62]
+) [67] (./chapters/9_Statistical_Analysis.tex [68] [69] [70] [71] [72] [73]
 Chapter 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[63
+[74
 
 ]
 File: images/ee__LL_minus_L2/post.ps Graphic file (type eps)
@@ -1349,98 +1354,116 @@ File: images/ee__LR_minus_L2/post.ps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[75]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--115
+Underfull \hbox (badness 10000) in paragraph at lines 107--119
 
  []
 
-[64] [65] [66]
+[76] [77]
 
-LaTeX Warning: Reference `' on page 67 undefined on input line 132.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[78]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[67] [68]
+[79]
 File: images/ee__LL_minus_L2/LLR.eps Graphic file (type eps)
  <images/ee__LL_minus_L2/LLR.eps>
 File: images/ee__LR_minus_L2/LLR.eps Graphic file (type eps)
  <images/ee__LR_minus_L2/LLR.eps>
-[69]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[80]
 File: images/ee__LL_minus_L2/Theta.eps Graphic file (type eps)
  <images/ee__LL_minus_L2/Theta.eps>
 File: images/ee__LR_minus_L2/Theta.eps Graphic file (type eps)
  <images/ee__LR_minus_L2/Theta.eps>
-[70]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 373.
+               Default added (so using `tbp') on input line 362.
 
-) [71] [72] (./chapters/5_2011_Analysis.tex
+[81]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 438.
+
+) [82] (./chapters/5_2011_Analysis.tex [83] [84]
 Chapter 9.
-[73
+[85
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[74]
+[86]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[87]
 File: images/lead_pT.eps Graphic file (type eps)
-<images/lead_pT.eps>
+ <images/lead_pT.eps>
 File: images/sub_pT.eps Graphic file (type eps)
  <images/sub_pT.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: images/lead_eta.eps Graphic file (type eps)
-<images/lead_eta.eps>
+ <images/lead_eta.eps>
 File: images/sub_eta.eps Graphic file (type eps)
- <images/sub_eta.eps>
+
+<images/sub_eta.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[88] [89]
 File: images/inv_mass.eps Graphic file (type eps)
-<images/inv_mass.eps>
+ <images/inv_mass.eps>
 File: images/int_inv_mass.eps Graphic file (type eps)
  <images/int_inv_mass.eps>
 File: images/ADD_inv_mass.eps Graphic file (type eps)
- <images/ADD_inv_mass.eps>
-File: images/ADD_int_inv_mass.eps Graphic file (type eps)
 
-<images/ADD_int_inv_mass.eps> [75] [76] [77] [78] [79]
+<images/ADD_inv_mass.eps>
+File: images/ADD_int_inv_mass.eps Graphic file (type eps)
+ <images/ADD_int_inv_mass.eps> [90] [91]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[80]) [81] (./chapters/10_Conclusion.tex
+) [92] (./chapters/10_Conclusion.tex [93]
 Chapter 10.
-[82
+[94
 
-]) [83] [84
+]) [95] [96
 
 
 ] (./chapters/ApendixD_Control_plots.tex
 Appendix A.
-) [85
+) [97
 
 ] (./chapters/ApendixE_Statistical_analysis_plots.tex
 Appendix B.
-) [86
+) [98
 
 ] (./thesisMain.bbl
 Underfull \hbox (badness 1163) in paragraph at lines 9--16
@@ -1476,7 +1499,7 @@ Underfull \hbox (badness 1348) in paragraph at lines 44--52
  Phys. Rev. Lett. 103 (2009) 191803.
  []
 
-[87
+[99
 
 ]
 Missing character: There is no â in font ptmr7t!
@@ -1494,7 +1517,7 @@ Underfull \hbox (badness 4378) in paragraph at lines 166--174
  591 (12) (2004) 23 -- 41.
  []
 
-[88]
+[100]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -1505,25 +1528,38 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
- [89]
-Underfull \hbox (badness 3302) in paragraph at lines 277--283
+ [101]
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
+\OT1/ptm/m/n/10.95 URL $\OT1/pcr/m/n/10.95 https : / / twiki . cern . ch / twik
+i / bin / view / AtlasPublic /
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 282--288
 []\OT1/ptm/m/n/10.95 G. Aad, et al., Elec-tron per-for-mance mea-sure-ments wit
 h the AT-LAS de-tec-tor us-ing the
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 277--283
+Underfull \hbox (badness 3058) in paragraph at lines 282--288
 \OT1/ptm/m/n/10.95 2010 LHC proton-proton col-li-sion data, Eur.Phys.J. C72 (20
 12) 1909.  arXiv:1110.3174,
  []
 
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 1152) in paragraph at lines 295--300
+Underfull \hbox (badness 1152) in paragraph at lines 309--314
 []\OT1/ptm/m/n/10.95 S. G. Bon-darenko, A. A. Sapronov, NLO EW and QCD proton-p
 roton cross sec-tion cal-cu-
  []
 
-) [90] (./thesisMain.aux)
+) [102] (./thesisMain.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1532,12 +1568,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13786 strings out of 493611
- 275153 string characters out of 3142449
- 327707 words of memory out of 3000000
- 16764 multiletter control sequences out of 15000+200000
+ 13821 strings out of 493611
+ 275743 string characters out of 3142449
+ 328707 words of memory out of 3000000
+ 16784 multiletter control sequences out of 15000+200000
  55404 words of font info for 165 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,15n,58p,2017b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,15n,58p,1893b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (100 pages, 291548 bytes).
+Output written on thesisMain.dvi (102 pages, 303548 bytes).

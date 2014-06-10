@@ -10,17 +10,17 @@ This chapter discusses methods used to estimate background processes the the sig
 
    {\bf\raggedright Drell-Yan}
 
-   {\raggedright The Drell-Yan (DY) background is produced using the POWHEG + PYTHIA generator which is a next to leading order (NLO)\footnote{LO, NLO and NNLO refer to the complexity of feynman diagrams considered when calculating the cross section of an interaction} generation with POWHEG \cite{} with event showering handled by PYTHIA 8 \cite{}. The parton density function (PDF) used is CT10 \cite{}. A K-factor is then used in order to weight the cross-section from NLO to next to next to leading order (NNLO). This NNLO K-factor is derived using FEWZ \cite{} which uses the MSTW2008 NNLO PDF \cite{} from which a QCD+EW mass-dependent K-factor is obtained. The DY sample is split in to 16 MC truth dilepton mass bins with bin edges at (60,120,180,250,400,600,800,1000,1250,1500,1750,2000,2250,2500,2750,3000) GeV. The first bin from 60 - 120 GeV is a very high statistics sample providing a low statistical uncertainty for the region used for scaling MC in the Z boson peak.} \\
+   {\raggedright The Drell-Yan (DY) background is produced using the POWHEG + PYTHIA generator which is a next to leading order (NLO)\footnote{LO, NLO and NNLO refer to the complexity of feynman diagrams considered when calculating the cross section of an interaction} generation with POWHEG \cite{} with event showering handled by PYTHIA 8 \cite{}. The parton density function (PDF) used is CT10 \cite{}. A K-factor is then used in order to weight the cross-section from NLO to next to next to leading order (NNLO). This NNLO K-factor is derived using FEWZ \cite{} which uses the MSTW2008 NNLO PDF \cite{} from which a QCD+EW mass-dependent K-factor is obtained. The DY sample is split in to 16 MC truth dilepton mass bins with bin edges at (60, 120, 180, 250, 400, 600, 800, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000) GeV. The first bin from 60 - 120 GeV is a very high statistics sample providing a low statistical uncertainty for the region used for scaling MC in the Z boson peak.} \\
 
 
    {\bf\raggedright Photon-Induced}
 
-   {\raggedright The Photon-Induced (PI) fraction is estimated via PYTHIA 8 \cite{} generator with the LO PDF MRST2004QED \cite{}. This sample is split in to 5 dilepton mass bins with bin edges at (60,200,600,1500,2500) GeV.}\\
+   {\raggedright The Photon-Induced (PI) fraction is estimated via PYTHIA 8 \cite{} generator with the LO PDF MRST2004QED \cite{}. This sample is split in to 5 dilepton mass bins with bin edges at (60, 200, 600, 1500, 2500) GeV.}\\
 
 
    {\bf\raggedright Diboson}
 
-   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{} with the LO PDF CTEQ6L1 \cite{}. The sample with split in to the three process, WW, WZ and ZZ, with each process split in to 3 mass-binned samples with bin edges of (60,400,1000) GeV. The sample is then scaled to NLO in a mass-independent way seen here \cite{}.}\\
+   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{} with the LO PDF CTEQ6L1 \cite{}. The sample with split in to the three process, WW, WZ and ZZ, with each process split in to 3 mass-binned samples with bin edges of (60, 400, 1000) GeV. The sample is then scaled to NLO in a mass-independent way seen here \cite{}.}\\
 
    {\bf\raggedright Top}
 
@@ -190,7 +190,7 @@ Due to the different prescales of each trigger a separate set of fake rates are 
 
 \subsection{Properties of Multi-Jet Background}
 
-In order to compose the final sample events are organised by the distributions $N_{TT}$, $N_{TL}$, $N_{LT}$ or $N_{LL}$ and weights are applied according to each electrons $p_{T}$, $\eta$ with respect to equation~\ref{eq:mainFakeResult} and the corresponding efficiencies and fake rates. 
+In order to compose the final sample events are organised by the distributions $N_{TT}$, $N_{TL}$, $N_{LT}$ or $N_{LL}$ and weights are applied according to each electrons $p_{T}$, $\eta$ with respect to equation~\ref{eq:mainFakeResult2} and the corresponding efficiencies and fake rates. 
 Figure \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. In addition to these steps an extra fit is then applied at low invariant mass due to contamination due to the Z boson peak. This method is not suited to predicting the Multi-Jet background in the Z boson peak region and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and below. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region. At high-mass statistics of the sample decline and so an additional fit is made a high mass with the lower edge of the fit varied between 425 and 600 GeV and the upper edge from 700 to 1200 GeV, with the stitching point at 500 GeV.
 
    \begin{figure}[h]

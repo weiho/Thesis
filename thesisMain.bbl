@@ -261,6 +261,11 @@ G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider},
   sqrt{s} = 7 TeV in 2011}, Tech. Rep. ATLAS-CONF-2012-048, CERN, Geneva (May
   2012).
 
+\bibitem{Trigger_op_2011}
+\href{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TriggerOperationPublicResults}{Trigger
+  operation public results}.
+\newline\urlprefix\url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TriggerOperationPublicResults}
+
 \bibitem{mu_2011_2012_dec}
 \href{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}{Number
   of interactions per crossing}.
@@ -285,6 +290,15 @@ G.~Aad, et~al., {Electron performance measurements with the ATLAS detector
 {Electron efficiency measurements with the ATLAS detector using the 2012 LHC
   proton-proton collision data}, Tech. Rep. ATLAS-CONF-2014-032, CERN, Geneva
   (Jun 2014).
+
+\bibitem{Caldwell20092197}
+A.~Caldwell, D.~Kollár, K.~Kröninger,
+  \href{http://www.sciencedirect.com/science/article/pii/S0010465509002045}{\{BAT\}
+  – the bayesian analysis toolkit}, Computer Physics Communications 180~(11)
+  (2009) 2197 -- 2209.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1016/j.cpc.2009.06.026}
+  {\path{doi:http://dx.doi.org/10.1016/j.cpc.2009.06.026}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0010465509002045}
 
 \bibitem{Alekhin:2013dmy}
 S.~Alekhin, J.~Bluemlein, S.~O. Moch, {ABM11 PDFs and the cross section

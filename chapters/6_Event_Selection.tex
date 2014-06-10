@@ -36,12 +36,13 @@ The following selection is made to all data and MC events for this analysis. Bef
 
 
 \section{Isolation Requirement}
+   \label{sec:iso}
 
-When optimising for the 8 TeV analysis a re-investigation of the isolation requirement was needed, updating the selection from its previous iteration in the di-electron analysis on $7~$TeV ATLAS data. The previous threshold was a flat, less than $7~$GeV, cut on the calorimeter cluster isolation ($E_{T}$cone20) of the highest $p_{T}$ electron in the selected pair. The first investigation was to see how this cut performed in the selection of MC signal at 8 TeV centre of mass energy. Due to the better statistics found in the $DY{\rightarrow}ee$ MC sample and this being an irreducible background and therefore indistinguishable from the signal this was used in the following investigation.
+When optimising for the 8 TeV analysis a re-investigation of the isolation requirement was needed, updating the selection from its previous iteration in the di-electron analysis on $7~$TeV ATLAS data. The previous threshold was a flat, less than $7~$GeV, cut on the calorimeter cluster isolation ($E_{T}$cone20) of the highest E$_{T}$ electron in the selected pair. The first investigation was to see how this cut performed in the selection of MC signal at 8 TeV centre of mass energy. Due to the better statistics found in the $DY{\rightarrow}ee$ MC sample and this being an irreducible background and therefore indistinguishable from the signal this was used in the following investigation.
 
 This flat cut of 7 GeV causes an increasing efficiency loss at high energy and was deemed unsuitably high for this iteration of the analysis due to the higher reach in energy expected from the higher centre of mass energy. The introduction of an isolation requirement on the second highest electron was also proposed which did not exist in the 7 TeV analysis.
 
-The possibility was an isolation requirement varying with energy. The main source of background the isolation cut is imposed to reduce is jets that fake an electron signal in the detector. Jet backgrounds are estimated via a reverse ID method on data seen in section \ref{sec:FFmethod} with low statistics at high energy. For this reason it is hard to optimise the isolation requirement against rejection of this background at high energy. This study was undertaken by the author to optimise the isolation requirement. 
+The possibility was an isolation requirement varying with energy. The main source of background the isolation cut is imposed to reduce is jets that fake an electron signal in the detector. Jet backgrounds are estimated via a reverse ID method on data seen in section \ref{sec:FFmethod} with low statistics at high energy. For this reason it is hard to optimise the isolation requirement against rejection of this background at high energy. Therefore it was chosen to optimise the new selection against the acceptance of signal. This study was undertaken by the author to optimise the isolation requirement. 
 
 Figure \ref{fig:C5_leadIso_vs_leadpT} shows the distribution of DY MC events in $E_{T}$ and cluster isolation. It can be seen that electrons become less isolated under this definition of isolation as energy of the electron increases. This is to be expected as higher energy electrons produce larger showers and spread out over many EM calorimeter cells. 
 
@@ -54,7 +55,7 @@ Figure \ref{fig:C5_leadIso_vs_leadpT} shows the distribution of DY MC events in 
    \end{figure}
 
 
-In order to define a requirement varying in E$_{T}$, the 99\% acceptance point for each E$_{T}$ column was calculated and a first order polynomial fit to these points by eye was done. The 99\% acceptance points can be seen in figure \ref{fig:C5_leadIso_vs_leadpT} and this as well a the fit can be seen in figure \ref{fig:C5_leadIso_vs_leadpT_proposal}. The same thing was calculated for the second highest E$_{T}$ electron and can be seen in figure \ref{fig:C5_subIso_vs_subpT_proposal}.
+In order to define a requirement varying in E$_{T}$, the 99\% acceptance point for each E$_{T}$ column was calculated and a first order polynomial fit to these points was done by eye. The 99\% acceptance points can be seen in figure \ref{fig:C5_leadIso_vs_leadpT} and this as well a the fit can be seen in figure \ref{fig:C5_leadIso_vs_leadpT_proposal}. The same thing was calculated for the second highest E$_{T}$ electron and can be seen in figure \ref{fig:C5_subIso_vs_subpT_proposal}.
 
 
    \begin{figure}[h]
@@ -119,17 +120,18 @@ An analysis of the efficiency of these cuts on signal can be seen in figures \re
 
 \section{Selection Acceptance $\times$ Efficiency}
 
-   Figure \ref{fig:AxE} shows the acceptance $\times$ efficiency of the event selection at selecting DY MC events while table \ref{tab:eventEff} shows the efficiency of each part of the event selection. It can be seen that the opposite charge requirement causes a 7\% drop in acceptance rate in the signal region. Although a lot it can be seen in section \ref{sec:oppSign} that the effect of this drop is accommodated for by the new angular search introduced in this analysis and the reason for the selection.
+   %Figure \ref{fig:AxE} shows the acceptance $\times$ efficiency of the event selection at selecting DY MC events while 
+   Table \ref{tab:eventEff} shows the efficiency of each part of the event selection. It can be seen that the opposite charge requirement causes a 7\% drop in acceptance rate in the signal region. Although a lot it can be seen in section \ref{sec:oppSign} that the effect of this drop is accommodated for by the new angular search introduced in this analysis and the reason for the selection.
 
 
 
-   \begin{figure}[h]
-      \begin{center}
-      %\includegraphics[scale=0.6]{images/}
-      \end{center}
-   \caption{Plot showing acceptance $\times$ efficiency as a function of invariant mass for DY MC events.}
-   \label{fig:AxE}
-   \end{figure}
+   % \begin{figure}[h]
+   %    \begin{center}
+   %    %\includegraphics[scale=0.6]{images/}
+   %    \end{center}
+   % \caption{Plot showing acceptance $\times$ efficiency as a function of invariant mass for DY MC events.}
+   % \label{fig:AxE}
+   % \end{figure}
 
 
    \begin {table}[h]

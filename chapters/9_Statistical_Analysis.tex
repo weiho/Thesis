@@ -1,16 +1,16 @@
 \chapter{Statistical Analysis}
     \label{ch:stat}
 
-	The statistical analysis of results is done via a Bayesian approach where first first a search for signs of new physics is done with a calculation of the significance of any excesses. Then in the absence of a signal exclusion limits on the scale of new physics (either $\Lambda$ or M$_{s}$) are then set. A slightly different search approach is made between CI and ADD. In CI the shape of new physics is informative and therefore a series of invariant mass search bins are used with bin edges of 400, 550, 800, 1200, 1800, 3000 and 45000 GeV. With the addition of information from the $\cos{\theta^{*}}$ variable in this an analysis bins are also then split up in $\cos{\theta^{*}}$ as well as invariant mass. As seen in section \ref{sec:binOpp} most of the new information is obtained via using two bins in $\cos{\theta^{*}}$ making a total of 12 search bins distributed in invariant mass and $\cos{\theta^{*}}$. ADD on the other hand doesn't gain from the many search bin approach due to a sharper turn-on and undefined nature of the signal after the cut off point. Therefore only one search bin is used to search for ADD with a minimum invariant mass cut of 1900 GeV and upper cut of 4500 GeV. The ADD model gains no additional discriminating power from the $\cos{\theta^{*}}$ variable. For each search bin a parametrisation of new physics is produced (discussed in section \ref{sec:parm}) as well as the background predicted and data observed. Also included is the background and signal parametrisation varied by each of the appropriate sources of systematic error (discussed in section \ref{sec:sys}) for signal and background. This all composes the input of the event selection in the statistical analysis. \\
+	The statistical analysis of results is done via a Bayesian approach where first a search for signs of new physics is done with a calculation of the significance of any excesses. Then in the absence of a signals exclusion limits on the scale of new physics (either $\Lambda$ or M$_{s}$) are then set. A slightly different search approach is made between CI and ADD. In CI the shape of new physics is studied and therefore a series of invariant mass search bins are used with bin edges of 400, 550, 800, 1200, 1800, 3000 and 4500 GeV. With the addition of information from the $\cos{\theta^{*}}$ variable in this analysis bins are also then split up in $\cos{\theta^{*}}$ as well as invariant mass. As seen in section \ref{sec:binOpp} most of the new information is obtained via using two bins in $\cos{\theta^{*}}$ making a total of 12 search bins distributed in invariant mass and $\cos{\theta^{*}}$. ADD on the other hand doesn't gain from the many search bin approach due to a sharper turn-on and undefined nature of the signal after the cut off point. Therefore only one search bin is used to search for ADD with a minimum invariant mass cut of 1900 GeV and upper cut of 4500 GeV. The lower range of this search bin is optimised by choosing the value with the highest expected limit. The ADD model gains no additional discriminating power from the $\cos{\theta^{*}}$ variable. For each search bin a parametrisation of new physics is produced (discussed in section \ref{sec:parm}) as well as the background predicted and data observed. Also included is the background and signal parametrisation varied by each of the appropriate sources of systematic error (discussed in section \ref{sec:sys}) for signal and background. This all composes the input of the event selection in the statistical analysis. \\
 
-    The statistical analysis is carried out using the ROOT package BAT or Bayesian Analysis Tool-kit \cite{}, this package allows for the integration over nuisance parameters (discussed bellow) using the Markov Chain Monte Carlo method.  The statistical analysis starts off with the definition of the number of expected events $\mu$ found in the signal region as seen in Eq. \ref{eq:bay_events}.
+    The statistical analysis is carried out using the ROOT package BAT or Bayesian Analysis Tool-kit \cite{Caldwell20092197}. This package allows for the integration over nuisance parameters (discussed below) using the Markov Chain Monte Carlo method.  The statistical analysis starts off with the definition of the number of expected events $\mu$ found in the signal region as seen in equation \ref{eq:bay_events}.
 
 	\begin{equation}
 		\mu = n_{s}(\Theta,\overline{\Omega}) + n_{b}(\overline{\Omega})
     	\label{eq:bay_events}
     \end{equation}
 
-    Here $n_{s}$ is the number of signal events predicted by the model with a particular model parameter $\Theta$ and $n_{b}$ is the total number of predicted background events. $\overline{\Omega}$ is then a set of Gaussian nuisance parameters or systematic uncertainties on the number of expected events for signal and background. A product of Poisson probabilities for each search bin $k$ gives the Bayesian likelihood, seen in Eq. \ref{eq:likelihood}, of observing $n$ events given the signal parameter $\Theta$ and nuisance parameters $\overline{\Omega}$.
+    Here $n_{s}$ is the number of signal events predicted by the model with a particular model parameter $\Theta$ and $n_{b}$ is the total number of predicted background events. $\overline{\Omega}$ is then a set of Gaussian nuisance parameters or systematic uncertainties on the number of expected events for signal and background. A product of Poisson probabilities for each search bin $k$ gives the Bayesian likelihood, seen in equation \ref{eq:likelihood}, of observing $n$ events given the signal parameter $\Theta$ and nuisance parameters $\overline{\Omega}$.
 
 	\begin{equation}
 		\mathcal{L}(n~|~\Theta,\overline{\Omega}) = \prod\limits^{N}_{k=1}{\frac{\mu^{n_{k}}_{k} e^{-\mu_{k}}}{n_{k}!}}
@@ -25,7 +25,9 @@
     	\label{eq:postProb}
     \end{equation}
 
-    Equation \ref{eq:postProb} then shows the posterior probability using Bayes' theorem for the observation of $\Theta$ given $n$. Here $\mathcal{Z}$ is the normalisation factor and $\mathcal{L}_{\mathcal{M}}$ is the marginalised likelihood after all nuisance parameters have been integrated out. It is assumed all nuisance parameters are correlated across all search bins. All full description of nuisance parameters can be found in section \ref{sec:sys}. Finally $P(\Theta)$ is the prior probability of $\Theta$. For CI $P(\Theta)$ is chosen to be uniform and positive with respect to $1/\Lambda^{2}$ or $1/\Lambda^{4}$. This form of priors is chosen due to the form of differential cross-section (equation \ref{eq:DiffCross}) and its dependence on $\Lambda$. It is not obvious which prior is more correct as these forms refer to the interference and pure CI terms respectively which change in dominance throughout the search bins and model parameters, therefore the search is done using both parameters for completeness. A similar effect is seen in the form of the ADD differential cross-section (equation \ref{eq:ADDcs}) and so there a prior of $1/M_{s}^{4}$ or $1/M_{s}^{8}$ are used for the same reason. In order to check all signal formalisms 1000 background-like Pseudo-Experiments (PE) are run using BAT for each formalism. Each PE is then passed through the Bayesian statistical method above so they can be compared to data and signal predictions. Figure \ref{fig:pdf_CI_main} shows posterior probability density functions (pdf's), for the CI search and the ADD search respectively, of these 1000 PE's. 
+    Equation \ref{eq:postProb} shows the posterior probability using Bayes' theorem for the observation of $\Theta$ given $n$. Here $\mathcal{Z}$ is the normalisation factor and $\mathcal{L}_{\mathcal{M}}$ is the marginalised likelihood after all nuisance parameters have been integrated out. It is assumed all nuisance parameters are correlated across all search bins. A full description of nuisance parameters can be found in section \ref{sec:sys}. Finally $P(\Theta)$ is the prior probability of $\Theta$. A 95\% confidence level (CL) limit can then be found by finding $\Lambda_{lim}$ that satisfies $\int_{0} ^{\theta_{lim}} P(\theta~|~\bar{n}) d\theta = 0.95$. For CI $P(\Theta)$ is chosen to be uniform and positive with respect to $1/\Lambda^{2}$ or $1/\Lambda^{4}$. This form of priors is chosen due to the form of differential cross-section (equation \ref{eq:DiffCross}) and its dependence on $\Lambda$. It is not obvious which prior is more correct as these forms refer to the interference and pure CI terms respectively which change in dominance throughout the search bins and model parameters, therefore the search is done using both parameters for completeness. A similar effect is seen in the form of the ADD differential cross-section (equation \ref{eq:ADDcs}) and so there a prior of $1/M_{s}^{4}$ or $1/M_{s}^{8}$ are used for the same reason. 
+
+    In order to check all signal formalisms 1000 background-like Pseudo-Experiments (PE) are run using BAT for each formalism. Each PE is then passed through the Bayesian statistical method above so they can be compared to data and signal predictions. Figure \ref{fig:pdf_CI_main} shows posterior probability density functions (pdf's), for the CI search and the ADD search respectively, of these 1000 PE's.
 
     \begin{figure}[h]
         \begin{center}
@@ -50,58 +52,60 @@
 \section{Systematics}
     \label{sec:sys}
 
-    The list of nuisance parameters used for this statistical analysis make up a list of all systematic errors thought of as relevant for this analysis. Table \ref{tab:sys} lists all the systematic errors used for this analysis along with their size while figures \ref{fig:invMass_main}, \ref{fig:AFB_main} and \ref{fig:cosTS_main} in the previous chapter show total background systematic errors in their ratio's. Following is a brief description of each of the systematics including how it was derived.
+    The list of nuisance parameters used for this statistical analysis make up a list of all systematic errors thought of as relevant for this analysis. Table \ref{tab:sys} lists all the systematic errors used for this analysis along with their size while figures \ref{fig:invMass_main}, \ref{fig:AFB_main} and \ref{fig:cosTS_main} in the previous chapter show total background systematic errors in their ratio's. 
+    Due to this analysis using both the forward and backwards regions in the search all systematics needed to be assessed for both these regions separately.
+    Following is a brief description of each of the systematics including how it was derived.
 
     \begin {table}[h]
         \begin{center}
         \begin{tabular}{ | l | c c | } 
             \hline
-            \multirow{2}{*}{Source} & \multicolumn{2}{c|}{Signal}                                      \\
+            \multirow{2}{*}{Source} & \multicolumn{2}{c|}{Signal Systematic [\%]}               \\
                                 & Forward                           & Backward                        \\
             \hline
-            Normalization       & 4.0\% ~(4.0\%) ~[4.0\%]           & 4.0\% ~(4.0\%) ~[4.0\%]         \\
-            PDF Variation       & $<$ 0.1\% ~(0.2\%) ~[0.5\%]       & $<$ 0.1\% ~(0.2\%) ~[0.5\%]     \\
+            Normalization       & 4.0 ~(4.0) ~[4.0]           & 4.0 ~(4.0) ~[4.0]         \\
+            PDF Variation       & $<$ 0.1 ~(0.2) ~[0.5]       & $<$ 0.1 ~(0.2) ~[0.5]     \\
             PDF Choice          & NA                                & NA                              \\
             $\alpha_S$          & NA                                & NA                              \\
-            EW Corrections      & $<$ 0.1\% ~($<$ 0.1\%) ~[0.1\%]   & $<$ 0.1\% ~($<$ 0.1\%) ~[0.1\%] \\
+            EW Corrections      & $<$ 0.1 ~($<$ 0.1) ~[0.1]   & $<$ 0.1 ~($<$ 0.1) ~[0.1] \\
             Photon-Induced      & NA                                & NA                              \\
-            Efficiency          & 1.0\% ~(2.0\%) ~[3.0\%]           & 1.0\% ~(2.0\%) ~[3.0\%]         \\
-            Scale/Resolution    & 1.2\% ~(2.4\%) ~[5.0\%]           & 1.2\% ~(2.4\%) ~[5.0\%]         \\
+            Efficiency          & 1.0 ~(2.0) ~[3.0]           & 1.0 ~(2.0) ~[3.0]         \\
+            Scale/Resolution    & 1.2 ~(2.4) ~[5.0]           & 1.2 ~(2.4) ~[5.0]         \\
             Multijet/$W$+jets  & NA                                & NA                              \\
-            Beam Energy         & 1.0\% ~(3.0\%) ~[5.0\%]           & 1.0\% ~(3.0\%) ~[5.0\%]         \\
-            Charge MisID        & 1.2\% ~(2.0\%) ~[2.9\%]           &  1.2\% ~(2.0\%) ~[2.9\%]        \\
-            Statistical         & 3.0\% ~(3.0\%) ~[3.0\%]           & 3.0\% ~(3.0\%) ~[3.0\%]         \\
+            Beam Energy         & 1.0 ~(3.0) ~[5.0]           & 1.0 ~(3.0) ~[5.0]         \\
+            Charge MisID        & 1.2 ~(2.0) ~[2.9]           &  1.2 ~(2.0) ~[2.9]        \\
+            Statistical         & 3.0 ~(3.0) ~[3.0]           & 3.0 ~(3.0) ~[3.0]         \\
             \hline  
-            Total               & 5.5\% ~(6.9\%) ~[9.6\%]             & 5.5\% ~(6.9\%) ~[9.6\%]        \\
+            Total               & 5.5 ~(6.9) ~[9.6]             & 5.5 ~(6.9) ~[9.6]        \\
             \hline
             \hline
-            \multirow{2}{*}{Source} & \multicolumn{2}{c|}{Background}                                    \\
+            \multirow{2}{*}{Source} & \multicolumn{2}{c|}{Background Systematic [\%]}          \\
                                 & Forward                           & Backward                      \\
             \hline
-            Normalization       & 4.0\% ~(4.0\%) ~[4.0\%]           & 4.0\% ~(4.0\%) ~[4.0\%] \\
-            PDF Variation       & 6.0\% ~(12.5\%) ~[35.0\%]         & 10.0\% ~(28.0\%) ~[62.5\%] \\
-            PDF Choice          & 1.0\% ~(7.0\%) ~[22.0\%]          & 1.0\% ~(7.0\%) ~[22.0\%] \\
-            $\alpha_S$          & 1.0\% ~(3.0\%) ~[5.0\%]           & 1.0\% ~(3.0\%) ~[5.0\%] \\
-            EW Corrections      & 1.0\% ~(2.0\%) ~[4.0\%]           & 1.0\% ~(2.0\%) ~[4.0\%] \\
-            Photon-Induced      & 6.0\% ~(10.0\%) ~[17.0\%]         & 9.5\% ~(16.5\%) ~[29.0\%]    \\
-            Efficiency          & 1.0\% ~(2.0\%) ~[3.0\%]           & 1.0\% ~(2.0\%) ~[3.0\%] \\
-            Scale/Resolution    & 1.2\% ~(2.4\%) ~[5.0\%]           & 1.2\% ~(2.4\%) ~[5.0\%] \\
-            Multijet/$W$+jets  & 3.0\% ~(5.0\%) ~[21.0\%]          & 3.0\% ~(5.0\%) ~[21.0\%] \\
-            Beam Energy         & 1.0\% ~(3.0\%) ~[5.0\%]           & 1.0\% ~(3.0\%) ~[5.0\%] \\
-            Charge MisID        & 1.2\% ~(2.0\%) ~[2.9\%]           & 1.2\% ~(2.0\%) ~[2.9\%] \\
-            Statistical         & 0.5\% ~(0.5\%) ~[0.5\%]           & 0.5\% ~(0.5\%) ~[0.5\%] \\
+            Normalization       & 4.0 ~(4.0) ~[4.0]           & 4.0 ~(4.0) ~[4.0] \\
+            PDF Variation       & 6.0 ~(12.5) ~[35.0]         & 10.0 ~(28.0) ~[62.5] \\
+            PDF Choice          & 1.0 ~(7.0) ~[22.0]          & 1.0 ~(7.0) ~[22.0] \\
+            $\alpha_S$          & 1.0 ~(3.0) ~[5.0]           & 1.0 ~(3.0) ~[5.0] \\
+            EW Corrections      & 1.0 ~(2.0) ~[4.0]           & 1.0 ~(2.0) ~[4.0] \\
+            Photon-Induced      & 6.0 ~(10.0) ~[17.0]         & 9.5 ~(16.5) ~[29.0]    \\
+            Efficiency          & 1.0 ~(2.0) ~[3.0]           & 1.0 ~(2.0) ~[3.0] \\
+            Scale/Resolution    & 1.2 ~(2.4) ~[5.0]           & 1.2 ~(2.4) ~[5.0] \\
+            Multijet/$W$+jets  & 3.0 ~(5.0) ~[21.0]          & 3.0 ~(5.0) ~[21.0] \\
+            Beam Energy         & 1.0 ~(3.0) ~[5.0]           & 1.0 ~(3.0) ~[5.0] \\
+            Charge MisID        & 1.2 ~(2.0) ~[2.9]           & 1.2 ~(2.0) ~[2.9] \\
+            Statistical         & 0.5 ~(0.5) ~[0.5]           & 0.5 ~(0.5) ~[0.5] \\
             \hline   
-            Total               & 10.3\% ~(19.6\%) ~[50.6\%]        & 14.9\% ~(34.4\%) ~[76.1\%] \\ 
+            Total               & 10.3 ~(19.6) ~[50.6]        & 14.9 ~(34.4) ~[76.1] \\ 
             \hline
         \end{tabular}
-        \caption{Table listing all sources of systematic error and their approximate size for dielectron mass of 1 TeV (2 TeV) [3 TeV].}
+        \caption{Table listing all sources of systematic error and their approximate as a percentage (\%) size for dielectron mass of 1 TeV (2 TeV) [3 TeV].}
         \label{tab:sys}
         \end{center}
     \end {table}
 
 
     {\bf\raggedright Normalization} - This systematic accommodates the error associated with scaling MC samples within the Z peak to avoid luminosity errors however it also protects against any other sources of mass independent error. This systematic was investigated by looking at the effect of background cross-section on the scale factor. \\
-    {\bf\raggedright PDF Variation} - PDF variation was investigated as another source of systematic error using the set of 20 eigenvector error sets provided with the MSTW2008NNLO PDF. These eigenvectors were organised in to 4 groups, A,B,C and D, of eigenvectors with effects in similar regions of the invariant mass spectrum. These 4 groups were then used as separate nuisance parameters and applied to events based on dielectron invariant mass and $\cos{\theta^{*}}$. \\ 
+    {\bf\raggedright PDF Variation} - PDF variation was investigated as another source of systematic error using the set of 20 eigenvector error sets provided with the MSTW2008NNLO PDF. These eigenvectors were organised into 4 groups, A, B, C and D, of eigenvectors with effects in similar regions of the invariant mass spectrum. These 4 groups were then used as separate nuisance parameters and applied to events based on dielectron invariant mass and $\cos{\theta^{*}}$. \\ 
     {\bf\raggedright PDF Choice} - PDF choice refers to a comparison between the effects of different PDF's on the expected events from MC. Several other NNLO PDF are looked at including CT10 but the only PDF with predictions outside of the PDF variation systematic (seen above) was ABM11 \cite{Alekhin:2013dmy} and so an additional systematic is introduced of the order of this difference. \\
     {\bf\raggedright $\boldsymbol{\alpha_{S}}$} - A systematic is introduced to account for error in the value $\alpha_{S}$. It is varied between the values 0.11365 and 0.12044 according to the limits in MSTW. Recalculated cross-sections give a variation in the expected background and taken as the systematic. \\
     {\bf\raggedright EW Corrections} - The EW correction is derived via the use of a different generator (MCSANC \cite{Bondarenko:2013nu}) when calculating the EW K-factor and differences between the method give the systematic. \\
@@ -110,7 +114,7 @@
     {\bf\raggedright Scale/Resolution} - Systematic provided by the ATLAS electron photon performance group to accommodate the energy scale and energy resolution corrections (see section \ref{sec:correc}). \\
     {\bf\raggedright Multijet/$W$+jets} - Systematic associated with the data driven multijet \& $W$+jets estimate and seen in section \ref{sec:MJerror}. \\
     {\bf\raggedright Beam Energy} - The beam energy uncertainty of the LHC 4 TeV beams is given as 0.65\% giving this uncertainty which is again analysed to see its effect on event yield. \\
-    {\bf\raggedright Charge MisID} - Systematic associated with opposite sign requirement in the analysis. This error is estimated by injecting a higher fraction of charge miss identification in to the DY MC sample and looking at the effect on background prediction. This is found to have an at most 3\% effect at high mass. \\
+    {\bf\raggedright Charge MisID} - Systematic associated with opposite sign requirement in the analysis. This error is estimated by injecting a higher fraction of charge miss-identification in to the DY MC sample and looking at the effect on background prediction. This is found to have an at most 3\% effect at high mass. \\
     {\bf\raggedright Statistical} - Systematic error of the statistical error of each of the MC samples used to estimate background and signal. \\
 
 
@@ -125,11 +129,11 @@
 
 This section looks at some of the issues revolving around the introduction of the angular search within $\cos{\theta^{*}}$ as well as invariant mass. First a look at the effect of the loss in selection efficiency coming from the opposite sign requirement on the sensitivity of the search. Next is then a discussion on the optimisation of the binning used to search in $\cos{\theta^{*}}$.
 
-\subsection{Effect of opposite sign requirement of analysis reach}
+\subsection{Effect of the opposite sign requirement of analysis reach}
     \label{sec:oppSign}
 
     The opposite sign requirement is needed to ensure that calculations of the variable $\cos{\theta^{*}}$  correctly use the particle instead of anti-particle. However the selection comes with a 7\% drop in acceptance of signal in the signal search region (see table \ref{tab:eventEff}). The important question becomes what effect this has on the sensitivity of the analysis. This is important because angular dependence was introduced for a single CI formalism LR and not predicted to strongly impact the results for other formalisms. 
-    A study was done on the expected limits set by the Bayesian statistical analysis (see chapter \ref{ch:stat}) both with the opposite sign requirement introduced and without it for both a search in invariant mass only and search bins distributed in both invariant mass and $\cos{\theta^{*}}$ (called the 1D and 2D bellow search respectively). Table \ref{tab:limits_oppSign} show limits for all of these possibilities for both the LL and LR formalisms. It is important to bear in mind this study was done before the analysis was finalised and so the limits do not represent the final results of the analysis but are consistent enough to represent the effects we are looking at. It can be seen that the introduction of the opposite sign requirement leads to a reduction in the reach of the limits while the introduction of the the 2D search bin approach greatly increases the the limits for the LR formalism while regaining the lost sensitivity in the case of the LL formalism. Although no difference is seen between the angular dependence of background and the LL formalism (see figures \ref{fig:AFB_main} and \ref{}) the 2D search approach gains some extra shape information from the extra search bins used which offsets the loss of sensitivity from the opposite sign requirement. The same was found to be true for the ADD model as the LL formalism.  
+    A study was done on the expected limits set by the Bayesian statistical analysis (see chapter \ref{ch:stat}) both with the opposite sign requirement introduced and without it for both a search in invariant mass only and search bins distributed in both invariant mass and $\cos{\theta^{*}}$ (called the 1D and 2D below search respectively). Table \ref{tab:limits_oppSign} show limits for all of these possibilities for both the LL and LR formalisms. It is important to bear in mind this study was done before the analysis was finalised and so the limits do not represent the final results of the analysis but are consistent enough to represent the effects we are looking at. It can be seen that the introduction of the opposite sign requirement leads to a reduction in the reach of the limits while the introduction of the the 2D search bin approach greatly increases the the limits for the LR formalism while regaining the lost sensitivity in the case of the LL formalism. Although no difference is seen between the angular dependence of background and the LL formalism (see figures \ref{fig:AFB_main}) the 2D search approach gains some extra shape information from the extra search bins used which offsets the loss of sensitivity from the opposite sign requirement. The same was found to be true for the ADD model as the LL formalism.  
 
 
     \begin {table}[h]
@@ -137,7 +141,7 @@ This section looks at some of the issues revolving around the introduction of th
         \begin{tabular}{ | c | c | c | } 
             \hline
             \hline
-            Formalism & LL & LR \\
+            Search strategy & LL & LR \\
             \hline
             1D approach no & \multirow{2}{*}{19.27} & \multirow{2}{*}{21.64} \\
             opposite sign requirement & & \\
@@ -158,30 +162,67 @@ This section looks at some of the issues revolving around the introduction of th
 \subsection{Optimisation of search bins in $\cos{\theta^{*}}$}
     \label{sec:binOpp}
 
-    The belief at the start of the analysis was that binning within the $\cos{\theta^{*}}$ would be optimised with either 2 to n evenly distributed bins, varying bins in $\cos{\theta^{*}}$ or even varying number of bins throughout invariant mass. A few possibilities were investigated early on but it was seen that most of the extra information that could be gained from the angular variable $\cos{\theta^{*}}$ was found in splitting between the forward ($\cos{\theta^{*}}$ $>$ 1) and the backwards ($\cos{\theta^{*}}$ $<$ 1) regions and therefore only using two search bins in $\cos{\theta^{*}}$. This study was carried out at two different points. The first was looking at expected limits for individual invariant mass bins while varying the number of $\cos{\theta^{*}}$ bins. These ``limits'' do not give and accurate estimate of final limits  but are used as a guide to see the sensitivity of each binning. The results from this study can be seen in table \ref{tab:limits_binOpp} and show almost random fluctuations in the limits of small values not giving an indication of the optimal binning structure. The study was postponed until systematics were finalised. The second study seen in table \ref{tab:limits_fourbin} found very quickly that while changing from a 1D to a 2D search strategy using two evenly sized bins in $\cos{\theta^{*}}$ this gave a moderate increase in limits while any further increase in the number of $\cos{\theta^{*}}$ search bins gave no increase or a slight decrease in limits. This found that most of the extra information gained from searching in $\cos{\theta^{*}}$ was seen in a split between forward and backwards regions and any further increase in bins suffered from the impact of increasing statistical errors from MC samples. The two bin search structure was therefore chosen as optimal for searching in the $\cos{\theta^{*}}$ variable meaning with 6 invariant mass search bins 12 total search bins. 
+    The belief at the start of the analysis was that binning within $\cos{\theta^{*}}$ would be optimised with either 2 to n evenly distributed bins, varying bins in $\cos{\theta^{*}}$ or even varying number of bins throughout invariant mass. 
+    %A few possibilities were investigated early on but it was seen that most of the extra information that could be gained from the angular variable $\cos{\theta^{*}}$ was found in splitting between the forward ($\cos{\theta^{*}}$ $>$ 1) and the backwards ($\cos{\theta^{*}}$ $<$ 1) regions and therefore only using two search bins in $\cos{\theta^{*}}$. 
+    This study was carried out at two different points; early on in the analysis when search bins were first discussed, then towards the end when the full analysis was almost finalized. The first study looked at expected limits for individual invariant mass bins while varying the number of $\cos{\theta^{*}}$ bins. These ``limits'' do not give an accurate estimate of final limits but are used as a guide to see the sensitivity of each binning. The results from this study can be seen in table \ref{tab:limits_binOpp} where 600 PEs are run for each individual bin combination and expected limits are extracted from these. 
+    Random fluctuations in the limits are seen but are almost consistent through many of the binning structures. The highest limits found within each invariant mass bin can be seen as bold and a structure with more bins at low mass while less bins at high mass can be seen. However this structure does not gain a very big advantage over the many other binning structures that could be chosen due to the small size of the differences. The study was postponed until systematics were finalised. 
 
-    %add table with full results of optimisation. and then simple check for 4 bins compared to 2 bins
-
-    \begin {table}[h]
+    \begin {table}[h!]
         \begin{center}
-        \begin{tabular}{ | c | c | c | } 
+        \begin{tabular}{ |l|c|c|c|c|c|c| } 
             \hline
-
+            \hline
+            {\bf Constructive Interference} & \multicolumn{6}{c|}{Mass bins [GeV]} \\ 
+            \hline
+            $\cos{\theta^{*}}$ binning & 400-550 & 550-800 & 800-1200 & 1200-1800 & 1800-3000 & 3000-4500 \\
+            \hline
+            1 bin       & 13.7154 & 15.0867 & 17.2645 & 17.4408 & 16.8898 & 8.81322 \\
+            2 even bins & 14.0608 & 15.9546 & 18.0246 & 17.9244 & {\bf17.4196} & {\bf8.82076} \\
+            4 even bins & 14.0553 & 15.9607 & 18.1429 & 18.1086 & 17.2942 & 8.74857 \\
+            3 even bins & {\bf14.1691} & 15.7593 & 18.0305 & {\bf18.1593} & 16.9797 & 8.8057 \\
+            4 bins A    & 14.0999 & {\bf16.053}  & 18.1057 & 18.1086 & 17.1486 & 8.82008 \\
+            4 bins B    & {\bf14.1655} & 16.0005 & {\bf18.3324} & 18.1146 & 17.3696 & 8.81391 \\
+            5 even bins & 13.7568 & 15.8124 & 18.2437 & 18.1414 & 17.0067 & 8.7914 \\
+            \hline
+            \hline
+            {\bf Destructive Interference} & \multicolumn{6}{c|}{Mass bins [GeV]} \\
+            \hline
+            $\cos{\theta^{*}}$ binning & 400-550 & 550-800 & 800-1200 & 1200-1800 & 1800-3000 & 3000-4500 \\
+            \hline
+            1 bin       & 8.31287 & 8.98298 & 12.5147 & 14.7194 & 15.3456 & {\bf8.52415} \\
+            2 even bins & 8.87217 & 9.22688 & 12.7154 & 15.0151 & {\bf15.8282} & 8.5155 \\
+            4 even bins & 8.77311 & 9.38027 & 12.7906 & {\bf15.0944} & 15.6893 & 8.49673 \\
+            3 even bins & 8.94302 & 9.30384 & 12.7526 & 15.0372 & 15.4184 & 8.51457 \\
+            4 bins A    & 8.98625 & 9.28697 & 12.7833 & {\bf15.0953} & 15.5823 & 8.4854 \\
+            4 bins B    & 8.93035 & 9.50594 & {\bf12.8105} & 15.0585 & 15.773 & 8.42107 \\
+            5 even bins & {\bf9.22944} & {\bf9.59655} & 12.7666 & 15.0764 & 15.7632 & 8.44356 \\
+            \hline
             \hline
         \end{tabular}
-        \caption{Table of expected Limits calculated with 600 PE's for individual mass bins varying $\cos{\theta^{*}}$ binning to select variable search bins. No systematics were included in this study.}
+        \caption{Table of expected Limits calculated with 600 PE's for individual mass bins varying $\cos{\theta^{*}}$ binning to select variable search bins. The highest limits found for each invariant mass bin are shown in {\bf bold}. No systematics were included in this study.}
         \label{tab:limits_binOpp}
         \end{center}
     \end {table}
 
+
+    The second study seen in table \ref{tab:limits_fourbin} found very quickly that while changing from a 1D to a 2D search strategy using two evenly sized bins in $\cos{\theta^{*}}$ gave a moderate increase in limits, any further increase in the number of $\cos{\theta^{*}}$ search bins gave no increase or a slight decrease in limits. This found that most of the extra information gained from searching in $\cos{\theta^{*}}$ was seen in a split between forward ($\cos{\theta^{*}}$ $>$ 1) and backwards ($\cos{\theta^{*}}$ $<$ 1) regions. The cause of this effect comes from the introduction of systematics that grow at high mass as well as the increase in MC statistical error when binning the signal in finer bins. 
+    The two bin search structure was therefore chosen as optimal for searching in the $\cos{\theta^{*}}$ variable meaning that with 6 invariant mass search bins 12 total search bins are used. 
+
+ 
     \begin {table}[h]
         \begin{center}
         \begin{tabular}{ | c | c | c | } 
             \hline
-
+            \hline
+            $\cos{\theta^{*}}$ bins & Constructive & Destructive \\
+            \hline
+            1 bin & 21.1691 & 17.0884 \\
+            2 bin & 22.3078 & 17.6309 \\
+            4 bin & 22.1839 & 17.5169 \\
+            \hline
             \hline
         \end{tabular}
-        \caption{Table of expected Limits calculated with 600 PE's showing the effect of changing from 1 to 2 to 4 search bins in $\cos{\theta^{*}}$.}
+        \caption{Table of expected Limits on the LR formalism calculated with 600 PE's showing the effect of changing from 1 to 2 to 4 search bins in $\cos{\theta^{*}}$.}
         \label{tab:limits_fourbin}
         \end{center}
     \end {table}
@@ -252,7 +293,7 @@ This section looks at some of the issues revolving around the introduction of th
 
 \section{Setting Limits}
     
-    With no sign of new physics found limits are set on the lower limit for the scale of new physics for each CI and ADD formalism. Limits in $\Theta$ are extracted from each of the 1000 PE's for each formalism and the mean of this distribution is taken as the expected limit and converted in to a limit on $\Lambda$ for CI and M$_{s}$ for ADD. Figure \ref{fig:Theta_CI_main} shows the distribution of these PE's in $\Theta$ for both CI along with the mean value of the distribution taken as the expected limit. Tables \ref{tab:limits_CI} and \ref{tab:limits_ADD} then show the expected limits converted into $\Lambda$ and M$_{s}$ respectively where the same procedure had been done in the ADD channel. The final observed limits are also included in these figures and tables compared to the expected limits and extracted from the observed data. 
+    With no sign of new physics found limits are set on the lower limit for the scale of new physics for each CI and ADD formalism. Limits in $\Theta$ are extracted from each of the 1000 PE's for each formalism and the mean of this distribution is taken as the expected limit and converted into a limit on $\Lambda$ for CI and M$_{s}$ for ADD. Figure \ref{fig:Theta_CI_main} shows the distribution of these PE's in $\Theta$ for both CI along with the mean value of the distribution taken as the expected limit. Tables \ref{tab:limits_CI} and \ref{tab:limits_ADD} then show the expected limits converted into $\Lambda$ and M$_{s}$ respectively where the same procedure had been done in the ADD channel. The final observed limits are also included in these figures and tables compared to the expected limits and extracted from the observed data. The limits in the ADD search are also converted from the GRW formalism to all of the other formalism discussed in section \ref{sec:ADD_T} by a rearrangement of equation \ref{eq:ADDF}. The exception is the HLZ n = 2 formalism which has its own MC sample and limits are set in the same way as for GRW. The limits on all other formalisms discussed are then seen in \ref{tab:ADD_results_formalisms}.
 
 
     \begin{figure}[h]
@@ -260,7 +301,7 @@ This section looks at some of the issues revolving around the introduction of th
             \includegraphics[scale=0.4]{images/ee__LL_minus_L2/Theta.eps}
             \includegraphics[scale=0.4]{images/ee__LR_minus_L2/Theta.eps}
         \end{center}
-       \caption{Distribution of PE's with associated Limits for CI formalisms LL and LR with constructive interference given a uniform positive prior in $1/\Lambda^{2}$.}
+       \caption{Distribution of PE's with associated limits for CI formalisms LL and LR with constructive interference given a uniform positive prior in $1/\Lambda^{2}$.}
        \label{fig:Theta_CI_main}
     \end{figure}
 
@@ -294,7 +335,7 @@ This section looks at some of the issues revolving around the introduction of th
             \hline
             \hline
         \end{tabular}
-        \caption{Table of expected and observed Limits for all CI formalisms and prior's.}
+        \caption{Table of expected and observed limits for all CI formalisms and prior's.}
         \label{tab:limits_CI}
         \end{center}
     \end {table}
@@ -312,18 +353,42 @@ This section looks at some of the issues revolving around the introduction of th
             \hline
             \hline
         \end{tabular}
-        \caption{Table of expected and observed Limits for ADD with each prior.}
+        \caption{Table of expected and observed limits for ADD with each prior.}
         \label{tab:limits_ADD}
         \end{center}
     \end {table}
 
 
+\begin{table}[]
+  \begin{center}
+    \begin{tabular}{c|c|c|c|cccccc}
+        \hline
+        \hline
+        \multicolumn{10}{c}{Expected and Observed Limit on $M_{S}$ [TeV]} \\
+        \hline
+        \multirow{2}{*}{Channel} & \multirow{2}{*}{Prior} & \multirow{2}{*}{GRW} & \multirow{2}{*}{Hewett} & \multicolumn{6}{c}{HLZ} \\
+        \cline{5-10}
+                &       &     &        & n= 2 &  n=3 & n=4 & n=5 & n=6 & n=7 \\
+        \hline
+        \hline
+        Expected: $ee$      & \multirow{2}{*}{$1/M_{S}^{4}$} & 4.79 & 4.28 & 4.85 & 5.70 & 4.79 & 4.33 & 4.03 & 3.81 \\
+        Observed: $ee$      &  & 4.79 & 4.28 & 4.86 & 5.70 & 4.79 & 4.33 & 4.03 & 3.81 \\
+        \hline
+        Expected: $ee$      & \multirow{2}{*}{$1/M_{S}^{8}$} & 4.50 & 4.25 & 4.42 & 4.90 & 4.50 & 4.27 & 4.12 & 4.01 \\
+        Observed: $ee$      &  & 4.50 & 4.25 & 4.42 & 4.90 & 4.50 & 4.27 & 4.12 & 4.01 \\
+        \hline
+        \hline
+    \end{tabular}
+  \end{center}
+    \caption{Expected and observed 95\% C.L. lower limits on $M_{S}$ including systematic uncertainties, for ADD signal in the GRW, Hewett and HLZ formalisms.
+    \label{tab:ADD_results_formalisms}}
+\end{table}
 
 
 
 \section{Combination with the Muon Search}
 
-    A similar analysis was carried out at the same time as this one looking at the dimuon decay channel instead. This analysis followed the same procedure and after failing to find a signal limits were set on the scale of new physics. Assuming lepton universality integrated luminosity can effectively be doubled by combining the results from both channels. Therefore the posterior pdf's from each analysis where combined in BAT and new limits set on the scale of new physics. Care was taken to treat correctly sources of systematic uncertainty that are correlated between analyses. Combined limits of this form can be found in tables \ref{tab:Comb_Limits_CI} and \ref{tab:Comb_Limits_ADD} for the CI and ADD models respectively. These limits mark the highest limits set for this analysis owing to the higher effective luminosity. 
+    A similar analysis was carried out at the same time as this one looking at the dimuon decay channel instead. This analysis followed the same procedure and after failing to find any signals limits were set on the scale of new physics. Assuming lepton universality integrated luminosity can effectively be doubled by combining the results from both channels. Therefore the posterior pdf's from each analysis where combined in BAT and new limits set on the scale of new physics. Care was taken to correctly treat sources of systematic uncertainty that are correlated between analyses. Combined limits of this form can be found in tables \ref{tab:Comb_Limits_CI} and \ref{tab:Comb_Limits_ADD} for the CI and ADD models respectively while table \ref{tab:ADD_results_formalisms_comb} shows the combined limits from the other ADD formalisms. These limits mark the highest limits set for this analysis owing to the higher effective luminosity. 
 
 
 \begin{table}[p]
@@ -346,7 +411,7 @@ This section looks at some of the issues revolving around the introduction of th
     \hline
     \hline
 \end{tabular}
-\caption{Combined expected and observed Limits for the 2D LL, LR, and RR Contact Interaction search using a uniform positive prior.}
+\caption{Combined expected and observed limits for the 2D LL, LR, and RR Contact Interaction search using a uniform positive prior.}
 \label{tab:Comb_Limits_CI}
 \end{table}
 
@@ -363,7 +428,7 @@ This section looks at some of the issues revolving around the introduction of th
     \hline
     \hline
 \end{tabular}
-\caption{Combined expected and observed Limits for the ADD search using a uniform positive prior.}
+\caption{Combined expected and observed limits for the ADD search using a uniform positive prior.}
 \label{tab:Comb_Limits_ADD}
 \end{table}
 
@@ -382,13 +447,6 @@ This section looks at some of the issues revolving around the introduction of th
                 &       &     &        & n= 2 &  n=3 & n=4 & n=5 & n=6 & n=7 \\
         \hline
         \hline
-        Expected: $ee$      & \multirow{2}{*}{$1/M_{S}^{4}$} & 4.79 & 4.28 & 4.85 & 5.70 & 4.79 & 4.33 & 4.03 & 3.81 \\
-        Observed: $ee$      &  & 4.79 & 4.28 & 4.86 & 5.70 & 4.79 & 4.33 & 4.03 & 3.81 \\
-        \hline
-        Expected: $ee$      & \multirow{2}{*}{$1/M_{S}^{8}$} & 4.50 & 4.25 & 4.42 & 4.90 & 4.50 & 4.27 & 4.12 & 4.01 \\
-        Observed: $ee$      &  & 4.50 & 4.25 & 4.42 & 4.90 & 4.50 & 4.27 & 4.12 & 4.01 \\
-        \hline
-        \hline
         Expected: $ll$      & \multirow{2}{*}{$1/M_{S}^{4}$} & 4.83 & 4.31 & 5.09 & 5.74 & 4.83 & 4.36 & 4.06 & 3.84 \\
         Observed: $ll$      &  & 5.12 & 4.57 & 5.47 & 6.09 & 5.12 & 4.62 & 4.30 & 4.07 \\
         \hline
@@ -398,8 +456,8 @@ This section looks at some of the issues revolving around the introduction of th
         \hline
     \end{tabular}
   \end{center}
-    \caption{Expected and observed 95\% C.L. lower limits on $M_{S}$ including systematic uncertainties, for ADD signal in the GRW, Hewett and HLZ formalisms.
-    \label{tab:ADD_results_formalisms}}
+    \caption{Expected and observed combined 95\% C.L. lower limits on $M_{S}$ including systematic uncertainties, for ADD signal in the GRW, Hewett and HLZ formalisms.
+    \label{tab:ADD_results_formalisms_comb}}
 \end{table}
 
 
