@@ -237,12 +237,12 @@ V.~Abazov, et~al., {Search for Large extra spatial dimensions in the dielectron
   \href {http://dx.doi.org/10.1103/PhysRevLett.102.051601}
   {\path{doi:10.1103/PhysRevLett.102.051601}}.
 
-\bibitem{1367-2630-9-9-335}
+\bibitem{1367.2630.9.9.335}
 L.~Evans, \href{http://stacks.iop.org/1367-2630/9/i=9/a=335}{The large hadron
   collider}, New Journal of Physics 9~(9) (2007) 335.
 \newline\urlprefix\url{http://stacks.iop.org/1367-2630/9/i=9/a=335}
 
-\bibitem{Brüning:782076}
+\bibitem{Bruning:782076}
 O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole,
   P.~Proudlock, {LHC Design Report}, CERN, Geneva, 2004.
 
@@ -306,7 +306,7 @@ S.~Alekhin, J.~Bluemlein, S.~O. Moch, {ABM11 PDFs and the cross section
 \newblock \href {http://arxiv.org/abs/1302.1516} {\path{arXiv:1302.1516}}.
 
 \bibitem{Bondarenko:2013nu}
-S.~G. Bondarenko, A.~A. Sapronov, {NLO EW and QCD proton-proton cross section
+S.~G. Bondarenko, Sapronov, A.~A., {NLO EW and QCD proton-proton cross section
   calculations with mcsanc-v1.01}, Comput.Phys.Commun. 184 (2013) 2343--2350.
 \newblock \href {http://arxiv.org/abs/1301.3687} {\path{arXiv:1301.3687}},
   \href {http://dx.doi.org/10.1016/j.cpc.2013.05.010}

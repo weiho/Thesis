@@ -45,50 +45,53 @@ Below will mainly be a discussion of the reconstruction of electron (and related
 		Type 				& Description																	& Name 					\\
 		\hline
 \rule{0pt}{3ex}Acceptance 			& $|\eta|~<~2.47$ 														& $\eta$				\\
-\rule{0pt}{4ex}Hadronic leakage	& Ratio of $E_{T}$ in the first layer of the hadronic calorimeter to $E_{T}$ of	& \multirow{2}{*}{$R_{had1}$}			\\
-							& the EM cluster (used over the range $|\eta|~<~0.8$ and $|\eta|~>~1.37$)		&						\\
+\rule{0pt}{4ex}Hadronic leakage	& Ratio of $E_{T}$ in the first layer of the hadronic calorimeter to $E_{T}$ & \multirow{2}{*}{$R_{had1}$}			\\
+							& of the EM cluster (used over the range $|\eta|<0.8$ and $|\eta|>1.37$)		&						\\
 							\rule{0pt}{3ex} 
 							& Ratio of $E_{T}$ in the hadronic calorimeter to $E_{T}$ of the EM cluster 	& \multirow{2}{*}{$R_{had}$}			\\
 							& (used over the range $|\eta|~<~0.8$ and $|\eta|~>~1.37$)						&						\\
-\rule{0pt}{4ex}Middle layer of  	& Ratio of the energy in $3\times7$ cells over the energy in $7\times7$ cells centred  	& \multirow{2}{*}{$R_{\eta}$}	\\
-		EM calorimeter		& at the electron cluster position												&						\\
+\rule{0pt}{4ex}Middle layer of  	& Ratio of the energy in $3\times7$ cells over the energy in $7\times7$ cells	& \multirow{2}{*}{$R_{\eta}$}	\\
+		EM calorimeter		& centred at the electron cluster position												&						\\
 							\rule{0pt}{3ex} 
-							& Lateral shower width, $\sqrt{(\sum{E_{i} \eta_{i}^{2}})/(\sum{E_{i}}) - ((\sum{E_{i} \eta_{i}})/(\sum{E_{i}}))^{2}}$, where  	& \multirow{3}{*}{$\omega_{\eta2}$}		\\
-							& $E_{i}$ is the energy and $\eta_{i}$ is the pseudorapidity of cell $i$ and the sum is 	& 			\\
-							& calculated  within a window of 3 $\times$ 5 cells								&						\\
+							& Lateral shower width, $\sqrt{(\sum{E_{i} \eta_{i}^{2}})/(\sum{E_{i}}) - ((\sum{E_{i} \eta_{i}})/(\sum{E_{i}}))^{2}}$,  	& \multirow{3}{*}{$\omega_{\eta2}$}		\\
+							& where $E_{i}$ is the energy and $\eta_{i}$ is the pseudorapidity of cell $i$ and & 			\\
+							& the sum is calculated  within a window of 3 $\times$ 5 cells								&						\\
 		\hline
 		\hline
 		\multicolumn{3}{l}{{\bf medium \& medium++ selection} (includes loose)}																	\\
 		%\hline
 		Type 				& Description																	& Name 		 			\\
 		\hline
-\rule{0pt}{3ex}Strip layer of EM 	& Shower width, $\sqrt{(\sum{E_{i}(i - i_{max})^{2}})(\sum{E_{i}})}$, where $i$ runs over all strips in & \multirow{3}{*}{$\omega_{stot}$}	\\
-		calorimeter 		& a window of $\Delta\eta~\times~\Delta\phi~\approx~0.0625~\times~0.2$, corresponding typically to  	&			\\
-							& 20 strips in $\eta$, and $i_{max}$ is the index of the highest-energy strip 	& 						\\
+\rule{0pt}{3ex}Strip layer of EM & Shower width, $\sqrt{(\sum{E_{i}(i - i_{max})^{2}})(\sum{E_{i}})}$, where $i$ runs over all & \multirow{4}{*}{$\omega_{stot}$}	\\
+		calorimeter 		& strips in a window of $\Delta\eta~\times~\Delta\phi~\approx~0.0625~\times~0.2$, &			\\
+							& corresponding typically to 20 strips in $\eta$, and $i_{max}$ is the index 	& 						\\
+							& of the highest-energy strip 				&           \\
 							\rule{0pt}{3ex}
-							& Ratio of the energy difference between the largest and second largest  		& \multirow{2}{*}{$E_{ratio}$}			\\
-							& energy deposits in the cluster over the sum of these energies					&						\\
+							& Ratio of the energy difference between the largest and second  		& \multirow{2}{*}{$E_{ratio}$}			\\
+							& largest  energy deposits in the cluster over the sum of these 					&						\\
+							& energies & \\
 \rule{0pt}{4ex}Track quality	& Number of hits in the pixel detector $(\geq1)$							& $n_{pixel}$			\\
 							& Number of total hits in the pixel and SCT detectors $(\geq7)$					& $n_{Si}$				\\
 							& Transverse impact parameter $(|d_{0}|~<~5~\text{mm})$							& $d_{0}$				\\
-\rule{0pt}{4ex}Track-cluster		& $\Delta\eta$ between the cluster position in the strip layer and the extrapolated 	& \multirow{2}{*}{$\Delta\eta$} 	\\
-		matching			& track $(|\Delta\eta|~<~0.01)$													& 						\\
+\rule{0pt}{4ex}Track-cluster		& $\Delta\eta$ between the cluster position in the strip layer and the  	& \multirow{2}{*}{$\Delta\eta$} 	\\
+		matching			& extrapolated track $(|\Delta\eta|~<~0.01)$													& 						\\
 		\hline				
 		\hline
 		\multicolumn{3}{l}{{\bf Tight selection} (includes medium)}																	\\
 		%\hline
 		Type 				& Description 																	& Name 					\\
 		\hline
-\rule{0pt}{3ex}Track-cluster		& $\Delta\phi$ between the cluster position in the middle layer and the extrapolated 	& \multirow{2}{*}{$\Delta\phi$}	\\
-		matching			& track $(|\Delta\phi|~<~0.02)$													& 						\\
+\rule{0pt}{3ex}Track-cluster		& $\Delta\phi$ between the cluster position in the middle layer and the  & \multirow{2}{*}{$\Delta\phi$}	\\
+		matching			& extrapolated track $(|\Delta\phi|~<~0.02)$													& 						\\
 							& Ratio of the cluster energy to the track momentum								& $E/p$					\\
 							& Tighter $\Delta\eta$ requirement $(|\Delta\eta|~<~0.005)$						& $\Delta\eta$ 			\\
-\rule{0pt}{4ex}Track quality		& Tighter transverse impact parameter requirement $(|d_{0}|~<~1~\text{mm})$		& $d_{0}$				\\
+\rule{0pt}{4ex}Track quality		& Tighter transverse impact parameter requirement $(|d_{0}|<1\text{mm})$		& $d_{0}$				\\
 		TRT 				& Total number of hits in the TRT 												& $n_{TRT}$				\\
-							& Ratio of the number of high-threshold hits to the total number of hits in 	& \multirow{2}{*}{$f_{HT}$}				\\
-							& the TRT 																		& 						\\
+							& Ratio of the number of high-threshold hits to the total number  				& \multirow{2}{*}{$f_{HT}$}				\\
+							& of hits in the TRT 																		& 						\\
 \rule{0pt}{4ex}Conversions 	& Number of hits in the b-layer $(\leq1)$ 										& $n_{BL}$				\\
-							& Veto electron candidates matched to reconstructed photon conversions 		 	& 						\\
+							& Veto electron candidates matched to reconstructed  & 						\\
+							& photon conversions 		 						 & 						\\
 		\hline
   		\end{tabular}
   	\caption{Table showing the variables associated with definitions of loose, medium and tight \cite{Aad:2011mk}. Full thresholds found in appendix \ref{ap:em}}

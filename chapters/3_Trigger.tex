@@ -6,7 +6,7 @@
 
 	\begin{figure}[h]
         \begin{center}
-            \includegraphics[scale=0.7]{images/Trigger_system.eps}
+            \includegraphics[width=0.7\linewidth]{images/Trigger_system.eps}
         \end{center}
         \caption{Diagram showing the different stages of the trigger and how they interact. Red points indicate point of acceptance for each trigger and numbers show the approximate amount of events accepted per second at the end of the 7 TeV run in 2012.}
         \label{fig:triggerFlow}
@@ -28,9 +28,9 @@
 	\begin{figure}[h]
 
 		\begin{center}
-			$\vcenter{\hbox{\includegraphics[scale=0.5]{images/EGammaTauAlgo.eps}}}$
+			$\vcenter{\hbox{\includegraphics[width=0.4\linewidth]{images/EGammaTauAlgo.eps}}}$
 			\hspace*{.5in}
-			$\vcenter{\hbox{\includegraphics[scale=1.3]{images/LocalMax.eps}}}$
+			$\vcenter{\hbox{\includegraphics[width=0.4\linewidth]{images/LocalMax.eps}}}$
 		\end{center}
 		\caption{ Electron/photon and tau trigger algorithms (left) and E$_{T}$ local-maximum test for a cluster/RoI candidate (right). (The eta-axis runs from left to right, and the phi-axis from bottom to top. The symbol R refers to the candidate 2x2 region being tested.)}
 		\label{fig:Trig_algo}
@@ -98,10 +98,10 @@
 									&							& HEC 				& 6 		& 24 		& 2 		\\% &						\\
 									& 							& FCal 				& 4 		& 14 		& 2 		\\% &						\\
 		\hline
-\multirow{6}{*}{Muon spectrometer}	& \multirow{4}{*}{MDT}		& Barrel A 			& 50 		& 50 		& 4 		\\% & \multirow{4}{*}{154}	\\
+									& \multirow{4}{*}{MDT}		& Barrel A 			& 50 		& 50 		& 4 		\\% & \multirow{4}{*}{154}	\\
 									& 							& Barrel C 			& 50 		& 50 		& 4 		\\% &						\\
-									& 							& End-cap A 		& 52 		& 52 		& 4  		\\% &						\\
-									& 							& End-cap C 		& 52 		& 52 		& 4 		\\% &						\\
+Muon								& 							& End-cap A 		& 52 		& 52 		& 4  		\\% &						\\
+spectrometer						& 							& End-cap C 		& 52 		& 52 		& 4 		\\% &						\\
 									\cline{2-6}
 									& \multirow{2}{*}{CSC} 		& End-cap A 		& 8 		& 8 		& 1 		\\% & \multirow{2}{*}{10}	\\
 									&							& End-cap C 		& 8 		& 8 		& 1 		\\% &						\\
@@ -208,29 +208,28 @@
 		Hadronic core isolations was investigated for isolation less than 1, 2 and 3 GeV. A hadronic core isolation of less than 1 GeV was chosen as this was seen to have a less that 1\% effect and acceptance. Both of these requirements then went in to the specification of the L1\_EM16VH trigger.
 
 
-		\begin{figure}[h!]
-			\centering
-				\includegraphics[width=0.49\linewidth]{images/L1_EM16VH_TandP_eff_vs_eta.eps}
-				\includegraphics[width=0.49\linewidth]{images/L1_EM16VH_TandP_eff_vs_Et.eps}
-
-				\includegraphics[width=0.49\linewidth]{images/L1_EM16VH_TandP_eff_vs_pvx.eps}
-			\caption{Performance of the first level of the ATLAS $e/\gamma$ trigger before (EM16) and after (EM16VH) variable thresholds and hadronic core isolation are applied.}
-			\label{fig:L1}
-		\end{figure}
-
-
-
 		Figure \ref{fig:L1} shows the performance of the trigger after these changes had been made. It can be seen that a minimal impact of these new requirements is felt in efficiency in both eta and number of primary vertices and most importantly the ``turn on'' curve for efficiency as a function of E$_{T}$ shows the point at which 100\% efficiency is reached is not that much higher than EM16. This then introduced the new lowest threshold electron trigger chain used in ATLAS. The Effect of this introduction can be seen during the middle of the year in figure \ref{fig:EF_rate} where a significant decrease in the event filter acceptance rate is seen with the introduction of this and several other trigger strategies. 
 
 
 		\begin{figure}[h!]
 			\centering
-				\includegraphics[width=0.6\linewidth]{images/2011_streams_quarter_day.eps}
+				\includegraphics[width=0.8\linewidth]{images/2011_streams_quarter_day.eps}
 			\caption{Event Filter stream recording rates from 2011. \cite{Trigger_op_2011}}
 			\label{fig:EF_rate}
 		\end{figure}
 
 
 		For the 2012 run this trigger went through a revision raising the thresholds of each trigger in the chain to accommodate higher luminosity at 8 TeV, this chain is discussed in section \ref{sec:egammaMenu}. This study was completed by the author as a part of the ATLAS service task and became part of a ATLAS conference note \cite{ATLAS-CONF-2012-048}.
+
+
+		\begin{figure}[h]
+			\centering
+				\includegraphics[width=0.78\linewidth]{images/L1_EM16VH_TandP_eff_vs_eta.eps}
+				\includegraphics[width=0.78\linewidth]{images/L1_EM16VH_TandP_eff_vs_Et.eps}
+				\includegraphics[width=0.78\linewidth]{images/L1_EM16VH_TandP_eff_vs_pvx.eps}
+			\caption{Performance of the first level of the ATLAS $e/\gamma$ trigger before (EM16) and after (EM16VH) variable thresholds and hadronic core isolation are applied. Efficiency verse $\eta$ (top), E$_{T}$ (middle) and number of primary vertices (bottom).}
+			\label{fig:L1}
+		\end{figure}
+
 
 		%expand...

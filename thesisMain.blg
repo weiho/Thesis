@@ -13,15 +13,15 @@ Warning--empty journal in mu_2011_2012_dec
 Warning--empty author in ATLAS-CONF-2014-032
 You've used 39 entries,
             2937 wiz_defined-function locations,
-            992 strings with 13742 characters,
-and the built_in function-call counts, 12167 in all, are:
+            992 strings with 13743 characters,
+and the built_in function-call counts, 12180 in all, are:
 = -- 1280
-> -- 270
+> -- 273
 < -- 2
-+ -- 116
-- -- 77
-* -- 1117
-:= -- 1667
++ -- 117
+- -- 78
+* -- 1119
+:= -- 1670
 add.period$ -- 70
 call.type$ -- 39
 change.case$ -- 39
@@ -29,8 +29,8 @@ chr.to.int$ -- 0
 cite$ -- 47
 duplicate$ -- 354
 empty$ -- 1343
-format.name$ -- 109
-if$ -- 3138
+format.name$ -- 110
+if$ -- 3140
 int.to.chr$ -- 0
 int.to.str$ -- 39
 missing$ -- 38

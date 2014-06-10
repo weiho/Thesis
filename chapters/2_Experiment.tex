@@ -6,25 +6,24 @@
 
 	\begin{figure}[h!]
         \begin{center}
-            \includegraphics[scale=0.6]{images/LHCUnder.eps}
+            \includegraphics[width=0.9\linewidth]{images/LHCUnder_new.eps}
         \end{center}
-        \caption{Schematic of LHC tunnel with all its caverns showing those added in preparation for the LHC. This shows the position of the LHC's 4 main detectors and SPS ring \cite{1367-2630-9-9-335}.}
+        \caption{Schematic of LHC tunnel with all its caverns showing those added in preparation for the LHC. This shows the position of the LHC's 4 main detectors and SPS ring \cite{1367.2630.9.9.335}.}
         \label{fig:experimentLHC}
     \end{figure}
 
-	The Large Hadron Collider (LHC) \cite{Brüning:782076} is the largest and most powerful particle collider in the world with a circumference of $27$~km and design centre of mass collision energy of $14$~TeV. During the 2012 run the accelerator was run at a centre of mass energy of $8$~TeV while providing an integrated luminosity of just above $20~fb^{-1}$ throughout the year to its two general purpose experiments, CMS and ATLAS, that latter of which provided data for this analysis. Analysis is also presented in this thesis looking at the 7~TeV data set from the 2011 run. This data set provided just above $4.5~fb^{-1}$ of data. Figure \ref{fig:lum} shows the luminosity collected throughout the the 2011-2012 period. 
+	The Large Hadron Collider (LHC) \cite{Bruning:782076} is the largest and most powerful particle collider in the world with a circumference of $27$~km and design centre of mass collision energy of $14$~TeV. During the 2012 run the accelerator was run at a centre of mass energy of $8$~TeV while providing an integrated luminosity of just above $20~fb^{-1}$ throughout the year to its two general purpose experiments, CMS and ATLAS, that latter of which provided data for this analysis. Analysis is also presented in this thesis looking at the 7 TeV data set from the 2011 run. This data set provided just above $4.5~fb^{-1}$ of data. Figure \ref{fig:lum} shows the luminosity collected throughout the the 2011-2012 period. 
 
 	\begin{figure}[h!]
         \begin{center}
-			\includegraphics[scale=0.8]{images/intlumivstime2011-2012DQ.eps}
+			\includegraphics[width=0.9\linewidth]{images/intlumivstime2011-2012DQ.eps}
         \end{center}
         \caption{Cumulative luminosity versus time delivered to (green), recorded by ATLAS (yellow), and certified to be good quality data (blue) during stable beams and for pp collisions at 7 and 8~TeV centre-of-mass energy in 2011 and 2012. \cite{LuPublicResults}}
         \label{fig:lum}
     \end{figure}
 
 	
-	The LHC itself is built in the same tunnel (see fig. \ref{fig:experimentLHC}) as was used by the Large Electron-Positron (LEP) collider. Based at CERN (Centre of European Nuclear Research) the $27$~km tunnel is between $50$ to $175$~m underground and like CERN itself crosses the French-Swiss border just outside Geneva. Construction of the LHC started in 2001 after the LEP collider was decommissioned and dismantled with excavation of the caverns for the LHC's four main experiments starting slightly before in 1998. 
-	The LHC is a synchrotron machine requiring 1,232 super-conducting Niobium-Titanium dipole magnets each providing an $8.33$~T magnetic field to direct the proton beams around its loop and an additional 392 quadrupole magnets of the same type to focus the beams for the collision points. The superconducting magnets operate at $1.9$~K with the whole accelerator requiring 96 tonnes of liquid helium to remain cooled.\\
+	The LHC itself is built in the same tunnel (see figure \ref{fig:experimentLHC}) as was used by the Large Electron-Positron (LEP) collider. Based at CERN (Centre of European Nuclear Research) the $27$~km tunnel is between $50$ to $175$~m underground and like CERN itself crosses the French-Swiss border just outside Geneva. Construction of the LHC started in 2001 after the LEP collider was decommissioned and dismantled with excavation of the caverns for the LHC's four main experiments starting slightly before in 1998. The LHC is a synchrotron machine requiring 1,232 super-conducting Niobium-Titanium dipole magnets each providing an 8.33 T magnetic field to direct the proton beams around its loop and an additional 392 quadrupole magnets of the same type to focus the beams for the collision points. The superconducting magnets operate at 1.9 K with the whole accelerator requiring 96 tonnes of liquid helium to remain cooled.
 
 
 	For the 8~TeV run the LHC ran with 1380 proton bunches travelling in each direction which were accelerated around the LHC with an interval of 50 ns between bunches and with each bunch composed of $\sim~1.15\times10^{11}$ protons. These run conditions gave an peak instantaneous luminosity of $6.6\times10^{33}$cm$^{-2}$s$^{-1}$ at the start of a run which slowly degraded during a run as protons collided. The 7~TeV run had an peak instantaneous luminosity of $3.6\times10^{33}$cm$^{-2}$s$^{-1}$
@@ -43,7 +42,7 @@
 
 	\begin{figure}[h]
 		\begin{center}
-			\includegraphics[scale=0.1]{images/ATLAS_SE_Corrected7.eps}
+			\includegraphics[width=0.98\linewidth]{images/ATLAS_SE_Corrected7.eps}
 		\end{center}
 		\caption{Cut-away view of the ATLAS detector. (The dimensions of the detector are 25 m in height and 44 m in length.) The overall weight of the detector is approximately 7000 tonnes \cite{Aad:1129811}.}
 		\label{fig:ATLAS_cutaway}
@@ -69,13 +68,14 @@
 	\begin{tabular}{ | l | c | c | c | } 
 		\hline
 		Detector component & Required resolution & \multicolumn{2}{c|}{$\eta$ coverage} \\
+		\cline{3-4}
 		 & & Measurement & Trigger \\
     	\hline\hline
     	Inner Detector & $\sigma_{p_{T}}/p_{T}~~=~0.05\%~p_{T}~\oplus~1\%$ & $|\eta|<2.5$ & N.A \\
     	\hline
     	EM calorimetry & $\sigma_{E}/E~=~10\%/\sqrt{E}~\oplus~0.7\%$ & $|\eta|<3.2$ & $|\eta|<2.5$ \\
     	\hline
-    	Hadronic calorimetry (jets) &  &  &  \\
+    	Hadronic calorimetry &  &  &  \\
     	~~~barrel and end-cap & $\sigma_{E}/E~=~50\%/\sqrt{E}~\oplus~3\%$ & $|\eta|<3.2$ & $|\eta|<3.2$ \\
     	~~~forward  & $\sigma_{E}/E~=~100\%/\sqrt{E}~\oplus~10\%$ & $3.1<|\eta|<4.9$ & $3.1<|\eta|<4.9$ \\
     	\hline
@@ -93,9 +93,9 @@
 
 	\subsection{Inner Detector}
 
-		\begin{figure}[h]
+		\begin{figure}[h!]
 			\begin{center}
-				\includegraphics[scale=0.175]{images/ID_newTRT_d3.eps}
+				\includegraphics[width=0.95\linewidth]{images/ID_newTRT_d3.eps}
 			\end{center}
 			\caption{Cut-away view of the ATLAS inner detector \cite{Aad:1129811}.}
 			\label{fig:ATLAS_inner}
@@ -104,9 +104,9 @@
 		The Inner Detector is ATLAS's main tracking detector which is fitted closest to the interaction point. A tracking detector is needed to trace charged particles from the interaction point out to the calorimetry system and give two bits of information; a charged particle's position to match with the calorimeters (or Muon Spectrometer in the case of muons) and when a magnetic field is present an estimate of a particle's momentum to compare with the calorimeter obtained from the radius of its curve. The  ATLAS tracking system is composed of three different tracking technologies in order going out from the collision point; the Pixel Detector (PD), the Semiconductor Tracker (SCT) and the Transition Radiation Tracker (TRT). The Inner Detector was designed to precisely measure charged tracks in the energy range 0.5~GeV - 150~GeV while complimenting the energy measurements of the calorimetry system. Covering a range of $|\eta|~<~2.5$ and full range in $\phi$ the Inner Detector with the help of the 2 T magnetic field imposed by the solenoid magnet (discussed below) boasts a momentum resolution of $\sigma_{p_{T}}/p_{T}~=~0.05\%~p_{T}~\oplus~1\%$ for charged tracks. In its design it was also important for the Inner Detector to be able to distinguish between multiple primary vertices at the collision point, referred to as pile-up, as well as secondary vertices from sources such as the hadronisation of b quarks. A schematic of the inner detector with all its subsystems can be seen in figure \ref{fig:ATLAS_inner_config}.
 		%(-stats as to precision?)
 
-		\begin{figure}[h]
+		\begin{figure}[h!]
 			\begin{center}
-				\includegraphics[scale=0.3]{images/FigID26-mod-011107.eps}
+				\includegraphics[width=0.99\linewidth]{images/FigID26-mod-011107.eps}
 			\end{center}
 			\caption{Plan view of a quarter-section of the ATLAS inner detector showing each of the major detector elements with its active dimensions and position in $z$ and $R$ detector coordinates \cite{Aad:1129811}.}
 			\label{fig:ATLAS_inner_config}
@@ -116,7 +116,7 @@
 
 		\subsubsection*{Pixel Detector} 
 
-		The Pixel Detector is the first layer and closest to the beam line consisting of three layers of silicon pixels. Because of its proximity to the beam line the pixel detector are designed to be heavily radiation hard and understood to the degree that its performance can be predicted over an extended period of radiation exposure. The Pixel Detector is made of a barrel and two endcaps composed of 1744 modules all together. \\
+		The Pixel Detector is the first layer and closest to the beam line consisting of three layers of silicon pixels. Because of its proximity to the beam line the pixel detector are designed to be heavily radiation hard and understood to the degree that its performance can be predicted over an extended period of radiation exposure. The Pixel Detector is made of a barrel and two endcaps composed of 1744 modules all together. 
 		%(- each module, no. pixels)
 		%(- keep cool to avoid leakage current.)
 		%(-read out channels?)
@@ -124,14 +124,14 @@
 
 		\subsubsection*{Semiconductor Tracker}
 
-		The SCT consists of the same technology as the PD but is organised in to 4 layers in the barrel region and 9 layers in each endcap. Due to the packed nature of these electronics cooling is important in this layer and so the sensors in each module are glued to each side of a thermally conductive spine that gives the SCT both structure and allows transport of heat out via the mounting point of each module keeping them at their operating temperature of \SI{-7}{\degreeCelsius}.\\
+		The SCT consists of the same technology as the PD but is organised in to 4 layers in the barrel region and 9 layers in each endcap. Due to the packed nature of these electronics cooling is important in this layer and so the sensors in each module are glued to each side of a thermally conductive spine that gives the SCT both structure and allows transport of heat out via the mounting point of each module keeping them at their operating temperature of \SI{-7}{\degreeCelsius}.
 		%(-read out channels?)
 
 
 
 		\subsubsection*{Transition Radiation Tracker}
 
-		The TRT uses a completely different tracking technology to the rest of Inner Detector using straw detectors composed of 4~mm diameter polymide tubes each with a \SI{31}{\um} diameter gold plated Tungsten-Rhenium wire. Due to the small diameter of the straws the TRT can obtain the high read-out rate needed for experiments at the LHC. The barrel region consists of 50,000 of these straws with a readout at each end providing 100,000 readout channels. The endcaps contain another 320,000 straws only read out a one end giving the TRT a total of 420,000 channels. Each channel measures drift time giving a resolution of \SI{170}{\um} in each straw. The straws are filled with a high Xenon concentration (\ce{Xe}(70\%)\ce{CO2}(27\%)\ce{O2}(3\%)) of gas in order to detect electrons via radiated photons as they traverse the material between straws. This is achieved by giving each straw two timing thresholds, the lower to discriminate tracking hits (direct hits) while the higher threshold discriminates transition radiation hits. \\ %discuss
+		The TRT uses a completely different tracking technology to the rest of Inner Detector using straw detectors composed of 4~mm diameter polymide tubes each with a \SI{31}{\um} diameter gold plated Tungsten-Rhenium wire. Due to the small diameter of the straws the TRT can obtain the high read-out rate needed for experiments at the LHC. The barrel region consists of 50,000 of these straws with a readout at each end providing 100,000 readout channels. The endcaps contain another 320,000 straws only read out a one end giving the TRT a total of 420,000 channels. Each channel measures drift time giving a resolution of \SI{170}{\um} in each straw. The straws are filled with a high Xenon concentration (\ce{Xe}(70\%)\ce{CO2}(27\%)\ce{O2}(3\%)) of gas in order to detect electrons via radiated photons as they traverse the material between straws. This is achieved by giving each straw two timing thresholds, the lower to discriminate tracking hits (direct hits) while the higher threshold discriminates transition radiation hits.  %discuss
 		%(-eta ranges of barrel end cap.)
 		%(-number of straw hits in each region) 
 		
@@ -140,9 +140,9 @@
 
 	\subsection{Calorimeters}
 
-		\begin{figure}[h]
+		\begin{figure}[h!]
 			\begin{center}
-				\includegraphics[scale=0.35]{images/Calorimeter_d3.eps}
+				\includegraphics[width=0.95\linewidth]{images/Calorimeter_d3.eps}
 			\end{center}
 			\caption{Cut-away view of the ATLAS calorimeter system \cite{Aad:1129811}.}
 			\label{fig:ATLAS_calo}
@@ -154,9 +154,9 @@
 		%(- prevent leakage in to next layer)
 
 
-		\begin{figure}[h]
+		\begin{figure}[h!]
 			\begin{center}
-				\includegraphics[scale=0.5]{images/ITCconcept_new.eps}
+				\includegraphics[width=0.95\linewidth]{images/ITCconcept_new.eps}
 			\end{center}
 			\caption{Schematic of the transition region between the barrel and endcap cryostats \cite{Aad:1129811}.}
 			\label{fig:ATLAS_calo_crack}
@@ -165,12 +165,12 @@
 
 		\subsubsection*{Electromagnetic Calorimeter}
 
-		The Electromagnetic Calorimeter (ECAL) is designed to fully stop all electromagnetic showers within its volume. Split in to a barrel section and two endcaps the ECAL uses Liquid Argon (LAr) as a detecting medium with lead as the absorber. The lead is arranged in an accordion fashion (seen in figure \ref{fig:ATLAS_calo_crack}) to ensure consistent performance throughout $\phi$. In the barrel section a presampler of LAr type is found before the main calorimeter to correct for dead material. The barrel contains three layers of LAr modules of decreasing size in towards the collision point in order to keep good position resolution. The endcap only contains two layers of modules with the the inner layer containing smaller modules for the same reason as the barrel region.\\
+		The Electromagnetic Calorimeter (ECAL) is designed to fully stop all electromagnetic showers within its volume. Split in to a barrel section and two endcaps the ECAL uses Liquid Argon (LAr) as a detecting medium with lead as the absorber. The lead is arranged in an accordion fashion (seen in figure \ref{fig:ATLAS_calo_crack}) to ensure consistent performance throughout $\phi$. In the barrel section a presampler of LAr type is found before the main calorimeter to correct for dead material. The barrel contains three layers of LAr modules of decreasing size in towards the collision point in order to keep good position resolution. The endcap only contains two layers of modules with the the inner layer containing smaller modules for the same reason as the barrel region.
 
 
-		\begin{figure}[h]
+		\begin{figure}[h!]
 			\begin{center}
-				\includegraphics[scale=0.7]{images/LARG3-fig02-module00.eps}
+				\includegraphics[width=0.95\linewidth]{images/LARG3-fig02-module00.eps}
 			\end{center}
 			\caption{Photograph of the stacked electromagnetic LAr modules \cite{Aad:1129811}.}
 			\label{fig:ATLAS_calo_crack}
@@ -182,7 +182,7 @@
 
 		\subsubsection*{Hadronic Calorimeter}
 
-		The Hadronic Calorimeter is designed to stop all hadronic showers within its volume and consists of two parts, the Tile Calorimeter (HCAL) in the barrel and the LAr Hadronic Endcap (HEC). The HCAL is a tile calorimeter consisting of alternating layers of scintillator and steel as the active medium and absorber respectively. The HEC on the other hand uses the same technology as the ECAL with copper plates filled with LAr as the detecting medium. As the Hadronic Calorimeter sits directly behind the ECAL it is used to select good electron candidates using hadronic isolation or the amount of leakage in to the HCAL from a electron shower in the ECAL.\\
+		The Hadronic Calorimeter is designed to stop all hadronic showers within its volume and consists of two parts, the Tile Calorimeter (HCAL) in the barrel and the LAr Hadronic Endcap (HEC). The HCAL is a tile calorimeter consisting of alternating layers of scintillator and steel as the active medium and absorber respectively. The HEC on the other hand uses the same technology as the ECAL with copper plates filled with LAr as the detecting medium. As the Hadronic Calorimeter sits directly behind the ECAL it is used to select good electron candidates using hadronic isolation or the amount of leakage in to the HCAL from a electron shower in the ECAL.
 		%(- eta ranges?)
 		%(- forward calorimeters)
 		
@@ -190,11 +190,11 @@
 
 	\subsection{Magnet System}
 
-		\begin{figure}[h]
+		\begin{figure}[h!]
 			\begin{center}
-				\includegraphics[scale=0.3]{images/ATLcoilGeom.eps}
-				\includegraphics[scale=0.3]{images/desc5.eps}\\
-				\includegraphics[scale=0.3]{images/desc6.eps}
+				\includegraphics[width=0.48\linewidth]{images/ATLcoilGeom.eps}
+				\includegraphics[width=0.48\linewidth]{images/desc5.eps}\\
+				\includegraphics[width=0.8\linewidth]{images/desc6.eps}
 			\end{center}
 			\caption{Geometry of magnet windings and tile calorimeter steel (upper left), end-cap toroid cold mass inserted into the cryostat (upper right) and barrel toroid as installed in the underground cavern (bottom) \cite{Aad:1129811}.}
 			\label{fig:ATLAS_magnet}
@@ -205,7 +205,7 @@
 		The solenoid system is a superconducting magnet which is kept at \SI{4.6}{\K} to provide the \SI{2}{T} magnetic field required by the inner detector to curve high energy particles found at the LHC. As the solenoid is found inside the calorimetry system it is important radiative thickness is minimised to reduce efficiency losses in energy measurements. In order to achieve this it was designed to minimise dead material and shares its cryostat vessel with the ECAL reducing the need for two and therefore contributing only 0.63 radiation lengths.
 		%(-materials)
 
-		The outer toroid system provides a magnetic field for the muon spectrometer and consists of a barrel and two endcap systems each with eight coils assembled radially around the beam axis. The coils are all aluminium stabilised Niobium-Titanium (\ce{NbTi}) superconductors with each coil in the barrel contained in its own cryostat while each of the coils in the endcap systems are contained in one single cryostat. The peak field provided by these toroids are \SI{3.9}{T} and \SI{4.1}{T} in the barrel and endcaps respectively.\\
+		The outer toroid system provides a magnetic field for the muon spectrometer and consists of a barrel and two endcap systems each with eight coils assembled radially around the beam axis. The coils are all aluminium stabilised Niobium-Titanium (\ce{NbTi}) superconductors with each coil in the barrel contained in its own cryostat while each of the coils in the endcap systems are contained in one single cryostat. The peak field provided by these toroids are \SI{3.9}{T} and \SI{4.1}{T} in the barrel and endcaps respectively.
 		%(-temp?)
 
 	
@@ -213,15 +213,15 @@
 
 	\subsection{Muon Spectrometer}
 
-		\begin{figure}[h]
+		\begin{figure}[h!]
 			\begin{center}
-				\includegraphics[scale=0.4]{images/MuonSystem_d3.eps}
+				\includegraphics[width=0.95\linewidth]{images/MuonSystem_d3.eps}
 			\end{center}
 			\caption{ Cut-away view of the ATLAS muon system \cite{Aad:1129811}.}
 			\label{fig:ATLAS_muon}
 		\end{figure}
 
-		Due to the penetrative nature of muons, all the layers of detector discussed above do not induce the showering of high energy muons. Therefore the outermost detector is another tracking detector specifically for muons. It uses the outer toroid magnet system to bend muon paths and measure muon momentum. The Muon Spectrometer is composed of 4 different technologies; Monitor Drift Tubes (MDT), Cathode Strip Chambers (CSC), Resistive Plate Chambers (RPC) and Thin Gap Chambers (TGC) all seen in figure \ref{fig:ATLAS_muon}. Both the MDT and the CSC boast precision tracking but both have slow readout times. The RPCs and TGCs have the job of triggering muons and providing additional track measurements. The RPCs are found in the barrel region ($|\eta|~<~1.05$) while the TGC trigger in the endcap region ($1.05~<~|\eta|~<~2.4$). The MDT covers a full range in $\eta$ ($|\eta|~<~2.7$) with complementary measurements from the CSC at $2.0~<~|\eta|~<~2.7$.\\
+		Due to the penetrative nature of muons, all the layers of detector discussed above do not induce the showering of high energy muons. Therefore the outermost detector is another tracking detector specifically for muons. It uses the outer toroid magnet system to bend muon paths and measure muon momentum. The Muon Spectrometer is composed of 4 different technologies; Monitor Drift Tubes (MDT), Cathode Strip Chambers (CSC), Resistive Plate Chambers (RPC) and Thin Gap Chambers (TGC) all seen in figure \ref{fig:ATLAS_muon}. Both the MDT and the CSC boast precision tracking but both have slow readout times. The RPCs and TGCs have the job of triggering muons and providing additional track measurements. The RPCs are found in the barrel region ($|\eta|~<~1.05$) while the TGC trigger in the endcap region ($1.05~<~|\eta|~<~2.4$). The MDT covers a full range in $\eta$ ($|\eta|~<~2.7$) with complementary measurements from the CSC at $2.0~<~|\eta|~<~2.7$.
 
 		%diagram of components
 
