@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  10 JUN 2014 20:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  11 JUN 2014 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,63 +934,62 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 [12
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[13] [14]
-File: images/gamma_fermion.eps Graphic file (type eps)
- <images/gamma_fermion.eps>
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
- [15]
-File: images/Z_fermion.eps Graphic file (type eps)
- <images/Z_fermion.eps>
-File: images/W_lepton.eps Graphic file (type eps)
-
-<images/W_lepton.eps>
-File: images/W_quark.eps Graphic file (type eps)
- <images/W_quark.eps>
-File: images/Z_WW.eps Graphic file (type eps)
- <images/Z_WW.eps>
-File: images/ZZ_WW.eps Graphic file (type eps)
-
-<images/ZZ_WW.eps>
-File: images/WW_WW.eps Graphic file (type eps)
- <images/WW_WW.eps> [16]
-File: images/g_quark.eps Graphic file (type eps)
- <images/g_quark.eps>
-File: images/g_gg.eps Graphic file (type eps)
-
-<images/g_gg.eps>
-File: images/gg_gg.eps Graphic file (type eps)
- <images/gg_gg.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
+[14]
+File: images/gamma_fermion.eps Graphic file (type eps)
+ <images/gamma_fermion.eps>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15]
+File: images/Z_fermion.eps Graphic file (type eps)
+ <images/Z_fermion.eps>
+File: images/W_lepton.eps Graphic file (type eps)
+ <images/W_lepton.eps>
+File: images/W_quark.eps Graphic file (type eps)
+ <images/W_quark.eps>
+File: images/Z_WW.eps Graphic file (type eps)
+
+<images/Z_WW.eps>
+File: images/ZZ_WW.eps Graphic file (type eps)
+ <images/ZZ_WW.eps>
+File: images/WW_WW.eps Graphic file (type eps)
+ <images/WW_WW.eps> [16] [17]
+File: images/g_quark.eps Graphic file (type eps)
+
+<images/g_quark.eps>
+File: images/g_gg.eps Graphic file (type eps)
+ <images/g_gg.eps>
+File: images/gg_gg.eps Graphic file (type eps)
+ <images/gg_gg.eps> [18]
 File: images/DY_qq_ee.eps Graphic file (type eps)
- <images/DY_qq_ee.eps>
+
+<images/DY_qq_ee.eps>
 File: images/CI_qq_ee.eps Graphic file (type eps)
- <images/CI_qq_ee.eps> [18] [19]
+ <images/CI_qq_ee.eps> [19]
 File: images/AFB_MC.eps Graphic file (type eps)
- <images/AFB_MC.eps>
-[20]
+ <images/AFB_MC.eps> [20]
 File: images/truth_mass_LL.eps Graphic file (type eps)
- <images/truth_mass_LL.eps> [21]
+
+<images/truth_mass_LL.eps> [21]
 File: images/Gvirtual_gg_ee.eps Graphic file (type eps)
  <images/Gvirtual_gg_ee.eps>
 File: images/Gvirtual_qq_ee.eps Graphic file (type eps)
@@ -1244,6 +1243,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
  []
 
 
+Overfull \hbox (6.65813pt too wide) in paragraph at lines 23--24
+[]\OT1/ptm/m/n/12 The Di-bo-son MC sam-ple is pro-duced us-ing HER-WIG 6.510 [[
+]] with the LO PDF CTEQ6L1
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
@@ -1306,7 +1311,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 [71
 
-]
+] [72]
 File: images/parametrisations/NexpFits_minus_elec_lowmass.eps Graphic file (typ
 e eps)
  <images/parametrisations/NexpFits_minus_elec_lowmass.eps>
@@ -1329,7 +1334,7 @@ File: images/parametrisations/NexpFits_minus_elec_himass.eps Graphic file (type
 File: images/parametrisations/NexpFits_plus_elec_himass.eps Graphic file (type 
 eps)
 
-<images/parametrisations/NexpFits_plus_elec_himass.eps> [72] [73]
+<images/parametrisations/NexpFits_plus_elec_himass.eps> [73]
 File: images/invmass_main.eps Graphic file (type eps)
 
 <images/invmass_main.eps>
@@ -1504,13 +1509,7 @@ Appendix B.
 ) [106
 
 ] (./thesisMain.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 18--26
-\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
-ence / article / pii /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--36
+Underfull \hbox (badness 10000) in paragraph at lines 49--56
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
 ence / article / pii /
  []
@@ -1518,34 +1517,59 @@ ence / article / pii /
 [107
 
 ]
-Underfull \hbox (badness 1577) in paragraph at lines 130--137
+Underfull \hbox (badness 2435) in paragraph at lines 58--63
+[]\OT1/ptm/m/n/12 S. Wein-berg, A model of lep-tons, Phys. Rev. Lett. 19 (1967)
+ 1264--1266.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--102
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+[108] [109]
+Underfull \hbox (badness 1577) in paragraph at lines 206--213
 []\OT1/ptm/m/n/12 S. Cha-trchyan, et al., Search for con-tact in-ter-ac-tions u
 s-ing the in-clu-sive jet
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 130--137
+Underfull \hbox (badness 1412) in paragraph at lines 206--213
 \OT1/ptm/m/n/12 pT spec-trum in pp col-li-sions at s=7 TeV, Phys. Rev. D 87 (20
 13) 052017.
  []
 
-[108]
-Underfull \hbox (badness 2245) in paragraph at lines 157--164
+
+Underfull \hbox (badness 2245) in paragraph at lines 233--240
 []\OT1/ptm/m/n/12 F. Abe, et al., Lim-its on quark-lepton com-pos-ite-ness scal
 es from dilep-tons
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 157--164
+Underfull \hbox (badness 1874) in paragraph at lines 233--240
 \OT1/ptm/m/n/12 pro-duced in 1.8 TeV p$[]$ col-li-sions, Phys. Rev. Lett. 79 (1
 997) 2198--2203.
  []
 
+[110]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--174
+Underfull \hbox (badness 10000) in paragraph at lines 260--268
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--278
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
 ence / article / pii /
  []
@@ -1554,42 +1578,121 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--184
+Underfull \hbox (badness 10000) in paragraph at lines 280--288
 []\OT1/ptm/m/n/12 C. Adloff, et al., Search for new physics in e$\OMS/pzccm/m/n
 /12 ^^F$\OT1/ptm/m/n/12 q con-tact in-ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--184
+Underfull \hbox (badness 10000) in paragraph at lines 280--288
 \OT1/ptm/m/n/12 ac-tions at HERA, Physics Let-ters B 568 (12) (2003) 35 -- 47.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--184
+Underfull \hbox (badness 10000) in paragraph at lines 280--288
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
 ence / article / pii /
  []
 
-[109]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
+[111]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 2828) in paragraph at lines 223--231
+Underfull \hbox (badness 2828) in paragraph at lines 327--335
 []\OT1/ptm/m/n/12 M. Ac-cia-rri, et al., Search for man-i-fes-ta-tions of new p
 hysics in fermion-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 223--231
+Underfull \hbox (badness 6859) in paragraph at lines 327--335
 \OT1/ptm/m/n/12 pair pro-duc-tion at LEP, Physics Let-ters B 489 (12) (2000) 81
  -- 92.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--231
+Underfull \hbox (badness 10000) in paragraph at lines 327--335
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 353--361
+[]\OT1/ptm/m/n/12 S. Cha-trchyan, et al., Search for large ex-tra di-men-sions 
+in dimuon and di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--361
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 380--388
+\OT1/ptm/m/n/12 M. Agelou, J.-L. Agram, et al., Search for large ex-tra spa-tia
+l di-men-sions in
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 380--388
+\OT1/ptm/m/n/12 dimuon pro-duc-tion with the d0 de-tec-tor, Phys. Rev. Lett. 95
+ (2005) 161602.
+ []
+
+[112]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ˆ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--398
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ˆ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--408
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--418
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ˆ in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+Missing character: There is no Î in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Î in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Î in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--429
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
 ence / article / pii /
  []
@@ -1597,23 +1700,99 @@ ence / article / pii /
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--253
+Underfull \hbox (badness 10000) in paragraph at lines 441--443
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
 n / view / AtlasPublic /
  []
 
-[110]
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
+[113]
+Underfull \hbox (badness 10000) in paragraph at lines 456--458
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
 n / view / AtlasPublic /
  []
 
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 460--473
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+
+Underfull \hbox (badness 2469) in paragraph at lines 475--505
+\OT1/ptm/m/n/12 Equip-ment 506 (3) (2003) 250 -- 303.  doi:http://dx.doi.org/10
+.1016/S0168-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--505
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
+ence / article / pii /
+ []
+
+[114]
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
 n / view / AtlasPublic /
  []
 
+[115]
+Underfull \hbox (badness 3029) in paragraph at lines 547--552
+[]\OT1/ptm/m/n/12 T. Sjos-trand, S. Mrenna, P. Z. Skands, A Brief In-tro-duc-ti
+on to PYTHIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--552
+\OT1/ptm/m/n/12 8.1, Com-put.Phys.Commun. 178 (2008) 852--867.  arXiv:0710.3820
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--610
+\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . slac . stanford . edu / s
+pires / find / hep / www ? key =
+ []
+
+[116]
+Underfull \hbox (badness 1226) in paragraph at lines 612--617
+[]\OT1/ptm/m/n/12 J. But-ter-worth, J. R. For-shaw, M. Sey-mour, Mul-ti-par-ton
+ in-ter-ac-tions in pho-
+ []
+
+Missing character: There is no Î in font zptmcmr!
+Missing character: There is no ± in font zptmcmr!
+
+Underfull \hbox (badness 6428) in paragraph at lines 627--633
+[]\OT1/ptm/m/n/12 M. Cac-ciari, M. Cza-kon, M. Mangano, A. Mi-tov, P. Na-son, T
+op-pair
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 627--633
+\OT1/ptm/m/n/12 pro-duc-tion at hadron col-lid-ers with next-to-next-to-leading
+ log-a-rith-mic soft-
+ []
+
+
+Underfull \hbox (badness 6364) in paragraph at lines 627--633
+\OT1/ptm/m/n/12 gluon re-sum-ma-tion, Phys.Lett. B710 (2012) 612--622.  arXiv:1
+111.5869,
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -1622,24 +1801,26 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--302
+Underfull \hbox (badness 10000) in paragraph at lines 642--649
 []\OT1/ptm/m/n/12 A. Cald-well, D. Kollr, K. Krninger, \OMS/pzccm/m/n/12 f\OT1/
 ptm/m/n/12 BAT\OMS/pzccm/m/n/12 g  \OT1/ptm/m/n/12 the bayesian anal-y-sis
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 295--302
+Underfull \hbox (badness 3417) in paragraph at lines 642--649
 \OT1/ptm/m/n/12 toolkit, Com-puter Physics Com-mu-ni-ca-tions 180 (11) (2009) 2
 197 -- 2209.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--302
+Underfull \hbox (badness 10000) in paragraph at lines 642--649
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 http : / / www . sciencedirect . com / sci
 ence / article / pii /
  []
 
-[111]) [112] (./thesisMain.aux)
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+[117]) [118] (./thesisMain.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1648,12 +1829,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14295 strings out of 493611
- 282711 string characters out of 3142449
+ 14338 strings out of 493611
+ 283455 string characters out of 3142449
  329711 words of memory out of 3000000
- 17246 multiletter control sequences out of 15000+200000
+ 17289 multiletter control sequences out of 15000+200000
  54883 words of font info for 164 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,15n,58p,1893b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,15n,58p,1982b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (112 pages, 310540 bytes).
+Output written on thesisMain.dvi (118 pages, 329696 bytes).

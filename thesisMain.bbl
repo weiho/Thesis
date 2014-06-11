@@ -14,6 +14,82 @@ G.~Aad, et~al.,
   {\path{doi:10.1103/PhysRevD.87.015010}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevD.87.015010}
 
+\bibitem{ATLAS-CONF-2014-030}
+{Search for contact interactions and large extra dimensions in the dilepton
+  channel using proton-proton collisions at $\sqrt{s}$ = 8 TeV with the ATLAS
+  detector}, Tech. Rep. ATLAS-CONF-2014-030, CERN, Geneva (Jun 2014).
+
+\bibitem{Aad:2012hf}
+G.~Aad, et~al., {Search for high-mass resonances decaying to dilepton final
+  states in pp collisions at s**(1/2) = 7-TeV with the ATLAS detector}, JHEP
+  1211 (2012) 138.
+\newblock \href {http://arxiv.org/abs/1209.2535} {\path{arXiv:1209.2535}},
+  \href {http://dx.doi.org/10.1007/JHEP11(2012)138}
+  {\path{doi:10.1007/JHEP11(2012)138}}.
+
+\bibitem{Z:1515998}
+g.~Z', {Search for high-mass dilepton resonances in 20~$fb^{-1}$ of $pp$
+  collisions at $\sqrt s = 8$~TeV with the ATLAS experiment}, Tech. Rep.
+  ATLAS-COM-CONF-2013-010, CERN, Geneva (Feb 2013).
+
+\bibitem{ATL-PHYS-PUB-2011-007}
+{Expected photon performance in the ATLAS experiment}, Tech. Rep.
+  ATL-PHYS-PUB-2011-007, CERN, Geneva (Apr 2011).
+
+\bibitem{Duguid:1450151}
+L.~Duguid, {Performance of the ATLAS Electron and Photon Trigger in p-p
+  Collisions at $sqrt{s}$ = 7 TeV in 2011}.
+
+\bibitem{ulrik:GriffEP2008}
+D.~Griffiths, \href{http://www.worldcat.org/isbn/3527406018}{{Introduction to
+  Elementary Particles}}, 2nd Edition, Wiley-VCH, 2008.
+\newline\urlprefix\url{http://www.worldcat.org/isbn/3527406018}
+
+\bibitem{Glashow1961579}
+S.~L. Glashow,
+  \href{http://www.sciencedirect.com/science/article/pii/0029558261904692}{Partial-symmetries
+  of weak interactions}, Nuclear Physics 22~(4) (1961) 579 -- 588.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0029-5582(61)90469-2}
+  {\path{doi:http://dx.doi.org/10.1016/0029-5582(61)90469-2}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0029558261904692}
+
+\bibitem{PhysRevLett.19.1264}
+S.~Weinberg, \href{http://link.aps.org/doi/10.1103/PhysRevLett.19.1264}{A model
+  of leptons}, Phys. Rev. Lett. 19 (1967) 1264--1266.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.19.1264}
+  {\path{doi:10.1103/PhysRevLett.19.1264}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.19.1264}
+
+\bibitem{Salam:1968rm}
+A.~Salam, Weak and electromagnetic interactionsProc. of the 8th Nobel Symposium
+  on `Elementary Particle Theory, Relativistic Groups and Analyticity',
+  Stockholm, Sweden, 1968, edited by N. Svartholm, p. 367-377.
+
+\bibitem{PhysRevLett.13.321}
+F.~Englert, R.~Brout,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.13.321}{Broken symmetry and
+  the mass of gauge vector mesons}, Phys. Rev. Lett. 13 (1964) 321--323.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.13.321}
+  {\path{doi:10.1103/PhysRevLett.13.321}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.13.321}
+
+\bibitem{PhysRevLett.13.508}
+P.~W. Higgs, \href{http://link.aps.org/doi/10.1103/PhysRevLett.13.508}{Broken
+  symmetries and the masses of gauge bosons}, Phys. Rev. Lett. 13 (1964)
+  508--509.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.13.508}
+  {\path{doi:10.1103/PhysRevLett.13.508}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.13.508}
+
+\bibitem{PhysRevLett.13.585}
+G.~S. Guralnik, C.~R. Hagen, T.~W.~B. Kibble,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.13.585}{Global conservation
+  laws and massless particles}, Phys. Rev. Lett. 13 (1964) 585--587.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.13.585}
+  {\path{doi:10.1103/PhysRevLett.13.585}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.13.585}
+
 \bibitem{Aad20121}
 G.~Aad, et~al.,
   \href{http://www.sciencedirect.com/science/article/pii/S037026931200857X}{Observation
@@ -162,6 +238,24 @@ F.~Abe, et~al.,
   {\path{doi:10.1103/PhysRevLett.79.2198}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.79.2198}
 
+\bibitem{Abbiendi2003331}
+G.~Abbiendi~et al.,
+  \href{http://dx.doi.org/10.1140/epjc/s2002-01074-5}{Multi-photon production
+  in ee collisions at $\sqrt{s}$ = 181-209 \{GeV\}}, The European Physical
+  Journal C - Particles and Fields 26~(3) (2003) 331--344.
+\newblock \href {http://dx.doi.org/10.1140/epjc/s2002-01074-5}
+  {\path{doi:10.1140/epjc/s2002-01074-5}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1140/epjc/s2002-01074-5}
+
+\bibitem{Abbiendi2000553}
+G.~Abbiendi~et al., \href{http://dx.doi.org/10.1007/s100520000315}{Tests of the
+  standard model and constraints on new physics from measurements of
+  fermion-pair production at 189 gev at lep}, The European Physical Journal C -
+  Particles and Fields 13~(4) (2000) 553--572.
+\newblock \href {http://dx.doi.org/10.1007/s100520000315}
+  {\path{doi:10.1007/s100520000315}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/s100520000315}
+
 \bibitem{Chekanov200423}
 S.~Chekanov, et~al.,
   \href{http://www.sciencedirect.com/science/article/pii/S0370269304005660}{Search
@@ -171,6 +265,16 @@ S.~Chekanov, et~al.,
   {http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2004.03.081}
   {\path{doi:http://dx.doi.org/10.1016/j.physletb.2004.03.081}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269304005660}
+
+\bibitem{Adloff2000358}
+C.~Adloff, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269300003324}{Search
+  for compositeness, leptoquarks and large extra dimensions in eq contact
+  interactions at \{HERA\}}, Physics Letters B 479~(4) (2000) 358 -- 370.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0370-2693(00)00332-4}
+  {\path{doi:http://dx.doi.org/10.1016/S0370-2693(00)00332-4}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269300003324}
 
 \bibitem{Adloff200335}
 C.~Adloff, et~al.,
@@ -229,6 +333,41 @@ M.~Acciarri, et~al.,
   {\path{doi:http://dx.doi.org/10.1016/S0370-2693(00)00887-X}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026930000887X}
 
+\bibitem{McFarland2005.161}
+K.~McFarland, \href{http://dx.doi.org/10.1140/epjad/s2005-04-041-y}{Neutral
+  currents and strangeness of the nucleon from the nutev experiment}, The
+  European Physical Journal A - Hadrons and Nuclei 24~(2) (2005) 161--164.
+\newblock \href {http://dx.doi.org/10.1140/epjad/s2005-04-041-y}
+  {\path{doi:10.1140/epjad/s2005-04-041-y}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1140/epjad/s2005-04-041-y}
+
+\bibitem{ATLAS:2011ab}
+G.~Aad, et~al., {Search for Extra Dimensions using diphoton events in 7 TeV
+  proton-proton collisions with the ATLAS detector}, Phys.Lett. B710 (2012)
+  538--556.
+\newblock \href {http://arxiv.org/abs/1112.2194} {\path{arXiv:1112.2194}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.03.022}
+  {\path{doi:10.1016/j.physletb.2012.03.022}}.
+
+\bibitem{Chatrchyan201215}
+S.~Chatrchyan, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269312003036}{Search
+  for large extra dimensions in dimuon and dielectron events in pp collisions
+  at}, Physics Letters B 711~(1) (2012) 15 -- 34.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.03.029}
+  {\path{doi:http://dx.doi.org/10.1016/j.physletb.2012.03.029}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269312003036}
+
+\bibitem{PhysRevLett.108.111801}
+S.~Chatrchyan, other,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.108.111801}{Search for
+  signatures of extra dimensions in the diphoton mass spectrum at the large
+  hadron collider}, Phys. Rev. Lett. 108 (2012) 111801.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.108.111801}
+  {\path{doi:10.1103/PhysRevLett.108.111801}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.108.111801}
+
 \bibitem{Abazov:2008as}
 V.~Abazov, et~al., {Search for Large extra spatial dimensions in the dielectron
   and diphoton channels in $p \bar{p}$ collisions at $\sqrt{s}$ = 1.96-TeV},
@@ -236,6 +375,57 @@ V.~Abazov, et~al., {Search for Large extra spatial dimensions in the dielectron
 \newblock \href {http://arxiv.org/abs/0809.2813} {\path{arXiv:0809.2813}},
   \href {http://dx.doi.org/10.1103/PhysRevLett.102.051601}
   {\path{doi:10.1103/PhysRevLett.102.051601}}.
+
+\bibitem{PhysRevLett.95.161602}
+V.~M. Abazov, B.~Abbott, M.~Abolins, B.~S. Acharya, M.~Adams, T.~Adams,
+  M.~Agelou, J.-L. Agram, et~al.,
+  \href{http://link.aps.org/doi/10.1103/PhysRevLett.95.161602}{Search for large
+  extra spatial dimensions in dimuon production with the d0 detector}, Phys.
+  Rev. Lett. 95 (2005) 161602.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.95.161602}
+  {\path{doi:10.1103/PhysRevLett.95.161602}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.95.161602}
+
+\bibitem{Acciarri1999281}
+M.~Acciarri, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269399013106}{Search
+  for extra dimensions in boson and fermion pair production in e+e−
+  interactions at \{LEP\}}, Physics Letters B 470~(1–4) (1999) 281 -- 288.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0370-2693(99)01310-6}
+  {\path{doi:http://dx.doi.org/10.1016/S0370-2693(99)01310-6}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269399013106}
+
+\bibitem{Acciarri1999135}
+M.~Acciarri, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269399010114}{Search
+  for low scale gravity effects in e+e− collisions at \{LEP\}}, Physics
+  Letters B 464~(1–2) (1999) 135 -- 144.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0370-2693(99)01011-4}
+  {\path{doi:http://dx.doi.org/10.1016/S0370-2693(99)01011-4}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269399010114}
+
+\bibitem{Abreu200045}
+P.~Abreu, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269300006754}{Measurement
+  and interpretation of fermion-pair production at \{LEP\} energies of 183 and
+  189 \{GeV\}}, Physics Letters B 485~(1–3) (2000) 45 -- 61.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0370-2693(00)00675-4}
+  {\path{doi:http://dx.doi.org/10.1016/S0370-2693(00)00675-4}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269300006754}
+
+\bibitem{Abreu200067}
+P.~Abreu, et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370269300010133}{Determination
+  of the e+e−→γγ(γ) cross-section at centre-of-mass energies ranging
+  from 189 \{GeV\} to 202 \{GeV\}}, Physics Letters B 491~(1–2) (2000) 67 --
+  80.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0370-2693(00)01013-3}
+  {\path{doi:http://dx.doi.org/10.1016/S0370-2693(00)01013-3}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269300010133}
 
 \bibitem{1367.2630.9.9.335}
 L.~Evans, \href{http://stacks.iop.org/1367-2630/9/i=9/a=335}{The large hadron
@@ -266,6 +456,53 @@ G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider},
   operation public results}.
 \newline\urlprefix\url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TriggerOperationPublicResults}
 
+\bibitem{Antcheva20092499}
+I.~Antcheva, M.~Ballintijn, B.~Bellenot, M.~Biskup, R.~Brun, N.~Buncic,
+  P.~Canal, D.~Casadei, O.~Couet, V.~Fine, L.~Franco, G.~Ganis, A.~Gheata,
+  D.~G. Maline, M.~Goto, J.~Iwaszkiewicz, A.~Kreshuk, D.~M. Segura, R.~Maunder,
+  L.~Moneta, A.~Naumann, E.~Offermann, V.~Onuchin, S.~Panacek, F.~Rademakers,
+  P.~Russo, M.~Tadel,
+  \href{http://www.sciencedirect.com/science/article/pii/S0010465509002550}{\{ROOT\}
+  — a c++ framework for petabyte data storage, statistical analysis and
+  visualization}, Computer Physics Communications 180~(12) (2009) 2499 -- 2512,
+  40 \{YEARS\} \{OF\} CPC: A celebratory issue focused on quality software for
+  high performance, grid and novel computing architectures.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1016/j.cpc.2009.08.005}
+  {\path{doi:http://dx.doi.org/10.1016/j.cpc.2009.08.005}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0010465509002550}
+
+\bibitem{Agostinelli2003250}
+S.~Agostinelli, J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
+  M.~Asai, D.~Axen, S.~Banerjee, G.~Barrand, F.~Behner, L.~Bellagamba,
+  J.~Boudreau, L.~Broglia, A.~Brunengo, H.~Burkhardt, S.~Chauvie, J.~Chuma,
+  R.~Chytracek, G.~Cooperman, G.~Cosmo, P.~Degtyarenko, A.~Dell'Acqua,
+  G.~Depaola, D.~Dietrich, R.~Enami, A.~Feliciello, C.~Ferguson, H.~Fesefeldt,
+  G.~Folger, F.~Foppiano, A.~Forti, S.~Garelli, S.~Giani, R.~Giannitrapani,
+  D.~Gibin, J.~G. Cadenas, I.~González, G.~G. Abril, G.~Greeniaus, W.~Greiner,
+  V.~Grichine, A.~Grossheim, S.~Guatelli, P.~Gumplinger, R.~Hamatsu,
+  K.~Hashimoto, H.~Hasui, A.~Heikkinen, A.~Howard, V.~Ivanchenko, A.~Johnson,
+  F.~Jones, J.~Kallenbach, N.~Kanaya, M.~Kawabata, Y.~Kawabata, M.~Kawaguti,
+  S.~Kelner, P.~Kent, A.~Kimura, T.~Kodama, R.~Kokoulin, M.~Kossov,
+  H.~Kurashige, E.~Lamanna, T.~Lampén, V.~Lara, V.~Lefebure, F.~Lei,
+  M.~Liendl, W.~Lockman, F.~Longo, S.~Magni, M.~Maire, E.~Medernach,
+  K.~Minamimoto, P.~M. de~Freitas, Y.~Morita, K.~Murakami, M.~Nagamatu,
+  R.~Nartallo, P.~Nieminen, T.~Nishimura, K.~Ohtsubo, M.~Okamura, S.~O'Neale,
+  Y.~Oohata, K.~Paech, J.~Perl, A.~Pfeiffer, M.~Pia, F.~Ranjard, A.~Rybin,
+  S.~Sadilov, E.~D. Salvo, G.~Santin, T.~Sasaki, N.~Savvas, Y.~Sawada,
+  S.~Scherer, S.~Sei, V.~Sirotenko, D.~Smith, N.~Starkov, H.~Stoecker,
+  J.~Sulkimo, M.~Takahata, S.~Tanaka, E.~Tcherniaev, E.~S. Tehrani,
+  M.~Tropeano, P.~Truscott, H.~Uno, L.~Urban, P.~Urban, M.~Verderi, A.~Walkden,
+  W.~Wander, H.~Weber, J.~Wellisch, T.~Wenaus, D.~Williams, D.~Wright,
+  T.~Yamada, H.~Yoshida, D.~Zschiesche,
+  \href{http://www.sciencedirect.com/science/article/pii/S0168900203013688}{Geant4—a
+  simulation toolkit}, Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
+  506~(3) (2003) 250 -- 303.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0168-9002(03)01368-8}
+  {\path{doi:http://dx.doi.org/10.1016/S0168-9002(03)01368-8}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900203013688}
+
 \bibitem{mu_2011_2012_dec}
 \href{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}{Number
   of interactions per crossing}.
@@ -291,6 +528,116 @@ G.~Aad, et~al., {Electron performance measurements with the ATLAS detector
   proton-proton collision data}, Tech. Rep. ATLAS-CONF-2014-032, CERN, Geneva
   (Jun 2014).
 
+\bibitem{Alioli:2010xd}
+S.~Alioli, P.~Nason, C.~Oleari, E.~Re, {A general framework for implementing
+  NLO calculations in shower Monte Carlo programs: the POWHEG BOX}, JHEP 1006
+  (2010) 043.
+\newblock \href {http://arxiv.org/abs/1002.2581} {\path{arXiv:1002.2581}},
+  \href {http://dx.doi.org/10.1007/JHEP06(2010)043}
+  {\path{doi:10.1007/JHEP06(2010)043}}.
+
+\bibitem{Alioli:2008gx}
+S.~Alioli, P.~Nason, C.~Oleari, E.~Re, {NLO vector-boson production matched
+  with shower in POWHEG}, JHEP 0807 (2008) 060.
+\newblock \href {http://arxiv.org/abs/0805.4802} {\path{arXiv:0805.4802}},
+  \href {http://dx.doi.org/10.1088/1126-6708/2008/07/060}
+  {\path{doi:10.1088/1126-6708/2008/07/060}}.
+
+\bibitem{Sjostrand:2007gs}
+T.~Sjostrand, S.~Mrenna, P.~Z. Skands, {A Brief Introduction to PYTHIA 8.1},
+  Comput.Phys.Commun. 178 (2008) 852--867.
+\newblock \href {http://arxiv.org/abs/0710.3820} {\path{arXiv:0710.3820}},
+  \href {http://dx.doi.org/10.1016/j.cpc.2008.01.036}
+  {\path{doi:10.1016/j.cpc.2008.01.036}}.
+
+\bibitem{Lai:2010vv}
+H.-L. Lai, M.~Guzzi, J.~Huston, Z.~Li, P.~M. Nadolsky, et~al., {New parton
+  distributions for collider physics}, Phys.Rev. D82 (2010) 074024.
+\newblock \href {http://arxiv.org/abs/1007.2241} {\path{arXiv:1007.2241}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.82.074024}
+  {\path{doi:10.1103/PhysRevD.82.074024}}.
+
+\bibitem{Gavin:2010az}
+R.~Gavin, Y.~Li, F.~Petriello, S.~Quackenbush, {FEWZ 2.0: A code for hadronic Z
+  production at next-to-next-to-leading order}, Comput.Phys.Commun. 182 (2011)
+  2388--2403.
+\newblock \href {http://arxiv.org/abs/1011.3540} {\path{arXiv:1011.3540}},
+  \href {http://dx.doi.org/10.1016/j.cpc.2011.06.008}
+  {\path{doi:10.1016/j.cpc.2011.06.008}}.
+
+\bibitem{Martin:2009iq}
+A.~Martin, W.~Stirling, R.~Thorne, G.~Watt, {Parton distributions for the LHC},
+  Eur.Phys.J. C63 (2009) 189--285.
+\newblock \href {http://arxiv.org/abs/0901.0002} {\path{arXiv:0901.0002}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-009-1072-5}
+  {\path{doi:10.1140/epjc/s10052-009-1072-5}}.
+
+\bibitem{Martin:2004dh}
+A.~Martin, R.~Roberts, W.~Stirling, R.~Thorne, {Parton distributions
+  incorporating QED contributions}, Eur.Phys.J. C39 (2005) 155--161.
+\newblock \href {http://arxiv.org/abs/hep-ph/0411040}
+  {\path{arXiv:hep-ph/0411040}}, \href
+  {http://dx.doi.org/10.1140/epjc/s2004-02088-7}
+  {\path{doi:10.1140/epjc/s2004-02088-7}}.
+
+\bibitem{Corcella:2002jc}
+G.~Corcella, I.~Knowles, G.~Marchesini, S.~Moretti, K.~Odagiri, et~al., {HERWIG
+  6.5 release note}\href {http://arxiv.org/abs/hep-ph/0210213}
+  {\path{arXiv:hep-ph/0210213}}.
+
+\bibitem{Pumplin:2002vw}
+J.~Pumplin, D.~Stump, J.~Huston, H.~Lai, P.~M. Nadolsky, et~al., {New
+  generation of parton distributions with uncertainties from global QCD
+  analysis}, JHEP 0207 (2002) 012.
+\newblock \href {http://arxiv.org/abs/hep-ph/0201195}
+  {\path{arXiv:hep-ph/0201195}}, \href
+  {http://dx.doi.org/10.1088/1126-6708/2002/07/012}
+  {\path{doi:10.1088/1126-6708/2002/07/012}}.
+
+\bibitem{Campbell:2010ff}
+J.~M. Campbell, R.~Ellis, {MCFM for the Tevatron and the LHC},
+  Nucl.Phys.Proc.Suppl. 205-206 (2010) 10--15.
+\newblock \href {http://arxiv.org/abs/1007.3492} {\path{arXiv:1007.3492}},
+  \href {http://dx.doi.org/10.1016/j.nuclphysbps.2010.08.011}
+  {\path{doi:10.1016/j.nuclphysbps.2010.08.011}}.
+
+\bibitem{Frixione:2008ym}
+S.~Frixione, B.~R. Webber,
+  \href{http://www.slac.stanford.edu/spires/find/hep/www?key=8075166&FORMAT=WWWBRIEFBIBTEX}{{The
+  MC@NLO 3.4 Event Generator}}\href {http://arxiv.org/abs/0812.0770}
+  {\path{arXiv:0812.0770}}.
+\newline\urlprefix\url{http://www.slac.stanford.edu/spires/find/hep/www?key=8075166&FORMAT=WWWBRIEFBIBTEX}
+
+\bibitem{Butterworth:1996zw}
+J.~Butterworth, J.~R. Forshaw, M.~Seymour, {Multiparton interactions in
+  photoproduction at HERA}, Z.Phys. C72 (1996) 637--646.
+\newblock \href {http://arxiv.org/abs/hep-ph/9601371}
+  {\path{arXiv:hep-ph/9601371}}, \href
+  {http://dx.doi.org/10.1007/s002880050286} {\path{doi:10.1007/s002880050286}}.
+
+\bibitem{Czakon:2013goa}
+M.~Czakon, P.~Fiedler, A.~Mitov, {Total Top-Quark Pair-Production Cross Section
+  at Hadron Colliders Through $O(α\frac{4}{S})$}, Phys.Rev.Lett. 110~(25)
+  (2013) 252004.
+\newblock \href {http://arxiv.org/abs/1303.6254} {\path{arXiv:1303.6254}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.110.252004}
+  {\path{doi:10.1103/PhysRevLett.110.252004}}.
+
+\bibitem{Cacciari:2011hy}
+M.~Cacciari, M.~Czakon, M.~Mangano, A.~Mitov, P.~Nason, {Top-pair production at
+  hadron colliders with next-to-next-to-leading logarithmic soft-gluon
+  resummation}, Phys.Lett. B710 (2012) 612--622.
+\newblock \href {http://arxiv.org/abs/1111.5869} {\path{arXiv:1111.5869}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.03.013}
+  {\path{doi:10.1016/j.physletb.2012.03.013}}.
+
+\bibitem{1126-6708-2009-02-007}
+T.~Gleisberg, S.~Höche, F.~Krauss, M.~Schönherr, S.~Schumann, F.~Siegert,
+  J.~Winter, \href{http://stacks.iop.org/1126-6708/2009/i=02/a=007}{Event
+  generation with sherpa 1.1}, Journal of High Energy Physics 2009~(02) (2009)
+  007.
+\newline\urlprefix\url{http://stacks.iop.org/1126-6708/2009/i=02/a=007}
+
 \bibitem{Caldwell20092197}
 A.~Caldwell, D.~Kollár, K.~Kröninger,
   \href{http://www.sciencedirect.com/science/article/pii/S0010465509002045}{\{BAT\}
@@ -311,5 +658,20 @@ S.~G. Bondarenko, Sapronov, A.~A., {NLO EW and QCD proton-proton cross section
 \newblock \href {http://arxiv.org/abs/1301.3687} {\path{arXiv:1301.3687}},
   \href {http://dx.doi.org/10.1016/j.cpc.2013.05.010}
   {\path{doi:10.1016/j.cpc.2013.05.010}}.
+
+\bibitem{1126-6708-2006-05-026}
+T.~Sjöstrand, S.~Mrenna, P.~Skands,
+  \href{http://stacks.iop.org/1126-6708/2006/i=05/a=026}{Pythia 6.4 physics and
+  manual}, Journal of High Energy Physics 2006~(05) (2006) 026.
+\newline\urlprefix\url{http://stacks.iop.org/1126-6708/2006/i=05/a=026}
+
+\bibitem{Mangano:2002ea}
+M.~L. Mangano, M.~Moretti, F.~Piccinini, R.~Pittau, A.~D. Polosa, {ALPGEN, a
+  generator for hard multiparton processes in hadronic collisions}, JHEP 0307
+  (2003) 001.
+\newblock \href {http://arxiv.org/abs/hep-ph/0206293}
+  {\path{arXiv:hep-ph/0206293}}, \href
+  {http://dx.doi.org/10.1088/1126-6708/2003/07/001}
+  {\path{doi:10.1088/1126-6708/2003/07/001}}.
 
 \end{thebibliography}

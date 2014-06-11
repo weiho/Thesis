@@ -5,26 +5,26 @@ This chapter discusses methods used to estimate background processes the the sig
 \section{Monte Carlo samples}
    \label{sec:MC}
 
-   Monte Carlo (MC)\footnote{Computer algorithm designed to simulate physical systems using random sampling to obtain results for a statistical physics theories such as quantum field field theories} samples are produced centrally within ATLAS using MC generators specific to  The generated events then undergo detector simulation using GEANT 4 \cite{} which produces a data format identical to a readout from the ATLAS detector plus additional ``truth'' parameters from the original MC generation. The samples then undergo the same reconstruction as data events within ATHENA producing a MC sample ready to be analysed the same as data.\\
+   Monte Carlo (MC)\footnote{Computer algorithm designed to simulate physical systems using random sampling to obtain results for a statistical physics theories such as quantum field field theories} samples are produced centrally within ATLAS using MC generators specific to  The generated events then undergo detector simulation using GEANT 4 \cite{Agostinelli2003250} which produces a data format identical to a readout from the ATLAS detector plus additional ``truth'' parameters from the original MC generation. The samples then undergo the same reconstruction as data events within ATHENA producing a MC sample ready to be analysed the same as data.\\
 
 
    {\bf\raggedright Drell-Yan}
 
-   {\raggedright The Drell-Yan (DY) background is produced using the POWHEG + PYTHIA generator which is a next to leading order (NLO)\footnote{LO, NLO and NNLO refer to the complexity of feynman diagrams considered when calculating the cross section of an interaction} generation with POWHEG \cite{} with event showering handled by PYTHIA 8 \cite{}. The parton density function (PDF) used is CT10 \cite{}. A K-factor is then used in order to weight the cross-section from NLO to next to next to leading order (NNLO). This NNLO K-factor is derived using FEWZ \cite{} which uses the MSTW2008 NNLO PDF \cite{} from which a QCD+EW mass-dependent K-factor is obtained. The DY sample is split in to 16 MC truth dilepton mass bins with bin edges at (60, 120, 180, 250, 400, 600, 800, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000) GeV. The first bin from 60 - 120 GeV is a very high statistics sample providing a low statistical uncertainty for the region used for scaling MC in the Z boson peak.} \\
+   {\raggedright The Drell-Yan (DY) background is produced using the POWHEG + PYTHIA generator which is a next to leading order (NLO)\footnote{LO, NLO and NNLO refer to the complexity of feynman diagrams considered when calculating the cross section of an interaction} generation with POWHEG \cite{Alioli:2010xd,Alioli:2008gx} with event showering handled by PYTHIA 8 \cite{Sjostrand:2007gs}. The parton density function (PDF) used is CT10 \cite{Lai:2010vv}. A K-factor is then used in order to weight the cross-section from NLO to next to next to leading order (NNLO). This NNLO K-factor is derived using FEWZ \cite{Gavin:2010az} which uses the MSTW2008 NNLO PDF \cite{Martin:2009iq} from which a QCD+EW mass-dependent K-factor is obtained. The DY sample is split in to 16 MC truth dilepton mass bins with bin edges at (60, 120, 180, 250, 400, 600, 800, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000) GeV. The first bin from 60 - 120 GeV is a very high statistics sample providing a low statistical uncertainty for the region used for scaling MC in the Z boson peak.} \\
 
 
    {\bf\raggedright Photon-Induced}
 
-   {\raggedright The Photon-Induced (PI) fraction is estimated via PYTHIA 8 \cite{} generator with the LO PDF MRST2004QED \cite{}. This sample is split in to 5 dilepton mass bins with bin edges at (60, 200, 600, 1500, 2500) GeV.}\\
+   {\raggedright The Photon-Induced (PI) fraction is estimated via PYTHIA 8 \cite{Sjostrand:2007gs} generator with the LO PDF MRST2004QED \cite{Martin:2004dh}. This sample is split in to 5 dilepton mass bins with bin edges at (60, 200, 600, 1500, 2500) GeV.}\\
 
 
    {\bf\raggedright Diboson}
 
-   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{} with the LO PDF CTEQ6L1 \cite{}. The sample with split in to the three process, WW, WZ and ZZ, with each process split in to 3 mass-binned samples with bin edges of (60, 400, 1000) GeV. The sample is then scaled to NLO in a mass-independent way seen here \cite{}.}\\
+   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{Corcella:2002jc} with the LO PDF CTEQ6L1 \cite{Pumplin:2002vw}. The sample with split in to the three process, WW, WZ and ZZ, with each process split in to 3 mass-binned samples with bin edges of (60, 400, 1000) GeV. The sample is then scaled to NLO in a mass-independent way using MCFM \cite{Campbell:2010ff} with the PDF MSTW2008 NLO \cite{Martin:2009iq}}\\
 
    {\bf\raggedright Top}
 
-   {\raggedright The top sample is estimated using MC@NLO 3.41 \cite{} with NLO PDF CT10 \cite{} to generate matrix elements with JIMMY 4.31 \cite{} describing parton interactions and HERWIG \cite{} deriving the underlying event and parton showers. Both $t\bar{t}$ and single Top processes are generated in two inclusive samples. A NNLO QCD K-factor is also derived using Top++ 2.0 \cite{}. The top sample also undergoes a fit at high mass where the MC has low statistics. A dijet function ($c_{0}x^{c_{1}} x^{c_{2}\log{x}}$) is used to fit between 200 - 700~GeV then the sample is cut at 500~GeV above which the dijet fit is used.}
+   {\raggedright The top sample is estimated using MC@NLO 3.41 \cite{Frixione:2008ym} with NLO PDF CT10 \cite{Lai:2010vv} to generate matrix elements with JIMMY 4.31 \cite{Butterworth:1996zw} describing parton interactions and HERWIG \cite{Corcella:2002jc} deriving the underlying event and parton showers. Both $t\bar{t}$ and single Top processes are generated in two inclusive samples. A NNLO QCD K-factor is also derived using Top++ 2.0 \cite{Czakon:2013goa,Cacciari:2011hy}. The top sample also undergoes a fit at high mass where the MC has low statistics. A dijet function ($c_{0}x^{c_{1}} x^{c_{2}\log{x}}$) is used to fit between 200 - 700~GeV then the sample is cut at 500~GeV above which the dijet fit is used.}
 
 
 \subsection{MC Corrections}

@@ -1,6 +1,6 @@
 \chapter{The Trigger \& Data Acquisition}
 
-	The trigger system within ATLAS is designed to manage the high rate of events produced by the LHC and bring them down to a total rate that can be written to permanent storage by selecting ``interesting'' events. The related Data Acquisition (DAQ) system controls the flow of data from detector hardware through the trigger system to permanent storage at CERN and the worldwide tier 1 grid sites. 
+	The trigger system within ATLAS \cite{Aad:1129811} is designed to manage the high rate of events produced by the LHC and bring them down to a total rate that can be written to permanent storage by selecting ``interesting'' events. The related Data Acquisition (DAQ) system controls the flow of data from detector hardware through the trigger system to permanent storage at CERN and the worldwide tier 1 grid sites. 
 
 	The trigger system is made up of three main decision levels; Level 1, Level 2 and Event Filter. Level 1 (L1) is mainly hardware based using limited detector information to locate regions of interest (RoIs) and pass them the Level 2. The Level 2 (L2) system checks the RoIs with full detector granularity and precision and the last stage the Event Filter (EF) uses analysis reconstruction techniques to further select ``interesting'' events down to the level of 400-500 Hz. Both the L2 and EF triggers compose what is called the High-Level-Trigger (HLT) together with the event building software needed by the EF. Figure \ref{fig:triggerFlow} shows the over all trigger system and how data flows through it.
 
