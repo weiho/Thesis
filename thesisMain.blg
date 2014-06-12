@@ -3,63 +3,66 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesisMain.aux
 The style file: BibStyles/elsarticle-num.bst
 Database file #1: bib/myBib.bib
-Repeated entry---line 789 of file bib/myBib.bib
+Warning--I'm ignoring Abdallah2009.60.1's extra "doi" field
+--line 559 of file bib/myBib.bib
+Warning--I'm ignoring Schael2007.49.411's extra "doi" field
+--line 577 of file bib/myBib.bib
+Warning--I'm ignoring Abbiendi2004.33.173's extra "doi" field
+--line 610 of file bib/myBib.bib
+Warning--I'm ignoring McFarland2005.161's extra "doi" field
+--line 644 of file bib/myBib.bib
+Repeated entry---line 761 of file bib/myBib.bib
  : @article{PhysRevLett.103.191803
  :                                ,
 I'm skipping whatever remains of this entry
 Warning--empty author in ATLAS-CONF-2014-030
+Warning--empty author in Z:1515998
 Warning--empty author in ATL-PHYS-PUB-2011-007
 Warning--empty journal in Duguid:1450151
 Warning--empty journal in Salam:1968rm
-Warning--empty author in LuPublicResults
-Warning--empty journal in LuPublicResults
 Warning--empty author in ATLAS-CONF-2012-048
-Warning--empty author in Trigger_op_2011
-Warning--empty journal in Trigger_op_2011
-Warning--empty author in mu_2011_2012_dec
-Warning--empty journal in mu_2011_2012_dec
 Warning--empty author in ATLAS-CONF-2014-032
 Warning--empty journal in Corcella:2002jc
 Warning--empty journal in Frixione:2008ym
 You've used 82 entries,
-            2937 wiz_defined-function locations,
-            1314 strings with 25479 characters,
-and the built_in function-call counts, 27895 in all, are:
-= -- 2701
-> -- 1119
+            2955 wiz_defined-function locations,
+            1277 strings with 20916 characters,
+and the built_in function-call counts, 24992 in all, are:
+= -- 2533
+> -- 666
 < -- 7
-+ -- 427
-- -- 345
-* -- 2704
-:= -- 4017
++ -- 276
+- -- 194
+* -- 2257
+:= -- 3342
 add.period$ -- 146
 call.type$ -- 82
 change.case$ -- 85
 chr.to.int$ -- 6
-cite$ -- 96
-duplicate$ -- 732
-empty$ -- 2808
-format.name$ -- 408
-if$ -- 6970
+cite$ -- 91
+duplicate$ -- 713
+empty$ -- 2715
+format.name$ -- 257
+if$ -- 6405
 int.to.chr$ -- 0
 int.to.str$ -- 82
-missing$ -- 79
-newline$ -- 366
-num.names$ -- 75
-pop$ -- 360
+missing$ -- 76
+newline$ -- 321
+num.names$ -- 74
+pop$ -- 320
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1471
+skip$ -- 1558
 stack$ -- 0
 substring$ -- 1393
-swap$ -- 305
+swap$ -- 331
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 14
-while$ -- 153
+warning$ -- 9
+while$ -- 152
 width$ -- 84
-write$ -- 854
+write$ -- 811
 (There was 1 error message)

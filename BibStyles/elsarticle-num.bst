@@ -830,13 +830,21 @@ FUNCTION {format.journal.pages}
   if$
 }
 
+FUNCTION {embolden}
+{ duplicate$ empty$
+    { pop$ "" }
+    { "{\bf " swap$ * "}" * }
+  if$
+}
+
+
 FUNCTION {format.vol.num.pages}
 {
   % volume field.or.null
   " "
   volume empty$
     { pop$ "" }
-    { volume * }
+    { volume embolden * }
   if$
   number empty$
     'skip$

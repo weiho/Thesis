@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {1}Theory}{12}
 \contentsline {section}{\numberline {1.1}Standard Model}{12}
 \contentsline {subsection}{\numberline {1.1.1}Fundamental Forces}{14}
-\contentsline {section}{\numberline {1.2}Non-resonant new Physics}{18}
+\contentsline {section}{\numberline {1.2}Non-resonant New Physics}{18}
 \contentsline {subsection}{\numberline {1.2.1}Contact Interaction Theory}{18}
 \contentsline {subsection}{\numberline {1.2.2}ADD Theory}{21}
 \contentsline {section}{\numberline {1.3}Past Searches}{24}
@@ -33,10 +33,10 @@
 \contentsline {section}{\numberline {6.1}Monte Carlo samples}{62}
 \contentsline {subsection}{\numberline {6.1.1}MC Corrections}{63}
 \contentsline {section}{\numberline {6.2}Fake Factor Multi-Jet Estimate}{64}
-\contentsline {subsection}{\numberline {6.2.1}Real electron efficiency estimation}{67}
-\contentsline {subsection}{\numberline {6.2.2}Fake electron rate estimation}{67}
+\contentsline {subsection}{\numberline {6.2.1}Real Electron Efficiency Estimation}{67}
+\contentsline {subsection}{\numberline {6.2.2}Fake Electron Rate Estimation}{67}
 \contentsline {subsection}{\numberline {6.2.3}Properties of Multi-Jet Background}{68}
-\contentsline {subsection}{\numberline {6.2.4}Other methods and estimation of Error}{69}
+\contentsline {subsection}{\numberline {6.2.4}Other Methods and Estimation of Error}{69}
 \contentsline {section}{\numberline {6.3}Total Background Estimate}{70}
 \contentsline {chapter}{\numberline {7}Signal and Results}{71}
 \contentsline {section}{\numberline {7.1}Signal Monte Carlo}{71}
@@ -45,12 +45,12 @@
 \contentsline {chapter}{\numberline {8}Statistical Analysis}{80}
 \contentsline {section}{\numberline {8.1}Systematics}{82}
 \contentsline {section}{\numberline {8.2}Angular Analysis Optimisation}{84}
-\contentsline {subsection}{\numberline {8.2.1}Effect of the opposite sign requirement of analysis reach}{84}
-\contentsline {subsection}{\numberline {8.2.2}Optimisation of search bins in $\qopname \relax o{cos}{\theta ^{*}}$}{85}
-\contentsline {section}{\numberline {8.3}Signal Search \& P-Values}{85}
+\contentsline {subsection}{\numberline {8.2.1}Effect of the Opposite Sign Requirement on Analysis Reach}{84}
+\contentsline {subsection}{\numberline {8.2.2}Optimisation of Search Bins in $\qopname \relax o{cos}{\theta ^{*}}$}{85}
+\contentsline {section}{\numberline {8.3}Signal Search \& $p$-Values}{86}
 \contentsline {section}{\numberline {8.4}Setting Limits}{86}
 \contentsline {section}{\numberline {8.5}Combination with the Muon Search}{87}
-\contentsline {chapter}{\numberline {9}Non-Resonance 7 TeV Analysis}{92}
+\contentsline {chapter}{\numberline {9}Non-Resonant 7 TeV Analysis}{92}
 \contentsline {section}{\numberline {9.1}Data and Background Processes}{92}
 \contentsline {section}{\numberline {9.2}Electron Identification and Selection}{94}
 \contentsline {subsection}{\numberline {9.2.1}Data and Background Comparison}{96}
