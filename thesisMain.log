@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  13 JUN 2014 14:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  13 JUN 2014 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2189,10 +2189,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  14788 strings out of 493611
  297349 string characters out of 3142449
- 336289 words of memory out of 3000000
+ 335289 words of memory out of 3000000
  17626 multiletter control sequences out of 15000+200000
  55390 words of font info for 165 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  36i,15n,58p,1982b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (139 pages, 355248 bytes).
+Output written on thesisMain.dvi (139 pages, 355032 bytes).
