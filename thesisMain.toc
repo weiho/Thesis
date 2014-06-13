@@ -59,6 +59,6 @@
 \contentsline {chapter}{\numberline {10}Conclusion}{102}
 \contentsline {section}{\numberline {10.1}Looking Forward}{103}
 \contentsline {chapter}{Appendices}{104}
-\contentsline {chapter}{\numberline {A}Control Plots}{105}
-\contentsline {chapter}{\numberline {B}Statistical Analysis Plots}{106}
-\contentsline {chapter}{Bibliography}{107}
+\contentsline {chapter}{\numberline {A}Extra Results \& Control Plots}{105}
+\contentsline {chapter}{\numberline {B}Statistical Analysis Plots}{121}
+\contentsline {chapter}{Bibliography}{122}

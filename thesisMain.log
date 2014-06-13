@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  12 JUN 2014 19:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  13 JUN 2014 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -750,6 +750,51 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
+(/usr/local/texlive/2011/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
+)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package morefloats Info: Maximum number of possible floats asked for: 36.
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+(morefloats)              on input line 171.
+\bx@S=\insert233
+\bx@T=\insert232
+\bx@U=\insert231
+\bx@V=\insert230
+\bx@W=\insert229
+\bx@X=\insert228
+\bx@Y=\insert227
+\bx@Z=\insert226
+\bx@AA=\insert225
+\bx@AB=\insert224
+\bx@AC=\insert223
+\bx@AD=\insert222
+\bx@AE=\insert221
+\bx@AF=\insert220
+\bx@AG=\insert219
+\bx@AH=\insert218
+\bx@AI=\insert217
+\bx@AJ=\insert216
+)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -784,7 +829,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 80.
+less on input line 81.
 
 (./thesisMain.aux
 
@@ -793,23 +838,23 @@ LaTeX Warning: Label `fig:ATLAS_calo_crack' multiply defined.
 )
 \openout1 = `thesisMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 115.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 11
-4.
+5.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -864,44 +909,44 @@ Package caption Info: End \AtBeginDocument code.
 
 \c_siunitx_mathsf_int=\count290
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 11
-4.
+5.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 11
-4.
+5.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+psycm on input line 11
-4.
+5.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 \c_siunitx_mathtt_int=\count291
 File: images/rhulcrestsmall.eps Graphic file (type eps)
 
 <images/rhulcrestsmall.eps> [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
 
  []
 
-[1] [2] (./chapters/Abstract.tex) [1] (./chapters/Preface.tex
+[1] (./chapters/Abstract.tex) [1] [1] (./chapters/Preface.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
  [5
@@ -1504,11 +1549,326 @@ Chapter 10.
 
 ] (./chapters/ApendixD_Control_plots.tex
 Appendix A.
-) [105
+File: images/AFB_main_alt.eps Graphic file (type eps)
+<images/AFB_main_alt.eps>
+File: images/pT_lead.eps Graphic file (type eps)
+ <images/pT_lead.eps>
+File: images/pT_sub.eps Graphic file (type eps)
+ <images/pT_sub.eps>
+File: images/eta_lead.eps Graphic file (type eps)
 
-] (./chapters/ApendixE_Statistical_analysis_plots.tex
+<images/eta_lead.eps>
+File: images/eta_sub.eps Graphic file (type eps)
+ <images/eta_sub.eps>
+File: images/CosThetaStar_bin_1.eps Graphic file (type eps)
+ <images/CosThetaStar_bin_1.eps>
+File: images/CosThetaStar_bin_2.eps Graphic file (type eps)
+
+<images/CosThetaStar_bin_2.eps>
+File: images/CosThetaStar_bin_3.eps Graphic file (type eps)
+ <images/CosThetaStar_bin_3.eps>
+File: images/CosThetaStar_bin_4.eps Graphic file (type eps)
+
+<images/CosThetaStar_bin_4.eps>
+File: images/CosThetaStar_bin_5.eps Graphic file (type eps)
+ <images/CosThetaStar_bin_5.eps>
+File: images/CosThetaStar_bin_6.eps Graphic file (type eps)
+
+<images/CosThetaStar_bin_6.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_400-550_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_400-550_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_400-550_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_400-550_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_550-800_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_550-800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_550-800_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_550-800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_800-1200_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_800-1200_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_800-1200_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_800-1200_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_1200-1800_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_1200-1800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_1200-1800_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_1200-1800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_1800-3000_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_1800-3000_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_1800-3000_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_1800-3000_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_3000-4500_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_3000-4500_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_minus_Mass_3000-4500_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_minus_Mass_3000-4500_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_400-550_GeV_CTS_-1_0.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_400-550_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_400-550_GeV_CTS_0_1.eps Graphic 
+file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_400-550_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_550-800_GeV_CTS_-1_0.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_550-800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_550-800_GeV_CTS_0_1.eps Graphic 
+file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_550-800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_800-1200_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_800-1200_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_800-1200_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_800-1200_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_1200-1800_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_1200-1800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_1200-1800_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_1200-1800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_1800-3000_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_1800-3000_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_1800-3000_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_1800-3000_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_3000-4500_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_3000-4500_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLL_plus_Mass_3000-4500_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLL_plus_Mass_3000-4500_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_400-550_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_400-550_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_400-550_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_400-550_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_550-800_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_550-800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_550-800_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_550-800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_800-1200_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_800-1200_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_800-1200_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_800-1200_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_1200-1800_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_1200-1800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_1200-1800_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_1200-1800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_1800-3000_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_1800-3000_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_1800-3000_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_1800-3000_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_3000-4500_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_3000-4500_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_minus_Mass_3000-4500_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_minus_Mass_3000-4500_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_400-550_GeV_CTS_-1_0.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_400-550_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_400-550_GeV_CTS_0_1.eps Graphic 
+file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_400-550_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_550-800_GeV_CTS_-1_0.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_550-800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_550-800_GeV_CTS_0_1.eps Graphic 
+file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_550-800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_800-1200_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_800-1200_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_800-1200_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_800-1200_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_1200-1800_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_1200-1800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_1200-1800_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_1200-1800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_1800-3000_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_1800-3000_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_1800-3000_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_1800-3000_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_3000-4500_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_3000-4500_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaRR_plus_Mass_3000-4500_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaRR_plus_Mass_3000-4500_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_400-550_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_400-550_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_400-550_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_400-550_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_550-800_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_550-800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_550-800_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_550-800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_800-1200_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_800-1200_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_800-1200_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_800-1200_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_1200-1800_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_1200-1800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_1200-1800_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_1200-1800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_1800-3000_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_1800-3000_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_1800-3000_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_1800-3000_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_3000-4500_GeV_CTS_-1_0.eps Grap
+hic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_3000-4500_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_minus_Mass_3000-4500_GeV_CTS_0_1.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_minus_Mass_3000-4500_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_400-550_GeV_CTS_-1_0.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_400-550_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_400-550_GeV_CTS_0_1.eps Graphic 
+file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_400-550_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_550-800_GeV_CTS_-1_0.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_550-800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_550-800_GeV_CTS_0_1.eps Graphic 
+file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_550-800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_800-1200_GeV_CTS_-1_0.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_800-1200_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_800-1200_GeV_CTS_0_1.eps Graphic
+ file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_800-1200_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_1200-1800_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_1200-1800_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_1200-1800_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_1200-1800_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_1800-3000_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_1800-3000_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_1800-3000_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_1800-3000_GeV_CTS_0_1.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_3000-4500_GeV_CTS_-1_0.eps Graph
+ic file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_3000-4500_GeV_CTS_-1_0.eps>
+File: images/thesis_fits/CI_2D_etaLR_plus_Mass_3000-4500_GeV_CTS_0_1.eps Graphi
+c file (type eps)
+
+<images/thesis_fits/CI_2D_etaLR_plus_Mass_3000-4500_GeV_CTS_0_1.eps>) [105
+
+]
+(./chapters/ApendixE_Statistical_analysis_plots.tex [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120]
 Appendix B.
-) [106
+) [121
 
 ] (./thesisMain.bbl
 Underfull \hbox (badness 2435) in paragraph at lines 53--56
@@ -1516,7 +1876,7 @@ Underfull \hbox (badness 2435) in paragraph at lines 53--56
 b/n/12 19 \OT1/ptm/m/n/12 (1967) 1264--1266.
  []
 
-[107
+[122
 
 ]
 Underfull \hbox (badness 1983) in paragraph at lines 89--94
@@ -1524,7 +1884,7 @@ Underfull \hbox (badness 1983) in paragraph at lines 89--94
 ass of 125 gev
  []
 
-[108]
+[123]
 Underfull \hbox (badness 1577) in paragraph at lines 169--174
 []\OT1/ptm/m/n/12 S. Cha-trchyan, et al., Search for con-tact in-ter-ac-tions u
 s-ing the in-clu-sive jet
@@ -1548,7 +1908,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 190--195
 ptm/b/n/12 79 \OT1/ptm/m/n/12 (1997) 2198--2203.
  []
 
-[109]
+[124]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -1584,7 +1944,7 @@ Underfull \hbox (badness 6859) in paragraph at lines 262--267
 9 \OT1/ptm/m/n/12 (12) (2000) 81 -- 92.
  []
 
-[110]
+[125]
 Underfull \hbox (badness 1521) in paragraph at lines 284--290
 \OT1/ptm/m/n/12 tron events in pp col-li-sions at, Physics Let-ters B \OT1/ptm/
 b/n/12 711 \OT1/ptm/m/n/12 (1) (2012) 15 -- 34.
@@ -1617,7 +1977,7 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-[111]
+[126]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ˆ in font ptmr7t!
 Missing character: There is no ’ in font ptmr7t!
@@ -1659,7 +2019,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 392--394
 n / view / AtlasPublic /
  []
 
-[112]
+[127]
 Underfull \hbox (badness 3029) in paragraph at lines 431--436
 []\OT1/ptm/m/n/12 T. Sjos-trand, S. Mrenna, P. Z. Skands, A Brief In-tro-duc-ti
 on to PYTHIA
@@ -1671,7 +2031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 431--436
 2008) 852--867.  arXiv:0710.3820,
  []
 
-[113]
+[128]
 Underfull \hbox (badness 1226) in paragraph at lines 493--498
 []\OT1/ptm/m/n/12 J. But-ter-worth, J. R. For-shaw, M. Sey-mour, Mul-ti-par-ton
  in-ter-ac-tions in pho-
@@ -1720,10 +2080,10 @@ Underfull \hbox (badness 3417) in paragraph at lines 521--525
 80 \OT1/ptm/m/n/12 (11) (2009) 2197 -- 2209.
  []
 
-[114]
+[129]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-) [115] (./thesisMain.aux)
+) [130] (./thesisMain.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1732,12 +2092,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14341 strings out of 493611
- 283525 string characters out of 3142449
- 329711 words of memory out of 3000000
- 17291 multiletter control sequences out of 15000+200000
+ 14746 strings out of 493611
+ 296178 string characters out of 3142449
+ 336289 words of memory out of 3000000
+ 17597 multiletter control sequences out of 15000+200000
  55390 words of font info for 165 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  36i,15n,58p,1982b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (115 pages, 324328 bytes).
+Output written on thesisMain.dvi (130 pages, 344812 bytes).
