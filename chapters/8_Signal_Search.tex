@@ -1,6 +1,6 @@
 \chapter{Signal and Results}
 
-This chapter discusses the generators used to model signal distributions and how these are parametrised for input to the statistical analysis. This is followed by the results of the data background comparison looking for any sign of new physics signal.
+This chapter discusses the MC generators used to model signal distributions and how these are parametrised for input to the statistical analysis. This is followed by the results of the data background comparison looking for any sign of new physics signal.
 
 \section{Signal Monte Carlo}
 
@@ -22,7 +22,7 @@ This chapter discusses the generators used to model signal distributions and how
 \section{Signal Parametrisation}
 	\label{sec:parm}
 
-	Each formalism of the CI and ADD model is parametrised according to the form of their individual cross-sections (Eq's \ref{eq:DiffCross} and \ref{eq:ADDcs}) and as a function of their parameter of interest ($\Lambda$, M$_{s}$). The parametrisations are a prediction of number of expected events $N_{\text{exp}}$ where the parameter of interest ($\Lambda$, M$_{s}$) at $\infty$ equates to no signal and just the standard model background prediction, these can be seen in equations \ref{eq:CIparm} and \ref{eq:ADDparm}. 
+	Each formalism of the CI and ADD model is parametrised according to the form of their individual cross-sections (Eq's \ref{eq:DiffCross} and \ref{eq:ADDcs}) and as a function of their parameter of interest ($\Lambda$, M$_{s}$). The parametrisations are a prediction of number of expected events $N_{\text{exp}}$ where the parameter of interest ($\Lambda$, M$_{s}$) at $\infty$ equates to no signal and just the SM background prediction, these can be seen in equations \ref{eq:CIparm} and \ref{eq:ADDparm}. 
 
 	\begin{equation}
         N_{\text{exp}}(\Lambda)~=~c_{0} + \frac{c_{1}}{\Lambda^{2}} + \frac{c_{2}}{\Lambda^{4}}
@@ -34,7 +34,7 @@ This chapter discusses the generators used to model signal distributions and how
         \label{eq:ADDparm}
     \end{equation}
 
-	Here $c_{0}$ refers to the SM background prediction while $c_{1}$ and $c_{2}$ show the dependence of the scale of new physics on number of expected events. Each formalism gets parametrised in every search bin. These search bins are described at the start of chapter \ref{ch:stat} while the parametrisations can be seen in figure \ref{fig:CIparm} for every CI search bin. The full list of all of the parametrisations used can be found in appendix \ref{ap:parm}.
+	Here $c_{0}$ refers to the SM background prediction while $c_{1}$ and $c_{2}$ show the dependence of the scale of new physics on number of expected events. Each formalism gets parametrised in every search bin. These search bins are described at the start of chapter \ref{ch:stat} while the parametrisations can be seen in figure \ref{fig:CIparm} for every CI mass bin. The full list of all of the parametrisations used can be found in appendix \ref{ap:parm}.
 
 
 	\begin{figure}[h!]
@@ -46,7 +46,7 @@ This chapter discusses the generators used to model signal distributions and how
 	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_minus_elec_himass.eps}
 	    	\includegraphics[width=0.49\linewidth]{images/parametrisations/NexpFits_plus_elec_himass.eps} \\
 	    \end{center}
-	   \caption{Parametrisations of the CI signal for number of expected events as a function of $\Lambda$ according to equation \ref{eq:CIparm} and for each CI search bin.}
+	   \caption{Parametrisations of the CI signal for number of expected events as a function of $\Lambda$ according to equation \ref{eq:CIparm} and for each CI mass bin.}
 	   \label{fig:CIparm}
 	\end{figure}
 
@@ -63,8 +63,7 @@ This chapter discusses the generators used to model signal distributions and how
 
 	Following are full results of the event selection for observed data, predicted background and some example signal models. Figures \ref{fig:invMass_main} and \ref{fig:cosTS_main} show the distributions of the two main search variables dielectron invariant mass and $\cos{\theta^{*}}$. A comparison between data and background is given with the expected shapes of some signal models shown for comparison. Ratio's are also shown between data and background along with a band showing the size of the total systematic uncertainty as described in section \ref{sec:sys}. Figure \ref{fig:AFB_main} then shows forward backward asymmetry ($A_{FB}$) defined in equation \ref{eq:AFB}. Statistical errors on the data points are calculated using the function $\Delta A_{FB} = \sqrt{(1-A_{FB}^{2})/N}$ where $N$ is the number of events in both the forward and backwards regions. The ratio shown in figure \ref{fig:AFB_main} is the difference between data and background $A_{FB}$ values, $\Delta$, divided by the total systematic uncertainty found in that bin, $\sigma$. It can be seen that data favours the angular dependence of the SM prediction or the CI LL formalism with no divergence similar to the CI LR formalism. 
 	In figure \ref{fig:control_main} control plots are seen showing electron $p_{T}$, $\eta$ and $\phi$. More results and control plots can be found in appendix \ref{ap:contol}. 
-	More of all of these distributions can be seen in appendix \ref{ap:contol}.
-	Lastly tables \ref{tab:CI_results0}, \ref{tab:CI_results1}, \ref{tab:CI_results2} and \ref{tab:CI_results3} show the full extracted results acceding through the search bins. Each invariant mass bin is shown as well as the forward and backwards regions within each bin where forward refers to events with $\cos{\theta^{*}}$ greater than 0 and backwards events with $\cos{\theta^{*}}$ less than 0. The expected number of events is given for each of the background as well as a selection of CI signal formalisms and the data observed. Table \ref{tab:ADD_results} shows the results for the single ADD search search bin the same as the CI tables.
+	Lastly tables \ref{tab:CI_results0}, \ref{tab:CI_results1}, \ref{tab:CI_results2} and \ref{tab:CI_results3} show the full extracted results acceding through the search bins. Each invariant mass bin is shown as well as the forward and backwards regions within each bin where forward refers to events with $\cos{\theta^{*}}$ greater than 0 and backwards events with $\cos{\theta^{*}}$ less than 0. The expected number of events is given for each of the background as well as a selection of CI signal formalisms and the data observed. Table \ref{tab:ADD_results} shows the results for the single ADD search search bin the same as the CI tables. The reason a single bin is used is discussed in chapter \ref{ch:stat}.
 
 	It can be seen from these results that no significant difference is seen between data observed and the background predicted. A slight discrepancy is seen between data and background in the 1200 - 1800 GeV invariant mass bin. The background predicts 10.8 events with a total systematic error of 1.6 events while only 7 events are observed in data. As seen later this doesn't signify a significant difference but has an effect on the limits set in chapter \ref{ch:stat}. 
 
@@ -74,7 +73,7 @@ This chapter discusses the generators used to model signal distributions and how
 	    \begin{center}
 	    	\includegraphics[width=0.8\linewidth]{images/invmass_main.eps}
 	    \end{center}
-	   \caption{Dielectron invariant mass comparison between data and MC with possible signal overlays of CI and ADD. Ratio between data and background included with band showing size of total background systematic. The distribution has bin width constant in $\log(M_{ee})$}
+	   \caption{Dielectron invariant mass comparison between data and MC with possible signal overlays of CI and ADD. Ratio between data and background included with band showing size of total background systematic. The distribution has bin width constant in $\log(M_{ee})$.}
 	   \label{fig:invMass_main}
 	\end{figure}
 
@@ -83,7 +82,7 @@ This chapter discusses the generators used to model signal distributions and how
 	    	\includegraphics[width=0.9\linewidth]{images/CosThetaStar_Control_main.eps} \\
 	    	\includegraphics[width=0.9\linewidth]{images/CosThetaStar_Signal_main.eps}
 	    \end{center}
-	   \caption{$\cos{\theta^{*}}$ comparison between data and MC in control and signal regions with possible signal overlay of the CI LR formalism. Ratio between data and background included with band showing size of total background systematic.}
+	   \caption{$\cos{\theta^{*}}$ comparison between data and MC in control and signal regions with possible signal overlay of the CI LR formalism. Ratio between data and background included with band showing size of total background systematic. $\cos{\theta^{*}}$ plots for each mass bin are found in appendix \ref{ap:contol}.}
 	   \label{fig:cosTS_main}
 	\end{figure}
 
@@ -173,7 +172,7 @@ This chapter discusses the generators used to model signal distributions and how
 			\hline
 			\hline
 		\end{tabular}
-	  	\caption{Comparison of background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI model with search bins 1 and 2 shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
+	  	\caption{Comparison of background prediction to data with prediction of several CI signal models. Signal models are refereed to showing constructive or destructive interference (-/+ in superscript), $\Lambda$ value (numberin superscript) and formalism (letters in subscript). Binning used is the same as used for statistical analysis of CI model with the two lowest mass regions shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results1}
 	  	\end{center}
 	\end {table}
@@ -215,7 +214,7 @@ This chapter discusses the generators used to model signal distributions and how
 			\hline
 			\hline
 		\end{tabular}
-	  	\caption{Comparison of background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI model with search bins 3 and 4 shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
+	  	\caption{Comparison of background prediction to data with prediction of several CI signal models. Signal models are refereed to showing constructive or destructive interference (-/+ in superscript), $\Lambda$ value (numberin superscript) and formalism (letters in subscript). Binning used is the same as used for statistical analysis of CI model with the two mid mass regions shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results2}
 	  	\end{center}
 	\end {table}
@@ -259,7 +258,7 @@ This chapter discusses the generators used to model signal distributions and how
 			\hline
 	    	\hline
 	  	\end{tabular}
-	  	\caption{Comparison of background prediction to data with prediction of several CI signal models. Binning used is the same as used for statistical analysis of CI model with search bins 5 and 6 shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
+	  	\caption{Comparison of background prediction to data with prediction of several CI signal models. Signal models are refereed to showing constructive or destructive interference (-/+ in superscript), $\Lambda$ value (numberin superscript) and formalism (letters in subscript). Binning used is the same as used for statistical analysis of CI model with the two high mass regions shown here. Total systematic error is included on each number. See section \ref{sec:sys} for details of systematics.}
 	  	\label{tab:CI_results3}
 	  	\end{center}
 	\end {table}

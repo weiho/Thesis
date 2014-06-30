@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  13 JUN 2014 15:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  30 JUN 2014 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -693,22 +693,6 @@ Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \c@ContinuedFloat=\count199
 Package caption Info: subfigure package is loaded.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
-)))
 (/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen172
@@ -757,9 +741,15 @@ Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
 (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
 (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
@@ -807,6 +797,10 @@ File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
 (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
@@ -870,7 +864,6 @@ File: siunitx-binary.cfg 2012/04/21 v2.5b siunitx: Binary units
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box47
 \c@lstlisting=\count289
 
 *geometry* driver: auto-detecting
@@ -946,33 +939,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--171
 
  []
 
-[1] (./chapters/Abstract.tex) [1] [1] (./chapters/Preface.tex
+[1] (./chapters/Abstract.tex) [3] [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [5
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 218.
+ (./thesisMain.toc [5
+
+] [6])
+\tf@toc=\write3
+\openout3 = `thesisMain.toc'.
+
+ [7]
+(./chapters/Preface.tex [8
 
 ]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 49.
- [6]
-Overfull \hbox (7.06676pt too wide) in paragraph at lines 66--69
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 51.
+ [9]
+Overfull \hbox (7.06676pt too wide) in paragraph at lines 68--71
 \OT1/ptm/m/n/12 This chap-ter cov-ers the main event se-lec-tion of di-electron
  events for the non-resonance
  []
 
-
-Overfull \hbox (13.12604pt too wide) in paragraph at lines 86--89
+[10]
+Overfull \hbox (13.12604pt too wide) in paragraph at lines 88--91
 \OT1/ptm/m/n/12 This fi-nal chap-ter dis-cusses the con-clu-sions ob-tained fro
 m this anal-y-sis with an overview
  []
 
-[7]) [8] (./thesisMain.toc [9
-
-] [10])
-\tf@toc=\write3
-\openout3 = `thesisMain.toc'.
-
- [11] (./chapters/1_Theory.tex
+) [11] (./chapters/1_Theory.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
@@ -1213,31 +1207,23 @@ Chapter 4.
 ]
 File: images/mu_2011_2012-dec.eps Graphic file (type eps)
  <images/mu_2011_2012-dec.eps> [51]
-
-LaTeX Warning: Reference `ap:em' on page 52 undefined on input line 37.
-
-
-LaTeX Warning: Reference `ap:em' on page 52 undefined on input line 37.
-
-
 Overfull \hbox (22.0541pt too wide) in paragraph at lines 41--97
  [] 
  []
 
 
-LaTeX Warning: Reference `ap:em' on page 52 undefined on input line 97.
-
-
-LaTeX Warning: Reference `ap:em' on page 52 undefined on input line 97.
-
-
-LaTeX Warning: Float too large for page by 53.09862pt on input line 100.
+LaTeX Warning: Float too large for page by 39.49861pt on input line 100.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [52] (./chapters/6_Event_Selection.tex [53]
 Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
 [54
 
 ] [55]
@@ -1410,7 +1396,7 @@ File: images/phi_main.eps Graphic file (type eps)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1421,7 +1407,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (22.37804pt too wide) in paragraph at lines 228--262
+Overfull \hbox (22.37804pt too wide) in paragraph at lines 227--261
  [] 
  []
 
@@ -1433,11 +1419,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [74] (./chapters/9_Statistical_Analysis.tex [75] [76] [77] [78] [79] [80]
 Chapter 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
 [81
 
 ] [82]
@@ -1449,16 +1430,16 @@ File: images/post_LR_minus.eps Graphic file (type eps)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--118
+Underfull \hbox (badness 10000) in paragraph at lines 107--119
 
  []
 
-[83] [84] [85]
+[83] [84]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (29.89711pt too wide) in paragraph at lines 172--202
+[85]
+Overfull \hbox (29.89711pt too wide) in paragraph at lines 173--203
  [] 
  []
 
@@ -1492,11 +1473,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 362.
+               Default added (so using `tbp') on input line 363.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 438.
+               Default added (so using `tbp') on input line 439.
 
 ) [88] (./chapters/5_2011_Analysis.tex [89] [90] [91] [92]
 Chapter 9.
@@ -1966,7 +1947,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) [124
 
 ] (./thesisMain.bbl [125] [126] [127] [128] [129] [130]
-Underfull \hbox (badness 2435) in paragraph at lines 53--56
+Underfull \hbox (badness 2435) in paragraph at lines 54--57
 []\OT1/ptm/m/n/12 S. Wein-berg, A model of lep-tons, Phys. Rev. Lett. \OT1/ptm/
 b/n/12 19 \OT1/ptm/m/n/12 (1967) 1264--1266.
  []
@@ -1974,31 +1955,31 @@ b/n/12 19 \OT1/ptm/m/n/12 (1967) 1264--1266.
 [131
 
 ]
-Underfull \hbox (badness 1983) in paragraph at lines 89--94
+Underfull \hbox (badness 1983) in paragraph at lines 90--95
 []\OT1/ptm/m/n/12 S. Cha-trchyan, et al., Ob-ser-va-tion of a new bo-son at a m
 ass of 125 gev
  []
 
 [132]
-Underfull \hbox (badness 1577) in paragraph at lines 169--174
+Underfull \hbox (badness 1577) in paragraph at lines 170--175
 []\OT1/ptm/m/n/12 S. Cha-trchyan, et al., Search for con-tact in-ter-ac-tions u
 s-ing the in-clu-sive jet
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 169--174
+Underfull \hbox (badness 1412) in paragraph at lines 170--175
 \OT1/ptm/m/n/12 pT spec-trum in pp col-li-sions at s=7 TeV, Phys. Rev. D \OT1/p
 tm/b/n/12 87 \OT1/ptm/m/n/12 (2013) 052017.
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 190--195
+Underfull \hbox (badness 2245) in paragraph at lines 191--196
 []\OT1/ptm/m/n/12 F. Abe, et al., Lim-its on quark-lepton com-pos-ite-ness scal
 es from dilep-tons
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 190--195
+Underfull \hbox (badness 1874) in paragraph at lines 191--196
 \OT1/ptm/m/n/12 pro-duced in 1.8 TeV p$[]$ col-li-sions, Phys. Rev. Lett. \OT1/
 ptm/b/n/12 79 \OT1/ptm/m/n/12 (1997) 2198--2203.
  []
@@ -2011,13 +1992,13 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
 []\OT1/ptm/m/n/12 C. Adloff, et al., Search for new physics in e$\OMS/pzccm/m/n
 /12 ^^F$\OT1/ptm/m/n/12 q con-tact in-ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
 \OT1/ptm/m/n/12 ac-tions at HERA, Physics Let-ters B \OT1/ptm/b/n/12 568 \OT1/p
 tm/m/n/12 (12) (2003) 35 -- 47.
  []
@@ -2028,31 +2009,31 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 2828) in paragraph at lines 262--267
+Underfull \hbox (badness 2828) in paragraph at lines 263--268
 []\OT1/ptm/m/n/12 M. Ac-cia-rri, et al., Search for man-i-fes-ta-tions of new p
 hysics in fermion-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 262--267
+Underfull \hbox (badness 6859) in paragraph at lines 263--268
 \OT1/ptm/m/n/12 pair pro-duc-tion at LEP, Physics Let-ters B \OT1/ptm/b/n/12 48
 9 \OT1/ptm/m/n/12 (12) (2000) 81 -- 92.
  []
 
 [134]
-Underfull \hbox (badness 1521) in paragraph at lines 284--290
+Underfull \hbox (badness 1521) in paragraph at lines 285--291
 \OT1/ptm/m/n/12 tron events in pp col-li-sions at, Physics Let-ters B \OT1/ptm/
 b/n/12 711 \OT1/ptm/m/n/12 (1) (2012) 15 -- 34.
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 307--313
+Underfull \hbox (badness 1019) in paragraph at lines 308--314
 \OT1/ptm/m/n/12 M. Agelou, J.-L. Agram, et al., Search for large ex-tra spa-tia
 l di-men-sions in
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 307--313
+Underfull \hbox (badness 1117) in paragraph at lines 308--314
 \OT1/ptm/m/n/12 dimuon pro-duc-tion with the d0 de-tec-tor, Phys. Rev. Lett. \O
 T1/ptm/b/n/12 95 \OT1/ptm/m/n/12 (2005) 161602.
  []
@@ -2091,13 +2072,13 @@ Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--357
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
 n / view / AtlasPublic /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
 n / view / AtlasPublic /
  []
@@ -2105,51 +2086,55 @@ n / view / AtlasPublic /
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
+
+Underfull \hbox (badness 1584) in paragraph at lines 375--382
+\OT1/ptm/m/n/12 (2009) 2499 -- 2512, 40 YEARS OF CPC: A cel-e-bra-tory is-sue f
+o-cused on
+ []
+
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
 n / view / AtlasPublic /
  []
 
 [136]
-Underfull \hbox (badness 3029) in paragraph at lines 431--436
+Underfull \hbox (badness 3029) in paragraph at lines 432--437
 []\OT1/ptm/m/n/12 T. Sjos-trand, S. Mrenna, P. Z. Skands, A Brief In-tro-duc-ti
 on to PYTHIA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--436
+Underfull \hbox (badness 10000) in paragraph at lines 432--437
 \OT1/ptm/m/n/12 8.1, Com-put.Phys.Commun. \OT1/ptm/b/n/12 178 \OT1/ptm/m/n/12 (
 2008) 852--867.  arXiv:0710.3820,
  []
 
 [137]
-Underfull \hbox (badness 1226) in paragraph at lines 493--498
+Underfull \hbox (badness 1226) in paragraph at lines 494--499
 []\OT1/ptm/m/n/12 J. But-ter-worth, J. R. For-shaw, M. Sey-mour, Mul-ti-par-ton
  in-ter-ac-tions in pho-
  []
 
-Missing character: There is no Î in font zptmcmr!
-Missing character: There is no ± in font zptmcmr!
 
-Underfull \hbox (badness 6428) in paragraph at lines 508--514
+Underfull \hbox (badness 6428) in paragraph at lines 509--515
 []\OT1/ptm/m/n/12 M. Cac-ciari, M. Cza-kon, M. Mangano, A. Mi-tov, P. Na-son, T
 op-pair
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 508--514
+Underfull \hbox (badness 4013) in paragraph at lines 509--515
 \OT1/ptm/m/n/12 pro-duc-tion at hadron col-lid-ers with next-to-next-to-leading
  log-a-rith-mic soft-
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 508--514
-\OT1/ptm/m/n/12 gluon re-sum-ma-tion, Phys.Lett. \OT1/ptm/b/n/12 B710 \OT1/ptm/
-m/n/12 (2012) 612--622.  arXiv:1111.5869,
+Underfull \hbox (badness 3907) in paragraph at lines 509--515
+\OT1/ptm/m/n/12 gluon re-sum-ma-tion, Phys. Lett. \OT1/ptm/b/n/12 B710 \OT1/ptm
+/m/n/12 (2012) 612--622.  arXiv:1111.5869,
  []
 
 Missing character: There is no Ã in font ptmr7t!
@@ -2160,17 +2145,14 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--525
-[]\OT1/ptm/m/n/12 A. Cald-well, D. Kollr, K. Krninger, \OMS/pzccm/m/n/12 f\OT1/
-ptm/m/n/12 BAT\OMS/pzccm/m/n/12 g  \OT1/ptm/m/n/12 the bayesian anal-y-sis
+Underfull \hbox (badness 10000) in paragraph at lines 522--526
+[]\OT1/ptm/m/n/12 A. Cald-well, D. Kollr, K. Krninger, BAT - The Bayesian anal-
+y-sis
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 521--525
+Underfull \hbox (badness 3417) in paragraph at lines 522--526
 \OT1/ptm/m/n/12 toolkit, Com-puter Physics Com-mu-ni-ca-tions \OT1/ptm/b/n/12 1
 80 \OT1/ptm/m/n/12 (11) (2009) 2197 -- 2209.
  []
@@ -2180,19 +2162,16 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 ) [139] (./thesisMain.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14788 strings out of 493611
- 297349 string characters out of 3142449
- 335289 words of memory out of 3000000
- 17626 multiletter control sequences out of 15000+200000
- 55390 words of font info for 165 fonts, out of 3000000 for 9000
+ 14610 strings out of 493611
+ 294315 string characters out of 3142449
+ 332433 words of memory out of 3000000
+ 17455 multiletter control sequences out of 15000+200000
+ 55072 words of font info for 162 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,15n,58p,1982b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,15n,58p,1978b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (139 pages, 355032 bytes).
+Output written on thesisMain.dvi (139 pages, 355408 bytes).

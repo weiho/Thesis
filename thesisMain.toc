@@ -1,5 +1,7 @@
-\contentsline {chapter}{Preface}{5}
-\contentsline {chapter}{Contents}{9}
+\contentsline {chapter}{Abstract}{3}
+\contentsline {chapter}{Acknowledgements}{4}
+\contentsline {chapter}{Contents}{5}
+\contentsline {chapter}{Preface}{8}
 \contentsline {chapter}{\numberline {1}Theory}{12}
 \contentsline {section}{\numberline {1.1}Standard Model}{12}
 \contentsline {subsection}{\numberline {1.1.1}Fundamental Forces}{14}
@@ -47,7 +49,7 @@
 \contentsline {section}{\numberline {8.2}Angular Analysis Optimisation}{85}
 \contentsline {subsection}{\numberline {8.2.1}Effect of the Opposite Sign Requirement on Analysis Reach}{85}
 \contentsline {subsection}{\numberline {8.2.2}Optimisation of Search Bins in $\qopname \relax o{cos}{\theta ^{*}}$}{86}
-\contentsline {section}{\numberline {8.3}Signal Search \& $p$-Values}{87}
+\contentsline {section}{\numberline {8.3}Signal Search \& $p$-Values}{86}
 \contentsline {section}{\numberline {8.4}Setting Limits}{87}
 \contentsline {section}{\numberline {8.5}Combination with the Muon Search}{88}
 \contentsline {chapter}{\numberline {9}Non-Resonant 7 TeV Analysis}{93}

@@ -1,11 +1,11 @@
 \chapter{Background Estimate}
 
-This chapter discusses methods used to estimate background processes the the signal. These background processes can be split up in to two categories; reducible and irreducible. Irreducible backgrounds consist of those background almost indistinguishable from our signal process namely clean high energy dielectron decays such as decays of the Z boson and the Drell-Yan (DY) spectrum. DY ($q\bar{q}~\rightarrow~Z/\gamma^{*}~\rightarrow~\ell^{-}\ell^{+}$) is the largest background process and also interferes with the signal processes. Another irreducible background also estimated is the Photon-Induced processes ($\gamma\gamma~\rightarrow~\ell^{-}\ell^{+}$) coming from the collision of two photons. Reducible backgrounds are those that can be reduced through event selection and three are included in this analysis. These reducible backgrounds consist of Top precesses, collisions creating single top quarks and $t\bar{t}$ events which decay to include two electrons; Diboson events, the creation of WW, WZ and ZZ events that decay in to two electron events; and finally Multi-jet \& W+jets events where one or more electron signature is faked by jet objects. All of these backgrounds are estimated via Monte Carlo generators except for the Multi-jet \& W+jets background which is estimated via a data-driven fake factor method. All background samples are summed together to create the full background estimate. MC samples are then scaled to the integrated luminosity of data collected in 2012 which is 20.3 fb$^{-1}$. Within the Z boson peak region (80 - 120 GeV) were it is known no new physics is found MC samples are scaled to data minus the multijet sample in order to rule out luminosity errors. This scale factor is found to be 1.048. Detailed below is the full derision of the background estimates ready for comparison to data.
+This chapter discusses methods used to estimate background processes to the signal. These background processes can be split up in to two categories; reducible and irreducible. Irreducible backgrounds consist of those background almost indistinguishable from our signal process namely clean high energy dielectron decays such as decays of the Z boson and the Drell-Yan (DY) spectrum. DY ($q\bar{q}~\rightarrow~Z/\gamma^{*}~\rightarrow~\ell^{-}\ell^{+}$) is the largest background process and also interferes with the signal processes. Another irreducible background also estimated is the Photon-Induced processes ($\gamma\gamma~\rightarrow~\ell^{-}\ell^{+}$) coming from the collision of two photons. Reducible backgrounds are those that can be reduced through event selection and three are included in this analysis. These reducible backgrounds consist of Top precesses, collisions creating single top quarks and $t\bar{t}$ events which decay to include two electrons; Diboson events, the creation of WW, WZ and ZZ events that decay in to two electron events; and finally Multi-jet \& W+jets events where one or more electron signature is faked by jet objects. All of these backgrounds are estimated via Monte Carlo generators except for the Multi-jet \& W+jets background which is estimated via a data-driven fake factor method. All background samples are summed together to create the full background estimate. MC samples are then scaled to the integrated luminosity of data collected in 2012 which is 20.3 fb$^{-1}$. Within the Z boson peak region (80 - 120 GeV) were it is known no new physics is found MC samples are scaled to data minus the multijet sample in order to rule out luminosity errors. This scale factor is found to be 1.048. Detailed below is the full derivation of the background estimates ready for comparison to data.
 
 \section{Monte Carlo samples}
    \label{sec:MC}
 
-   Monte Carlo (MC)\footnote{Computer algorithm designed to simulate physical systems using random sampling to obtain results for a statistical physics theories such as quantum field field theories} samples are produced centrally within ATLAS using MC generators specific to  The generated events then undergo detector simulation using GEANT 4 \cite{Agostinelli2003250} which produces a data format identical to a readout from the ATLAS detector plus additional ``truth'' parameters from the original MC generation. The samples then undergo the same reconstruction as data events within ATHENA producing a MC sample ready to be analysed the same as data.\\
+   Monte Carlo (MC)\footnote{Computer algorithm designed to simulate physical systems using random sampling to obtain results for a statistical physics theories such as quantum field field theories} samples are produced centrally within ATLAS using MC generators specific to the generated sample which then undergo detector simulation using GEANT 4 \cite{Agostinelli2003250} which produces a data format identical to a readout from the ATLAS detector plus additional ``truth'' parameters from the original MC generation. The samples then undergo the same reconstruction as data events within ATHENA producing a MC sample ready to be analysed the same as data.\\
 
 
    {\bf\raggedright Drell-Yan}
@@ -20,7 +20,7 @@ This chapter discusses methods used to estimate background processes the the sig
 
    {\bf\raggedright Diboson}
 
-   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{Corcella:2002jc} with the LO PDF CTEQ6L1 \cite{Pumplin:2002vw}. The sample with split in to the three process, WW, WZ and ZZ, with each process split in to 3 mass-binned samples with bin edges of (60, 400, 1000) GeV. The sample is then scaled to NLO in a mass-independent way using MCFM \cite{Campbell:2010ff} with the PDF MSTW2008 NLO \cite{Martin:2009iq}}\\
+   {\raggedright The Diboson MC sample is produced using HERWIG 6.510 \cite{Corcella:2002jc} with the LO PDF CTEQ6L1 \cite{Pumplin:2002vw}. The sample is split in to the three process, WW, WZ and ZZ, with each process split in to 3 mass-binned samples with bin edges of (60, 400, 1000) GeV. The sample is then scaled to NLO in a mass-independent way using MCFM \cite{Campbell:2010ff} with the PDF MSTW2008 NLO \cite{Martin:2009iq}}\\
 
    {\bf\raggedright Top}
 
@@ -39,11 +39,11 @@ This chapter discusses methods used to estimate background processes the the sig
 
    {\bf\raggedright Vertex Position Reweighting}
 
-   {\raggedright Vertex position hard to predict pre-run and can therefore be weighted later once run conditions are known. This correction is not widely used within ATLAS due to its minimal effect however it was found to add better data background agreement to the $\cos{\theta^{*}}$ distribution within the scaling and control region. The vertex position reweighting was found to have a minimal effect on the invariant mass distribution.}\\
+   {\raggedright Vertex position is hard to predict pre-run and can therefore be weighted later once run conditions are known. This correction is not widely used within ATLAS due to its minimal effect however it was found to add better data background agreement to the $\cos{\theta^{*}}$ distribution within the scaling and control region. The vertex position reweighting was found to have a minimal effect on the invariant mass distribution.}\\
 
    {\bf\raggedright Energy Smearing Correction}
 
-   {\raggedright The energy smearing correction is used to better estimate the energy of electron signatures. This correction is derived from a Z peak calibration study \cite{ATLAS-CONF-2014-032} done within the ATLAS electron photon performance group and matches MC to data. These corrections provide a $\eta$ and E$_{T}$ dependent smearing value applied to electron energy before electron selection.}\\
+   {\raggedright The energy smearing correction is used to better estimate the energy of electron signatures. This correction is derived from a Z peak calibration study \cite{ATLAS-CONF-2014-032} done within the ATLAS electron and photon performance group and matches MC to data. These corrections provide a $\eta$ and E$_{T}$ dependent smearing value applied to electron energy before electron selection.}\\
 
    {\bf\raggedright Electron Efficiency Scale Factor}
 
@@ -60,7 +60,7 @@ This chapter discusses methods used to estimate background processes the the sig
 \section{Fake Factor Multi-Jet Estimate}
    \label{sec:FFmethod}
 
-One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a ``fake factor'' or ``matrix-method''. This is a data-driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition (see section \ref{sec:ReconElec}) with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden values are also assigned $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
+One of the major sources of background to di-electron signals are di-jets or electron+jets (mainly W+jets) events where one or both selected leptons are jets faking electron signatures. The method for estimating this background, described here, is a ``fake factor'' or ``matrix-method''. This is a data-driven method where electrons are selected by a tight ($N_{tight}$) and loose ($N_{loose}$) selection. The tight selection is the standard electron selection used in this analysis while the loose selection has no isolation requirement and must only pass a loose++ egamma definition (see section \ref{sec:ReconElec}) with no track matching criteria. $N_{tight}$ is therefore by design a subset of $N_{loose}$. Two more hidden variables are also assigned, $real$ and $fake$ referring to true source of each electron. This gives us two coefficients to determine from data.
 
 \begin{equation} \label{eq:fakeRate}
    f~=~\frac{N^{fake}_{tight}}{N^{fake}_{loose}} \qquad \qquad r~=~\frac{N^{real}_{tight}}{N^{real}_{loose}}
@@ -101,9 +101,9 @@ The interesting part for this study is the contribution to $N_{TT}$ coming from 
    N^{\ell+jets~\&~di-jets}_{TT}~&=~r_{1}f_{2}N_{RF}~+~f_{1}r_{2}N_{FR}~+~f_{1}f_{2}N_{FF} 
 \end{align}
 
-This function however contains hidden variables and so equation~\ref{eq:mainFakeMatrix} is inverted to derive a better formalism.
+This function however contains unknown variables and so equation~\ref{eq:mainFakeMatrix} is inverted to derive a better formalism in equation \ref{eq:mainFakeMatrixInvert}.
 
-\begin{equation}
+\begin{equation} \label{eq:mainFakeMatrixInvert}
    \begin{pmatrix}
       N_{RR} \\
       N_{RF} \\
@@ -153,7 +153,7 @@ Equation \ref{eq:mainFakeResult2} shows the derived formula relating the multi-j
 
 \subsection{Real Electron Efficiency Estimation}
 
-The real electron efficiency is defined in equation~\ref{eq:fakeRate} as $r~=~N^{real}_{tight}/N^{real}_{loose}$. This is determined from MC using a mass binned Drell-Yan sample. The efficiencies are found for both the leading and sub-leading electrons and binned in 8 $p_{T}$ and three eta bins of $|\eta|<1.37$ (barrel), $1.52<|\eta|<2.01$ and $2.01<|\eta|<2.47$ (endcap). The efficiency is distributed between $90$ - $96\%$ as is shown in figure \ref{fig:realEff}.
+The real electron efficiency is defined in equation~\ref{eq:fakeRate} as $r~=~N^{real}_{tight}/N^{real}_{loose}$. This is determined from MC using a mass binned Drell-Yan sample. The efficiencies are found for both the leading and sub-leading electrons and binned in eight $p_{T}$ and three eta bins of $|\eta|<1.37$ (barrel), $1.52<|\eta|<2.01$ and $2.01<|\eta|<2.47$ (endcap). The efficiency is distributed between $90$ - $96\%$ as is shown in figure \ref{fig:realEff}.
 
    \begin{figure}[h]
       \begin{center}
@@ -174,7 +174,7 @@ An array of triggers are used for selecting suitable events with many different 
 Events are associated to groups with the lowest trigger threshold they pass as each trigger has a different prescale. Objects are selected with jet algorithms and then matched to objects in the egamma stream with a $\Delta R~<~0.1$. Two further steps are taken to suppress real electrons from W decays and real Drell-Yan events. A veto of $E_{Tmiss}~>~25~GeV$ is introduced to combat the former while events with two medium++ or loose++ electrons with $|m_{tag~\&~probe}-91~GeV|~<~20~GeV$ are vetoed to counter the real Drell-Yan.
 
 The fake rate as defined in equation~\ref{eq:fakeRate} ($f~=~N^{fake}_{tight}/N^{fake}_{loose}$) with the $N^{fake}_{tight}$ and $N^{fake}_{loose}$ distributions selected using the standard event selection on the matched egamma objects.
-Due to the different prescales of each trigger a separate set of fake rates are calculated for each trigger, these are then combined as a weighted average of all fake rates. Figure \ref{fig:fakeRates} shows the distribution of fake rates for leading and subleading fakes. These are distributed between 3 - $20\%$. This calculation of fake rates was completed in the resonant analysis group and the results were carried over to this analysis. The differences in the event selection were found to not effect the results.
+Due to the different prescales of each trigger a separate set of fake rates are calculated for each trigger, these are then combined as a weighted average of all fake rates. Figure \ref{fig:fakeRates} shows the distribution of fake rates for leading and subleading fakes. These are distributed between 3 - $20\%$. %This calculation of fake rates was completed in the resonant analysis group and the results were carried over to this analysis. The differences in the event selection were found to not effect the results.
 
    \begin{figure}[h]
       \begin{center}
@@ -190,14 +190,14 @@ Due to the different prescales of each trigger a separate set of fake rates are 
 
 \subsection{Properties of Multi-Jet Background}
 
-In order to compose the final sample events are organised by the distributions $N_{TT}$, $N_{TL}$, $N_{LT}$ or $N_{LL}$ and weights are applied according to each electrons $p_{T}$, $\eta$ with respect to equation~\ref{eq:mainFakeResult2} and the corresponding efficiencies and fake rates. 
-Figure \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. In addition to these steps an extra fit is then applied at low invariant mass due to contamination due to the Z boson peak. This method is not suited to predicting the Multi-Jet background in the Z boson peak region and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and below. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region. At high-mass statistics of the sample decline and so an additional fit is made a high mass with the lower edge of the fit varied between 425 and 600 GeV and the upper edge from 700 to 1200 GeV, with the stitching point at 500 GeV.
+In order to compose the final sample data events are organised by the distributions $N_{TT}$, $N_{TL}$, $N_{LT}$ or $N_{LL}$ and weights are applied according to each electrons $p_{T}$ and $\eta$ with respect to equation~\ref{eq:mainFakeResult2} and the corresponding efficiencies and fake rates. 
+Figure \ref{fig:N_dist} shows these distributions before the efficiencies and fake rates are applied to weight to the final background prediction. This method is not suited to predicting the Multi-Jet background in the Z peak region due to contamination of Z boson decays and so a fit is obtained between 120 GeV and 400 GeV and stitched from 110 GeV and below. This gives a good estimate to the integral in this region for use in scaling MC's to luminosity but is not predicted to be good at predicting other variables in this region. At high-mass statistics of the sample decline and so an additional fit is made a high mass with the lower edge of the fit varied between 425 and 600 GeV and the upper edge from 700 to 1200 GeV, with the fit used above 500 GeV.
 
    \begin{figure}[h]
       \begin{center}
       \includegraphics[width=0.98\linewidth]{images/N_distributions.eps}
       \end{center}
-   \caption{Distribution of $N_{TT}$, $N_{TL}$, $N_{LT}$ and $N_{LL}$ from data with no weightings applied.}
+   \caption{Distribution of $N_{TT}$, $N_{TL}$, $N_{LT}$ and $N_{LL}$ distributions from data with no weightings applied.}
    \label{fig:N_dist}
    \end{figure}
 

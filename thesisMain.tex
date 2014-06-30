@@ -25,7 +25,7 @@
 \usepackage{multirow}
 \usepackage{fancyhdr}
 \usepackage[small]{caption}  %caption settings [normal] bf,up
-\usepackage{eso-pic}
+%\usepackage{eso-pic}
 \usepackage{graphicx}
 \usepackage{type1cm}
 \usepackage[toc,page]{appendix}
@@ -181,20 +181,41 @@ Liam Duguid
 
 
 \begin{abstract}
-%\addcontentsline{toc}{chapter}{Abstract}
+\setcounter{page}{3}
+\addcontentsline{toc}{chapter}{Abstract}
+\pagestyle{headings}
+\pagestyle{headings}
 \input{chapters/Abstract}
+\end{abstract}
+
+
+\renewcommand{\abstractname}{Acknowledgements}
+\begin{abstract}
+\setcounter{page}{4}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\pagestyle{headings}
+\pagestyle{headings}
+First I would like to thank my supervisor Dr Tracey Berry for her support and guidance throughout by PhD and for always aiming to get the best from and for me. 
+
+I would like to thank the Science and Technology Facilities Council (STFC) for their financial support throughout my PhD along with Royal Holloway for the organisation and funding of my time working at CERN.
+
+I must also thank the other staff within the Royal Holloway ATLAS group; Prof Pedro Teixeira-Dias, Prof Glen Cowan and Dr Veronique Boisvert for their advice and questions throughout my PhD. I would like to thank everyone within the office at Royal Holloway throughout my years there for always answering and discussing problems and contributing heavily to the success of my work. Particularly I would thank both Daniel Hayden and Graham Savage with whom I worked closely during their time at Royal Holloway.
+
+I would also like to thank my parents for their support throughout my academic pursuits and always wanting the best for me and the freedom to choose what interested me most. 
+
+Last but by no means least I would like to thank Natasha for putting up with me throughout my PhD, for making all the trips out the Geneva so we could be together and for supporting me while I remained a student. I love you and I'm glad to tell you I'm now finished.
 \end{abstract}
 
 
 
 
+
+
+
 \newpage
-\vspace*{\fill}
-\thispagestyle{empty} %Dedication section
-\begin{center}
-Write thanks here
-\end{center}
-\vspace*{\fill}
+\addcontentsline{toc}{chapter}{Contents}
+\setcounter{page}{5}
+\tableofcontents
 
 
 
@@ -202,14 +223,11 @@ Write thanks here
 
 \newpage
 \pagenumbering{arabic}
-\setcounter{page}{5}
+\setcounter{page}{8}
+\pagestyle{headings}
 \input{chapters/Preface}
 
 
-
-\newpage
-\addcontentsline{toc}{chapter}{Contents}
-\tableofcontents
 
 
 \newpage

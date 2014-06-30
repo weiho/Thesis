@@ -1,7 +1,7 @@
 \chapter{Non-Resonant 7 TeV Analysis}
 \label{ch:7tev}
 
-This chapter looks at the non-resonant analysis done within ATLAS on 2011 data and was a measurement made prior to the other analysis presented in this thesis. The author made a major contribution to this analysis working on the dielectron search channel and pushing it through to publication \cite{PhysRevD.87.015010}. 
+This chapter looks at the non-resonant analysis done within ATLAS on 2011 data and was a measurement made prior to the other analysis presented in this thesis. The author made a major contribution to this analysis working on the dielectron search channel and following it to publication \cite{PhysRevD.87.015010}. 
 The 7 TeV analysis major differences come from not including the angular search in $\cos{\theta^{*}}$ and looking at only the LL CI formalism and GRW ADD formalism. 
 Background simulation differs slightly with different generators used and the explicit change from the QCD and W+jets background to the more inclusive multijets \& and W+jets obtained fully via a data driven method. The event selection also differs between the two analyses with the optimisation of the isolation selection and updated shower shape selection in the 8 TeV analysis. The big change is the addition of the angular analysis with respect to $\cos\theta^{*}$ introducing the opposite sign requirement and changing the search bins used in the Bayesian analysis. A slightly smaller list of systematic errors were included in this analysis compared to the 8 TeV one.
 Below is an overview of each part of this analysis with comparisons between this and the main analysis spoken of in this thesis.
@@ -20,9 +20,9 @@ Below is an overview of each part of this analysis with comparisons between this
 \subsection*{Background}
 	%The main background the non resonant signal in the electron channel is Drell-Yan (DY) $\rightarrow~ee$ production mediated by a photon or the Z boson. However there are other small contributions from $t\bar{t}$, diboson, W + jets and QCD production. $t\bar{t}$ background consists of events with $t\bar{t}$ production decaying to amongst other things two electrons. Diboson background can involve either an event producing two W bosons, two Z boson or one W and one Z boson in which two electrons also exist in the final decay state. Both these productions can result in two electrons with a large combined invariant mass which could mimic signal production. W + jets production can result in an electron and a jet faking an electron left in the final state, while QCD refers to events where two jets fake electrons. These all combine to form the background sample.
 
-	The background precess are the same between analyses with slight differences in the MC generators used. The bigger difference however are the comparisons between the W+jets and QCD backgrounds used in this analysis with the multijet \& W+jets background used in the 8 TeV analysis. This difference is mainly naming differences but here the background is produced through a combination of a MC sample and a data driven method while the 8 TeV analysis uses only a data driven method. 
+	The background process are the same between analyses with slight differences in the MC generators used. The bigger difference however are the comparisons between the W+jets and QCD backgrounds used in this analysis with the multijet \& W+jets background used in the 8 TeV analysis. This difference is mainly naming differences but here the background is produced through a combination of a MC sample and a data driven method while the 8 TeV analysis uses only a data driven method. 
 
-	Standard Model Drell-Yan was simulated by the leading-order (LO) PYTHIA 6 \cite{1126-6708-2006-05-026} Monte Carlo (MC) event generator. This method was used to generate a $Z\rightarrow~ee$ sample for the low dielectron invariant mass region ($m_{ee} <$ 120 GeV) and a $DY\rightarrow~ee$ mass binned sample for the invariant high mass ($m_{ee} >$ 120 GeV) to keep high statistics at high invariant mass. Similarly to the 8 TeV analysis K-factors are used here to weight from the LO prediction up a nnlo prediction. Four other samples are included to produce the background estimate, these are: $t\bar{t}$, produced with MC@NLO \cite{Frixione:2008ym}; diboson, WW, WZ and ZZ decays produced with HERWIG \cite{Corcella:2002jc}; W+jets, produced with ALPGEN \cite{Mangano:2002ea}, JIMMY \cite{Butterworth:1996zw} and HERWIG \cite{Corcella:2002jc}; and QCD, produced using a data driven method.
+	Standard Model Drell-Yan was simulated by the leading-order (LO) PYTHIA 6 \cite{1126-6708-2006-05-026} Monte Carlo (MC) event generator. This method was used to generate a $Z\rightarrow~ee$ sample for the low dielectron invariant mass region ($m_{ee} <$ 120 GeV) and a $DY\rightarrow~ee$ mass binned sample for the high invariant mass ($m_{ee} >$ 120 GeV) to keep high statistics. Similarly to the 8 TeV analysis K-factors are used here to weight from the LO prediction up a NNLO prediction. Four other samples are included to produce the background estimate, these are: $t\bar{t}$, produced with MC@NLO \cite{Frixione:2008ym}; diboson, WW, WZ and ZZ decays produced with HERWIG \cite{Corcella:2002jc}; W+jets, produced with ALPGEN \cite{Mangano:2002ea}, JIMMY \cite{Butterworth:1996zw} and HERWIG \cite{Corcella:2002jc}; and QCD, produced using a data driven method.
 
 \subsection*{Signal} 
 
@@ -59,7 +59,7 @@ Below is an overview of each part of this analysis with comparisons between this
 
 \section{Electron Identification and Selection}
 
-	The selection of electron candidates for the CI and ADD analysis can be split in three main parts, selection of a good event, selection of a set of good electrons and selection of a good dielectron pair.\\
+	The selection of electron candidates for the CI and ADD analysis can be split into three main parts, selection of a good event, selection of a set of good electrons and selection of a good dielectron pair.\\
 
 	{\bf Event Selection}
 	\begin{itemize}
@@ -83,9 +83,9 @@ Below is an overview of each part of this analysis with comparisons between this
 	\item Dielectron invariant mass (m$_{ee}$) is required to be greater than or equal 70 GeV.
 	\end{itemize}
 
-	Between the two analyses a few difference appear in the the event selection. The trigger used is different in each case as the lowest threshold unprescaled trigger that is available is used for each data set. Transverse momentum requirements have then changed in accordance with the thresholds of the triggers as well as the increase in the invariant mass requirement for the same reason. The identification of a ``medium'' electron was updated between the two analyses with the 8 TeV version also including the expected signal in the tracking detector B-layer as a requirement. The isolation requirement underwent an optimisation between the two analyses detailed in section \ref{sec:iso}. The final difference is the lack of opposite sign requirement in this analysis.
+	There are several differences between the 7 and 8 TeV event selections. The trigger used is different in each case as the lowest threshold unprescaled trigger that is available is used for each data set. Transverse momentum requirements have then changed in accordance with the thresholds of the triggers as well as the increase in the invariant mass requirement for the same reason. The identification of a ``medium'' electron was updated between the two analyses with the 8 TeV version also including the expected signal in the tracking detector B-layer as a requirement. The isolation requirement underwent an optimisation between the two analyses detailed in section \ref{sec:iso}. The final difference is the lack of opposite sign requirement in this analysis.
 
-	These remaining candidates are then the results. The signal region is defined as $m_{ee} > 150$ GeV while the $70 \leq m_{ee} \leq 150$ GeV region is used as a control region.
+	These remaining candidates are then the results. The signal region is defined as $m_{ee} > 200$ GeV while the $70 \leq m_{ee} \leq 200$ GeV region is used as a control region.
 
 	\begin{table}[h!]
 	\centering % centering table
@@ -117,7 +117,7 @@ Below is an overview of each part of this analysis with comparisons between this
 	358 & 17 & 3 \\ [0.2ex]
 	\hline\hline  \\ %[0.2ex] %inserting double-line
 	\end{tabular}
-	\caption{Data yeild compared to background MC scaled to luminosity of data. Errors shown are statistical only.} %title of the table
+	\caption{Data yield compared to background MC scaled to luminosity of data. Errors shown are statistical only.} %title of the table
 	\label{tab:dataMCyields}
 	\end{table}
 
@@ -255,7 +255,7 @@ Below is an overview of each part of this analysis with comparisons between this
 \section{Statistical Analysis}
 	\label{sec:7tev_stat}
 
-	No evidence of new physics was seen in this analysis and the same procedure was carried out here as discussed in chapter \ref{ch:stat} to obtain limits on the minimum scale of new physics. This search differers as only dielectron invariant mass is used as a search variable and search bins are found at a lower invariant mass due to the lower energy and statistics of this analysis. The CI search is carried out in 5 search bins with bin edges of {110, 200, 400, 800, 1200, 3000} GeV while the ADD search was carried out in a single bin above 1300 GeV which is optimised by selecting the bin providing the highest expected limit. As in the 8 TeV analysis the expected number of events from signal was parametrised as a function of $1/\lambda^{2}$ and $1/\lambda^{4}$ for CI and $1/M_{s}^{4}$ and $1/M_{s}^{8}$ for ADD. Table \ref{tab:sys7} shows the list of systematics considered at nuisance variables for this statistical analysis. The PDFs/$\alpha_{s}$ and Weak k-factor systematics are analogous to the PDF variation systematic from the 8 TeV analysis while all others mentioned are the same. 
+	No evidence of new physics was seen in this analysis and the same procedure was carried out here as discussed in chapter \ref{ch:stat} to obtain limits on the minimum scale of new physics. This search differers as only dielectron invariant mass is used as a search variable and search bins are found at a lower invariant mass due to the lower energy and statistics of this analysis. The CI search is carried out in 5 search bins with bin edges of {110, 200, 400, 800, 1200, 3000} GeV while the ADD search was carried out in a single bin above 1300 GeV which is optimised by selecting the bin providing the highest expected limit. As in the 8 TeV analysis the expected number of events from signal was parametrised as a function of $1/\Lambda^{2}$ and $1/\Lambda^{4}$ for CI and $1/M_{s}^{4}$ and $1/M_{s}^{8}$ for ADD. Table \ref{tab:sys7} shows the list of systematics considered at nuisance variables for this statistical analysis. The PDFs/$\alpha_{s}$ and Weak k-factor systematics are analogous to the PDF variation systematic from the 8 TeV analysis while all others mentioned are the same. 
 
 
 	\begin {table}[h]
@@ -281,8 +281,8 @@ Below is an overview of each part of this analysis with comparisons between this
 
 
 
-	As no evidence of new physics was found then a Bayesian statistical analysis was used to set a limit on $\Lambda$ and $M_{s}$. These limits can be seen in table \ref{tab:Limits7}. Expected limits were obtained by running 1000 PE's and take the mean limit in $\Lambda$ and $M_{s}$ for CI and ADD. Combined limits were also calculated with the dimuon search channel giving the highest limits on the scale of new physics for both CI and ADD at the time the paper was released.
-	The Limits obtained in the 7 TeV analysis constituted the highest limits on either model when obtained  the 8 TeV results then replace them within more formalisms. Major improvements can also be seen in the upgrades to the analysis procedure between the two making the 8 TeV analysis far more mature. 
+	As no evidence of new physics was found then a Bayesian statistical analysis was used to set a limit on $\Lambda$ and $M_{s}$. These limits can be seen in table \ref{tab:Limits7}. Expected limits were obtained by running 1000 PE's and the mean limit taken with respect to $\Lambda$ and $M_{s}$ for CI and ADD. Combined limits were also calculated with the dimuon search channel giving the highest limits on the scale of new physics for both CI and ADD at the time the paper was released.
+	The Limits obtained in the 7 TeV analysis constituted the highest limits on either model when obtained the 8 TeV results then replace them within more formalisms. Improvements can also be seen in the upgrades to the analysis procedure between the two making the 8 TeV analysis a more mature analysis. 
 
 
 	\begin{table}[h!]
