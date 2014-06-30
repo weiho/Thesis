@@ -32,6 +32,10 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{morefloats}
+\usepackage[hidelinks,pdfauthor={Liam Duguid},pdftitle={Searches for Non-Resonant New Physics in the High Energy Dielectron Spectrum with ATLAS at the LHC},pagebackref=true,]{hyperref}
+\usepackage{bookmark}
+
+\urlstyle{same}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -88,6 +92,23 @@
         \fancyhead[RO,LO]{}}
 \renewcommand{\baselinestretch}{1.5}
 
+
+
+\renewcommand*{\backreflastsep}{, }
+\renewcommand*{\backreftwosep}{, }
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+  \ifcase #1 %
+    No citations.% use \relax if you do not want the "No citations" message
+  \or
+(page #4).%
+  \else
+(pages #4).%
+  \fi%
+}
+
+
+
 %====
 %Insert to print the word ``draft'' across page
 %\makeatletter
@@ -113,6 +134,7 @@
 
 
 \begin{document}
+\pdfbookmark[chapter]{Title Page}{tp}
 \unitlength = 1mm
 \begin{titlepage}
 
@@ -157,7 +179,9 @@
 
 
 \newpage
+\pdfbookmark[chapter]{Declaration}{dec}
 \thispagestyle{empty}
+\setcounter{page}{2}
 \vspace*{\fill}
 \begin{center}
 {\LARGE DECLARATION} \newline
@@ -179,7 +203,7 @@ Liam Duguid
 %\setcounter{page}{1}
 %\pagenumbering{roman}
 
-
+\phantomsection
 \begin{abstract}
 \setcounter{page}{3}
 \addcontentsline{toc}{chapter}{Abstract}
@@ -190,11 +214,13 @@ Liam Duguid
 
 
 \renewcommand{\abstractname}{Acknowledgements}
+\phantomsection
 \begin{abstract}
 \setcounter{page}{4}
 \addcontentsline{toc}{chapter}{Acknowledgements}
 \pagestyle{headings}
 \pagestyle{headings}
+
 First I would like to thank my supervisor Dr Tracey Berry for her support and guidance throughout by PhD and for always aiming to get the best from and for me. 
 
 I would like to thank the Science and Technology Facilities Council (STFC) for their financial support throughout my PhD along with Royal Holloway for the organisation and funding of my time working at CERN.
@@ -204,6 +230,7 @@ I must also thank the other staff within the Royal Holloway ATLAS group; Prof Pe
 I would also like to thank my parents for their support throughout my academic pursuits and always wanting the best for me and the freedom to choose what interested me most. 
 
 Last but by no means least I would like to thank Natasha for putting up with me throughout my PhD, for making all the trips out the Geneva so we could be together and for supporting me while I remained a student. I love you and I'm glad to tell you I'm now finished.
+
 \end{abstract}
 
 
@@ -213,8 +240,9 @@ Last but by no means least I would like to thank Natasha for putting up with me 
 
 
 \newpage
-\addcontentsline{toc}{chapter}{Contents}
 \setcounter{page}{5}
+\phantomsection
+\addcontentsline{toc}{chapter}{Contents}
 \tableofcontents
 
 
@@ -261,11 +289,10 @@ Last but by no means least I would like to thank Natasha for putting up with me 
 
 
 \newpage
+\phantomsection
+
 \begin{appendices}
 
-
-\newpage
-%\input{chapters/ApendixC_Angular_analysis}
 \newpage
 \input{chapters/ApendixD_Control_plots}
 \newpage
@@ -273,16 +300,15 @@ Last but by no means least I would like to thank Natasha for putting up with me 
 \newpage
 \input{chapters/ApendixE_Statistical_analysis_plots}
 \newpage
-%\input{chapters/ApendixB_EM_definitions}
-\newpage
-% \input{chapters/}
+
 \end{appendices}
 
 
 
 \newpage
-\addcontentsline{toc}{chapter}{Bibliography}
+
 \bibliographystyle{BibStyles/elsarticle-num}
 \bibliography{bib/myBib}
+\addcontentsline{toc}{chapter}{Bibliography}
 
 \end{document}

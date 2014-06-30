@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  30 JUN 2014 17:29
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  30 JUN 2014 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,6 +785,124 @@ Package morefloats Info: Maximum number of possible floats asked for: 36.
 \bx@AI=\insert217
 \bx@AJ=\insert216
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/02/28 v6.82p Hypertext links for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\@linkdim=\dimen178
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/02/28 v6.82p Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count288
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing ON on input line 4080.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2010/08/30 v1.36 Bibliographical back referencing
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count289
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count290
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing ON on input line 5786.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
+)
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/02/28 v6.82p Hyperref driver for dvips
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/02/28 v6.82p Hyperref definitions for pdfmark specials
+\pdf@docset=\toks37
+\pdf@box=\box47
+\pdf@toks=\toks38
+\pdf@defaulttoks=\toks39
+\Fld@listcount=\count294
+\c@bookmark@seq@number=\count295
+\Hy@SectionHShift=\skip94
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/bookmark.sty
+Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/bkm-dvips.def
+File: bkm-dvips.def 2011/12/02 v1.24 bookmark driver for dvips (HO)
+\BKM@id=\count296
+))
 (/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -796,34 +914,22 @@ File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
-)
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count286
-\Gm@cntv=\count287
-\c@Gm@tempcnt=\count288
-\Gm@bindingoffset=\dimen178
-\Gm@wd@mp=\dimen179
-\Gm@odd@mp=\dimen180
-\Gm@even@mp=\dimen181
-\Gm@layoutwidth=\dimen182
-\Gm@layoutheight=\dimen183
-\Gm@layouthoffset=\dimen184
-\Gm@layoutvoffset=\dimen185
-\Gm@dimlist=\toks37
+\Gm@cnth=\count297
+\Gm@cntv=\count298
+\c@Gm@tempcnt=\count299
+\Gm@bindingoffset=\dimen181
+\Gm@wd@mp=\dimen182
+\Gm@odd@mp=\dimen183
+\Gm@even@mp=\dimen184
+\Gm@layoutwidth=\dimen185
+\Gm@layoutheight=\dimen186
+\Gm@layouthoffset=\dimen187
+\Gm@layoutvoffset=\dimen188
+\Gm@dimlist=\toks40
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 81.
+less on input line 85.
 
 (./thesisMain.aux
 
@@ -832,23 +938,25 @@ LaTeX Warning: Label `fig:ATLAS_calo_crack' multiply defined.
 )
 \openout1 = `thesisMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 115.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 11
-5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 136.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 13
+6.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -862,9 +970,23 @@ File: siunitx-abbreviations.cfg 2012/04/21 v2.5b siunitx: Abbreviated units
 File: siunitx-binary.cfg 2012/04/21 v2.5b siunitx: Binary units
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count289
+\c@lstlisting=\count300
+\AtBeginShipoutBox=\box48
+Package hyperref Info: Link coloring OFF on input line 136.
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count301
+)
+LaTeX Info: Redefining \ref on input line 136.
+LaTeX Info: Redefining \pageref on input line 136.
+LaTeX Info: Redefining \nameref on input line 136.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -900,48 +1022,48 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c_siunitx_mathsf_int=\count290
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 11
-5.
+\c_siunitx_mathsf_int=\count302
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 13
+6.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 11
-5.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 13
+6.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 11
-5.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 13
+6.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
-\c_siunitx_mathtt_int=\count291
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+\c_siunitx_mathtt_int=\count303
 File: images/rhulcrestsmall.eps Graphic file (type eps)
 
 <images/rhulcrestsmall.eps> [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 167--171
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--171
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
 
  []
 
-[1] (./chapters/Abstract.tex) [3] [4]
+[2] (./chapters/Abstract.tex) [3] [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 218.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 246.
  (./thesisMain.toc [5
 
 ] [6])
@@ -1278,7 +1400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
 Overfull \hbox (6.65813pt too wide) in paragraph at lines 23--24
 []\OT1/ptm/m/n/12 The Di-bo-son MC sam-ple is pro-duced us-ing HER-WIG 6.510 [[
-]] with the LO PDF CTEQ6L1
+]][] with the LO PDF CTEQ6L1
  []
 
 
@@ -1312,13 +1434,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
  []
 
 [64]
-Overfull \hbox (18.13391pt too wide) detected at line 92
-[] \OT1/ptmcm/m/n/12 = [] []
+Overfull \hbox (19.46722pt too wide) detected at line 92
+[] [] \OT1/ptmcm/m/n/12 = [] []
  []
 
 [65]
 Overfull \hbox (31.03879pt too wide) detected at line 140
-[] []
+[][] []
  []
 
 [66]
@@ -1438,6 +1560,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--119
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathop' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathgroup' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\symoperators' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\theta' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
+
 [85]
 Overfull \hbox (29.89711pt too wide) in paragraph at lines 173--203
  [] 
@@ -1448,6 +1602,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 232.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 232.
 
 [86]
 File: images/ee__LL_minus_L2/LLR.eps Graphic file (type eps)
@@ -1946,45 +2108,61 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [124
 
-] (./thesisMain.bbl [125] [126] [127] [128] [129] [130]
-Underfull \hbox (badness 2435) in paragraph at lines 54--57
+] (./thesisMain.bbl (./thesisMain.brf)
+\tf@brf=\write4
+\openout4 = `thesisMain.brf'.
+
+ [125] [126] [127] [128] [129]
+[130] [131
+
+]
+Underfull \hbox (badness 2435) in paragraph at lines 57--57
 []\OT1/ptm/m/n/12 S. Wein-berg, A model of lep-tons, Phys. Rev. Lett. \OT1/ptm/
 b/n/12 19 \OT1/ptm/m/n/12 (1967) 1264--1266.
  []
 
-[131
 
-]
-Underfull \hbox (badness 1983) in paragraph at lines 90--95
+Underfull \hbox (badness 1983) in paragraph at lines 95--95
 []\OT1/ptm/m/n/12 S. Cha-trchyan, et al., Ob-ser-va-tion of a new bo-son at a m
 ass of 125 gev
  []
 
 [132]
-Underfull \hbox (badness 1577) in paragraph at lines 170--175
+Underfull \hbox (badness 1577) in paragraph at lines 175--175
 []\OT1/ptm/m/n/12 S. Cha-trchyan, et al., Search for con-tact in-ter-ac-tions u
 s-ing the in-clu-sive jet
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 170--175
+Underfull \hbox (badness 1412) in paragraph at lines 175--175
 \OT1/ptm/m/n/12 pT spec-trum in pp col-li-sions at s=7 TeV, Phys. Rev. D \OT1/p
 tm/b/n/12 87 \OT1/ptm/m/n/12 (2013) 052017.
  []
 
-
-Underfull \hbox (badness 2245) in paragraph at lines 191--196
+[133]
+Underfull \hbox (badness 2245) in paragraph at lines 196--196
 []\OT1/ptm/m/n/12 F. Abe, et al., Lim-its on quark-lepton com-pos-ite-ness scal
 es from dilep-tons
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 191--196
+Underfull \hbox (badness 1874) in paragraph at lines 196--196
 \OT1/ptm/m/n/12 pro-duced in 1.8 TeV p$[]$ col-li-sions, Phys. Rev. Lett. \OT1/
 ptm/b/n/12 79 \OT1/ptm/m/n/12 (1997) 2198--2203.
  []
 
-[133]
+
+Underfull \hbox (badness 3557) in paragraph at lines 210--210
+[]\OT1/ptm/m/n/12 G. Ab-bi-endi et al., Tests of the stan-dard model and con-st
+raints on new
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 210--210
+\OT1/ptm/m/n/12 Eu-ro-pean Phys-i-cal Jour-nal C - Par-ti-cles and Fields \OT1/
+ptm/b/n/12 13 \OT1/ptm/m/n/12 (4) (2000) 553--572.
+ []
+
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -1992,48 +2170,62 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []\OT1/ptm/m/n/12 C. Adloff, et al., Search for new physics in e$\OMS/pzccm/m/n
 /12 ^^F$\OT1/ptm/m/n/12 q con-tact in-ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 \OT1/ptm/m/n/12 ac-tions at HERA, Physics Let-ters B \OT1/ptm/b/n/12 568 \OT1/p
 tm/m/n/12 (12) (2003) 35 -- 47.
  []
 
+
+Underfull \hbox (badness 2237) in paragraph at lines 240--240
+[]\OT1/ptm/m/n/12 J. Ab-dal-lah, et al., A study of $\OT1/ptmcm/m/n/12 b[]$ \OT
+1/ptm/m/n/12 pro-duc-tion in e+e- col-li-sions at $[] \OT1/ptmcm/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 240--240
+\OT1/ptmcm/m/n/12 130 \OMS/pzccm/m/n/12 ^^@ \OT1/ptmcm/m/n/12 207$ \OT1/ptm/m/n
+/12 GeV, The Eu-ro-pean Phys-i-cal Jour-nal C \OT1/ptm/b/n/12 60 \OT1/ptm/m/n/1
+2 (1) (2009) 1--15.
+ []
+
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
+[134]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 2828) in paragraph at lines 263--268
+Underfull \hbox (badness 2828) in paragraph at lines 268--268
 []\OT1/ptm/m/n/12 M. Ac-cia-rri, et al., Search for man-i-fes-ta-tions of new p
 hysics in fermion-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 263--268
+Underfull \hbox (badness 6859) in paragraph at lines 268--268
 \OT1/ptm/m/n/12 pair pro-duc-tion at LEP, Physics Let-ters B \OT1/ptm/b/n/12 48
 9 \OT1/ptm/m/n/12 (12) (2000) 81 -- 92.
  []
 
-[134]
-Underfull \hbox (badness 1521) in paragraph at lines 285--291
+
+Underfull \hbox (badness 1521) in paragraph at lines 291--291
 \OT1/ptm/m/n/12 tron events in pp col-li-sions at, Physics Let-ters B \OT1/ptm/
 b/n/12 711 \OT1/ptm/m/n/12 (1) (2012) 15 -- 34.
  []
 
-
-Underfull \hbox (badness 1019) in paragraph at lines 308--314
+[135]
+Underfull \hbox (badness 1019) in paragraph at lines 314--314
 \OT1/ptm/m/n/12 M. Agelou, J.-L. Agram, et al., Search for large ex-tra spa-tia
 l di-men-sions in
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 308--314
+Underfull \hbox (badness 1117) in paragraph at lines 314--314
 \OT1/ptm/m/n/12 dimuon pro-duc-tion with the d0 de-tec-tor, Phys. Rev. Lett. \O
 T1/ptm/b/n/12 95 \OT1/ptm/m/n/12 (2005) 161602.
  []
@@ -2050,10 +2242,21 @@ Missing character: There is no ’ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 7415) in paragraph at lines 329--329
+[]\OT1/ptm/m/n/12 M. Ac-cia-rri, et al., Search for low scale grav-ity ef-fects
+ in e+e col-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\OT1/ptm/m/n/12 li-sions at LEP, Physics Let-ters B \OT1/ptm/b/n/12 464 \OT1/pt
+m/m/n/12 (12) (1999) 135 -- 144.
+ []
+
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-[135]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ˆ in font ptmr7t!
 Missing character: There is no ’ in font ptmr7t!
@@ -2071,23 +2274,12 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 356--358
-\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
-n / view / AtlasPublic /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--373
-\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
-n / view / AtlasPublic /
- []
-
+[136]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
 
-Underfull \hbox (badness 1584) in paragraph at lines 375--382
+Underfull \hbox (badness 1584) in paragraph at lines 382--382
 \OT1/ptm/m/n/12 (2009) 2499 -- 2512, 40 YEARS OF CPC: A cel-e-bra-tory is-sue f
 o-cused on
  []
@@ -2096,45 +2288,86 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
-\OT1/ptm/m/n/12 URL $\OT1/pcr/m/n/12 https : / / twiki . cern . ch / twiki / bi
-n / view / AtlasPublic /
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[]\OT1/ptm/m/n/12 S. Agostinelli, et al., Geant4a sim-u-la-tion toolkit, Nu-cle
+ar In-stru-ments
  []
 
-[136]
-Underfull \hbox (badness 3029) in paragraph at lines 432--437
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+\OT1/ptm/m/n/12 and Meth-ods in Physics Re-search Sec-tion A: Ac-cel-er-a-tors,
+ Spec-trom-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 390--390
+\OT1/ptm/m/n/12 e-ters, De-tec-tors and As-so-ci-ated Equip-ment \OT1/ptm/b/n/1
+2 506 \OT1/ptm/m/n/12 (3) (2003) 250 -- 303.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[][][][]\OT1/ptm/m/n/12 .  (pages [][][][],
+ []
+
+[137]
+Underfull \hbox (badness 4569) in paragraph at lines 430--430
+\OT1/ptm/m/n/12 with shower in POWHEG, JHEP \OT1/ptm/b/n/12 0807 \OT1/ptm/m/n/1
+2 (2008) 060.  [][][][],
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 437--437
 []\OT1/ptm/m/n/12 T. Sjos-trand, S. Mrenna, P. Z. Skands, A Brief In-tro-duc-ti
 on to PYTHIA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--437
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 \OT1/ptm/m/n/12 8.1, Com-put.Phys.Commun. \OT1/ptm/b/n/12 178 \OT1/ptm/m/n/12 (
-2008) 852--867.  arXiv:0710.3820,
- []
-
-[137]
-Underfull \hbox (badness 1226) in paragraph at lines 494--499
-[]\OT1/ptm/m/n/12 J. But-ter-worth, J. R. For-shaw, M. Sey-mour, Mul-ti-par-ton
- in-ter-ac-tions in pho-
+2008) 852--867.  [][][][],
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 509--515
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
+[]\OT1/ptm/m/n/12 A. Mar-tin, W. Stir-ling, R. Thorne, G. Watt, Par-ton dis-tri
+-bu-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
+\OT1/ptm/m/n/12 for the LHC, Eur.Phys.J. \OT1/ptm/b/n/12 C63 \OT1/ptm/m/n/12 (2
+009) 189--285.  [][][][],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
+[]\OT1/ptm/m/n/12 J. M. Camp-bell, R. El-lis, MCFM for the Teva-tron and the LH
+C,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
+\OT1/ptm/m/n/12 Nucl.Phys.Proc.Suppl. \OT1/ptm/b/n/12 205-206 \OT1/ptm/m/n/12 (
+2010) 10--15.  [][][][],
+ []
+
+[138]
+Underfull \hbox (badness 6428) in paragraph at lines 515--515
 []\OT1/ptm/m/n/12 M. Cac-ciari, M. Cza-kon, M. Mangano, A. Mi-tov, P. Na-son, T
 op-pair
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 509--515
+Underfull \hbox (badness 4013) in paragraph at lines 515--515
 \OT1/ptm/m/n/12 pro-duc-tion at hadron col-lid-ers with next-to-next-to-leading
  log-a-rith-mic soft-
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 509--515
+Underfull \hbox (badness 2150) in paragraph at lines 515--515
 \OT1/ptm/m/n/12 gluon re-sum-ma-tion, Phys. Lett. \OT1/ptm/b/n/12 B710 \OT1/ptm
-/m/n/12 (2012) 612--622.  arXiv:1111.5869,
+/m/n/12 (2012) 612--622.  [][][][],
  []
 
 Missing character: There is no Ã in font ptmr7t!
@@ -2146,32 +2379,44 @@ Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--526
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []\OT1/ptm/m/n/12 A. Cald-well, D. Kollr, K. Krninger, BAT - The Bayesian anal-
 y-sis
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 522--526
+Underfull \hbox (badness 3417) in paragraph at lines 526--526
 \OT1/ptm/m/n/12 toolkit, Com-puter Physics Com-mu-ni-ca-tions \OT1/ptm/b/n/12 1
 80 \OT1/ptm/m/n/12 (11) (2009) 2197 -- 2209.
  []
 
-[138]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-) [139] (./thesisMain.aux)
+[139])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+ [140]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 314.
+\BKM@file=\write5
+\openout5 = `thesisMain.out.ps'.
+
+ (./thesisMain.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package rerunfilecheck Info: File `thesisMain.brf' has not changed.
+(rerunfilecheck)             Checksum: 4E5F9B2A579FBD590A0FE01B0D6231C6;5931.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 14610 strings out of 493611
- 294315 string characters out of 3142449
- 332433 words of memory out of 3000000
- 17455 multiletter control sequences out of 15000+200000
+ 18798 strings out of 493611
+ 360096 string characters out of 3142449
+ 436365 words of memory out of 3000000
+ 21602 multiletter control sequences out of 15000+200000
  55072 words of font info for 162 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,15n,58p,1978b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,15n,58p,1978b,843s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (139 pages, 355408 bytes).
+Output written on thesisMain.dvi (140 pages, 599556 bytes).

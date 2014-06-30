@@ -1,67 +1,67 @@
-\contentsline {chapter}{Abstract}{3}
-\contentsline {chapter}{Acknowledgements}{4}
-\contentsline {chapter}{Contents}{5}
-\contentsline {chapter}{Preface}{8}
-\contentsline {chapter}{\numberline {1}Theory}{12}
-\contentsline {section}{\numberline {1.1}Standard Model}{12}
-\contentsline {subsection}{\numberline {1.1.1}Fundamental Forces}{14}
-\contentsline {section}{\numberline {1.2}Non-resonant New Physics}{18}
-\contentsline {subsection}{\numberline {1.2.1}Contact Interaction Theory}{18}
-\contentsline {subsection}{\numberline {1.2.2}ADD Theory}{21}
-\contentsline {section}{\numberline {1.3}Past Searches}{24}
-\contentsline {chapter}{\numberline {2}Experiment}{26}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{26}
-\contentsline {section}{\numberline {2.2}ATLAS - A Toroidal LHC Apparatus}{29}
-\contentsline {subsection}{\numberline {2.2.1}Inner Detector}{30}
-\contentsline {subsection}{\numberline {2.2.2}Calorimeters}{33}
-\contentsline {subsection}{\numberline {2.2.3}Magnet System}{35}
-\contentsline {subsection}{\numberline {2.2.4}Muon Spectrometer}{37}
-\contentsline {chapter}{\numberline {3}The Trigger \& Data Acquisition}{39}
-\contentsline {section}{\numberline {3.1}Level-1 Trigger}{40}
-\contentsline {section}{\numberline {3.2}Higher Level Trigger}{42}
-\contentsline {section}{\numberline {3.3}Data Acquisition}{43}
-\contentsline {section}{\numberline {3.4}Trigger Menu and Rates}{45}
-\contentsline {subsection}{\numberline {3.4.1}The ``$e/\gamma $'' Trigger Menu}{46}
-\contentsline {subsection}{\numberline {3.4.2}Trigger Rates in High Luminosity Regime}{47}
-\contentsline {chapter}{\numberline {4}Event Reconstruction}{50}
-\contentsline {section}{\numberline {4.1}Electron Reconstruction and Identification}{51}
-\contentsline {chapter}{\numberline {5}Event Selection}{54}
-\contentsline {section}{\numberline {5.1}Analysis Selection}{54}
-\contentsline {section}{\numberline {5.2}Isolation Requirement}{55}
-\contentsline {section}{\numberline {5.3}Opposite Sign requirement}{57}
-\contentsline {section}{\numberline {5.4}Energy Scale Correction}{58}
-\contentsline {section}{\numberline {5.5}Selection Acceptance $\times $ Efficiency}{58}
-\contentsline {chapter}{\numberline {6}Background Estimate}{61}
-\contentsline {section}{\numberline {6.1}Monte Carlo samples}{62}
-\contentsline {subsection}{\numberline {6.1.1}MC Corrections}{63}
-\contentsline {section}{\numberline {6.2}Fake Factor Multi-Jet Estimate}{64}
-\contentsline {subsection}{\numberline {6.2.1}Real Electron Efficiency Estimation}{67}
-\contentsline {subsection}{\numberline {6.2.2}Fake Electron Rate Estimation}{67}
-\contentsline {subsection}{\numberline {6.2.3}Properties of Multi-Jet Background}{68}
-\contentsline {subsection}{\numberline {6.2.4}Other Methods and Estimation of Error}{69}
-\contentsline {section}{\numberline {6.3}Total Background Estimate}{70}
-\contentsline {chapter}{\numberline {7}Signal and Results}{71}
-\contentsline {section}{\numberline {7.1}Signal Monte Carlo}{71}
-\contentsline {section}{\numberline {7.2}Signal Parametrisation}{72}
-\contentsline {section}{\numberline {7.3}Results}{73}
-\contentsline {chapter}{\numberline {8}Statistical Analysis}{81}
-\contentsline {section}{\numberline {8.1}Systematics}{83}
-\contentsline {section}{\numberline {8.2}Angular Analysis Optimisation}{85}
-\contentsline {subsection}{\numberline {8.2.1}Effect of the Opposite Sign Requirement on Analysis Reach}{85}
-\contentsline {subsection}{\numberline {8.2.2}Optimisation of Search Bins in $\qopname \relax o{cos}{\theta ^{*}}$}{86}
-\contentsline {section}{\numberline {8.3}Signal Search \& $p$-Values}{86}
-\contentsline {section}{\numberline {8.4}Setting Limits}{87}
-\contentsline {section}{\numberline {8.5}Combination with the Muon Search}{88}
-\contentsline {chapter}{\numberline {9}Non-Resonant 7 TeV Analysis}{93}
-\contentsline {section}{\numberline {9.1}Data and Background Processes}{93}
-\contentsline {section}{\numberline {9.2}Electron Identification and Selection}{95}
-\contentsline {subsection}{\numberline {9.2.1}Data and Background Comparison}{97}
-\contentsline {subsection}{\numberline {9.2.2}New Physics Signal Expectation}{98}
-\contentsline {section}{\numberline {9.3}Statistical Analysis}{101}
-\contentsline {chapter}{\numberline {10}Conclusion}{103}
-\contentsline {section}{\numberline {10.1}Looking Forward}{104}
-\contentsline {chapter}{Appendices}{105}
-\contentsline {chapter}{\numberline {A}Extra Results \& Control Plots}{106}
-\contentsline {chapter}{\numberline {B}Signal Parametrisations}{111}
-\contentsline {chapter}{\numberline {C}Statistical Analysis Plots}{124}
-\contentsline {chapter}{Bibliography}{131}
+\contentsline {chapter}{Abstract}{3}{section*.2}
+\contentsline {chapter}{Acknowledgements}{4}{section*.3}
+\contentsline {chapter}{Contents}{5}{section*.4}
+\contentsline {chapter}{Preface}{8}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Theory}{12}{chapter.1}
+\contentsline {section}{\numberline {1.1}Standard Model}{12}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Fundamental Forces}{14}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Non-resonant New Physics}{18}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Contact Interaction Theory}{18}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}ADD Theory}{21}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Past Searches}{24}{section.1.3}
+\contentsline {chapter}{\numberline {2}Experiment}{26}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{26}{section.2.1}
+\contentsline {section}{\numberline {2.2}ATLAS - A Toroidal LHC Apparatus}{29}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Inner Detector}{30}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Calorimeters}{33}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Magnet System}{35}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Muon Spectrometer}{37}{subsection.2.2.4}
+\contentsline {chapter}{\numberline {3}The Trigger \& Data Acquisition}{39}{chapter.3}
+\contentsline {section}{\numberline {3.1}Level-1 Trigger}{40}{section.3.1}
+\contentsline {section}{\numberline {3.2}Higher Level Trigger}{42}{section.3.2}
+\contentsline {section}{\numberline {3.3}Data Acquisition}{43}{section.3.3}
+\contentsline {section}{\numberline {3.4}Trigger Menu and Rates}{45}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}The ``$e/\gamma $'' Trigger Menu}{46}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Trigger Rates in High Luminosity Regime}{47}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}Event Reconstruction}{50}{chapter.4}
+\contentsline {section}{\numberline {4.1}Electron Reconstruction and Identification}{51}{section.4.1}
+\contentsline {chapter}{\numberline {5}Event Selection}{54}{chapter.5}
+\contentsline {section}{\numberline {5.1}Analysis Selection}{54}{section.5.1}
+\contentsline {section}{\numberline {5.2}Isolation Requirement}{55}{section.5.2}
+\contentsline {section}{\numberline {5.3}Opposite Sign requirement}{57}{section.5.3}
+\contentsline {section}{\numberline {5.4}Energy Scale Correction}{58}{section.5.4}
+\contentsline {section}{\numberline {5.5}Selection Acceptance $\times $ Efficiency}{58}{section.5.5}
+\contentsline {chapter}{\numberline {6}Background Estimate}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}Monte Carlo samples}{62}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}MC Corrections}{63}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Fake Factor Multi-Jet Estimate}{64}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Real Electron Efficiency Estimation}{67}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Fake Electron Rate Estimation}{67}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Properties of Multi-Jet Background}{68}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Other Methods and Estimation of Error}{69}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}Total Background Estimate}{70}{section.6.3}
+\contentsline {chapter}{\numberline {7}Signal and Results}{71}{chapter.7}
+\contentsline {section}{\numberline {7.1}Signal Monte Carlo}{71}{section.7.1}
+\contentsline {section}{\numberline {7.2}Signal Parametrisation}{72}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results}{73}{section.7.3}
+\contentsline {chapter}{\numberline {8}Statistical Analysis}{81}{chapter.8}
+\contentsline {section}{\numberline {8.1}Systematics}{83}{section.8.1}
+\contentsline {section}{\numberline {8.2}Angular Analysis Optimisation}{85}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Effect of the Opposite Sign Requirement on Analysis Reach}{85}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Optimisation of Search Bins in $\qopname \relax o{cos}{\theta ^{*}}$}{86}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Signal Search \& $p$-Values}{86}{section.8.3}
+\contentsline {section}{\numberline {8.4}Setting Limits}{87}{section.8.4}
+\contentsline {section}{\numberline {8.5}Combination with the Muon Search}{88}{section.8.5}
+\contentsline {chapter}{\numberline {9}Non-Resonant 7 TeV Analysis}{93}{chapter.9}
+\contentsline {section}{\numberline {9.1}Data and Background Processes}{93}{section.9.1}
+\contentsline {section}{\numberline {9.2}Electron Identification and Selection}{95}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Data and Background Comparison}{97}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}New Physics Signal Expectation}{98}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}Statistical Analysis}{101}{section.9.3}
+\contentsline {chapter}{\numberline {10}Conclusion}{103}{chapter.10}
+\contentsline {section}{\numberline {10.1}Looking Forward}{104}{section.10.1}
+\contentsline {chapter}{Appendices}{105}{section*.107}
+\contentsline {chapter}{\numberline {A}Extra Results \& Control Plots}{106}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Signal Parametrisations}{111}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Statistical Analysis Plots}{124}{Appendix.a.C}
+\contentsline {chapter}{Bibliography}{140}{chapter*.136}
