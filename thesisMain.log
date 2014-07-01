@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  30 JUN 2014 19:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2012.5.4)  30 JUN 2014 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,18 +1052,18 @@ File: images/rhulcrestsmall.eps Graphic file (type eps)
 <images/rhulcrestsmall.eps> [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 191--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--197
 
  []
 
 [2] (./chapters/Abstract.tex) [3] [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 246.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 248.
  (./thesisMain.toc [5
 
 ] [6])
@@ -2393,22 +2393,22 @@ Underfull \hbox (badness 3417) in paragraph at lines 526--526
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 [139])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
  [140]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 314.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 323.
 \BKM@file=\write5
 \openout5 = `thesisMain.out.ps'.
 
  (./thesisMain.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 323.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
 Package rerunfilecheck Info: File `thesisMain.brf' has not changed.
 (rerunfilecheck)             Checksum: 4E5F9B2A579FBD590A0FE01B0D6231C6;5931.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
  18798 strings out of 493611
@@ -2419,4 +2419,4 @@ Here is how much of TeX's memory you used:
  831 hyphenation exceptions out of 8191
  36i,15n,58p,1978b,843s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesisMain.dvi (140 pages, 599556 bytes).
+Output written on thesisMain.dvi (140 pages, 599588 bytes).
