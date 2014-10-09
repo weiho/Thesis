@@ -4,14 +4,14 @@ The top-level auxiliary file: thesisMain.aux
 The style file: BibStyles/elsarticle-num.bst
 Database file #1: bib/myBib.bib
 Warning--I'm ignoring Abdallah2009.60.1's extra "doi" field
---line 560 of file bib/myBib.bib
+--line 573 of file bib/myBib.bib
 Warning--I'm ignoring Schael2007.49.411's extra "doi" field
---line 578 of file bib/myBib.bib
+--line 591 of file bib/myBib.bib
 Warning--I'm ignoring Abbiendi2004.33.173's extra "doi" field
---line 611 of file bib/myBib.bib
+--line 624 of file bib/myBib.bib
 Warning--I'm ignoring McFarland2005.161's extra "doi" field
---line 645 of file bib/myBib.bib
-Repeated entry---line 762 of file bib/myBib.bib
+--line 658 of file bib/myBib.bib
+Repeated entry---line 775 of file bib/myBib.bib
  : @article{PhysRevLett.103.191803
  :                                ,
 I'm skipping whatever remains of this entry
@@ -24,45 +24,45 @@ Warning--empty author in ATLAS-CONF-2012-048
 Warning--empty author in ATLAS-CONF-2014-032
 Warning--empty journal in Corcella:2002jc
 Warning--empty journal in Frixione:2008ym
-You've used 82 entries,
+You've used 83 entries,
             2955 wiz_defined-function locations,
-            1279 strings with 20935 characters,
-and the built_in function-call counts, 25040 in all, are:
-= -- 2541
-> -- 666
-< -- 8
-+ -- 276
-- -- 194
-* -- 2264
-:= -- 3349
-add.period$ -- 146
-call.type$ -- 82
-change.case$ -- 85
+            1286 strings with 21151 characters,
+and the built_in function-call counts, 25280 in all, are:
+= -- 2570
+> -- 670
+< -- 9
++ -- 278
+- -- 195
+* -- 2276
+:= -- 3383
+add.period$ -- 147
+call.type$ -- 83
+change.case$ -- 87
 chr.to.int$ -- 6
-cite$ -- 91
-duplicate$ -- 716
-empty$ -- 2720
-format.name$ -- 257
-if$ -- 6418
+cite$ -- 92
+duplicate$ -- 725
+empty$ -- 2747
+format.name$ -- 258
+if$ -- 6485
 int.to.chr$ -- 0
-int.to.str$ -- 82
+int.to.str$ -- 83
 missing$ -- 75
-newline$ -- 321
-num.names$ -- 74
-pop$ -- 319
+newline$ -- 324
+num.names$ -- 75
+pop$ -- 322
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1559
+skip$ -- 1581
 stack$ -- 0
-substring$ -- 1393
-swap$ -- 333
-text.length$ -- 6
+substring$ -- 1395
+swap$ -- 335
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 152
-width$ -- 84
-write$ -- 813
+while$ -- 153
+width$ -- 85
+write$ -- 824
 (There was 1 error message)

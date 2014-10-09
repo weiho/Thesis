@@ -1,23 +1,23 @@
 \chapter{Event Selection}
 
 The main event selection for this analysis is based on a standard cut-flow selection used within ATLAS to select high energy di-electron events. Following will be the basic outline of each requirement an event must satisfy followed by a discussion of optimisations done to some cuts for this analysis. Finally a discussion of corrections is included; spanning minor variable corrections to data obtained by performance groups after reconstruction and more substantial corrections to MC samples to correctly estimate run conditions.
-The following analysis selection is applied equally to the data and MC background samples unless where noted. 
+The following analysis selection is applied to the data and MC background samples unless where stated otherwise. 
 
 
 \section{Analysis Selection}
 
-The following selection is made to all data and MC events for this analysis. Before selection several data flags are checked to insure full operation of the detector at time of data taking. \\
+The following selection is made to all data and MC events for this analysis. Before selection several data flags are checked to insure full operation of the detector at the time of data taking. \\
 
 {\bf Event Selection}
 \begin{itemize}
-\item Event is required have passed the chosen unprescaled electron trigger (EF\_g35\_loose \_g25\_loose).
-\item Each event is required to contain at least one reconstructed primary vertex with at least 2 traceable charged tracks.
+\item Each event is required to have passed the chosen unprescaled electron trigger (EF\_g35\_loose \_g25\_loose).
+\item Each event is required to contain at least one reconstructed primary vertex with at least 2 associated charged tracks.
 \end{itemize}
 
 
 {\bf Electron Selection}
 \begin{itemize}
-\item Electron $|\eta| < 2.47$ and not lie within the detector crack region $1.37 \leq |\eta| \leq 1.52$ due to a decreased energy resolution.
+\item Electrons are required to have $|\eta| < 2.47$ and for the electron to not be within the LAr calorimeter crack region $1.37 \leq |\eta| \leq 1.52$ where energy resolution is poorer.
 \item Each electron is required to have a transverse momentum ($p_{T}$) greater than 30 GeV with the highest $p_{T}$ electron lying above 40 GeV.
 \item Electrons are required to pass identification criteria on the transverse shower shape, the longitudinal leakage into the hadronic calorimeter, and the association to an inner detector track, defined together as a medium++ electron identification (see section \ref{sec:ReconElec}).
 \end{itemize}
@@ -26,10 +26,10 @@ The following selection is made to all data and MC events for this analysis. Bef
 {\bf Dielectron Selection}
 \begin{itemize}
 \item Selection of two highest $p_{T}$ electrons left in event.
-\item Lead isolation (a cone around the candidate in the calorimeter is required to have  $< 0.007~\times~E_{T}~+~5.0~GeV$ deposited in it) of the highest $p_{T}$ electron in the event is used to suppress jet background. 
-\item Sub-leading isolation (a cone around the candidate in the calorimeter is required to have  $< 0.0022~\times~E_{T}~+~6.0~GeV$ deposited in it) of the second highest $p_{T}$ electron in the event is used to suppress more jet background. 
-\item Dielectron invariant mass (m$_{ee}$) is required to be greater than or equal 80 GeV.
-\item Opposite sign requirement. Require both electrons to have opposite charge.
+\item Lead electron isolation ($E_{T}$cone20 of the candidate in the calorimeter is required to be $< 0.007~\times~p_{T}~+~5.0~GeV$) of the highest $p_{T}$ electron in the event is used to suppress jet background. 
+\item Sub-leading electron isolation ($E_{T}$cone20 of the candidate in the calorimeter is required to be $< 0.0022~\times~p_{T}~+~6.0~GeV$) of the second highest $p_{T}$ electron in the event is used to suppress more jet background. 
+\item Dielectron invariant mass (m$_{ee}$) is required to be greater than or equal to 80 GeV.
+\item Both electrons are required to have opposite charge.
 \end{itemize}
 
 
@@ -40,22 +40,22 @@ The following selection is made to all data and MC events for this analysis. Bef
 
 When optimising for the 8 TeV analysis a re-investigation of the isolation requirement was needed, updating the selection from its previous iteration in the di-electron analysis on $7~$TeV ATLAS data. The previous threshold was a flat, less than $7~$GeV, cut on the calorimeter cluster isolation ($E_{T}$cone20) of the highest E$_{T}$ electron in the selected pair. The first investigation was to see how this cut performed in the selection of MC signal at 8 TeV centre of mass energy. Due to the better statistics found in the $DY{\rightarrow}ee$ MC sample and this being an irreducible background and therefore indistinguishable from the signal this was used in the following investigation.
 
-This flat cut of 7 GeV causes an increasing efficiency loss at high energy and was deemed unsuitably high for this iteration of the analysis due to the higher reach in energy expected from the higher centre of mass collision energy. The introduction of an isolation requirement on the second highest electron was also proposed which did not exist in the 7 TeV analysis.
+The flat cut of 7 GeV causes an increasing efficiency loss at high energy and was deemed unsuitably high for this iteration of the analysis due to the higher reach in energy expected from the higher centre of mass collision energy. The introduction of an isolation requirement on the second highest electron was also proposed which did not exist in the 7 TeV analysis.
 
-The possibility was an isolation requirement varying with energy. The main source of background the isolation cut is imposed to reduce is jets that fake an electron signal in the detector. Jet backgrounds are estimated via a reverse ID method on data seen in section \ref{sec:FFmethod} with low statistics at high energy. For this reason it is hard to optimise the isolation requirement against rejection of this background at high energy. Therefore it was chosen to optimise the new selection against the acceptance of signal. This study was undertaken by the author to optimise the isolation requirement. 
+The possibility was an isolation requirement varying with energy. The main source of background the isolation cut is to reduce is jets that fake an electron signal in the detector. Jet backgrounds are estimated via a reverse ID method on data seen in section \ref{sec:FFmethod} with low statistics at high energy. For this reason it is hard to optimise the isolation requirement against rejection of this background at high energy. Therefore it was chosen to optimise the new selection against the acceptance of signal. This study was undertaken by the author to optimise the isolation requirement. 
 
-Figure \ref{fig:C5_leadIso_vs_leadpT} shows the distribution of DY MC events in $E_{T}$ and cluster isolation. It can be seen that electrons become less isolated under this definition of isolation as energy of the electron increases. This is to be expected as higher energy electrons produce larger showers and spread out over many EM calorimeter cells. 
+Figure \ref{fig:C5_leadIso_vs_leadpT} shows the distribution of DY MC events in $E_{T}$ and cluster isolation. It can be seen that electrons become less isolated under this definition of isolation as the energy of the electron increases. This is to be expected as higher energy electrons produce larger showers and have spread out over more EM calorimeter cells. 
 
    \begin{figure}[h!]
       \begin{center}
       \includegraphics[scale=0.7]{images/C5_leadIso_vs_leadpT.eps}
       \end{center}
-   \caption{Distribution of DY MC in $E_{T}$ and cluster isolation for the highest energy electron. Colour density shows the fraction of electons from that $E_{T}$ column found in the cell. The red line shows the 99\% acceptance point of electrons in the $E_{T}$ column. While the black vertical and horizontal lines show the $p_{T}$ and old isolation cut respectively.}
+   \caption{Distribution of DY MC in $E_{T}$ and cluster isolation for the highest energy electron. The colour density reflects the fraction of electons from that $E_{T}$ column found in the cell. The red line shows the 99\% acceptance point of electrons in the $E_{T}$ columns. While the black vertical and horizontal lines show the $p_{T}$ and old isolation cut respectively.}
    \label{fig:C5_leadIso_vs_leadpT}
    \end{figure}
 
 
-In order to define a requirement varying in E$_{T}$, the 99\% acceptance point for each E$_{T}$ column was calculated and a first order polynomial fit to these points was done by eye. The 99\% acceptance points can be seen in figure \ref{fig:C5_leadIso_vs_leadpT} and this as well a the fit can be seen in figure \ref{fig:C5_leadIso_vs_leadpT_proposal}. The same thing was calculated for the second highest E$_{T}$ electron and can be seen in figure \ref{fig:C5_subIso_vs_subpT_proposal}.
+In order to define a requirement varying in E$_{T}$, the 99\% acceptance point for each E$_{T}$ column was calculated and a first order polynomial fit to these points was done. The 99\% acceptance points can be seen in figure \ref{fig:C5_leadIso_vs_leadpT} and this as well as the new cut can be seen in figure \ref{fig:C5_leadIso_vs_leadpT_proposal}. The same thing was determined for the second highest E$_{T}$ electron and can be seen in figure \ref{fig:C5_subIso_vs_subpT_proposal}.
 
 
    \begin{figure}[h!]
@@ -82,7 +82,7 @@ The two first order polynomials shown here correspond to isolation requirements 
    $Lead~Isolation < 0.007\times~E_{T}~+~5.0~GeV$\\
    $Subleading~Isolation < 0.022\times~E_{T}~+~6.0~GeV$\\
    \end{center}
-for the highest and second highest energy electrons respectively. 
+for the highest and second highest $p_{T}$ electrons respectively. 
 
 An analysis of the efficiency of these cuts on signal can be seen in figures \ref{fig:C5_lead_iso_efficiency} and \ref{fig:C5_sub_iso_efficiency} where it can be seen they maintain a flat behaviour as $E_{T}$ increases.
 
@@ -91,7 +91,7 @@ An analysis of the efficiency of these cuts on signal can be seen in figures \re
       \begin{center}
       \includegraphics[scale=0.6]{images/C5_lead_iso_efficiency.eps}
       \end{center}
-   \caption{Efficiency of new leading electron isolation cut on selection of signal MC. Red and orange lines indicate the 99\% and 98\% efficiency levels respectively.}
+   \caption{Efficiency of new leading electron isolation cut on selection of signal MC. Red and orange lines indicate the 99\% and 98\% efficiency levels respectively. Errors do not represent their correct size with efficiencies being close to 1.}
    \label{fig:C5_lead_iso_efficiency}
    \end{figure}
 
@@ -99,7 +99,7 @@ An analysis of the efficiency of these cuts on signal can be seen in figures \re
       \begin{center}
       \includegraphics[scale=0.6]{images/C5_sub_iso_efficiency.eps}
       \end{center}
-   \caption{Efficiency of new subleading electron isolation cut on selection of signal MC. Red and orange lines indicate the 99\% and 98\% efficiency levels respectively.}
+   \caption{Efficiency of new subleading electron isolation cut on selection of signal MC. Red and orange lines indicate the 99\% and 98\% efficiency levels respectively. Errors do not represent their correct size with efficiencies being close to 1.}
    \label{fig:C5_sub_iso_efficiency}
    \end{figure}
 
@@ -108,12 +108,12 @@ An analysis of the efficiency of these cuts on signal can be seen in figures \re
 \section{Opposite Sign requirement}
    %\ref{Appendix}
 
-   The opposite sign requirement was introduced to the analysis specifically due to the use of $\cos{\theta^{*}}$ in the search. As specified in section \ref{sec:CItheory} selection of the electron and not the positron is important for the definition of $\cos{\theta^{*}}$ and if reversed would dilute the asymmetry seen in the SM and CI LR signal as seen in figure \ref{fig:theoryAFB}. The effect of swapping charge at reconstruction level comes about due to two main effects, very high energy electrons with very straight tracks getting miss identified and hard bremsstrahlung from an electron undergoing decay to an electron pair which the wrong electron getting identified. These are not a small effect at high dielectron mass ($~ 15\%$) and so the requirement is introduced to solve the issue of miss identification. The effect of both electrons being miss identified was studied and found to have only a small chance. This requirement also does a good job in the exclusion of the Multijet background reducing by 50\% throughout the signal region. The effect of the loss of acceptance attributed to this requirement is discussed in section \ref{sec:oppSign}. As this requirement has an error associated with it a systematic is introduced to accommodate this (see section \ref{sec:sys}). 
+   The opposite sign requirement was introduced to the analysis specifically due to the use of $\cos{\theta^{*}}$ in the search. As specified in section \ref{sec:CItheory} distinguishing the electron from the positron is important for the definition of $\cos{\theta^{*}}$. A reversed identification would dilute the asymmetry seen in the SM or the CI LR signal as seen in figure \ref{fig:theoryAFB}. The effect of swapping charge at reconstruction level comes about due to two main effects, very high energy electrons with very straight tracks getting miss identified and hard bremsstrahlung from an electron undergoing decay to an electron pair with the wrong electron getting identified. These are not a small effects at high dielectron mass ($~ 15\%$) and so the requirement is introduced to solve the issue of misidentification. The effect of both electrons being misidentified was studied and found to have only a small probability. This requirement also does a good job in the exclusion of the Multijet background reducing this by approximately 50\% throughout the signal region. The effect of the loss of acceptance attributed to this requirement is discussed in section \ref{sec:oppSign}. As this requirement has an error associated with it a systematic is introduced to accommodate this (see section \ref{sec:sys}). 
 
 
 \section{Energy Scale Correction}
 
-   During the selection process an additional correction to the energy of electrons is applied that is not included in the reconstruction. This addition comes from a study done by the ATLAS electron and photon performance group at the end of the data run calibrating energies within the Z boson peak \cite{ATLAS-CONF-2014-032}. This results in a array of energy scale corrections distributed in E$_{T}$ and $\eta$ and applied before electron selection.
+   During the selection process an additional correction to the energy of electrons is applied that is not included in the reconstruction. This correction is obtained from a study using $e^{+}e^{-}$ events within the Z boson peak \cite{ATLAS-CONF-2014-032}. This results in an array of energy scale corrections distributed in E$_{T}$ and $\eta$ and applied before electron selection.
 
 
 
@@ -121,7 +121,7 @@ An analysis of the efficiency of these cuts on signal can be seen in figures \re
 \section{\texorpdfstring{Selection Acceptance $\times$ Efficiency}{Selection Acceptance x Efficiency}}
 
    %Figure \ref{fig:AxE} shows the acceptance $\times$ efficiency of the event selection at selecting DY MC events while 
-   Table \ref{tab:eventEff} shows the efficiency of each part of the event selection. It can be seen that the opposite charge requirement causes a 7\% drop in acceptance rate in the signal region. Although a lot it can be seen in section \ref{sec:oppSign} that the effect of this drop is accommodated for by the new angular search introduced in this analysis and the reason for the selection.
+   Table \ref{tab:eventEff} shows the efficiency of each part of the event selection. It can be seen that the opposite charge requirement causes a 7\% drop in efficiency rate in the signal region. Although this is substantial it can be seen in section \ref{sec:oppSign} that the effect of this drop is compensated for by the new angular variables introduced in this analysis.
 
 
 
@@ -151,7 +151,7 @@ An analysis of the efficiency of these cuts on signal can be seen in figures \re
          \hline
          \hline
       \end{tabular}
-      \caption{The efficiency of event selection on DY MC within the signal region above 400 GeV. DY MC is used due to higher statistics but is indistinguishable from signal with respect to analysis selection. Selection of number of primary vertices, of two highest $p_{T}$ electrons and the invariant mass requirement of omitted due to near 100\% acceptance on MC. Statistical errors are included only as a guide.}
+      \caption{The efficiency of event selection on DY MC within the signal region above 400 GeV. DY MC is used due to higher statistics but is indistinguishable from signal with respect to analysis selection. Selection of number of primary vertices, of two highest $p_{T}$ electrons and the invariant mass requirement are omitted due to near 100\% acceptance in MC. Statistical errors are included only as a guide.}
       \label{tab:eventEff}
       \end{center}
    \end {table}
